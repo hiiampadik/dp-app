@@ -1,0 +1,56 @@
+@import "variables.scss";
+@import "header.scss";
+@import "map.scss";
+@import "timeline.scss";
+@import "landing.scss";
+
+@font-face {
+    font-family: 'font'; 
+    src: url('../public/fonts/NeueMontreal-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontL'; 
+    src: url('../public/fonts/NeueMontreal-Light.otf') format('opentype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontM'; 
+    src: url('../public/fonts/NeueMontreal-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;  
+}
+
+html, body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    background: $bg1;
+    font-family: 'font','Helvetica Neue', arial, sans-serif;
+    font-size: 19px;
+
+}
+
+.h1{
+    font-family: 'fontL','Helvetica Neue', arial, sans-serif;
+}

@@ -1,0 +1,404 @@
+{
+    "currentVersion": 10.51,
+    "id": 16,
+    "name": "Skateboard Parks / Planchodromes",
+    "type": "Feature Layer",
+    "description": "",
+    "geometryType": "esriGeometryPoint",
+    "sourceSpatialReference": {
+     "wkid": 102100,
+     "latestWkid": 3857
+    },
+    "copyrightText": "",
+    "parentLayer": null,
+    "subLayers": [],
+    "minScale": 9027.977411,
+    "maxScale": 0,
+    "drawingInfo": {
+     "renderer": {
+      "type": "uniqueValue",
+      "field1": "ACCESSIBLE",
+      "field2": null,
+      "field3": null,
+      "defaultSymbol": null,
+      "defaultLabel": null,
+      "uniqueValueInfos": [
+       {
+        "symbol": {
+         "type": "esriPMS",
+         "url": "e27313210a13f2115ccc8abe985a5313",
+         "imageData": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAoRJREFUSIm1lU1IVFEUx393HHtaTdpYCipY0JelLiQJEow+hEhMIlrUphYuJKPQQpJCpNwkgTkkkYtCCNyUkWEmGQMZUlOiUkIifWhIMNiTJnN46bzX4g7jR/Ocl9pZnXPeOf/fvXDOfXb+s9lDXrGhOB1kIIheiqCq8Z0GMTQXUG6kMk2XqrMhkoBiI5ARw2TPJA7TI5fpDdTZzoQASsA4rQkRUTwtGjyVRCU6cbS+gKIWk0JdlHLWqMUlRuwAGjgjiQPsXAuJwcr0CMdxglOFEfvCZXPtgReevIRtaXC3w1pPWMDu1dB+EWIU88bqU1A9K/b9gtQroOkWAB/84BmAlbMAWzdCQpz0f/yEgY9ze1Tf3+KmADUA+c0z8bEkuHdhJm5qh3Pd4TotAuZbRRGsCG7Hp6/WxS0BTqZAdrr0dR1uPrYubglgt4EI+n4NxiaWGeD7De63sC8HVsWCqwRst6FpdJkAl49C8np4/gb250D8GrhRAmN10KYuEVCTDVlbYNwHpfeh1g+H8yDeAXmboM2zBIAzCooLpN/8DAY1GPHK2KvCtZ7I4gsCGgsgKUGOZWmXfOiO58tvTR1yVxYNKEyAQ7lyLF2tMnd1r9zkwS9Q8dqauCmgohBiFejug/rgr6NvGHI+w3WzJ/pfAO5+3iWvI7P6Idw5ALu2y7xuQPkRKA/W9Q/BiXYrAIOp0DYBVb1kVvVKv8cNlybg/Sh4xmRuRxzs2Qw1CzwZis5UCKAg2jQ4E65QDcD5V8YtELlAFsCAn+FHXqNF00VZWHEY+pbCYAigucRTpczIRzcOYjpZhhtwh0Idm4JRP79KQ4xr0zRSKaZDAACtTnQCneaXXpz9AeVBxPBIGxotAAAAAElFTkSuQmCC",
+         "contentType": "image/png",
+         "width": 18,
+         "height": 18,
+         "angle": 0,
+         "xoffset": 0,
+         "yoffset": 0
+        },
+        "value": "yes/oui",
+        "label": "Accessible / Accessible",
+        "description": ""
+       },
+       {
+        "symbol": {
+         "type": "esriPMS",
+         "url": "90b545bab02a5d0f1007b5bb2765bfba",
+         "imageData": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAArNJREFUSIm1kz9IW1EUhz9t6vUPQniBCEFINxWjgyiCBQUlUAR1ctDFxakRpBHeooQHZjE4aLAUMigBwcmCgtpByVBweBBQasAgBJpFkPQGM1QutqGDNrSpLwlqDzy4597f+T4uvGvjP5ftj7XQNM0DvHwKUEr5DbgoFjQDn6WUr8oBhBA/PR7P93g83lgi9h6YKQiEEG+VUmXhbrcb0zRfOJ3Oxt3dXcbGxqyiPiAEpG0ASimtHBygu7sbp9MJQFtbW8mspmmalDJtK5kqqu3tbfb392ltbWVjY6OimQcFfX19HBwcUFtbazloGAaGYRT6XC5Hc3MzSqnygvPzc0zTpL6+vrDX0tKCw+EA4Pr6mkQi8deMlPIfuKVASonX6y304+PjbG5uFvpoNMrs7Kzl7coKikvXdWpqagBIpVIVwysSTE1N0dXVBUA+n2dtba1ieEUCm81GVVUVADc3N2QymecV5HI5YrEYg4ODNDQ0EA6Hqa6uJhqNPo9gYWEBl8vF0dERQ0ND2O12VlZWyGQy7O3tPU0QDAbp7Owkm83i8/kIhUKMjo5it9vp7+9/mkDTNKanpwHY2toimUySTqcBuLq6YmlpqSy8pCASidDU1EQqlcLn8+F2u5mYmADu3oGU8vGCkZERhoeHyefzhMNhABYXF3E4HCSTSXRdrwhuKdB1nbq6Oo6Pj1ldXQXg5OSEnp4elpeXK4ZbCmKx2BeXy9VhGAbr6+v09vYCdw/N7/fj9/sBOD09ZXJysiLB7Z+bgUCgIxAIABCPx5mfn+fs7AzTNAFob29nYGCAYDBoCRZC3BYEQog9pdTMQ0EpJXNzcx+A10AnQCKR+Lqzs/NRKfXOAn5xeXmZLAiUUp+EEF7gDdZ/Vuz++13VQojV4pBSKquUigA/CoL7g0Pg0PLOj6xfM1T9ItWXT3MAAAAASUVORK5CYII=",
+         "contentType": "image/png",
+         "width": 18,
+         "height": 18,
+         "angle": 0,
+         "xoffset": 0,
+         "yoffset": 0
+        },
+        "value": "no/non",
+        "label": "Not fully accessible / Pas entièrement accessible",
+        "description": ""
+       },
+       {
+        "symbol": {
+         "type": "esriPMS",
+         "url": "90b545bab02a5d0f1007b5bb2765bfba",
+         "imageData": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAArNJREFUSIm1kz9IW1EUhz9t6vUPQniBCEFINxWjgyiCBQUlUAR1ctDFxakRpBHeooQHZjE4aLAUMigBwcmCgtpByVBweBBQasAgBJpFkPQGM1QutqGDNrSpLwlqDzy4597f+T4uvGvjP5ftj7XQNM0DvHwKUEr5DbgoFjQDn6WUr8oBhBA/PR7P93g83lgi9h6YKQiEEG+VUmXhbrcb0zRfOJ3Oxt3dXcbGxqyiPiAEpG0ASimtHBygu7sbp9MJQFtbW8mspmmalDJtK5kqqu3tbfb392ltbWVjY6OimQcFfX19HBwcUFtbazloGAaGYRT6XC5Hc3MzSqnygvPzc0zTpL6+vrDX0tKCw+EA4Pr6mkQi8deMlPIfuKVASonX6y304+PjbG5uFvpoNMrs7Kzl7coKikvXdWpqagBIpVIVwysSTE1N0dXVBUA+n2dtba1ieEUCm81GVVUVADc3N2QymecV5HI5YrEYg4ODNDQ0EA6Hqa6uJhqNPo9gYWEBl8vF0dERQ0ND2O12VlZWyGQy7O3tPU0QDAbp7Owkm83i8/kIhUKMjo5it9vp7+9/mkDTNKanpwHY2toimUySTqcBuLq6YmlpqSy8pCASidDU1EQqlcLn8+F2u5mYmADu3oGU8vGCkZERhoeHyefzhMNhABYXF3E4HCSTSXRdrwhuKdB1nbq6Oo6Pj1ldXQXg5OSEnp4elpeXK4ZbCmKx2BeXy9VhGAbr6+v09vYCdw/N7/fj9/sBOD09ZXJysiLB7Z+bgUCgIxAIABCPx5mfn+fs7AzTNAFob29nYGCAYDBoCRZC3BYEQog9pdTMQ0EpJXNzcx+A10AnQCKR+Lqzs/NRKfXOAn5xeXmZLAiUUp+EEF7gDdZ/Vuz++13VQojV4pBSKquUigA/CoL7g0Pg0PLOj6xfM1T9ItWXT3MAAAAASUVORK5CYII=",
+         "contentType": "image/png",
+         "width": 18,
+         "height": 18,
+         "angle": 0,
+         "xoffset": 0,
+         "yoffset": 0
+        },
+        "value": "<Null>",
+        "label": "Not fully accessible / Pas entièrement accessible",
+        "description": ""
+       }
+      ],
+      "fieldDelimiter": ","
+     },
+     "transparency": 0,
+     "labelingInfo": [
+      {
+       "labelPlacement": "esriServerPointLabelPlacementBelowCenter",
+       "where": null,
+       "labelExpression": "[NAME] CONCAT  NEWLINE  CONCAT [NAME_FR]",
+       "useCodedValues": true,
+       "symbol": {
+        "type": "esriTS",
+        "color": [
+         0,
+         0,
+         0,
+         255
+        ],
+        "backgroundColor": null,
+        "borderLineColor": null,
+        "borderLineSize": null,
+        "verticalAlignment": "bottom",
+        "horizontalAlignment": "center",
+        "rightToLeft": false,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "kerning": true,
+        "haloColor": [
+         255,
+         255,
+         255,
+         255
+        ],
+        "haloSize": 1,
+        "font": {
+         "family": "Arial",
+         "size": 8,
+         "style": "normal",
+         "weight": "normal",
+         "decoration": "none"
+        }
+       },
+       "minScale": 2257,
+       "maxScale": 0
+      }
+     ]
+    },
+    "defaultVisibility": true,
+    "extent": {
+     "xmin": -8483222.879,
+     "ymin": 5644238.430100001,
+     "xmax": -8386509.737199999,
+     "ymax": 5700431.862999998,
+     "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857
+     }
+    },
+    "hasAttachments": false,
+    "htmlPopupType": "esriServerHTMLPopupTypeNone",
+    "displayField": "NAME",
+    "typeIdField": null,
+    "subtypeFieldName": null,
+    "fields": [
+     {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null
+     },
+     {
+      "name": "PARK_ID",
+      "type": "esriFieldTypeInteger",
+      "alias": "Park ID",
+      "domain": null
+     },
+     {
+      "name": "FACILITYID",
+      "type": "esriFieldTypeInteger",
+      "alias": "Facility ID",
+      "domain": null
+     },
+     {
+      "name": "NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Name",
+      "length": 100,
+      "domain": null
+     },
+     {
+      "name": "NAME_FR",
+      "type": "esriFieldTypeString",
+      "alias": "Name (FR)",
+      "length": 100,
+      "domain": null
+     },
+     {
+      "name": "ADDRESS",
+      "type": "esriFieldTypeString",
+      "alias": "Address",
+      "length": 75,
+      "domain": null
+     },
+     {
+      "name": "ADDRESS_FR",
+      "type": "esriFieldTypeString",
+      "alias": "Address (FR)",
+      "length": 75,
+      "domain": null
+     },
+     {
+      "name": "FACILITY_TYPE",
+      "type": "esriFieldTypeString",
+      "alias": "Type of Facility",
+      "length": 10,
+      "domain": null
+     },
+     {
+      "name": "FACILITY_TYPE_FR",
+      "type": "esriFieldTypeString",
+      "alias": "Type of Facility (FR)",
+      "length": 25,
+      "domain": null
+     },
+     {
+      "name": "ACCESSCTRL",
+      "type": "esriFieldTypeString",
+      "alias": "Access Control",
+      "length": 8,
+      "domain": {
+       "type": "codedValue",
+       "name": "A_YesOuiNoNon",
+       "codedValues": [
+        {
+         "name": "yes/oui",
+         "code": "yes/oui"
+        },
+        {
+         "name": "no/non",
+         "code": "no/non"
+        }
+       ],
+       "mergePolicy": "esriMPTDefaultValue",
+       "splitPolicy": "esriSPTDefaultValue"
+      }
+     },
+     {
+      "name": "ACCESSIBLE",
+      "type": "esriFieldTypeString",
+      "alias": "Accessible",
+      "length": 8,
+      "domain": {
+       "type": "codedValue",
+       "name": "A_YesOuiNoNon",
+       "codedValues": [
+        {
+         "name": "yes/oui",
+         "code": "yes/oui"
+        },
+        {
+         "name": "no/non",
+         "code": "no/non"
+        }
+       ],
+       "mergePolicy": "esriMPTDefaultValue",
+       "splitPolicy": "esriSPTDefaultValue"
+      }
+     },
+     {
+      "name": "OPEN",
+      "type": "esriFieldTypeString",
+      "alias": "Open",
+      "length": 8,
+      "domain": {
+       "type": "codedValue",
+       "name": "A_YesOuiNoNon",
+       "codedValues": [
+        {
+         "name": "yes/oui",
+         "code": "yes/oui"
+        },
+        {
+         "name": "no/non",
+         "code": "no/non"
+        }
+       ],
+       "mergePolicy": "esriMPTDefaultValue",
+       "splitPolicy": "esriSPTDefaultValue"
+      }
+     },
+     {
+      "name": "MODIFIED_DATE",
+      "type": "esriFieldTypeDate",
+      "alias": "Modified Date",
+      "length": 8,
+      "domain": null
+     },
+     {
+      "name": "CREATED_DATE",
+      "type": "esriFieldTypeDate",
+      "alias": "Created Date",
+      "length": 8,
+      "domain": null
+     },
+     {
+      "name": "Shape",
+      "type": "esriFieldTypeGeometry",
+      "alias": "Shape",
+      "domain": null
+     },
+     {
+      "name": "FACILITY",
+      "type": "esriFieldTypeString",
+      "alias": "Facility",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "FACILITY_FR",
+      "type": "esriFieldTypeString",
+      "alias": "Facility (FR)",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "DESCRIPTION",
+      "type": "esriFieldTypeString",
+      "alias": "Description",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "DESCRIPTION_FR",
+      "type": "esriFieldTypeString",
+      "alias": "Description (FR)",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "PICTURE_LINK",
+      "type": "esriFieldTypeString",
+      "alias": "Picture Link",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "PICTURE_DESCRIPTION",
+      "type": "esriFieldTypeString",
+      "alias": "Picture Description",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "PICTURE_DESCRIPTION_FR",
+      "type": "esriFieldTypeString",
+      "alias": "Picture Description (FR)",
+      "length": 255,
+      "domain": null
+     },
+     {
+      "name": "PARKNAME",
+      "type": "esriFieldTypeString",
+      "alias": "ParkName",
+      "length": 100,
+      "domain": null
+     },
+     {
+      "name": "PARKNAME_FR",
+      "type": "esriFieldTypeString",
+      "alias": "ParkName (FR)",
+      "length": 100,
+      "domain": null
+     },
+     {
+      "name": "PARKADDRESS",
+      "type": "esriFieldTypeString",
+      "alias": "ParkAddress",
+      "length": 75,
+      "domain": null
+     },
+     {
+      "name": "PARKADDRESS_FR",
+      "type": "esriFieldTypeString",
+      "alias": "ParkAddress (FR)",
+      "length": 75,
+      "domain": null
+     }
+    ],
+    "indexes": [
+     {
+      "name": "FDO_OBJECTID",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+     },
+     {
+      "name": "FDO_Shape",
+      "fields": "Shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+     }
+    ],
+    "subtypes": [],
+    "relationships": [],
+    "canModifyLayer": false,
+    "canScaleSymbols": false,
+    "hasLabels": true,
+    "capabilities": "Map,Query,Data",
+    "maxRecordCount": 1000,
+    "supportsStatistics": true,
+    "supportsAdvancedQueries": true,
+    "supportedQueryFormats": "JSON, AMF, geoJSON",
+    "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+    "useStandardizedQueries": true,
+    "advancedQueryCapabilities": {
+     "useStandardizedQueries": true,
+     "supportsStatistics": true,
+     "supportsOrderBy": true,
+     "supportsDistinct": true,
+     "supportsPagination": true,
+     "supportsTrueCurve": true,
+     "supportsReturningQueryExtent": true,
+     "supportsQueryWithDistance": true,
+     "supportsSqlExpression": false
+    },
+    "supportsDatumTransformation": true,
+    "dateFieldsTimeReference": null
+   }

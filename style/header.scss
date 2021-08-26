@@ -1,0 +1,55 @@
+
+.header-container-map {
+    position: fixed;
+    top: 15px;
+    right: 15px; 
+    width: auto;
+    z-index: 100;
+
+    // background-color: rgba(146, 139, 244, 0.7);
+    backdrop-filter: blur(5px) brightness(90%) ;
+
+    padding: $lh/3 0 $lh/2 0;
+    border-radius: $lh*2;
+
+    // filter: drop-shadow(0px 0px 3px rgb(30, 30, 30));
+}
+
+.header-container-timeline {
+    position: fixed;
+    top: 15px;
+    right: 15px; 
+    width: auto;
+    z-index: 100;
+
+    // background-color: rgba(146, 139, 244, 0.7);
+    padding: $lh/3 0 $lh/2 0;
+    border-radius: $lh*2;
+
+    // filter: drop-shadow(0px 0px 3px rgb(30, 30, 30));
+}
+
+.header-link-container{
+    width: auto;
+    float: right;
+    margin: 0 $lh;
+}
+
+.header-link{
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 $lh;
+
+    font-size: 20px;
+
+    text-transform: lowercase ;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'font', sans-serif;
+
+    transition: 0.4s;
+}
+
+.header-link:hover{
+    opacity: 0.4;
+}
