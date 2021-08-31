@@ -84541,7 +84541,289 @@ var _mapContext = _interopRequireDefault(require("./components/map-context"));
 var _useMapControl = _interopRequireDefault(require("./components/use-map-control"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./components/interactive-map":"node_modules/react-map-gl/dist/esm/components/interactive-map.js","./components/static-map":"node_modules/react-map-gl/dist/esm/components/static-map.js","./components/source":"node_modules/react-map-gl/dist/esm/components/source.js","./components/layer":"node_modules/react-map-gl/dist/esm/components/layer.js","./components/base-control":"node_modules/react-map-gl/dist/esm/components/base-control.js","./components/marker":"node_modules/react-map-gl/dist/esm/components/marker.js","./components/popup":"node_modules/react-map-gl/dist/esm/components/popup.js","./components/attribution-control":"node_modules/react-map-gl/dist/esm/components/attribution-control.js","./components/fullscreen-control":"node_modules/react-map-gl/dist/esm/components/fullscreen-control.js","./components/geolocate-control":"node_modules/react-map-gl/dist/esm/components/geolocate-control.js","./components/navigation-control":"node_modules/react-map-gl/dist/esm/components/navigation-control.js","./components/scale-control":"node_modules/react-map-gl/dist/esm/components/scale-control.js","./overlays/canvas-overlay":"node_modules/react-map-gl/dist/esm/overlays/canvas-overlay.js","./overlays/html-overlay":"node_modules/react-map-gl/dist/esm/overlays/html-overlay.js","./overlays/svg-overlay":"node_modules/react-map-gl/dist/esm/overlays/svg-overlay.js","./utils/transition-manager":"node_modules/react-map-gl/dist/esm/utils/transition-manager.js","./utils/transition":"node_modules/react-map-gl/dist/esm/utils/transition/index.js","./utils/map-controller":"node_modules/react-map-gl/dist/esm/utils/map-controller.js","viewport-mercator-project":"node_modules/viewport-mercator-project/module.js","./utils/set-rtl-text-plugin":"node_modules/react-map-gl/dist/esm/utils/set-rtl-text-plugin.js","./components/map-context":"node_modules/react-map-gl/dist/esm/components/map-context.js","./components/use-map-control":"node_modules/react-map-gl/dist/esm/components/use-map-control.js"}],"components/Map.jsx":[function(require,module,exports) {
+},{"./components/interactive-map":"node_modules/react-map-gl/dist/esm/components/interactive-map.js","./components/static-map":"node_modules/react-map-gl/dist/esm/components/static-map.js","./components/source":"node_modules/react-map-gl/dist/esm/components/source.js","./components/layer":"node_modules/react-map-gl/dist/esm/components/layer.js","./components/base-control":"node_modules/react-map-gl/dist/esm/components/base-control.js","./components/marker":"node_modules/react-map-gl/dist/esm/components/marker.js","./components/popup":"node_modules/react-map-gl/dist/esm/components/popup.js","./components/attribution-control":"node_modules/react-map-gl/dist/esm/components/attribution-control.js","./components/fullscreen-control":"node_modules/react-map-gl/dist/esm/components/fullscreen-control.js","./components/geolocate-control":"node_modules/react-map-gl/dist/esm/components/geolocate-control.js","./components/navigation-control":"node_modules/react-map-gl/dist/esm/components/navigation-control.js","./components/scale-control":"node_modules/react-map-gl/dist/esm/components/scale-control.js","./overlays/canvas-overlay":"node_modules/react-map-gl/dist/esm/overlays/canvas-overlay.js","./overlays/html-overlay":"node_modules/react-map-gl/dist/esm/overlays/html-overlay.js","./overlays/svg-overlay":"node_modules/react-map-gl/dist/esm/overlays/svg-overlay.js","./utils/transition-manager":"node_modules/react-map-gl/dist/esm/utils/transition-manager.js","./utils/transition":"node_modules/react-map-gl/dist/esm/utils/transition/index.js","./utils/map-controller":"node_modules/react-map-gl/dist/esm/utils/map-controller.js","viewport-mercator-project":"node_modules/viewport-mercator-project/module.js","./utils/set-rtl-text-plugin":"node_modules/react-map-gl/dist/esm/utils/set-rtl-text-plugin.js","./components/map-context":"node_modules/react-map-gl/dist/esm/components/map-context.js","./components/use-map-control":"node_modules/react-map-gl/dist/esm/components/use-map-control.js"}],"components/data/parks.json":[function(require,module,exports) {
+module.exports = {
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "ID": 1,
+      "YEAR": 1946,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Louka Havran, údolí Jihlavky",
+      "DESCRIPTION": "okres Třebíč",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.0916003, 16.2242958]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 2,
+      "YEAR": 1947,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Hrotovice",
+      "DESCRIPTION": "okres Třebíč",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.1076992, 16.0606742]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 3,
+      "YEAR": 1949,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Volary",
+      "DESCRIPTION": "okres Prachatice",
+      "PHOTOS": {}
+    },
+    "coordinates": [48.9676683, 13.9135942]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 4,
+      "YEAR": 1950,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Na Bahniskách, Potštejn/Litice nad Orlicí",
+      "DESCRIPTION": "okres Rychnov nad Kněžnou",
+      "PHOTOS": {}
+    },
+    "coordinates": [50.0767700, 16.3535472]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 5,
+      "YEAR": 1954,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Vysoké Tatry nad Pribylinou",
+      "DESCRIPTION": "okres Liptovský Mikuláš",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.0990653, 19.7970308]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 6,
+      "YEAR": 1956,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Police nad Metují",
+      "DESCRIPTION": "okres Náchod",
+      "PHOTOS": {}
+    },
+    "coordinates": [50.5368703, 16.2335044]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 7,
+      "YEAR": null,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Orava",
+      "DESCRIPTION": "okres Námestovo",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.2588994, 19.3602886]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 8,
+      "YEAR": [1958, 1959],
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Peklo u Netína",
+      "DESCRIPTION": "okres žďár nad Sázavou",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.4214972, 15.9847617]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 9,
+      "YEAR": 1960,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Přehrada Jevišovice",
+      "DESCRIPTION": "okres Znojmo",
+      "PHOTOS": {}
+    },
+    "coordinates": [48.9896614, 15.9770736]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 10,
+      "YEAR": [1968, 1969, 1970],
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "„Svízel“ u Zahradiště",
+      "DESCRIPTION": "okres Žďár nad Sázavou",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.4457144, 15.9439914]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 11,
+      "YEAR": 1971,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Nová Říše",
+      "DESCRIPTION": "okres Jihlava",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.1394083, 15.5635939]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 12,
+      "YEAR": 1972,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Votěchov",
+      "DESCRIPTION": "okres Chrudim",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.7885494, 15.9735019]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 13,
+      "YEAR": 1973,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Vidonín",
+      "DESCRIPTION": "okres Žďár nad Sázavou",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.3797411, 16.2224414]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 14,
+      "YEAR": 1980,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Nové Město na Moravě",
+      "DESCRIPTION": "okres Žďár nad Sázavou",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.5614431, 16.0741833]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 15,
+      "YEAR": 1981,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Landštejn",
+      "DESCRIPTION": "okres Jindřichův Hradec",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.0241000, 15.2303778]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 16,
+      "YEAR": 1990,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Pyšel u Náměště nad Oslavou",
+      "DESCRIPTION": "okres Třebíč",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.2505086, 16.0664353]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 17,
+      "YEAR": 1991,
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Březinky",
+      "DESCRIPTION": "okres Svitavy",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.6626878, 16.7869247]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 18,
+      "YEAR": [1992, 1993],
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Nové Syrovice",
+      "DESCRIPTION": "okres Třebíč",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.0176286, 15.7734531]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 19,
+      "YEAR": [1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010],
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Smilov",
+      "DESCRIPTION": "okres Olomouc",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.6888008, 17.4485928]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 20,
+      "YEAR": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Kostelní Myslová",
+      "DESCRIPTION": "okres Jihlava",
+      "PHOTOS": {}
+    },
+    "coordinates": [49.1434253, 15.4355156]
+  }, {
+    "type": "Feature",
+    "properties": {
+      "ID": 21,
+      "YEAR": [2019, 2020, 2021],
+      "DATE": "",
+      "TYPE": "camp",
+      "NAME": "Kdousov",
+      "DESCRIPTION": "okres Třebíč",
+      "PHOTOS": {}
+    },
+    "coordinates": [48.9872164, 15.6619108]
+  }]
+};
+},{}],"components/map/MapDialog.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function MapDialog(props) {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "map-dialog",
+    onClick: function onClick() {
+      return props.setShowCamp(0);
+    }
+  }, "AA");
+}
+
+var _default = MapDialog;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js"}],"components/map/Map.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -84551,7 +84833,11 @@ exports.default = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
-var _reactMapGl = _interopRequireDefault(require("react-map-gl"));
+var _reactMapGl = _interopRequireWildcard(require("react-map-gl"));
+
+var _parks = _interopRequireDefault(require("../data/parks.json"));
+
+var _MapDialog = _interopRequireDefault(require("./MapDialog"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -84576,16 +84862,21 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 var myToken = 'pk.eyJ1IjoiYnJvbmEtbXVzaWwiLCJhIjoiY2tzc3duNWI1MTB1ODJ0bWRpYWI1Z3BjNCJ9.DGZfQoXrdWKk199ZO-a-YQ';
 
 function Map(props) {
-  var _useState = (0, _react.useState)({
+  var _useState = (0, _react.useState)(0),
+      _useState2 = _slicedToArray(_useState, 2),
+      showCamp = _useState2[0],
+      setShowCamp = _useState2[1];
+
+  var _useState3 = (0, _react.useState)({
     latitude: 49.36,
     longitude: 16.61,
     zoom: 6.8,
     width: '100vw',
     height: '100vh'
   }),
-      _useState2 = _slicedToArray(_useState, 2),
-      viewport = _useState2[0],
-      setViewport = _useState2[1];
+      _useState4 = _slicedToArray(_useState3, 2),
+      viewport = _useState4[0],
+      setViewport = _useState4[1];
 
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "map-container"
@@ -84594,13 +84885,31 @@ function Map(props) {
     mapStyle: "mapbox://styles/brona-musil/ckssx8qew3n6b17qhj2n9s0j2",
     onViewportChange: function onViewportChange(viewport) {
       setViewport(viewport);
+    },
+    width: "100vw",
+    height: "100vh",
+    getCursor: function getCursor(e) {
+      return "default";
     }
-  })));
+  }), _parks.default.features.map(function (park) {
+    return /*#__PURE__*/_react.default.createElement(_reactMapGl.Marker, {
+      key: park.properties.ID,
+      latitude: park.coordinates[0],
+      longitude: park.coordinates[1]
+    }, /*#__PURE__*/_react.default.createElement("div", {
+      onClick: function onClick() {
+        return setShowCamp(park.properties.ID);
+      },
+      className: "map-marker"
+    }));
+  })), showCamp != 0 ? /*#__PURE__*/_react.default.createElement("div", null, console.log("map.dialog"), /*#__PURE__*/_react.default.createElement(_MapDialog.default, {
+    setShowCamp: setShowCamp
+  })) : "");
 }
 
 var _default = Map;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","react-map-gl":"node_modules/react-map-gl/dist/esm/index.js"}],"node_modules/react-scroll-horizontal/dist/index.es.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-map-gl":"node_modules/react-map-gl/dist/esm/index.js","../data/parks.json":"components/data/parks.json","./MapDialog":"components/map/MapDialog.jsx"}],"node_modules/react-scroll-horizontal/dist/index.es.js":[function(require,module,exports) {
 var global = arguments[3];
 var process = require("process");
 "use strict";
@@ -86606,7 +86915,73 @@ ScrollHorizontal.defaultProps = {
 };
 var _default = ScrollHorizontal;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-dom":"node_modules/react-dom/index.js","process":"../../../../.config/yarn/global/node_modules/process/browser.js"}],"components/Timeline.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","prop-types":"node_modules/prop-types/index.js","react-dom":"node_modules/react-dom/index.js","process":"../../../../.config/yarn/global/node_modules/process/browser.js"}],"components/timeline/TimelineYear.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function TimelineYear(props) {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-year-first"
+  }, props.year), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-year-others"
+  }, props.year + 1), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-year-others"
+  }, props.year + 2), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-year-others"
+  }, props.year + 3), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-year-others"
+  }, props.year + 4), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-year-others"
+  }, props.year + 5), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-year-others"
+  }, props.year + 6), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-year-others"
+  }, props.year + 7), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-year-others"
+  }, props.year + 8), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-year-others"
+  }, props.year + 9));
+}
+
+var _default = TimelineYear;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js"}],"components/timeline/TimelineDecade.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+var _TimelineYear = _interopRequireDefault(require("./TimelineYear"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function TimelineDecade(props) {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-decade"
+  }, /*#__PURE__*/_react.default.createElement(_TimelineYear.default, {
+    year: props.decade
+  }));
+}
+
+var _default = TimelineDecade;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./TimelineYear":"components/timeline/TimelineYear.jsx"}],"components/timeline/Timeline.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -86618,6 +86993,10 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _reactScrollHorizontal = _interopRequireDefault(require("react-scroll-horizontal"));
 
+var _TimelineDecade = _interopRequireDefault(require("./TimelineDecade"));
+
+var _TimelineYear = _interopRequireDefault(require("./TimelineYear"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
@@ -86626,33 +87005,43 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 
 function Timeline(props) {
   var child = {
-    width: "300em",
-    height: "100%"
+    width: "100vw",
+    height: "100vh"
   };
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "timeline-container"
   }, /*#__PURE__*/_react.default.createElement(_reactScrollHorizontal.default, null, /*#__PURE__*/_react.default.createElement("div", {
-    style: child
+    className: "timeline-spacer"
+  }), /*#__PURE__*/_react.default.createElement(_TimelineDecade.default, {
+    decade: 1940
+  }), /*#__PURE__*/_react.default.createElement(_TimelineDecade.default, {
+    decade: 1950
+  }), /*#__PURE__*/_react.default.createElement(_TimelineDecade.default, {
+    decade: 1960
+  }), /*#__PURE__*/_react.default.createElement(_TimelineDecade.default, {
+    decade: 1970
+  }), /*#__PURE__*/_react.default.createElement(_TimelineDecade.default, {
+    decade: 1980
+  }), /*#__PURE__*/_react.default.createElement(_TimelineDecade.default, {
+    decade: 1990
+  }), /*#__PURE__*/_react.default.createElement(_TimelineDecade.default, {
+    decade: 2000
+  }), /*#__PURE__*/_react.default.createElement(_TimelineDecade.default, {
+    decade: 2010
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-decade timeline-decade-last"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "timeline-year"
-  }, "1946"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "timeline-year"
-  }, "1950"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "timeline-year"
-  }, "1960"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "timeline-year"
-  }, "1970"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "timeline-year"
-  }, "1980"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "timeline-year"
-  }, "1990"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "timeline-year"
-  }, "2000"))));
+    className: "timeline-year-first"
+  }, "2020"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-year-others"
+  }, "2021")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-spacer"
+  })));
 }
 
 var _default = Timeline;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","react-scroll-horizontal":"node_modules/react-scroll-horizontal/dist/index.es.js"}],"components/ui/Header.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-scroll-horizontal":"node_modules/react-scroll-horizontal/dist/index.es.js","./TimelineDecade":"components/timeline/TimelineDecade.jsx","./TimelineYear":"components/timeline/TimelineYear.jsx"}],"components/ui/Header.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -86709,9 +87098,9 @@ var _history = require("history");
 
 var _LandingPage = _interopRequireDefault(require("./LandingPage"));
 
-var _Map = _interopRequireDefault(require("./Map"));
+var _Map = _interopRequireDefault(require("./map/Map"));
 
-var _Timeline = _interopRequireDefault(require("./Timeline"));
+var _Timeline = _interopRequireDefault(require("./timeline/Timeline"));
 
 var _Header = _interopRequireDefault(require("./ui/Header"));
 
@@ -86795,7 +87184,7 @@ var App = /*#__PURE__*/function (_React$Component) {
 
 var _default = App;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","history":"node_modules/history/esm/history.js","./LandingPage":"components/LandingPage.jsx","./Map":"components/Map.jsx","./Timeline":"components/Timeline.jsx","./ui/Header":"components/ui/Header.jsx"}],"index.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","history":"node_modules/history/esm/history.js","./LandingPage":"components/LandingPage.jsx","./map/Map":"components/map/Map.jsx","./timeline/Timeline":"components/timeline/Timeline.jsx","./ui/Header":"components/ui/Header.jsx"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 var _style = _interopRequireDefault(require("./style/style.scss"));
@@ -86844,7 +87233,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59076" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61603" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

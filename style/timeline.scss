@@ -5,12 +5,36 @@
     background: $bg2;
 }
 
-.timeline-year{
-    margin-top: $lh;
-    padding-left: $lh;
-    width: 500px;
+.timeline-spacer{
     float: left;
+    width: 100px;
+    height: 100vh;
+}
+
+.timeline-decade{
+    padding-top: $lh;
+    width: 100vw;
+    height: 100vh;
+    float: left;
+
+    overflow-y: scroll;
 
     font-size: 50px;
     font-family: 'font', sans-serif;
+}
+
+.timeline-decade-last{
+    width: 30vw;
+}
+
+.timeline-year-first{
+    float:left;
+    width: 12vw;
+}
+
+.timeline-year-others{
+    float:left;
+    width: 9.6vw;
+    font-size: 1.5rem;
+    padding-top: 1rem;
 }

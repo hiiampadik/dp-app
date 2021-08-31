@@ -13,8 +13,8 @@ import { createBrowserHistory } from "history";
 
 // Pages
 import LandingPage from './LandingPage'
-import Map from './Map'
-import Timeline from './Timeline'
+import Map from './map/Map'
+import Timeline from './timeline/Timeline'
 
 
 // UI
