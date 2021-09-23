@@ -1,0 +1,140 @@
+{
+    "pilgrims": [
+      { "type": "Pilgrims",
+        "properties": {
+          "ID": 0,
+          "YEAR": 1947,
+          "DATE": "",
+
+          "NAME": "Putovní tábor",
+          "DESCRIPTION": "Slovensko, 3.–15. 8.",
+          "PHOTOS": {}
+        }
+      },
+      { "type": "Pilgrims",
+        "properties": {
+          "ID": 1,
+          "YEAR": 1951,
+          "DATE": "",
+
+          "NAME": "Cyklistický čtrnáctidenní putovní tábor",
+          "DESCRIPTION": "Slovensko, 16.–28. 7.",
+          "PHOTOS": {}
+        }
+      },
+      { "type": "Pilgrims",
+        "properties": {
+          "ID": 2,
+          "YEAR": 1952,
+          "DATE": "",
+
+          "NAME": "Cyklistický čtrnáctidenní putovní tábor",
+          "DESCRIPTION": "Severní Čechy",
+          "PHOTOS": {}
+        }
+      },
+      { "type": "Pilgrims",
+        "properties": {
+          "ID": 3,
+          "YEAR": 1953,
+          "DATE": "",
+
+          "NAME": "Cyklistický čtrnáctidenní putovní tábor",
+          "DESCRIPTION": "Jižní Čechy",
+          "PHOTOS": {}
+        }
+      },
+      { "type": "Pilgrims",
+        "properties": {
+          "ID": 4,
+          "YEAR": 1955,
+          "DATE": "",
+
+          "NAME": "Putovní tábor",
+          "DESCRIPTION": "Slovenský ráj",
+          "PHOTOS": {}
+        }
+      },
+      { "type": "Pilgrims",
+        "properties": {
+          "ID": 5,
+          "YEAR": 1958,
+          "DATE": "",
+
+          "NAME": "Cyklistický putovní tábor",
+          "DESCRIPTION": "Severní Čechy",
+          "PHOTOS": {}
+        }
+      },
+      { "type": "Pilgrims",
+        "properties": {
+          "ID": 6,
+          "YEAR": 1959,
+          "DATE": "",
+
+          "NAME": "Cyklistický putovní tábor",
+          "DESCRIPTION": "Jižní Čechy",
+          "PHOTOS": {}
+        }
+      },
+      { "type": "Pilgrims",
+        "properties": {
+          "ID": 7,
+          "YEAR": 1961,
+          "DATE": "",
+
+          "NAME": "Putovní tábor",
+          "DESCRIPTION": "Slovenský ráj – Tatry",
+          "PHOTOS": {}
+        }
+      },
+      {
+        "type": "Pilgrims",
+        "properties": {
+          "ID": 8,
+          "YEAR": 1962,
+          "DATE": "",
+
+          "NAME": "Motocyklový putovní tábor",
+          "DESCRIPTION": "Slovensko",
+          "PHOTOS": {}
+        }
+      },
+      {
+        "type": "Pilgrims",
+        "properties": {
+          "ID": 9,
+          "YEAR": 1964,
+          "DATE": "",
+
+          "NAME": "Motocyklový putovní tábor",
+          "DESCRIPTION": "Slovensko",
+          "PHOTOS": {}
+        }
+      },
+      {
+        "type": "Pilgrims",
+        "properties": {
+          "ID": 10,
+          "YEAR": 1980,
+          "DATE": "",
+
+          "NAME": "Putovní tábor",
+          "DESCRIPTION": "Slovenské rudohoří, 19.–27. 7.",
+          "PHOTOS": {}
+        }
+      },
+      {
+        "type": "Pilgrims",
+        "properties": {
+          "ID": 11,
+          "YEAR": 1990,
+          "DATE": "",
+
+          "NAME": "1. oddílové Vánoce – Rychta",
+          "DESCRIPTION": "Helvíkov (okres Ústí nad Orlicí)",
+          "PHOTOS": {}
+        }
+      }
+    ]
+  }

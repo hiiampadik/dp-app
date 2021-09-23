@@ -1,0 +1,347 @@
+{
+    "camps": [
+      { "type": "Camp",
+        "properties": {
+          "ID": 0,
+          "YEAR": 1946,
+          "DATE": "",
+
+          "NAME": "Louka Havran, údolí Jihlavky",
+          "DESCRIPTION": "okres Třebíč",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+            49.0916003,
+            16.2242958
+        ]
+      },
+      { "type": "Camp",
+        "properties": {
+          "ID": 1,
+          "YEAR": 1947,
+          "DATE": "",
+
+          "NAME": "Hrotovice",
+          "DESCRIPTION": "okres Třebíč",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+            49.1076992,
+            16.0606742
+        ]
+      },
+      { "type": "Camp",
+        "properties": {
+          "ID": 2,
+          "YEAR": 1949,
+          "DATE": "",
+
+          "NAME": "Volary",
+          "DESCRIPTION": "okres Prachatice",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          48.9676683,
+          13.9135942
+        ]
+      },
+      { "type": "Camp",
+        "properties": {
+          "ID": 3,
+          "YEAR": 1950,
+          "DATE": "",
+
+          "NAME": "Na Bahniskách, Potštejn/Litice nad Orlicí",
+          "DESCRIPTION": "okres Rychnov nad Kněžnou",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+            50.0767700,
+            16.3535472
+        ]
+      },
+      { "type": "Camp",
+        "properties": {
+          "ID": 4,
+          "YEAR": 1946,
+          "DATE": "",
+
+          "NAME": "Vznik 94. oddilu",
+          "DESCRIPTION": "",
+          "PHOTOS": {}
+        }
+      },
+      { "type": "Camp",
+        "properties": {
+          "ID": 5,
+          "YEAR": 1954,
+          "DATE": "",
+
+          "NAME": "Vysoké Tatry nad Pribylinou",
+          "DESCRIPTION": "okres Liptovský Mikuláš",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+            49.0990653,
+            19.7970308
+        ]
+      },
+      { "type": "Camp",
+        "properties": {
+          "ID": 6,
+          "YEAR": 1956,
+          "DATE": "",
+
+          "NAME": "Police nad Metují",
+          "DESCRIPTION": "okres Náchod",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+            50.5368703,
+            16.2335044
+        ]
+      },
+      { "type": "Camp",
+        "properties": {
+          "ID": 7,
+          "YEAR": 1957,
+          "DATE": "",
+
+          "NAME": "Orava",
+          "DESCRIPTION": "okres Námestovo",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+            49.2588994,
+            19.3602886
+        ]
+      },
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 8,
+          "YEAR": [1958, 1959],
+          "DATE": "",
+
+          "NAME": "Peklo u Netína",
+          "DESCRIPTION": "okres žďár nad Sázavou",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          49.4214972,
+          15.9847617
+        ]
+      },
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 9,
+          "YEAR": 1960,
+          "DATE": "",
+
+          "NAME": "Přehrada Jevišovice",
+          "DESCRIPTION": "okres Znojmo",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          48.9896614,
+          15.9770736
+        ]
+      },
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 10,
+          "YEAR": [1968, 1969, 1970],
+          "DATE": "",
+
+          "NAME": "„Svízel“ u Zahradiště",
+          "DESCRIPTION": "okres Žďár nad Sázavou",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          49.4457144,
+          15.9439914
+        ]
+      },
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 11,
+          "YEAR": 1971,
+          "DATE": "",
+
+          "NAME": "Nová Říše",
+          "DESCRIPTION": "okres Jihlava",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          49.1394083,
+          15.5635939
+        ]
+      },
+
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 12,
+          "YEAR": [1977, 1978, 1979, 1980, 1981, 1982, 1983],
+          "DATE": "",
+
+          "NAME": "Landštejn",
+          "DESCRIPTION": "okres Jindřichův Hradec",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+            49.0241000,
+            15.2303778
+        ]
+      },
+     
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 13,
+          "YEAR": 1984,
+          "DATE": "",
+
+          "NAME": "Votěchov",
+          "DESCRIPTION": "okres Chrudim",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          49.7885494,
+          15.9735019
+        ]
+      },
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 14,
+          "YEAR": [1985, 1986],
+          "DATE": "",
+
+          "NAME": "Vidonín",
+          "DESCRIPTION": "okres Žďár nad Sázavou",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+            49.3797411,
+            16.2224414
+        ]
+      },
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 15,
+          "YEAR": 1987,
+          "DATE": "",
+
+          "NAME": "Horní Kounice",
+          "DESCRIPTION": "okres Znojmo",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          49.0259933,
+          16.1522636
+        ]
+      },
+
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 16,
+          "YEAR": 1990,
+          "DATE": "",
+
+          "NAME": "Pyšel u Náměště nad Oslavou",
+          "DESCRIPTION": "okres Třebíč",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          49.2505086,
+          16.0664353
+        ]
+      },
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 17,
+          "YEAR": 1991,
+          "DATE": "",
+
+          "NAME": "Březinky",
+          "DESCRIPTION": "okres Svitavy",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          49.6626878,
+          16.7869247
+        ]
+      },
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 18,
+          "YEAR": [1992, 1993],
+          "DATE": "",
+
+          "NAME": "Nové Syrovice",
+          "DESCRIPTION": "okres Třebíč",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          49.0176286,
+          15.7734531
+        ]
+      },
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 19,
+          "YEAR": [1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010],
+          "DATE": "",
+
+          "NAME": "Smilov",
+          "DESCRIPTION": "okres Olomouc",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          49.6888008,
+          17.4485928
+        ]
+      },
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 20,
+          "YEAR": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+          "DATE": "",
+
+          "NAME": "Kostelní Myslová",
+          "DESCRIPTION": "okres Jihlava",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          49.1434253,
+          15.4355156
+        ]
+      },
+      {
+        "type": "Camp",
+        "properties": {
+          "ID": 21,
+          "YEAR": [2019, 2020, 2021],
+          "DATE": "",
+
+          "NAME": "Kdousov",
+          "DESCRIPTION": "okres Třebíč",
+          "PHOTOS": {}
+        },
+        "coordinates": [
+          48.9872164,
+          15.6619108
+        ]
+      }
+    ]
+  }
