@@ -38,6 +38,16 @@
   font-family: "font", "Helvetica Neue", arial, sans-serif;
   font-size: 3em;
   margin-bottom: 1em;
+  line-height: 1;
+}
+
+a {
+  color: black;
+  cursor: ne-resize;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 @font-face {
@@ -83,10 +93,10 @@ html, body {
 }
 .ui-close-button {
   position: fixed;
-  top: 10px;
-  right: 10px;
-  width: 50px;
-  height: 50px;
+  top: 0.6em;
+  right: 0.6em;
+  width: 1.8em;
+  height: 1.8em;
   background-image: url("/close.e3269fae.svg");
   cursor: pointer;
   transition: 0.3s;
@@ -103,16 +113,49 @@ html, body {
   font-size: 0.8em;
   border-radius: 2em;
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .ui-landing-intro-button:hover {
-  background: #414D39;
+  background: #f1f1f1;
 }
 .about-container {
   width: 100vw;
   height: 100vh;
+}
+
+.about-text {
+  position: fixed;
+  width: calc(50vw - 4em);
+  top: 0;
+  margin-left: 3em;
+  margin-top: 3em;
+  user-select: none;
+}
+
+.about-text-title {
+  font-family: "font", "Helvetica Neue", arial, sans-serif;
+  font-size: 3em;
+  line-height: 1;
+}
+
+.about-text-paragraph {
+  margin-top: 3em;
+}
+
+.about-mockup-container {
+  width: 100vw;
+  box-sizing: border-box;
+  padding-left: calc(50vw + 1em);
+  padding-right: 3em;
+  padding-top: 9em;
+  padding-bottom: 5em;
   background-color: #f1f1f1;
+}
+
+.about-mockup {
+  width: 100%;
+  border-radius: 1em;
 }
 .landing-container {
   width: 100vw;

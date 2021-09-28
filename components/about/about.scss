@@ -3,5 +3,42 @@
 .about-container{
     width: 100vw;
     height: 100vh;
+
+}
+
+.about-text{
+    position: fixed;
+    width: calc(50vw - 4em);
+    top: 0;
+    margin-left: 3em;
+    margin-top: 3em;
+    user-select: none;
+}
+
+.about-text-title{
+    font-family: 'font','Helvetica Neue', arial, sans-serif;
+    font-size: 3em;
+    line-height: 1;
+}
+
+.about-text-paragraph{
+    margin-top: 3em;
+}
+
+.about-mockup-container{
+    width: 100vw;
+    box-sizing:border-box;
+
+    padding-left: calc(50vw + 1em);
+    padding-right: 3em;
+    padding-top: 9em;
+    padding-bottom: 5em;
+
     background-color: $bg-gray;
+}
+
+.about-mockup{
+    width: 100%;
+    border-radius: 1em;
+
 }

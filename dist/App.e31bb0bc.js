@@ -33772,7 +33772,13 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/about/About.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"public/images/mockup/1.jpg":[function(require,module,exports) {
+module.exports = "/1.a7df4d86.jpg";
+},{}],"public/images/mockup/2.jpg":[function(require,module,exports) {
+module.exports = "/2.fdea8ace.jpg";
+},{}],"public/images/mockup/3.jpg":[function(require,module,exports) {
+module.exports = "/3.c2cb9d53.jpg";
+},{}],"components/about/About.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33786,6 +33792,12 @@ var _Close = _interopRequireDefault(require("../ui/Close"));
 
 var _about = _interopRequireDefault(require("./about.scss"));
 
+var _ = _interopRequireDefault(require("../../public/images/mockup/1.jpg"));
+
+var _2 = _interopRequireDefault(require("../../public/images/mockup/2.jpg"));
+
+var _3 = _interopRequireDefault(require("../../public/images/mockup/3.jpg"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function About(props) {
@@ -33795,12 +33807,34 @@ function About(props) {
     handleClick: function handleClick() {
       return props.handleHistoryPush('/');
     }
-  }));
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "about-text"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "about-text-title"
+  }, "O projektu"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "about-text-paragraph"
+  }, "Webov\xE1 str\xE1nka vznikla jako sou\u010D\xE1st m\xE9 diplomov\xE9 pr\xE1ce v ateli\xE9ru ", /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://www.umprum.cz/web/cs/grafika/graficky-design-a-nova-media",
+    target: "_blank"
+  }, " Grafick\xE9ho designu a nov\xFDch m\xE9dii"), " na UMPRUM.", /*#__PURE__*/_react.default.createElement("br", null), " ", /*#__PURE__*/_react.default.createElement("br", null), "Cht\u011Bl bych ji v\u011Bnovat v\u0161em b\xFDval\xFDm, aktu\xE1ln\xEDm i budouc\xEDm \u010Dlen\u016Fm odd\xEDlu. Fotografie, texty a ilustrace zde zachycuj\xED 75 let na\u0161\xED \u010Dinnosti.", /*#__PURE__*/_react.default.createElement("br", null), " ", /*#__PURE__*/_react.default.createElement("br", null), "Spole\u010Dn\u011B s webem vych\xE1z\xED i 80 str\xE1nkov\xE1 publikace v n\xE1kladu 20 kus\u016F. Pokud m\xE1te o publikaci z\xE1jem, napi\u0161te mi na ", /*#__PURE__*/_react.default.createElement("a", {
+    href: "mailto:brona.musil@gmail.com"
+  }, "brona.musil@gmail.com"), ", na p\u0159\xED\u0161t\xED odd\xEDlov\xE9 akci je va\u0161e. Pokud si chcete knihu pouze prohl\xE9dnout, ur\u010Dit\u011B naraz\xEDte na p\xE1r kus\u016F, kter\xE9 jsem nechal odd\xEDlem putovat.", /*#__PURE__*/_react.default.createElement("br", null), " ", /*#__PURE__*/_react.default.createElement("br", null), "P\xE1d\xEDk \u2013 Bronislav Musil, 2021")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "about-mockup-container"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _.default,
+    className: "about-mockup"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    src: _2.default,
+    className: "about-mockup"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    src: _3.default,
+    className: "about-mockup"
+  })));
 }
 
 var _default = About;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../ui/Close":"components/ui/Close.jsx","./about.scss":"components/about/about.scss"}],"components/ui/LandingIntroButton.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../ui/Close":"components/ui/Close.jsx","./about.scss":"components/about/about.scss","../../public/images/mockup/1.jpg":"public/images/mockup/1.jpg","../../public/images/mockup/2.jpg":"public/images/mockup/2.jpg","../../public/images/mockup/3.jpg":"public/images/mockup/3.jpg"}],"components/ui/LandingIntroButton.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
