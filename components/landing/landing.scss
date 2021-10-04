@@ -90,3 +90,52 @@
     height: 100%;
     border-radius: 4em 0 0 0;
 }
+
+// timeline
+
+.landing-timeline-container{
+    margin-left: 3em;
+    margin-right: 2em;
+    background-color: burlywood;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.year-container{
+    height: auto;
+    background-color: cadetblue;
+}
+
+.year-1{
+    width: calc((100vw - 5rem) /3);
+}
+
+.year-2{
+    width: calc((100vw - 5rem) /3*2);
+}
+
+.year-3{
+    width: calc(100vw - 5rem)
+}
+
+
+.year-title{
+    font-size: 2rem;
+    padding-left: 1rem;
+    height: 4rem;
+    background-color: coral;
+}
+
+.tiles-container{
+    display:flex;
+}
+
+.tile-image{
+    width: calc((100vw - 5rem) /3 - 1rem);
+    height: auto;
+    margin-right: 1rem;
+    box-sizing:border-box;
+
+    border-radius: $lh;
+}

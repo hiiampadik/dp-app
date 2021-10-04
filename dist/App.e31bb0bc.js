@@ -34125,7 +34125,9 @@ function LandingBooks(props) {
 
 var _default = LandingBooks;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../../public/images/books/1.png":"public/images/books/1.png","../../public/images/books/2.png":"public/images/books/2.png","../../public/images/books/3.png":"public/images/books/3.png","../../public/images/books/4.png":"public/images/books/4.png","../../public/images/books/5.png":"public/images/books/5.png","../../public/images/books/6.png":"public/images/books/6.png","../../public/images/books/7.png":"public/images/books/7.png","../../public/images/books/8.png":"public/images/books/8.png","../../public/images/books/9.png":"public/images/books/9.png","../../public/images/books/10.png":"public/images/books/10.png","../../public/images/books/11.png":"public/images/books/11.png","../../public/images/books/12.png":"public/images/books/12.png","../../public/images/books/13.png":"public/images/books/13.png","../../public/images/books/14.png":"public/images/books/14.png","../../public/images/books/15.png":"public/images/books/15.png"}],"components/landing/LandingTimeline.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../../public/images/books/1.png":"public/images/books/1.png","../../public/images/books/2.png":"public/images/books/2.png","../../public/images/books/3.png":"public/images/books/3.png","../../public/images/books/4.png":"public/images/books/4.png","../../public/images/books/5.png":"public/images/books/5.png","../../public/images/books/6.png":"public/images/books/6.png","../../public/images/books/7.png":"public/images/books/7.png","../../public/images/books/8.png":"public/images/books/8.png","../../public/images/books/9.png":"public/images/books/9.png","../../public/images/books/10.png":"public/images/books/10.png","../../public/images/books/11.png":"public/images/books/11.png","../../public/images/books/12.png":"public/images/books/12.png","../../public/images/books/13.png":"public/images/books/13.png","../../public/images/books/14.png":"public/images/books/14.png","../../public/images/books/15.png":"public/images/books/15.png"}],"public/images/history/p-1947-0.jpg":[function(require,module,exports) {
+module.exports = "/p-1947-0.a0eb5912.jpg";
+},{}],"components/landing/LandingTimeline.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34135,17 +34137,31 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+var _p = _interopRequireDefault(require("../../public/images/history/p-1947-0.jpg"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function LandingTimeline(props) {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "landing-timeline-container"
-  });
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "year-container year-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "year-title"
+  }, "1946"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "tiles-container"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _p.default,
+    className: "tile-image"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    src: _p.default,
+    className: "tile-image"
+  }))));
 }
 
 var _default = LandingTimeline;
 exports.default = _default;
-},{"react":"node_modules/react/index.js"}],"components/landing/landing.scss":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../../public/images/history/p-1947-0.jpg":"public/images/history/p-1947-0.jpg"}],"components/landing/landing.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -34324,7 +34340,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52670" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64063" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
