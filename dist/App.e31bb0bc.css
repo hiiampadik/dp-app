@@ -89,7 +89,7 @@ html, body {
   -webkit-font-smoothing: antialiased;
   background: white;
   font-family: "font", "Helvetica Neue", arial, sans-serif;
-  font-size: 27px;
+  font-size: 26px;
 }
 .ui-close-button {
   position: fixed;
@@ -163,17 +163,36 @@ html, body {
 
 .landing-intro-container {
   background: #f1f1f1;
-  padding: 6em 3em 1em 3em;
+  display: flex;
+}
+
+.landing-intro-container-left {
+  width: calc(100vw - 270px);
+  background-color: #f1f1f1;
+  padding: 4rem 3rem 1rem 3rem;
+  box-sizing: border-box;
 }
 
 .landing-intro-text {
-  padding-right: 20em;
+  max-width: 1000px;
 }
 
 .landing-intro-buttons {
   width: 100%;
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
   display: flex;
+}
+
+.landing-intro-container-right {
+  width: 270px;
+  background-color: #f1f1f1;
+  padding: 4rem 2rem 0rem 1rem;
+  box-sizing: border-box;
+}
+
+.landing-intro-logo {
+  max-width: 100%;
+  margin-bottom: 1.5rem;
 }
 
 .landing-books-container {
@@ -251,18 +270,6 @@ html, body {
   background-color: cadetblue;
 }
 
-.year-1 {
-  width: calc((100vw - 5rem) /3);
-}
-
-.year-2 {
-  width: calc((100vw - 5rem) /3*2);
-}
-
-.year-3 {
-  width: calc(100vw - 5rem);
-}
-
 .year-title {
   font-size: 2rem;
   padding-left: 1rem;
@@ -274,12 +281,47 @@ html, body {
   display: flex;
 }
 
-.tile-image {
+.tile-wrap {
   width: calc((100vw - 5rem) /3 - 1rem);
   height: auto;
   margin-right: 1rem;
   box-sizing: border-box;
+  position: relative;
+}
+
+.tile-image {
+  width: 100%;
+  height: auto;
   border-radius: 1em;
+  float: left;
+}
+
+.tile-label {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  color: white;
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  transition: 0.2s;
+}
+
+.tile-wrap:hover .tile-label {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tile-wrap:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=/App.e31bb0bc.css.map */

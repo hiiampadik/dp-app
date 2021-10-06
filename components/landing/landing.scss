@@ -8,18 +8,44 @@
 
 .landing-intro-container{
     background: $bg-gray;
-    padding: 6em 3em 1em 3em;
+    display: flex;
+}
+
+// intro - left
+
+.landing-intro-container-left{
+    width: calc(100vw - 270px);
+    // background-color:$bg-gray;
+    background-color: $bg-gray;
+    padding: 4rem 3rem 1rem 3rem;
+
+    box-sizing:border-box;
 }
 
 .landing-intro-text{
-    padding-right: 20em;
+    max-width: 1000px;
 }
 
 .landing-intro-buttons{
     width: 100%;
-    margin-bottom: 3em;
+    margin-bottom: 3rem;
     display:flex;
 }
+
+//intro - right
+
+.landing-intro-container-right{
+    width: 270px;
+    background-color:$bg-gray;
+    padding: 4rem 2rem 0rem 1rem;
+    box-sizing:border-box;
+}
+
+.landing-intro-logo{
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+
 
 // books
 
@@ -107,18 +133,6 @@
     background-color: cadetblue;
 }
 
-.year-1{
-    width: calc((100vw - 5rem) /3);
-}
-
-.year-2{
-    width: calc((100vw - 5rem) /3*2);
-}
-
-.year-3{
-    width: calc(100vw - 5rem)
-}
-
 
 .year-title{
     font-size: 2rem;
@@ -131,11 +145,55 @@
     display:flex;
 }
 
-.tile-image{
+
+
+
+.tile-wrap{
     width: calc((100vw - 5rem) /3 - 1rem);
     height: auto;
     margin-right: 1rem;
     box-sizing:border-box;
-
-    border-radius: $lh;
+    position: relative;
 }
+
+.tile-image{
+    
+    width: 100%;
+    height: auto;
+    border-radius: $lh;
+    float: left;
+}
+
+.tile-label{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    color: white;
+
+    position: absolute;
+
+    visibility: hidden;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+  
+    pointer-events: none;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+
+    transition: 0.2s;
+}
+
+.tile-wrap:hover .tile-label {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .tile-wrap:hover{
+    cursor: pointer;
+  }

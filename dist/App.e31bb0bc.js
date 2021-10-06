@@ -33857,7 +33857,13 @@ function LandingIntroButton(props) {
 
 var _default = LandingIntroButton;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./ui.scss":"components/ui/ui.scss"}],"components/landing/LandingIntro.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./ui.scss":"components/ui/ui.scss"}],"public/images/logos/logo-1.svg":[function(require,module,exports) {
+module.exports = "/logo-1.be7293b4.svg";
+},{}],"public/images/logos/logo-2.svg":[function(require,module,exports) {
+module.exports = "/logo-2.8fd49038.svg";
+},{}],"public/images/logos/logo-3.svg":[function(require,module,exports) {
+module.exports = "/logo-3.55291c6f.svg";
+},{}],"components/landing/LandingIntro.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33869,11 +33875,19 @@ var _react = _interopRequireDefault(require("react"));
 
 var _LandingIntroButton = _interopRequireDefault(require("../ui/LandingIntroButton"));
 
+var _logo = _interopRequireDefault(require("../../public/images/logos/logo-1.svg"));
+
+var _logo2 = _interopRequireDefault(require("../../public/images/logos/logo-2.svg"));
+
+var _logo3 = _interopRequireDefault(require("../../public/images/logos/logo-3.svg"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function LandingIntro(props) {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "landing-intro-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "landing-intro-container-left"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "landing-intro-buttons"
   }, /*#__PURE__*/_react.default.createElement(_LandingIntroButton.default, {
@@ -33890,12 +33904,20 @@ function LandingIntro(props) {
     className: "title"
   }, "Historie 94. odd\xEDlu Mirka Klep\xE1\u010De"), /*#__PURE__*/_react.default.createElement("div", {
     className: "landing-intro-text"
-  }, /*#__PURE__*/_react.default.createElement("p", null, "Z\xE1kladem vzniku devades\xE1t\xE9ho \u010Dtvrt\xE9ho odd\xEDlu skaut\u016F byla dru\u017Eina Kondor\u016F z 10. odd\xEDlu, kter\xE9 zah\xE1jili svoji \u010Dinnost pod veden\xEDm bratra Zde\u0148ka Mat\u011Bje ihned po ukon\u010Den\xED sv\u011Btov\xE9 v\xE1lky v roce 1945. V t\xE9to pov\xE1le\u010Dn\xE9 dob\u011B nastal v \u010Ceskoslovensku velik\xFD rozmach skautingu. \u010Clensk\xE1 z\xE1kladna se rychle rozr\u016Fstala a odd\xEDly, kam p\u0159ich\xE1zelo st\xE1le v\xEDce a v\xEDce nov\xFDch \u010Dlen\u016F, \u0159e\u0161ily tento p\u0159\xEDliv tvo\u0159en\xEDm dal\u0161\xEDch dru\u017Ein. Pro usnadn\u011Bn\xED pr\xE1ce vedouc\xEDch, tvo\u0159ili se z n\u011Bkolika dru\u017Ein \u010Dety a z n\u011Bkolika \u010Det roty. ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "V \u010Dervenci 1945, po n\xE1vratu z ciziny, zapojil se do \u010Dinnosti p\u0159edv\xE1le\u010Dn\xFD \u010Dlen 3. brn\u011Bnsk\xE9ho odd\xEDlu br. Klep\xE1\u010D, kter\xFD tak splnil slib dan\xFD po rozpu\u0161t\u011Bn\xED Skautingu v roce 1940, \u017Ee se po v\xE1lce znovu zapoj\xED do skautsk\xE9 organizace. Svoji \u010Dinnost zah\xE1jil v dru\u017Ein\u011B Kondor\u016F.", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Koncem roku 1945 rozhodla se odd\xEDlov\xE1 rada vzhledem k velk\xE9mu mno\u017Estv\xED \u010Dlen\u016F, rozd\u011Blit odd\xEDl ve 3 odd\xEDly 10. BO, 94. BO a 95. BO. Veden\xEDm 94. odd\xEDlu byl pov\u011B\u0159en br. Klep\xE1\u010D.")));
+  }, /*#__PURE__*/_react.default.createElement("p", null, "Z\xE1kladem vzniku devades\xE1t\xE9ho \u010Dtvrt\xE9ho odd\xEDlu skaut\u016F byla dru\u017Eina Kondor\u016F z 10. odd\xEDlu, kter\xE9 zah\xE1jili svoji \u010Dinnost pod veden\xEDm bratra Zde\u0148ka Mat\u011Bje ihned po ukon\u010Den\xED sv\u011Btov\xE9 v\xE1lky v roce 1945. V t\xE9to pov\xE1le\u010Dn\xE9 dob\u011B nastal v \u010Ceskoslovensku velik\xFD rozmach skautingu. \u010Clensk\xE1 z\xE1kladna se rychle rozr\u016Fstala a odd\xEDly, kam p\u0159ich\xE1zelo st\xE1le v\xEDce a v\xEDce nov\xFDch \u010Dlen\u016F, \u0159e\u0161ily tento p\u0159\xEDliv tvo\u0159en\xEDm dal\u0161\xEDch dru\u017Ein. Pro usnadn\u011Bn\xED pr\xE1ce vedouc\xEDch, tvo\u0159ili se z n\u011Bkolika dru\u017Ein \u010Dety a z n\u011Bkolika \u010Det roty. ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "V \u010Dervenci 1945, po n\xE1vratu z ciziny, zapojil se do \u010Dinnosti p\u0159edv\xE1le\u010Dn\xFD \u010Dlen 3. brn\u011Bnsk\xE9ho odd\xEDlu br. Klep\xE1\u010D, kter\xFD tak splnil slib dan\xFD po rozpu\u0161t\u011Bn\xED Skautingu v roce 1940, \u017Ee se po v\xE1lce znovu zapoj\xED do skautsk\xE9 organizace. Svoji \u010Dinnost zah\xE1jil v dru\u017Ein\u011B Kondor\u016F.", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Koncem roku 1945 rozhodla se odd\xEDlov\xE1 rada vzhledem k velk\xE9mu mno\u017Estv\xED \u010Dlen\u016F, rozd\u011Blit odd\xEDl ve 3 odd\xEDly 10. BO, 94. BO a 95. BO. Veden\xEDm 94. odd\xEDlu byl pov\u011B\u0159en br. Klep\xE1\u010D."))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "landing-intro-container-right"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _logo2.default,
+    className: "landing-intro-logo"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    src: _logo3.default,
+    className: "landing-intro-logo"
+  })));
 }
 
 var _default = LandingIntro;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../ui/LandingIntroButton":"components/ui/LandingIntroButton.jsx"}],"public/images/books/1.png":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../ui/LandingIntroButton":"components/ui/LandingIntroButton.jsx","../../public/images/logos/logo-1.svg":"public/images/logos/logo-1.svg","../../public/images/logos/logo-2.svg":"public/images/logos/logo-2.svg","../../public/images/logos/logo-3.svg":"public/images/logos/logo-3.svg"}],"public/images/books/1.png":[function(require,module,exports) {
 module.exports = "/1.4c28a902.png";
 },{}],"public/images/books/2.png":[function(require,module,exports) {
 module.exports = "/2.b799f2c4.png";
@@ -34142,21 +34164,49 @@ var _p = _interopRequireDefault(require("../../public/images/history/p-1947-0.jp
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function LandingTimeline(props) {
+  var openEvent = function openEvent(id) {
+    console.log(id);
+  };
+
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "landing-timeline-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "year-container year-2"
+    className: "year-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "year-title"
   }, "1946"), /*#__PURE__*/_react.default.createElement("div", {
     className: "tiles-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "tile-wrap",
+    onClick: function onClick() {
+      return openEvent(1);
+    }
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _p.default,
     className: "tile-image"
-  }), /*#__PURE__*/_react.default.createElement("img", {
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "tile-label"
+  }, "13. 5. 1946", /*#__PURE__*/_react.default.createElement("br", null), "Vznik 94. odd\xEDlu")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "tile-wrap"
+  }, /*#__PURE__*/_react.default.createElement("img", {
     src: _p.default,
     className: "tile-image"
-  }))));
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "tile-label"
+  }, "T\xE1bor, louka Havran")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "year-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "year-title"
+  }, "1946"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "tiles-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "tile-wrap"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    src: _p.default,
+    className: "tile-image"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "tile-label"
+  }, "Zalozeni 94")))));
 }
 
 var _default = LandingTimeline;
@@ -34340,7 +34390,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64063" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52025" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
