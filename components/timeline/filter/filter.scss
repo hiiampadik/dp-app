@@ -1,0 +1,50 @@
+@import "../../../style/variables.scss";
+
+.filter-container{
+    background-color: $bg-gray;
+}
+
+.filter-button-container{
+    margin-left: $left-timeline-margin;
+    padding-left: 5rem;
+    background-color: white;
+    display: flex;
+
+
+    // background-color: brown;
+}
+
+
+
+.filter-button{
+    background: $bg-gray-light;
+    // border: 0.5px solid rgb(220, 220, 220);
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    margin-right: 0.5rem;
+
+    font-size: 0.9em;
+    border-radius: 2rem;
+
+    cursor: pointer;
+    user-select: none;
+    transition: 0.3s;
+}
+
+
+.filter-button:active{
+    background: $bg-green;
+    // border: 0.5px solid rgb(140, 140, 140);
+    transition: 0.1s;
+}
+
+.filter-button-selected{
+    background: $bg-green;
+    // border: 0.5px solid rgb(140, 140, 140);
+    transition: 0.3s;
+}
+
+
+.filter-button-selected:active{
+    background: $bg-gray-light;
+    // border: 0.5px solid rgb(220, 220, 220);
+}

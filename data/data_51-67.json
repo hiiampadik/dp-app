@@ -1,0 +1,213 @@
+[
+
+    {
+        "year": 1951,
+        "types": ["history", "trip"],
+        "events": [
+            {
+                "ID": 9,
+                "preview": "fotka-3.jpg",
+                "text": "Zrušení skautingu",
+                "type": ["history"],
+                "content": {} 
+            },
+            {
+                "ID": 10,
+                "preview": "1951-0.jpg",
+                "text": "Putovní tábor, Slovensko",
+                "type": ["trip"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1952,
+        "types": ["trip"],
+        "events": [
+            {
+                "ID": 11,
+                "preview": "1952-0.jpg",
+                "text": "Putovní tábor, Severní Čechy",
+                "type": ["trip"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1953,
+        "types": ["trip"],
+        "events": [
+            {
+                "ID": 12,
+                "preview": "1953-0.jpg",
+                "text": "Putovní tábor, Jižní Čechy",
+                "type": ["trip"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1954,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 13,
+                "preview": "1954-0.jpg",
+                "text": "Stanový tábor, Vysoké Tatry",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1955,
+        "types": ["trip"],
+        "events": [
+            {
+                "ID": 14,
+                "preview": "1955-0.jpg",
+                "text": "Putovní tábor, Slovenský ráj",
+                "type": ["trip"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1956,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 15,
+                "preview": "1956-0.jpg",
+                "text": "Stanový tábor, Police",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1957,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 16,
+                "preview": "1957-0.jpg",
+                "text": "Stanový tábor, Orava",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1958,
+        "types": ["history", "camp", "trip"],
+        "events": [
+            {
+                "ID": 17,
+                "preview": "1958-0.jpg",
+                "text": "Stavba základny Locanda",
+                "type": ["history"],
+                "content": {} 
+            },
+            {
+                "ID": 18,
+                "preview": "1958-1.jpg",
+                "text": "Stanový tábor, Peklo",
+                "type": ["camp"],
+                "content": {} 
+            },
+            {
+                "ID": 19,
+                "preview": "1958-2.jpg",
+                "text": "Putovní tábor, Severní Čechy",
+                "type": ["trip"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1959,
+        "types": ["trip"],
+        "events": [
+            {
+                "ID": 20,
+                "preview": "1959-0.jpg",
+                "text": "Putovní tábor, Jižní Čechy",
+                "type": ["trip"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1960,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 21,
+                "preview": "fotka-4.jpg",
+                "text": "Stanový tábor, přehrada Jevišovice",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1961,
+        "types": ["trip"],
+        "events": [
+            {
+                "ID": 22,
+                "preview": "1961-0.jpg",
+                "text": "Putovní tábor, Slovenský ráj",
+                "type": ["trip"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1962,
+        "types": ["history", "trip"],
+        "events": [
+            {
+                "ID": 23,
+                "preview": "1962-0.jpg",
+                "text": "Dostavba základny Locanda",
+                "type": ["history"],
+                "content": {} 
+            },
+            {
+                "ID": 24,
+                "preview": "1962-1.jpg",
+                "text": "Putovní tábor, Slovensko",
+                "type": ["trip"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1964,
+        "types": ["trip"],
+        "events": [
+            {
+                "ID": 25,
+                "preview": "1964-0.jpg",
+                "text": "Putovní tábor, Slovensko",
+                "type": ["trip"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1965,
+        "types": ["history"],
+        "events": [
+            {
+                "ID": 26,
+                "preview": "1958-0.jpg",
+                "text": "Konec tělovýchovné činnosti",
+                "type": ["history"],
+                "content": {} 
+            }
+        ]
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "year": 1971,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 30,
+                "preview": "1971-0.jpg",
+                "text": "Stanový tábor, Nová říše",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1977,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 31,
+                "preview": "1977-0.jpg",
+                "text": "Stanový tábor, Landštejn",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1980,
+        "types": ["trip"],
+        "events": [
+            {
+                "ID": 32,
+                "preview": "1980-0.jpg",
+                "text": "Putovní tábor, Slovenské rudohoří",
+                "type": ["trip"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1984,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 33,
+                "preview": "fotka-2.jpg",
+                "text": "Stanový tábor, Vojtěchov",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1985,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 34,
+                "preview": "1985-0.jpg",
+                "text": "Stanový tábor, Vidonín",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1987,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 35,
+                "preview": "fotka-1.jpg",
+                "text": "Stanový tábor, Horní Kounice",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    }
+]

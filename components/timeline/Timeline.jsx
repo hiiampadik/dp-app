@@ -1,39 +1,48 @@
-import React, { useState } from 'react'
-import HorizontalScroll from 'react-scroll-horizontal'
+import React, { useState, setState } from 'react'
 
-import TimelineDecade from "./TimelineDecade"
+import Filter from './filter/Filter'
+import TimelineSection from './TimelineSection'
 
-import DataCamps from "../data/camps.json"
-import DataHistory from "../data/history.json"
-import DataPilgrims from "../data/pilgrims.json"
+import Data1 from "../../data/data_45-50.json"
+import Data2 from "../../data/data_51-67.json"
+import Data3 from "../../data/data_68-69.json"
+import Data4 from "../../data/data_70-88.json"
+import Data5 from "../../data/data_89-21.json"
 
-function Timeline() {
+import classes from "./timeline.scss"
 
-    const child = { width: `100vw`, height: `100vh` }
+function Timeline(props) {
 
+    // true - show, false - hide 
+    // false, false, false - show everything by default
+    const [filter0, setFilter0] = useState(false);
+    const [filter1, setFilter1] = useState(false);
+    const [filter2, setFilter2] = useState(false);
 
-    // const dataCamps = JSON.parse("../data/camps.json");
-    // const dataHistory = JSON.parse("../data/history.json");
-    // const dataPilgrims = JSON.parse("../data/pilgrims.json");
+    const changeFilter = (i) => {
+        if (i == 0) {
+            setFilter0(!filter0);
+        } else if (i == 1) {
+            setFilter1(!filter1);
+        } else {
+            setFilter2(!filter2);
+        }
+    }
+
 
     return (
-        <div className="timeline-container">
-                {DataCamps.camps.map((item) => (
-                    <div className="timeline-item" key={item.properties.ID}>
-                        {item.properties.NAME}
-                    </div>
-                ))}
+        <div>
+            <div className='landing-transition-bg'>
+                <div className='landing-transition-white'></div>
+            </div>
 
+            <Filter handleClick={(i) => changeFilter(i)} filter0={filter0} filter1={filter1} filter2={filter2} />
 
-                {/* <TimelineDecade decade={1940} />
-                <TimelineDecade decade={1950} />
-                <TimelineDecade decade={1960} />
-                <TimelineDecade decade={1970} />
-                <TimelineDecade decade={1980} />
-                <TimelineDecade decade={1990} />
-                <TimelineDecade decade={2000} />
-                <TimelineDecade decade={2010} /> */}
-                <div className='timeline-spacer'></div>
+            <TimelineSection data={Data1} red={false} filter={[filter0, filter1, filter2]} />
+            <TimelineSection data={Data2} red={true} filter={[filter0, filter1, filter2]} />
+            <TimelineSection data={Data3} red={false} filter={[filter0, filter1, filter2]} />
+            <TimelineSection data={Data4} red={true} filter={[filter0, filter1, filter2]} />
+            <TimelineSection data={Data5} red={false} filter={[filter0, filter1, filter2]} />
         </div>
     )
 }

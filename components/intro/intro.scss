@@ -1,0 +1,105 @@
+@import "../../style/variables.scss";
+
+// intro
+
+.intro-container{
+    background: $bg-gray;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+// intro - left
+
+.intro-button{
+    margin-right: 1em;
+    background: white;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+
+    font-size: 0.8em;
+    border-radius: 2em;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.intro-button:hover{
+    background: $bg-gray;
+    // color: white;
+}
+
+.intro-container-left{
+    width: 100vw;
+    // background-color:$bg-gray;
+    background-color: $bg-gray;
+    padding: 4rem 3rem 1rem 3rem;
+
+    box-sizing:border-box;
+}
+
+.intro-title{
+    font-family: 'font','Helvetica Neue', arial, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1em;
+    line-height: 1;
+    width: 100%;
+    @media only screen and (max-width: 1400px) {
+        width: 700px;
+    }
+    @media only screen and (max-width: 945px) {
+        width: 100%;
+    }
+}
+
+.intro-text{
+    max-width: 1000px;
+    @media only screen and (max-width: $secondbreak) {
+        max-width: 100vw;
+    }
+}
+
+.intro-buttons{
+    width: 100%;
+    margin-bottom: 3rem;
+    display:flex;
+}
+// –––––––––––––– intro - right
+
+.intro-container-right{
+    width: 270px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    padding: 4rem 2rem 0rem 1rem;
+    box-sizing: border-box;
+
+    z-index: 100;
+
+    @media only screen and (max-width: $firstbreak) {
+        width: 230px;
+        padding: 2rem 2rem 0rem 1rem;    
+    }
+    @media only screen and (max-width: 950px) {
+        width: 350px;
+        padding: 3rem 3rem 0rem 1rem;    
+        display: flex;
+    }
+}
+
+.intro-logo{
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+    @media only screen and (max-width: $firstbreak) {
+        margin-bottom: 1rem;  
+    }
+    @media only screen and (max-width: 950px) {
+        max-width: 50%;
+        box-sizing:border-box;
+        padding-left: 0.5rem;
+    }
+}
+

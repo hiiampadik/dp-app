@@ -1,0 +1,84 @@
+[
+
+    {
+        "year": 1946,
+        "types": ["history", "camp"],
+        "events": [
+            {
+                "ID": 2,
+                "preview": "1946-0.jpg",
+                "text": "Vznik 94. oddílu",
+                "type": ["history"],
+                "content": {
+                    "type": ["both"],
+                    "text": "data_45-h.txt",
+                    "photos": ["h-1945-0.jpg", "h-1945-1.jpg", "h-1945-2.jpg"]
+                } 
+            },
+            {
+                "ID": 3,
+                "preview": "1946-1.jpg",
+                "text": "Stanový tábor, louka Havran",
+                "type": ["camp"],
+                "content": {
+                    "type": "",
+                    "text": "",
+                    "photos": ""
+                } 
+            }
+        ]
+    },
+    {
+        "year": 1947,
+        "types": ["history", "camp", "trip"],
+        "events": [
+            {
+                "ID": 4,
+                "preview": "1947-0.jpg",
+                "text": "Nová klubovna",
+                "type": ["history"],
+                "content": {} 
+            },
+            {
+                "ID": 5,
+                "preview": "1947-1.jpg",
+                "text": "Stanový tábor, Hrotovice",
+                "type": ["camp"],
+                "content": {} 
+            },
+            {
+                "ID": 6,
+                "preview": "1947-2.jpg",
+                "text": "Putovní tábor, Slovensko",
+                "type": ["trip"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1949,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 7,
+                "preview": "1949-0.jpg",
+                "text": "Stanový tábor, Volary",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1950,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 8,
+                "preview": "1950-0.jpg",
+                "text": "Stanový tábor, Bahniska",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "year": 1968,
+        "types": ["history", "camp"],
+        "events": [
+            {
+                "ID": 27,
+                "preview": "1968-0.jpg",
+                "text": "Shrnutí čínnosti mezi lety 1946 až 1968",
+                "type": ["history"],
+                "content": {} 
+            },
+            {
+                "ID": 28,
+                "preview": "1968-1.jpg",
+                "text": "Stanový tábor, Zahradiště",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    }
+]

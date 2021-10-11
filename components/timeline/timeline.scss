@@ -1,0 +1,149 @@
+@import "../../style/variables.scss";
+
+// –––––––––––––– transition
+
+.landing-transition-bg{
+    background-color: $bg-gray;
+    height: 5em;
+    width: 100vw;
+}
+
+.landing-transition-white{
+    background-color: white;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    margin-left: $left-timeline-margin;
+    height: 100%;
+    border-radius: 3em 0 0 0;
+}
+
+.landing-transition-red{
+    position:relative;
+    top: -1.8rem;
+
+    background-color: $bg-red;
+    height: 1.8rem;
+}
+
+.landing-transition-text{
+    background-color: white;
+
+    margin-left:1rem;
+    padding-left:5.5rem;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+    height: 100%;
+
+}
+
+
+// –––––––––––––– timeline
+
+.landing-timeline-container{
+    display: flex;
+    align-items: stretch;
+}
+
+.red{
+    background-color: $bg-red;
+}
+
+.gray{
+    background-color: $bg-gray;
+}
+
+.landing-tiles-container{
+    margin-left: $left-timeline-margin;
+
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+    background-color: white;
+
+    box-sizing:border-box;
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100vw);
+}
+
+.year-title{
+    font-size: 2rem;
+    padding-left: 0.5rem;
+    padding-top: 2rem;
+    box-sizing:border-box;
+    height: 5rem;
+
+}
+
+.tiles-container{
+    display:flex;
+    align-items: flex-start;
+    height: auto;
+
+    background-color: white;
+}
+
+.tiles-subcontainer{
+    display:flex;
+    align-items: flex-start;
+    height: auto;
+}
+
+
+
+
+.tile-wrap{
+    width: calc((100vw - 11rem) /3 - 0.3rem);
+    max-width: 500px;
+    height: 100%;
+    margin-right: 0.3rem;
+    box-sizing:border-box;
+    position: relative;
+}
+
+.tile-image{
+    
+    width: 100%;
+    height: auto;
+    border-radius: $lh;
+    float: left;
+
+    // filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.7));
+}
+
+.tile-label{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    color: white;
+
+    position: absolute;
+
+    visibility: hidden;
+    opacity: 0;
+    align-items: center;
+    justify-content: center;
+  
+    user-select: none;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    box-sizing:border-box;
+    border-radius: 1rem;
+
+    transition: 0.2s;
+}
+
+.tile-wrap:hover .tile-label {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .tile-wrap:hover{
+    cursor: pointer;
+  }

@@ -33834,36 +33834,18 @@ function About(props) {
 
 var _default = About;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../ui/Close":"components/ui/Close.jsx","./about.scss":"components/about/about.scss","../../public/images/mockup/1.jpg":"public/images/mockup/1.jpg","../../public/images/mockup/2.jpg":"public/images/mockup/2.jpg","../../public/images/mockup/3.jpg":"public/images/mockup/3.jpg"}],"components/ui/LandingIntroButton.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _ui = _interopRequireDefault(require("./ui.scss"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function LandingIntroButton(props) {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "ui-landing-intro-button",
-    onClick: props.handleClick
-  }, props.text);
-}
-
-var _default = LandingIntroButton;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./ui.scss":"components/ui/ui.scss"}],"public/images/logos/logo-1.svg":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../ui/Close":"components/ui/Close.jsx","./about.scss":"components/about/about.scss","../../public/images/mockup/1.jpg":"public/images/mockup/1.jpg","../../public/images/mockup/2.jpg":"public/images/mockup/2.jpg","../../public/images/mockup/3.jpg":"public/images/mockup/3.jpg"}],"public/images/logos/logo-1.svg":[function(require,module,exports) {
 module.exports = "/logo-1.be7293b4.svg";
 },{}],"public/images/logos/logo-2.svg":[function(require,module,exports) {
 module.exports = "/logo-2.8fd49038.svg";
 },{}],"public/images/logos/logo-3.svg":[function(require,module,exports) {
 module.exports = "/logo-3.55291c6f.svg";
-},{}],"components/landing/LandingIntro.jsx":[function(require,module,exports) {
+},{}],"components/intro/intro.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/intro/Intro.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33872,8 +33854,6 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
-
-var _LandingIntroButton = _interopRequireDefault(require("../ui/LandingIntroButton"));
 
 var _logo = _interopRequireDefault(require("../../public/images/logos/logo-1.svg"));
 
@@ -33881,43 +33861,44 @@ var _logo2 = _interopRequireDefault(require("../../public/images/logos/logo-2.sv
 
 var _logo3 = _interopRequireDefault(require("../../public/images/logos/logo-3.svg"));
 
+var _intro = _interopRequireDefault(require("./intro.scss"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function LandingIntro(props) {
+function Intro(props) {
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-intro-container"
+    className: "intro-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-intro-container-left"
+    className: "intro-container-left"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-intro-buttons"
-  }, /*#__PURE__*/_react.default.createElement(_LandingIntroButton.default, {
-    text: "Domů",
-    handleClick: function handleClick() {
+    className: "intro-buttons"
+  }, /*#__PURE__*/_react.default.createElement("a", {
+    href: "https://94bo.skauting.cz/",
+    className: "intro-button",
+    target: "_blank"
+  }, "Dom\u016F"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "intro-button",
+    onClick: function onClick() {
       return props.handleHistoryPush('/about');
     }
-  }), /*#__PURE__*/_react.default.createElement(_LandingIntroButton.default, {
-    text: "O projektu",
-    handleClick: function handleClick() {
-      return props.handleHistoryPush('/about');
-    }
-  })), /*#__PURE__*/_react.default.createElement("div", {
-    className: "title"
+  }, "O projektu")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "intro-title"
   }, "Historie 94. odd\xEDlu Mirka Klep\xE1\u010De"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-intro-text"
-  }, /*#__PURE__*/_react.default.createElement("p", null, "Z\xE1kladem vzniku devades\xE1t\xE9ho \u010Dtvrt\xE9ho odd\xEDlu skaut\u016F byla dru\u017Eina Kondor\u016F z 10. odd\xEDlu, kter\xE9 zah\xE1jili svoji \u010Dinnost pod veden\xEDm bratra Zde\u0148ka Mat\u011Bje ihned po ukon\u010Den\xED sv\u011Btov\xE9 v\xE1lky v roce 1945. V t\xE9to pov\xE1le\u010Dn\xE9 dob\u011B nastal v \u010Ceskoslovensku velik\xFD rozmach skautingu. \u010Clensk\xE1 z\xE1kladna se rychle rozr\u016Fstala a odd\xEDly, kam p\u0159ich\xE1zelo st\xE1le v\xEDce a v\xEDce nov\xFDch \u010Dlen\u016F, \u0159e\u0161ily tento p\u0159\xEDliv tvo\u0159en\xEDm dal\u0161\xEDch dru\u017Ein. Pro usnadn\u011Bn\xED pr\xE1ce vedouc\xEDch, tvo\u0159ili se z n\u011Bkolika dru\u017Ein \u010Dety a z n\u011Bkolika \u010Det roty. ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "V \u010Dervenci 1945, po n\xE1vratu z ciziny, zapojil se do \u010Dinnosti p\u0159edv\xE1le\u010Dn\xFD \u010Dlen 3. brn\u011Bnsk\xE9ho odd\xEDlu br. Klep\xE1\u010D, kter\xFD tak splnil slib dan\xFD po rozpu\u0161t\u011Bn\xED Skautingu v roce 1940, \u017Ee se po v\xE1lce znovu zapoj\xED do skautsk\xE9 organizace. Svoji \u010Dinnost zah\xE1jil v dru\u017Ein\u011B Kondor\u016F.", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Koncem roku 1945 rozhodla se odd\xEDlov\xE1 rada vzhledem k velk\xE9mu mno\u017Estv\xED \u010Dlen\u016F, rozd\u011Blit odd\xEDl ve 3 odd\xEDly 10. BO, 94. BO a 95. BO. Veden\xEDm 94. odd\xEDlu byl pov\u011B\u0159en br. Klep\xE1\u010D."))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-intro-container-right"
+    className: "intro-text"
+  }, /*#__PURE__*/_react.default.createElement("p", null, "Z\xE1kladem vzniku devades\xE1t\xE9ho \u010Dtvrt\xE9ho odd\xEDlu skaut\u016F byla dru\u017Eina Kondor\u016F z", "\xA0", "10.", "\xA0", "odd\xEDlu, kter\xE9 zah\xE1jili svoji \u010Dinnost pod veden\xEDm bratra Zde\u0148ka Mat\u011Bje ihned po ukon\u010Den\xED sv\u011Btov\xE9 v\xE1lky v", "\xA0", "roce 1945. V", "\xA0", "t\xE9to pov\xE1le\u010Dn\xE9 dob\u011B nastal v", "\xA0", "\u010Ceskoslovensku velik\xFD rozmach skautingu. \u010Clensk\xE1 z\xE1kladna se rychle rozr\u016Fstala a", "\xA0", "odd\xEDly, kam p\u0159ich\xE1zelo st\xE1le v\xEDce a", "\xA0", "v\xEDce nov\xFDch \u010Dlen\u016F, \u0159e\u0161ily tento p\u0159\xEDliv tvo\u0159en\xEDm dal\u0161\xEDch dru\u017Ein. Pro usnadn\u011Bn\xED pr\xE1ce vedouc\xEDch, tvo\u0159ili se z", "\xA0", "n\u011Bkolika dru\u017Ein \u010Dety a", "\xA0", "z", "\xA0", "n\u011Bkolika \u010Det roty. ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "V", "\xA0", "\u010Dervenci 1945, po n\xE1vratu z", "\xA0", "ciziny, zapojil se do \u010Dinnosti p\u0159edv\xE1le\u010Dn\xFD \u010Dlen 3.", "\xA0", "brn\u011Bnsk\xE9ho odd\xEDlu br.", "\xA0", "Klep\xE1\u010D, kter\xFD tak splnil slib dan\xFD po rozpu\u0161t\u011Bn\xED Skautingu v", "\xA0", "roce 1940, \u017Ee se po v\xE1lce znovu zapoj\xED do skautsk\xE9 organizace. Svoji \u010Dinnost zah\xE1jil v", "\xA0", "dru\u017Ein\u011B Kondor\u016F.", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Koncem roku 1945 rozhodla se odd\xEDlov\xE1 rada vzhledem k", "\xA0", "velk\xE9mu mno\u017Estv\xED \u010Dlen\u016F, rozd\u011Blit odd\xEDl ve 3", "\xA0", "odd\xEDly 10.", "\xA0", "BO, 94.", "\xA0", "BO a 95.", "\xA0", "BO. Veden\xEDm 94.", "\xA0", "odd\xEDlu byl pov\u011B\u0159en br.", "\xA0", "Klep\xE1\u010D."))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "intro-container-right"
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _logo2.default,
-    className: "landing-intro-logo"
+    className: "intro-logo"
   }), /*#__PURE__*/_react.default.createElement("img", {
     src: _logo3.default,
-    className: "landing-intro-logo"
+    className: "intro-logo"
   })));
 }
 
-var _default = LandingIntro;
+var _default = Intro;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../ui/LandingIntroButton":"components/ui/LandingIntroButton.jsx","../../public/images/logos/logo-1.svg":"public/images/logos/logo-1.svg","../../public/images/logos/logo-2.svg":"public/images/logos/logo-2.svg","../../public/images/logos/logo-3.svg":"public/images/logos/logo-3.svg"}],"public/images/books/1.png":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../../public/images/logos/logo-1.svg":"public/images/logos/logo-1.svg","../../public/images/logos/logo-2.svg":"public/images/logos/logo-2.svg","../../public/images/logos/logo-3.svg":"public/images/logos/logo-3.svg","./intro.scss":"components/intro/intro.scss"}],"public/images/books/1.png":[function(require,module,exports) {
 module.exports = "/1.4c28a902.png";
 },{}],"public/images/books/2.png":[function(require,module,exports) {
 module.exports = "/2.b799f2c4.png";
@@ -33947,7 +33928,12 @@ module.exports = "/13.0fddeb0e.png";
 module.exports = "/14.b2b5264d.png";
 },{}],"public/images/books/15.png":[function(require,module,exports) {
 module.exports = "/15.4aeac451.png";
-},{}],"components/landing/LandingBooks.jsx":[function(require,module,exports) {
+},{}],"components/books/books.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/books/Books.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33987,11 +33973,13 @@ var _14 = _interopRequireDefault(require("../../public/images/books/14.png"));
 
 var _15 = _interopRequireDefault(require("../../public/images/books/15.png"));
 
+var _books = _interopRequireDefault(require("./books.scss"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function LandingBooks(props) {
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-books-container"
+    className: "books-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "book-wrap"
   }, /*#__PURE__*/_react.default.createElement("img", {
@@ -34147,9 +34135,7 @@ function LandingBooks(props) {
 
 var _default = LandingBooks;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../../public/images/books/1.png":"public/images/books/1.png","../../public/images/books/2.png":"public/images/books/2.png","../../public/images/books/3.png":"public/images/books/3.png","../../public/images/books/4.png":"public/images/books/4.png","../../public/images/books/5.png":"public/images/books/5.png","../../public/images/books/6.png":"public/images/books/6.png","../../public/images/books/7.png":"public/images/books/7.png","../../public/images/books/8.png":"public/images/books/8.png","../../public/images/books/9.png":"public/images/books/9.png","../../public/images/books/10.png":"public/images/books/10.png","../../public/images/books/11.png":"public/images/books/11.png","../../public/images/books/12.png":"public/images/books/12.png","../../public/images/books/13.png":"public/images/books/13.png","../../public/images/books/14.png":"public/images/books/14.png","../../public/images/books/15.png":"public/images/books/15.png"}],"public/images/history/p-1947-0.jpg":[function(require,module,exports) {
-module.exports = "/p-1947-0.a0eb5912.jpg";
-},{}],"components/landing/LandingTimeline.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../../public/images/books/1.png":"public/images/books/1.png","../../public/images/books/2.png":"public/images/books/2.png","../../public/images/books/3.png":"public/images/books/3.png","../../public/images/books/4.png":"public/images/books/4.png","../../public/images/books/5.png":"public/images/books/5.png","../../public/images/books/6.png":"public/images/books/6.png","../../public/images/books/7.png":"public/images/books/7.png","../../public/images/books/8.png":"public/images/books/8.png","../../public/images/books/9.png":"public/images/books/9.png","../../public/images/books/10.png":"public/images/books/10.png","../../public/images/books/11.png":"public/images/books/11.png","../../public/images/books/12.png":"public/images/books/12.png","../../public/images/books/13.png":"public/images/books/13.png","../../public/images/books/14.png":"public/images/books/14.png","../../public/images/books/15.png":"public/images/books/15.png","./books.scss":"components/books/books.scss"}],"components/timeline/filter/FilterButton.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34159,64 +34145,31 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _p = _interopRequireDefault(require("../../public/images/history/p-1947-0.jpg"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-function LandingTimeline(props) {
-  var openEvent = function openEvent(id) {
-    console.log(id);
+function FilterButton(props) {
+  var getClasses = function getClasses(selected) {
+    if (selected == true) {
+      return "filter-button filter-button-selected";
+    } else {
+      return "filter-button";
+    }
   };
 
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-timeline-container"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "year-container"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "year-title"
-  }, "1946"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "tiles-container"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "tile-wrap",
-    onClick: function onClick() {
-      return openEvent(1);
-    }
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _p.default,
-    className: "tile-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "tile-label"
-  }, "13. 5. 1946", /*#__PURE__*/_react.default.createElement("br", null), "Vznik 94. odd\xEDlu")), /*#__PURE__*/_react.default.createElement("div", {
-    className: "tile-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _p.default,
-    className: "tile-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "tile-label"
-  }, "T\xE1bor, louka Havran")))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "year-container"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "year-title"
-  }, "1946"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "tiles-container"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "tile-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _p.default,
-    className: "tile-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "tile-label"
-  }, "Zalozeni 94")))));
+    className: getClasses(props.selected),
+    onClick: props.handleClick
+  }, props.text);
 }
 
-var _default = LandingTimeline;
+var _default = FilterButton;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../../public/images/history/p-1947-0.jpg":"public/images/history/p-1947-0.jpg"}],"components/landing/landing.scss":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"components/timeline/filter/filter.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/landing/LandingPage.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/timeline/filter/Filter.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34226,31 +34179,886 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _LandingIntro = _interopRequireDefault(require("./LandingIntro"));
+var _FilterButton = _interopRequireDefault(require("./FilterButton"));
 
-var _LandingBooks = _interopRequireDefault(require("./LandingBooks"));
+var _filter = _interopRequireDefault(require("./filter.scss"));
 
-var _LandingTimeline = _interopRequireDefault(require("./LandingTimeline"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _landing = _interopRequireDefault(require("./landing.scss"));
+function Filter(props) {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "filter-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "filter-button-container"
+  }, /*#__PURE__*/_react.default.createElement(_FilterButton.default, {
+    handleClick: function handleClick() {
+      return props.handleClick(0);
+    },
+    selected: props.filter0,
+    text: "Historie"
+  }), /*#__PURE__*/_react.default.createElement(_FilterButton.default, {
+    handleClick: function handleClick() {
+      return props.handleClick(1);
+    },
+    selected: props.filter1,
+    text: "Stanov\xE9\xA0t\xE1bory"
+  }), /*#__PURE__*/_react.default.createElement(_FilterButton.default, {
+    handleClick: function handleClick() {
+      return props.handleClick(2);
+    },
+    selected: props.filter2,
+    text: "Výpravy"
+  })));
+}
+
+var _default = Filter;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./FilterButton":"components/timeline/filter/FilterButton.jsx","./filter.scss":"components/timeline/filter/filter.scss"}],"public/images/preview/1945-0.jpg":[function(require,module,exports) {
+module.exports = "/1945-0.16f508c3.jpg";
+},{}],"public/images/preview/1946-0.jpg":[function(require,module,exports) {
+module.exports = "/1946-0.1be95022.jpg";
+},{}],"public/images/preview/1946-1.jpg":[function(require,module,exports) {
+module.exports = "/1946-1.c6f1a639.jpg";
+},{}],"public/images/preview/1947-0.jpg":[function(require,module,exports) {
+module.exports = "/1947-0.7647081e.jpg";
+},{}],"public/images/preview/1947-1.jpg":[function(require,module,exports) {
+module.exports = "/1947-1.4367e3be.jpg";
+},{}],"public/images/preview/1947-2.jpg":[function(require,module,exports) {
+module.exports = "/1947-2.2346e71a.jpg";
+},{}],"public/images/preview/1949-0.jpg":[function(require,module,exports) {
+module.exports = "/1949-0.8cd9bacf.jpg";
+},{}],"public/images/preview/1950-0.jpg":[function(require,module,exports) {
+module.exports = "/1950-0.c0811279.jpg";
+},{}],"public/images/preview/1951-0.jpg":[function(require,module,exports) {
+module.exports = "/1951-0.6131c778.jpg";
+},{}],"public/images/preview/1952-0.jpg":[function(require,module,exports) {
+module.exports = "/1952-0.76cb1af0.jpg";
+},{}],"public/images/preview/1953-0.jpg":[function(require,module,exports) {
+module.exports = "/1953-0.ac696b00.jpg";
+},{}],"public/images/preview/1954-0.jpg":[function(require,module,exports) {
+module.exports = "/1954-0.a2dbe246.jpg";
+},{}],"public/images/preview/1955-0.jpg":[function(require,module,exports) {
+module.exports = "/1955-0.57f6f76d.jpg";
+},{}],"public/images/preview/1956-0.jpg":[function(require,module,exports) {
+module.exports = "/1956-0.bc14a797.jpg";
+},{}],"public/images/preview/1957-0.jpg":[function(require,module,exports) {
+module.exports = "/1957-0.a183d6c1.jpg";
+},{}],"public/images/preview/1958-0.jpg":[function(require,module,exports) {
+module.exports = "/1958-0.6137cd2b.jpg";
+},{}],"public/images/preview/1958-1.jpg":[function(require,module,exports) {
+module.exports = "/1958-1.374ad906.jpg";
+},{}],"public/images/preview/1958-2.jpg":[function(require,module,exports) {
+module.exports = "/1958-2.5ed08d21.jpg";
+},{}],"public/images/preview/1959-0.jpg":[function(require,module,exports) {
+module.exports = "/1959-0.d789f39a.jpg";
+},{}],"public/images/preview/1961-0.jpg":[function(require,module,exports) {
+module.exports = "/1961-0.74e75537.jpg";
+},{}],"public/images/preview/1962-0.jpg":[function(require,module,exports) {
+module.exports = "/1962-0.e00a9c38.jpg";
+},{}],"public/images/preview/1962-1.jpg":[function(require,module,exports) {
+module.exports = "/1962-1.5c98ae44.jpg";
+},{}],"public/images/preview/1964-0.jpg":[function(require,module,exports) {
+module.exports = "/1964-0.97fada9a.jpg";
+},{}],"public/images/preview/1968-0.jpg":[function(require,module,exports) {
+module.exports = "/1968-0.3602f717.jpg";
+},{}],"public/images/preview/1968-1.jpg":[function(require,module,exports) {
+module.exports = "/1968-1.d6ebbd21.jpg";
+},{}],"public/images/preview/1971-0.jpg":[function(require,module,exports) {
+module.exports = "/1971-0.5b35e5de.jpg";
+},{}],"public/images/preview/1977-0.jpg":[function(require,module,exports) {
+module.exports = "/1977-0.d95082bb.jpg";
+},{}],"public/images/preview/1980-0.jpg":[function(require,module,exports) {
+module.exports = "/1980-0.cd6f0fd1.jpg";
+},{}],"public/images/preview/1985-0.jpg":[function(require,module,exports) {
+module.exports = "/1985-0.2708f188.jpg";
+},{}],"public/images/preview/1989-0.jpg":[function(require,module,exports) {
+module.exports = "/1989-0.7efc8a0c.jpg";
+},{}],"public/images/preview/1990-0.jpg":[function(require,module,exports) {
+module.exports = "/1990-0.bbdee1c5.jpg";
+},{}],"public/images/preview/1990-1.jpg":[function(require,module,exports) {
+module.exports = "/1990-1.9b73e4e5.jpg";
+},{}],"public/images/preview/1991-0.jpg":[function(require,module,exports) {
+module.exports = "/1991-0.b7e48a52.jpg";
+},{}],"public/images/preview/1992-0.jpg":[function(require,module,exports) {
+module.exports = "/1992-0.57b87e30.jpg";
+},{}],"public/images/preview/1994-0.jpg":[function(require,module,exports) {
+module.exports = "/1994-0.6cbec1a6.jpg";
+},{}],"public/images/preview/1996-0.jpg":[function(require,module,exports) {
+module.exports = "/1996-0.586a9db0.jpg";
+},{}],"public/images/preview/2001-0.jpg":[function(require,module,exports) {
+module.exports = "/2001-0.aee01183.jpg";
+},{}],"public/images/preview/2005-0.jpg":[function(require,module,exports) {
+module.exports = "/2005-0.fd52ac11.jpg";
+},{}],"public/images/preview/2008-0.jpg":[function(require,module,exports) {
+module.exports = "/2008-0.3745e9d8.jpg";
+},{}],"public/images/preview/2011-0.jpg":[function(require,module,exports) {
+module.exports = "/2011-0.7ce687ac.jpg";
+},{}],"public/images/preview/2011-1.jpg":[function(require,module,exports) {
+module.exports = "/2011-1.dcf9c03b.jpg";
+},{}],"public/images/preview/2015-0.jpg":[function(require,module,exports) {
+module.exports = "/2015-0.c73e39b4.jpg";
+},{}],"public/images/preview/2019-0.jpg":[function(require,module,exports) {
+module.exports = "/2019-0.a182832d.jpg";
+},{}],"public/images/preview/2020-0.jpg":[function(require,module,exports) {
+module.exports = "/2020-0.4da3116b.jpg";
+},{}],"public/images/preview/fotka-0.jpg":[function(require,module,exports) {
+module.exports = "/fotka-0.236f6360.jpg";
+},{}],"public/images/preview/fotka-1.jpg":[function(require,module,exports) {
+module.exports = "/fotka-1.23e9fef1.jpg";
+},{}],"public/images/preview/fotka-2.jpg":[function(require,module,exports) {
+module.exports = "/fotka-2.2949157c.jpg";
+},{}],"public/images/preview/fotka-3.jpg":[function(require,module,exports) {
+module.exports = "/fotka-3.3a720ef2.jpg";
+},{}],"public/images/preview/fotka-4.jpg":[function(require,module,exports) {
+module.exports = "/fotka-4.5598e2b9.jpg";
+},{}],"public/images/preview/fotka-5.jpg":[function(require,module,exports) {
+module.exports = "/fotka-5.ceba0309.jpg";
+},{}],"public/images/timeline/h-1945-0.jpg":[function(require,module,exports) {
+module.exports = "/h-1945-0.38e318e6.jpg";
+},{}],"public/images/timeline/h-1945-1.jpg":[function(require,module,exports) {
+module.exports = "/h-1945-1.3c3a2298.jpg";
+},{}],"public/images/timeline/h-1945-2.jpg":[function(require,module,exports) {
+module.exports = "/h-1945-2.80decb8d.jpg";
+},{}],"public/texts/data_45-h.txt":[function(require,module,exports) {
+module.exports = "/data_45-h.023c3f3e.txt";
+},{}],"components/landing/ImagePaths.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  "1945-0.jpg": require("../../public/images/preview/1945-0.jpg"),
+  "1946-0.jpg": require("../../public/images/preview/1946-0.jpg"),
+  "1946-1.jpg": require("../../public/images/preview/1946-1.jpg"),
+  "1947-0.jpg": require("../../public/images/preview/1947-0.jpg"),
+  "1947-1.jpg": require("../../public/images/preview/1947-1.jpg"),
+  "1947-2.jpg": require("../../public/images/preview/1947-2.jpg"),
+  "1949-0.jpg": require("../../public/images/preview/1949-0.jpg"),
+  "1950-0.jpg": require("../../public/images/preview/1950-0.jpg"),
+  "1951-0.jpg": require("../../public/images/preview/1951-0.jpg"),
+  "1952-0.jpg": require("../../public/images/preview/1952-0.jpg"),
+  "1953-0.jpg": require("../../public/images/preview/1953-0.jpg"),
+  "1954-0.jpg": require("../../public/images/preview/1954-0.jpg"),
+  "1955-0.jpg": require("../../public/images/preview/1955-0.jpg"),
+  "1956-0.jpg": require("../../public/images/preview/1956-0.jpg"),
+  "1957-0.jpg": require("../../public/images/preview/1957-0.jpg"),
+  "1958-0.jpg": require("../../public/images/preview/1958-0.jpg"),
+  "1958-1.jpg": require("../../public/images/preview/1958-1.jpg"),
+  "1958-2.jpg": require("../../public/images/preview/1958-2.jpg"),
+  "1959-0.jpg": require("../../public/images/preview/1959-0.jpg"),
+  "1961-0.jpg": require("../../public/images/preview/1961-0.jpg"),
+  "1962-0.jpg": require("../../public/images/preview/1962-0.jpg"),
+  "1962-1.jpg": require("../../public/images/preview/1962-1.jpg"),
+  "1964-0.jpg": require("../../public/images/preview/1964-0.jpg"),
+  "1968-0.jpg": require("../../public/images/preview/1968-0.jpg"),
+  "1968-1.jpg": require("../../public/images/preview/1968-1.jpg"),
+  "1971-0.jpg": require("../../public/images/preview/1971-0.jpg"),
+  "1977-0.jpg": require("../../public/images/preview/1977-0.jpg"),
+  "1980-0.jpg": require("../../public/images/preview/1980-0.jpg"),
+  "1985-0.jpg": require("../../public/images/preview/1985-0.jpg"),
+  "1989-0.jpg": require("../../public/images/preview/1989-0.jpg"),
+  "1990-0.jpg": require("../../public/images/preview/1990-0.jpg"),
+  "1990-1.jpg": require("../../public/images/preview/1990-1.jpg"),
+  "1991-0.jpg": require("../../public/images/preview/1991-0.jpg"),
+  "1992-0.jpg": require("../../public/images/preview/1992-0.jpg"),
+  "1994-0.jpg": require("../../public/images/preview/1994-0.jpg"),
+  "1996-0.jpg": require("../../public/images/preview/1996-0.jpg"),
+  "2001-0.jpg": require("../../public/images/preview/2001-0.jpg"),
+  "2005-0.jpg": require("../../public/images/preview/2005-0.jpg"),
+  "2008-0.jpg": require("../../public/images/preview/2008-0.jpg"),
+  "2011-0.jpg": require("../../public/images/preview/2011-0.jpg"),
+  "2011-1.jpg": require("../../public/images/preview/2011-1.jpg"),
+  "2015-0.jpg": require("../../public/images/preview/2015-0.jpg"),
+  "2019-0.jpg": require("../../public/images/preview/2019-0.jpg"),
+  "2020-0.jpg": require("../../public/images/preview/2020-0.jpg"),
+  "fotka-0.jpg": require("../../public/images/preview/fotka-0.jpg"),
+  "fotka-1.jpg": require("../../public/images/preview/fotka-1.jpg"),
+  "fotka-2.jpg": require("../../public/images/preview/fotka-2.jpg"),
+  "fotka-3.jpg": require("../../public/images/preview/fotka-3.jpg"),
+  "fotka-4.jpg": require("../../public/images/preview/fotka-4.jpg"),
+  "fotka-5.jpg": require("../../public/images/preview/fotka-5.jpg"),
+  "h-1945-0.jpg": require("../../public/images/timeline/h-1945-0.jpg"),
+  "h-1945-1.jpg": require("../../public/images/timeline/h-1945-1.jpg"),
+  "h-1945-2.jpg": require("../../public/images/timeline/h-1945-2.jpg"),
+  "data_45-h.txt": require("../../public/texts/data_45-h.txt")
+};
+exports.default = _default;
+},{"../../public/images/preview/1945-0.jpg":"public/images/preview/1945-0.jpg","../../public/images/preview/1946-0.jpg":"public/images/preview/1946-0.jpg","../../public/images/preview/1946-1.jpg":"public/images/preview/1946-1.jpg","../../public/images/preview/1947-0.jpg":"public/images/preview/1947-0.jpg","../../public/images/preview/1947-1.jpg":"public/images/preview/1947-1.jpg","../../public/images/preview/1947-2.jpg":"public/images/preview/1947-2.jpg","../../public/images/preview/1949-0.jpg":"public/images/preview/1949-0.jpg","../../public/images/preview/1950-0.jpg":"public/images/preview/1950-0.jpg","../../public/images/preview/1951-0.jpg":"public/images/preview/1951-0.jpg","../../public/images/preview/1952-0.jpg":"public/images/preview/1952-0.jpg","../../public/images/preview/1953-0.jpg":"public/images/preview/1953-0.jpg","../../public/images/preview/1954-0.jpg":"public/images/preview/1954-0.jpg","../../public/images/preview/1955-0.jpg":"public/images/preview/1955-0.jpg","../../public/images/preview/1956-0.jpg":"public/images/preview/1956-0.jpg","../../public/images/preview/1957-0.jpg":"public/images/preview/1957-0.jpg","../../public/images/preview/1958-0.jpg":"public/images/preview/1958-0.jpg","../../public/images/preview/1958-1.jpg":"public/images/preview/1958-1.jpg","../../public/images/preview/1958-2.jpg":"public/images/preview/1958-2.jpg","../../public/images/preview/1959-0.jpg":"public/images/preview/1959-0.jpg","../../public/images/preview/1961-0.jpg":"public/images/preview/1961-0.jpg","../../public/images/preview/1962-0.jpg":"public/images/preview/1962-0.jpg","../../public/images/preview/1962-1.jpg":"public/images/preview/1962-1.jpg","../../public/images/preview/1964-0.jpg":"public/images/preview/1964-0.jpg","../../public/images/preview/1968-0.jpg":"public/images/preview/1968-0.jpg","../../public/images/preview/1968-1.jpg":"public/images/preview/1968-1.jpg","../../public/images/preview/1971-0.jpg":"public/images/preview/1971-0.jpg","../../public/images/preview/1977-0.jpg":"public/images/preview/1977-0.jpg","../../public/images/preview/1980-0.jpg":"public/images/preview/1980-0.jpg","../../public/images/preview/1985-0.jpg":"public/images/preview/1985-0.jpg","../../public/images/preview/1989-0.jpg":"public/images/preview/1989-0.jpg","../../public/images/preview/1990-0.jpg":"public/images/preview/1990-0.jpg","../../public/images/preview/1990-1.jpg":"public/images/preview/1990-1.jpg","../../public/images/preview/1991-0.jpg":"public/images/preview/1991-0.jpg","../../public/images/preview/1992-0.jpg":"public/images/preview/1992-0.jpg","../../public/images/preview/1994-0.jpg":"public/images/preview/1994-0.jpg","../../public/images/preview/1996-0.jpg":"public/images/preview/1996-0.jpg","../../public/images/preview/2001-0.jpg":"public/images/preview/2001-0.jpg","../../public/images/preview/2005-0.jpg":"public/images/preview/2005-0.jpg","../../public/images/preview/2008-0.jpg":"public/images/preview/2008-0.jpg","../../public/images/preview/2011-0.jpg":"public/images/preview/2011-0.jpg","../../public/images/preview/2011-1.jpg":"public/images/preview/2011-1.jpg","../../public/images/preview/2015-0.jpg":"public/images/preview/2015-0.jpg","../../public/images/preview/2019-0.jpg":"public/images/preview/2019-0.jpg","../../public/images/preview/2020-0.jpg":"public/images/preview/2020-0.jpg","../../public/images/preview/fotka-0.jpg":"public/images/preview/fotka-0.jpg","../../public/images/preview/fotka-1.jpg":"public/images/preview/fotka-1.jpg","../../public/images/preview/fotka-2.jpg":"public/images/preview/fotka-2.jpg","../../public/images/preview/fotka-3.jpg":"public/images/preview/fotka-3.jpg","../../public/images/preview/fotka-4.jpg":"public/images/preview/fotka-4.jpg","../../public/images/preview/fotka-5.jpg":"public/images/preview/fotka-5.jpg","../../public/images/timeline/h-1945-0.jpg":"public/images/timeline/h-1945-0.jpg","../../public/images/timeline/h-1945-1.jpg":"public/images/timeline/h-1945-1.jpg","../../public/images/timeline/h-1945-2.jpg":"public/images/timeline/h-1945-2.jpg","../../public/texts/data_45-h.txt":"public/texts/data_45-h.txt"}],"components/timeline/TimelineSection.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _ImagePaths = _interopRequireDefault(require("../landing/ImagePaths.jsx"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function TimelineSection(props) {
+  var openEvent = function openEvent(id) {
+    console.log(id);
+  };
+
+  var showContent = function showContent(types) {
+    var showIt = false;
+
+    if (props.filter[0] == false && props.filter[1] == false && props.filter[2] == false) {
+      return true;
+    }
+
+    if (props.filter[0] == true && types.includes("history")) {
+      return true;
+    }
+
+    if (props.filter[1] == true && types.includes("camp")) {
+      return true;
+    }
+
+    if (props.filter[2] == true && types.includes("trip")) {
+      return true;
+    }
+
+    return false;
+  };
+
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: props.red ? "landing-timeline-container red" : "landing-timeline-container gray"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "landing-tiles-container"
+  }, props.data.map(function (element) {
+    return /*#__PURE__*/_react.default.createElement("div", {
+      key: element.year
+    }, showContent(element.types) ? /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", {
+      className: "year-title"
+    }, element.year), /*#__PURE__*/_react.default.createElement("div", {
+      className: "tiles-container"
+    }, element.events.map(function (event) {
+      return /*#__PURE__*/_react.default.createElement("div", {
+        className: "tiles-subcontainer",
+        key: event.ID
+      }, showContent(event.type) ? /*#__PURE__*/_react.default.createElement("div", {
+        className: "tile-wrap"
+      }, /*#__PURE__*/_react.default.createElement("img", {
+        src: _ImagePaths.default[event.preview],
+        className: "tile-image"
+      }), /*#__PURE__*/_react.default.createElement("div", {
+        className: "tile-label"
+      }, event.text)) : /*#__PURE__*/_react.default.createElement("div", null));
+    }))) : /*#__PURE__*/_react.default.createElement("div", null));
+  })));
+}
+
+var _default = TimelineSection;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../landing/ImagePaths.jsx":"components/landing/ImagePaths.jsx"}],"data/data_45-50.json":[function(require,module,exports) {
+module.exports = [{
+  "year": 1946,
+  "types": ["history", "camp"],
+  "events": [{
+    "ID": 2,
+    "preview": "1946-0.jpg",
+    "text": "Vznik 94. oddílu",
+    "type": ["history"],
+    "content": {
+      "type": ["both"],
+      "text": "data_45-h.txt",
+      "photos": ["h-1945-0.jpg", "h-1945-1.jpg", "h-1945-2.jpg"]
+    }
+  }, {
+    "ID": 3,
+    "preview": "1946-1.jpg",
+    "text": "Stanový tábor, louka Havran",
+    "type": ["camp"],
+    "content": {
+      "type": "",
+      "text": "",
+      "photos": ""
+    }
+  }]
+}, {
+  "year": 1947,
+  "types": ["history", "camp", "trip"],
+  "events": [{
+    "ID": 4,
+    "preview": "1947-0.jpg",
+    "text": "Nová klubovna",
+    "type": ["history"],
+    "content": {}
+  }, {
+    "ID": 5,
+    "preview": "1947-1.jpg",
+    "text": "Stanový tábor, Hrotovice",
+    "type": ["camp"],
+    "content": {}
+  }, {
+    "ID": 6,
+    "preview": "1947-2.jpg",
+    "text": "Putovní tábor, Slovensko",
+    "type": ["trip"],
+    "content": {}
+  }]
+}, {
+  "year": 1949,
+  "types": ["camp"],
+  "events": [{
+    "ID": 7,
+    "preview": "1949-0.jpg",
+    "text": "Stanový tábor, Volary",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 1950,
+  "types": ["camp"],
+  "events": [{
+    "ID": 8,
+    "preview": "1950-0.jpg",
+    "text": "Stanový tábor, Bahniska",
+    "type": ["camp"],
+    "content": {}
+  }]
+}];
+},{}],"data/data_51-67.json":[function(require,module,exports) {
+module.exports = [{
+  "year": 1951,
+  "types": ["history", "trip"],
+  "events": [{
+    "ID": 9,
+    "preview": "fotka-3.jpg",
+    "text": "Zrušení skautingu",
+    "type": ["history"],
+    "content": {}
+  }, {
+    "ID": 10,
+    "preview": "1951-0.jpg",
+    "text": "Putovní tábor, Slovensko",
+    "type": ["trip"],
+    "content": {}
+  }]
+}, {
+  "year": 1952,
+  "types": ["trip"],
+  "events": [{
+    "ID": 11,
+    "preview": "1952-0.jpg",
+    "text": "Putovní tábor, Severní Čechy",
+    "type": ["trip"],
+    "content": {}
+  }]
+}, {
+  "year": 1953,
+  "types": ["trip"],
+  "events": [{
+    "ID": 12,
+    "preview": "1953-0.jpg",
+    "text": "Putovní tábor, Jižní Čechy",
+    "type": ["trip"],
+    "content": {}
+  }]
+}, {
+  "year": 1954,
+  "types": ["camp"],
+  "events": [{
+    "ID": 13,
+    "preview": "1954-0.jpg",
+    "text": "Stanový tábor, Vysoké Tatry",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 1955,
+  "types": ["trip"],
+  "events": [{
+    "ID": 14,
+    "preview": "1955-0.jpg",
+    "text": "Putovní tábor, Slovenský ráj",
+    "type": ["trip"],
+    "content": {}
+  }]
+}, {
+  "year": 1956,
+  "types": ["camp"],
+  "events": [{
+    "ID": 15,
+    "preview": "1956-0.jpg",
+    "text": "Stanový tábor, Police",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 1957,
+  "types": ["camp"],
+  "events": [{
+    "ID": 16,
+    "preview": "1957-0.jpg",
+    "text": "Stanový tábor, Orava",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 1958,
+  "types": ["history", "camp", "trip"],
+  "events": [{
+    "ID": 17,
+    "preview": "1958-0.jpg",
+    "text": "Stavba základny Locanda",
+    "type": ["history"],
+    "content": {}
+  }, {
+    "ID": 18,
+    "preview": "1958-1.jpg",
+    "text": "Stanový tábor, Peklo",
+    "type": ["camp"],
+    "content": {}
+  }, {
+    "ID": 19,
+    "preview": "1958-2.jpg",
+    "text": "Putovní tábor, Severní Čechy",
+    "type": ["trip"],
+    "content": {}
+  }]
+}, {
+  "year": 1959,
+  "types": ["trip"],
+  "events": [{
+    "ID": 20,
+    "preview": "1959-0.jpg",
+    "text": "Putovní tábor, Jižní Čechy",
+    "type": ["trip"],
+    "content": {}
+  }]
+}, {
+  "year": 1960,
+  "types": ["camp"],
+  "events": [{
+    "ID": 21,
+    "preview": "fotka-4.jpg",
+    "text": "Stanový tábor, přehrada Jevišovice",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 1961,
+  "types": ["trip"],
+  "events": [{
+    "ID": 22,
+    "preview": "1961-0.jpg",
+    "text": "Putovní tábor, Slovenský ráj",
+    "type": ["trip"],
+    "content": {}
+  }]
+}, {
+  "year": 1962,
+  "types": ["history", "trip"],
+  "events": [{
+    "ID": 23,
+    "preview": "1962-0.jpg",
+    "text": "Dostavba základny Locanda",
+    "type": ["history"],
+    "content": {}
+  }, {
+    "ID": 24,
+    "preview": "1962-1.jpg",
+    "text": "Putovní tábor, Slovensko",
+    "type": ["trip"],
+    "content": {}
+  }]
+}, {
+  "year": 1964,
+  "types": ["trip"],
+  "events": [{
+    "ID": 25,
+    "preview": "1964-0.jpg",
+    "text": "Putovní tábor, Slovensko",
+    "type": ["trip"],
+    "content": {}
+  }]
+}, {
+  "year": 1965,
+  "types": ["history"],
+  "events": [{
+    "ID": 26,
+    "preview": "1958-0.jpg",
+    "text": "Konec tělovýchovné činnosti",
+    "type": ["history"],
+    "content": {}
+  }]
+}];
+},{}],"data/data_68-69.json":[function(require,module,exports) {
+module.exports = [{
+  "year": 1968,
+  "types": ["history", "camp"],
+  "events": [{
+    "ID": 27,
+    "preview": "1968-0.jpg",
+    "text": "Shrnutí čínnosti mezi lety 1946 až 1968",
+    "type": ["history"],
+    "content": {}
+  }, {
+    "ID": 28,
+    "preview": "1968-1.jpg",
+    "text": "Stanový tábor, Zahradiště",
+    "type": ["camp"],
+    "content": {}
+  }]
+}];
+},{}],"data/data_70-88.json":[function(require,module,exports) {
+module.exports = [{
+  "year": 1971,
+  "types": ["camp"],
+  "events": [{
+    "ID": 30,
+    "preview": "1971-0.jpg",
+    "text": "Stanový tábor, Nová říše",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 1977,
+  "types": ["camp"],
+  "events": [{
+    "ID": 31,
+    "preview": "1977-0.jpg",
+    "text": "Stanový tábor, Landštejn",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 1980,
+  "types": ["trip"],
+  "events": [{
+    "ID": 32,
+    "preview": "1980-0.jpg",
+    "text": "Putovní tábor, Slovenské rudohoří",
+    "type": ["trip"],
+    "content": {}
+  }]
+}, {
+  "year": 1984,
+  "types": ["camp"],
+  "events": [{
+    "ID": 33,
+    "preview": "fotka-2.jpg",
+    "text": "Stanový tábor, Vojtěchov",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 1985,
+  "types": ["camp"],
+  "events": [{
+    "ID": 34,
+    "preview": "1985-0.jpg",
+    "text": "Stanový tábor, Vidonín",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 1987,
+  "types": ["camp"],
+  "events": [{
+    "ID": 35,
+    "preview": "fotka-1.jpg",
+    "text": "Stanový tábor, Horní Kounice",
+    "type": ["camp"],
+    "content": {}
+  }]
+}];
+},{}],"data/data_89-21.json":[function(require,module,exports) {
+module.exports = [{
+  "year": 1989,
+  "types": ["history"],
+  "events": [{
+    "ID": 36,
+    "preview": "1989-0.jpg",
+    "text": "Sametová revoluce",
+    "type": ["history"],
+    "content": {}
+  }]
+}, {
+  "year": 1990,
+  "types": ["history", "camp", "trip"],
+  "events": [{
+    "ID": 37,
+    "preview": "1990-0.jpg",
+    "text": "Oddíl přebírá Čert a Mára",
+    "type": ["history"],
+    "content": {}
+  }, {
+    "ID": 38,
+    "preview": "1990-1.jpg",
+    "text": "Stanový tábor, Pyšel",
+    "type": ["camp"],
+    "content": {}
+  }, {
+    "ID": 39,
+    "preview": "fotka-2.jpg",
+    "text": "První oddílové Vánoce",
+    "type": ["trip"],
+    "content": {}
+  }]
+}, {
+  "year": 1991,
+  "types": ["camp"],
+  "events": [{
+    "ID": 40,
+    "preview": "1991-0.jpg",
+    "text": "Stanový tábor, Březinky",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 1992,
+  "types": ["camp"],
+  "events": [{
+    "ID": 41,
+    "preview": "1992-0.jpg",
+    "text": "Stanový tábor, Nové Syrovice",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 1994,
+  "types": ["camp"],
+  "events": [{
+    "ID": 42,
+    "preview": "1994-0.jpg",
+    "text": "Stanový tábor, Smilov",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 1996,
+  "types": ["history"],
+  "events": [{
+    "ID": 43,
+    "preview": "1996-0.jpg",
+    "text": "Oddíl přebírá Permon",
+    "type": ["history"],
+    "content": {}
+  }]
+}, {
+  "year": 2001,
+  "types": ["history"],
+  "events": [{
+    "ID": 44,
+    "preview": "2001-0.jpg",
+    "text": "Oddíl přebírá Permoník a Vilém",
+    "type": ["history"],
+    "content": {}
+  }]
+}, {
+  "year": 2005,
+  "types": ["history"],
+  "events": [{
+    "ID": 45,
+    "preview": "2005-0.jpg",
+    "text": "Oddíl přebírá Štěpán a Bíďa",
+    "type": ["history"],
+    "content": {}
+  }]
+}, {
+  "year": 2008,
+  "types": ["history"],
+  "events": [{
+    "ID": 46,
+    "preview": "2008-0.jpg",
+    "text": "Oddíl přebírá Radek",
+    "type": ["history"],
+    "content": {}
+  }]
+}, {
+  "year": 2011,
+  "types": ["history", "camp"],
+  "events": [{
+    "ID": 47,
+    "preview": "2011-0.jpg",
+    "text": "Oddíl přebírá Sysel, zástupce je Krtek, později Pepek",
+    "type": ["history"],
+    "content": {}
+  }, {
+    "ID": 48,
+    "preview": "2011-1.jpg",
+    "text": "Stanový tábor, Kostelní Myslová",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 2015,
+  "types": ["history"],
+  "events": [{
+    "ID": 49,
+    "preview": "2015-0.jpg",
+    "text": "Oddíl přebírá Boro, zástupce je Desert, později Jura",
+    "type": ["history"],
+    "content": {}
+  }]
+}, {
+  "year": 2019,
+  "types": ["camp"],
+  "events": [{
+    "ID": 50,
+    "preview": "2019-0.jpg",
+    "text": "Stanový tábor, Kdousov",
+    "type": ["camp"],
+    "content": {}
+  }]
+}, {
+  "year": 2020,
+  "types": ["history"],
+  "events": [{
+    "ID": 51,
+    "preview": "2020-0.jpg",
+    "text": "Oddíl přebírá Dubínek, zástupce je Mirek a Matěj",
+    "type": ["history"],
+    "content": {}
+  }]
+}];
+},{}],"components/timeline/timeline.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/timeline/Timeline.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _Filter = _interopRequireDefault(require("./filter/Filter"));
+
+var _TimelineSection = _interopRequireDefault(require("./TimelineSection"));
+
+var _data_ = _interopRequireDefault(require("../../data/data_45-50.json"));
+
+var _data_2 = _interopRequireDefault(require("../../data/data_51-67.json"));
+
+var _data_3 = _interopRequireDefault(require("../../data/data_68-69.json"));
+
+var _data_4 = _interopRequireDefault(require("../../data/data_70-88.json"));
+
+var _data_5 = _interopRequireDefault(require("../../data/data_89-21.json"));
+
+var _timeline = _interopRequireDefault(require("./timeline.scss"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function Timeline(props) {
+  // true - show, false - hide 
+  // false, false, false - show everything by default
+  var _useState = (0, _react.useState)(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      filter0 = _useState2[0],
+      setFilter0 = _useState2[1];
+
+  var _useState3 = (0, _react.useState)(false),
+      _useState4 = _slicedToArray(_useState3, 2),
+      filter1 = _useState4[0],
+      setFilter1 = _useState4[1];
+
+  var _useState5 = (0, _react.useState)(false),
+      _useState6 = _slicedToArray(_useState5, 2),
+      filter2 = _useState6[0],
+      setFilter2 = _useState6[1];
+
+  var changeFilter = function changeFilter(i) {
+    if (i == 0) {
+      setFilter0(!filter0);
+    } else if (i == 1) {
+      setFilter1(!filter1);
+    } else {
+      setFilter2(!filter2);
+    }
+  };
+
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", {
+    className: "landing-transition-bg"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "landing-transition-white"
+  })), /*#__PURE__*/_react.default.createElement(_Filter.default, {
+    handleClick: function handleClick(i) {
+      return changeFilter(i);
+    },
+    filter0: filter0,
+    filter1: filter1,
+    filter2: filter2
+  }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
+    data: _data_.default,
+    red: false,
+    filter: [filter0, filter1, filter2]
+  }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
+    data: _data_2.default,
+    red: true,
+    filter: [filter0, filter1, filter2]
+  }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
+    data: _data_3.default,
+    red: false,
+    filter: [filter0, filter1, filter2]
+  }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
+    data: _data_4.default,
+    red: true,
+    filter: [filter0, filter1, filter2]
+  }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
+    data: _data_5.default,
+    red: false,
+    filter: [filter0, filter1, filter2]
+  }));
+}
+
+var _default = Timeline;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./filter/Filter":"components/timeline/filter/Filter.jsx","./TimelineSection":"components/timeline/TimelineSection.jsx","../../data/data_45-50.json":"data/data_45-50.json","../../data/data_51-67.json":"data/data_51-67.json","../../data/data_68-69.json":"data/data_68-69.json","../../data/data_70-88.json":"data/data_70-88.json","../../data/data_89-21.json":"data/data_89-21.json","./timeline.scss":"components/timeline/timeline.scss"}],"components/landing/LandingPage.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Intro = _interopRequireDefault(require("../intro/Intro"));
+
+var _Books = _interopRequireDefault(require("../books/Books"));
+
+var _Timeline = _interopRequireDefault(require("../timeline/Timeline"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function LandingPage(props) {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-container"
-  }, /*#__PURE__*/_react.default.createElement(_LandingIntro.default, {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Intro.default, {
     handleHistoryPush: props.handleHistoryPush
-  }), /*#__PURE__*/_react.default.createElement(_LandingBooks.default, null), /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-transition-bg"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-transition-white"
-  })), /*#__PURE__*/_react.default.createElement(_LandingTimeline.default, null));
+  }), /*#__PURE__*/_react.default.createElement(_Books.default, null), /*#__PURE__*/_react.default.createElement(_Timeline.default, null));
 }
 
 var _default = LandingPage;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./LandingIntro":"components/landing/LandingIntro.jsx","./LandingBooks":"components/landing/LandingBooks.jsx","./LandingTimeline":"components/landing/LandingTimeline.jsx","./landing.scss":"components/landing/landing.scss"}],"components/App.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../intro/Intro":"components/intro/Intro.jsx","../books/Books":"components/books/Books.jsx","../timeline/Timeline":"components/timeline/Timeline.jsx"}],"components/App.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34390,7 +35198,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52025" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60304" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

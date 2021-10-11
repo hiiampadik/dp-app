@@ -1,0 +1,50 @@
+@import "../../style/variables.scss";
+
+.books-container{
+    width: 100%;
+    background: $bg-gray;
+    padding: 4em 3em 7em 3em;
+    display:flex;
+}
+
+.book-wrap{
+    position: relative;
+    margin-right: -3em;
+    width: calc((100vw - 6em)/15 + 3em/15*14);
+}
+
+.book-image{
+    width: 100%;
+    filter: drop-shadow(-5px 0px 10px rgba(0, 0, 0, 0.30));
+    transition: 0.4s;
+    transition-timing-function: ease;
+}
+
+.book-label{
+    font-size: 0.5em;
+    font-family: 'fontm';
+
+    position: absolute;
+    top: -8em;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    pointer-events: none;
+    /* transition effect. not necessary */
+    // transition: opacity .3s, visibility .3s;
+    transition-timing-function: ease;
+}
+
+.book-image:hover { 
+    transform: translateY(-1.5em);
+}
+
+.book-wrap:hover .book-label {
+    visibility: visible;
+    opacity: 1;
+  }

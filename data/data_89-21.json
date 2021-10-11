@@ -1,0 +1,193 @@
+[
+
+    {
+        "year": 1989,
+        "types": ["history"],
+        "events": [
+            {
+                "ID": 36,
+                "preview": "1989-0.jpg",
+                "text": "Sametová revoluce",
+                "type": ["history"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1990,
+        "types": ["history", "camp", "trip"],
+        "events": [
+            {
+                "ID": 37,
+                "preview": "1990-0.jpg",
+                "text": "Oddíl přebírá Čert a Mára",
+                "type": ["history"],
+                "content": {} 
+            },
+            {
+                "ID": 38,
+                "preview": "1990-1.jpg",
+                "text": "Stanový tábor, Pyšel",
+                "type": ["camp"],
+                "content": {} 
+            },
+            {
+                "ID": 39,
+                "preview": "fotka-2.jpg",
+                "text": "První oddílové Vánoce",
+                "type": ["trip"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1991,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 40,
+                "preview": "1991-0.jpg",
+                "text": "Stanový tábor, Březinky",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1992,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 41,
+                "preview": "1992-0.jpg",
+                "text": "Stanový tábor, Nové Syrovice",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1994,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 42,
+                "preview": "1994-0.jpg",
+                "text": "Stanový tábor, Smilov",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 1996,
+        "types": ["history"],
+        "events": [
+            {
+                "ID": 43,
+                "preview": "1996-0.jpg",
+                "text": "Oddíl přebírá Permon",
+                "type": ["history"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 2001,
+        "types": ["history"],
+        "events": [
+            {
+                "ID": 44,
+                "preview": "2001-0.jpg",
+                "text": "Oddíl přebírá Permoník a Vilém",
+                "type": ["history"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 2005,
+        "types": ["history"],
+        "events": [
+            {
+                "ID": 45,
+                "preview": "2005-0.jpg",
+                "text": "Oddíl přebírá Štěpán a Bíďa",
+                "type": ["history"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 2008,
+        "types": ["history"],
+        "events": [
+            {
+                "ID": 46,
+                "preview": "2008-0.jpg",
+                "text": "Oddíl přebírá Radek",
+                "type": ["history"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 2011,
+        "types": ["history", "camp"],
+        "events": [
+            {
+                "ID": 47,
+                "preview": "2011-0.jpg",
+                "text": "Oddíl přebírá Sysel, zástupce je Krtek, později Pepek",
+                "type": ["history"],
+                "content": {} 
+            },
+            {
+                "ID": 48,
+                "preview": "2011-1.jpg",
+                "text": "Stanový tábor, Kostelní Myslová",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 2015,
+        "types": ["history"],
+        "events": [
+            {
+                "ID": 49,
+                "preview": "2015-0.jpg",
+                "text": "Oddíl přebírá Boro, zástupce je Desert, později Jura",
+                "type": ["history"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "types": ["camp"],
+        "events": [
+            {
+                "ID": 50,
+                "preview": "2019-0.jpg",
+                "text": "Stanový tábor, Kdousov",
+                "type": ["camp"],
+                "content": {} 
+            }
+        ]
+    },
+    {
+        "year": 2020,
+        "types": ["history"],
+        "events": [
+            {
+                "ID": 51,
+                "preview": "2020-0.jpg",
+                "text": "Oddíl přebírá Dubínek, zástupce je Mirek a Matěj",
+                "type": ["history"],
+                "content": {} 
+            }
+        ]
+    }
+]
