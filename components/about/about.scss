@@ -3,7 +3,9 @@
 .about-container{
     width: 100vw;
     height: 100vh;
+    user-select: none;
 
+    
 }
 
 .about-text{
@@ -12,7 +14,8 @@
     top: 0;
     margin-left: 3em;
     margin-top: 3em;
-    user-select: none;
+    
+    pointer-events: none;
 }
 
 .about-text-title{
@@ -34,11 +37,11 @@
     padding-top: 9em;
     padding-bottom: 5em;
 
-    background-color: $bg-gray;
+    background-color: $gray1;
 }
 
 .about-mockup{
     width: 100%;
-    border-radius: 1em;
+    border-radius: $radius1;
 
 }

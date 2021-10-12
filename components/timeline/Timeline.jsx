@@ -29,20 +29,19 @@ function Timeline(props) {
         }
     }
 
-
     return (
         <div>
             <div className='landing-transition-bg'>
                 <div className='landing-transition-white'></div>
             </div>
 
-            <Filter handleClick={(i) => changeFilter(i)} filter0={filter0} filter1={filter1} filter2={filter2} />
+            <Filter handleClick={(index) => changeFilter(index)} filter0={filter0} filter1={filter1} filter2={filter2} />
 
-            <TimelineSection data={Data1} red={false} filter={[filter0, filter1, filter2]} />
-            <TimelineSection data={Data2} red={true} filter={[filter0, filter1, filter2]} />
-            <TimelineSection data={Data3} red={false} filter={[filter0, filter1, filter2]} />
-            <TimelineSection data={Data4} red={true} filter={[filter0, filter1, filter2]} />
-            <TimelineSection data={Data5} red={false} filter={[filter0, filter1, filter2]} />
+            <TimelineSection data={Data1} red={false} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)}/>
+            <TimelineSection data={Data2} red={true} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)}/>
+            <TimelineSection data={Data3} red={false} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)}/>
+            <TimelineSection data={Data4} red={true} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)}/>
+            <TimelineSection data={Data5} red={false} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)}/>
         </div>
     )
 }

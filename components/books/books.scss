@@ -3,7 +3,7 @@
 .books-container{
     width: 100%;
     background: $bg-gray;
-    padding: 4em 3em 7em 3em;
+    padding: 5rem 3rem 7rem 3rem;
     display:flex;
 }
 
@@ -21,11 +21,11 @@
 }
 
 .book-label{
-    font-size: 0.5em;
-    font-family: 'fontm';
+    font-size: 0.7rem;
+    // font-family: 'fontm';
 
     position: absolute;
-    top: -8em;
+    top: -5rem;
     left: 0;
     right: 0;
     visibility: hidden;

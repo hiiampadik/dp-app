@@ -7,7 +7,7 @@
             {
                 "ID": 36,
                 "preview": "1989-0.jpg",
-                "text": "Sametová revoluce",
+                "label": "Sametová revoluce",
                 "type": ["history"],
                 "content": {} 
             }
@@ -20,21 +20,21 @@
             {
                 "ID": 37,
                 "preview": "1990-0.jpg",
-                "text": "Oddíl přebírá Čert a Mára",
+                "label": "Oddíl přebírá Čert a Mára",
                 "type": ["history"],
                 "content": {} 
             },
             {
                 "ID": 38,
                 "preview": "1990-1.jpg",
-                "text": "Stanový tábor, Pyšel",
+                "label": "Stanový tábor, Pyšel",
                 "type": ["camp"],
                 "content": {} 
             },
             {
                 "ID": 39,
                 "preview": "fotka-2.jpg",
-                "text": "První oddílové Vánoce",
+                "label": "První oddílové Vánoce",
                 "type": ["trip"],
                 "content": {} 
             }
@@ -47,7 +47,7 @@
             {
                 "ID": 40,
                 "preview": "1991-0.jpg",
-                "text": "Stanový tábor, Březinky",
+                "label": "Stanový tábor, Březinky",
                 "type": ["camp"],
                 "content": {} 
             }
@@ -60,7 +60,7 @@
             {
                 "ID": 41,
                 "preview": "1992-0.jpg",
-                "text": "Stanový tábor, Nové Syrovice",
+                "label": "Stanový tábor, Nové Syrovice",
                 "type": ["camp"],
                 "content": {} 
             }
@@ -73,7 +73,7 @@
             {
                 "ID": 42,
                 "preview": "1994-0.jpg",
-                "text": "Stanový tábor, Smilov",
+                "label": "Stanový tábor, Smilov",
                 "type": ["camp"],
                 "content": {} 
             }
@@ -86,7 +86,7 @@
             {
                 "ID": 43,
                 "preview": "1996-0.jpg",
-                "text": "Oddíl přebírá Permon",
+                "label": "Oddíl přebírá Permon",
                 "type": ["history"],
                 "content": {} 
             }
@@ -99,7 +99,7 @@
             {
                 "ID": 44,
                 "preview": "2001-0.jpg",
-                "text": "Oddíl přebírá Permoník a Vilém",
+                "label": "Oddíl přebírá Permoník a Vilém",
                 "type": ["history"],
                 "content": {} 
             }
@@ -112,7 +112,7 @@
             {
                 "ID": 45,
                 "preview": "2005-0.jpg",
-                "text": "Oddíl přebírá Štěpán a Bíďa",
+                "label": "Oddíl přebírá Štěpán a Bíďa",
                 "type": ["history"],
                 "content": {} 
             }
@@ -125,7 +125,7 @@
             {
                 "ID": 46,
                 "preview": "2008-0.jpg",
-                "text": "Oddíl přebírá Radek",
+                "label": "Oddíl přebírá Radek",
                 "type": ["history"],
                 "content": {} 
             }
@@ -138,14 +138,14 @@
             {
                 "ID": 47,
                 "preview": "2011-0.jpg",
-                "text": "Oddíl přebírá Sysel, zástupce je Krtek, později Pepek",
+                "label": "Oddíl přebírá Sysel, zástupce je Krtek, později Pepek",
                 "type": ["history"],
                 "content": {} 
             },
             {
                 "ID": 48,
                 "preview": "2011-1.jpg",
-                "text": "Stanový tábor, Kostelní Myslová",
+                "label": "Stanový tábor, Kostelní Myslová",
                 "type": ["camp"],
                 "content": {} 
             }
@@ -158,7 +158,7 @@
             {
                 "ID": 49,
                 "preview": "2015-0.jpg",
-                "text": "Oddíl přebírá Boro, zástupce je Desert, později Jura",
+                "label": "Oddíl přebírá Boro, zástupce je Desert, později Jura",
                 "type": ["history"],
                 "content": {} 
             }
@@ -171,7 +171,7 @@
             {
                 "ID": 50,
                 "preview": "2019-0.jpg",
-                "text": "Stanový tábor, Kdousov",
+                "label": "Stanový tábor, Kdousov",
                 "type": ["camp"],
                 "content": {} 
             }
@@ -184,7 +184,7 @@
             {
                 "ID": 51,
                 "preview": "2020-0.jpg",
-                "text": "Oddíl přebírá Dubínek, zástupce je Mirek a Matěj",
+                "label": "Oddíl přebírá Dubínek, zástupce je Mirek a Matěj",
                 "type": ["history"],
                 "content": {} 
             }

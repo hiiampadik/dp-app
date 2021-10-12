@@ -17,8 +17,8 @@
 
 
 .filter-button{
-    background: $bg-gray-light;
-    // border: 0.5px solid rgb(220, 220, 220);
+    // background: $bg-gray-light;
+    border: 1px solid $gray5;
     padding: 0.5em 1.5em 0.5em 1.5em;
     margin-right: 0.5rem;
 
@@ -30,21 +30,27 @@
     transition: 0.3s;
 }
 
+.filter-button:hover{
+    background: $gray1;
+}
 
 .filter-button:active{
-    background: $bg-green;
-    // border: 0.5px solid rgb(140, 140, 140);
-    transition: 0.1s;
+    background: $gray4;
+    border: 1px solid $gray4;
 }
+
 
 .filter-button-selected{
-    background: $bg-green;
-    // border: 0.5px solid rgb(140, 140, 140);
-    transition: 0.3s;
+    background: $gray5;
+    border: 1px solid $gray5;
+    transition: 0.2s;
 }
 
+.filter-button-selected:hover{
+    background: $gray4;
+    border: 1px solid $gray4;
+}
 
 .filter-button-selected:active{
-    background: $bg-gray-light;
-    // border: 0.5px solid rgb(220, 220, 220);
+    background: $gray1;
 }

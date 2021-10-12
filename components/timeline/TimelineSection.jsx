@@ -1,6 +1,6 @@
 import React from 'react'
 
-import images from "../landing/ImagePaths.jsx";
+import images from "../landing/ImagePreviewPaths.jsx";
 
 function TimelineSection(props) {
 
@@ -42,9 +42,9 @@ function TimelineSection(props) {
                                             return (
                                                 <div className="tiles-subcontainer" key={event.ID}>
                                                     {showContent(event.type) ?
-                                                        <div className="tile-wrap" >
+                                                        <div className="tile-wrap" onClick={() => props.handleClick(event)}>
                                                             <img src={images[event.preview]} className="tile-image" />
-                                                            <div className="tile-label">{event.text}</div>
+                                                            <div className="tile-label">{event.label}</div>
                                                         </div>
                                                         :
                                                         <div></div>

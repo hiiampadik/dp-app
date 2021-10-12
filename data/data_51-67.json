@@ -7,16 +7,26 @@
             {
                 "ID": 9,
                 "preview": "fotka-3.jpg",
-                "text": "Zrušení skautingu",
+                "label": "Zrušení skautingu",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["text"],
+                    "title": "1951",
+                    "subtitle": "Zrušení skautingu",
+                    "text": "V lednu už šlo do tuhého. Na akčním výboru jsme odevzdali seznam inventáře horní klubovny. Klíče jsme si ještě ponechali, abychom mohli odvézt skříně z dolní klubovny nahoru. Mluvilo se okolo toho dost dlouho a měl to na starost Ťéša, a nakonec jsme to odvezli 13. 1. společně na vozíku Clipsova strýce (Clips, Ťéša, Bacil, Šerif). Klíče musel zanést Ťéša na stanici sám. Z dolní klubovny jsme dali výpověď. Chtěli jsme se též společně vyfotografovat, ale sešlo z toho. Na každé radě měl Duchaň chvíli chemické teorie a potom jsme dělali obdivuhodné, často ohavně čpící pokusy. Ke konci měsíce jsme přestali rady svolávat (není ani zapotřebí), a tak naše „Bobří hráz“ úplně osiřela.\nV polovině ledna jsme provedli nábor mezi žactvem naší jednotky, který měl dobré výsledky (bohužel máme málo rádců). Už 17. 1. 1951, ve středu, sešla se 1. družina pobytu v přírodě při sokolu mez židenice ve velmi pěkné klubovně na dvoře Sokolovny. Rádcem družiny je M. Paul (Bacil), zástupce L. Krejčí (Šutrin), členové jsou většinou bývalí Albatrosi 94. bo."
+                } 
             },
             {
                 "ID": 10,
                 "preview": "1951-0.jpg",
-                "text": "Putovní tábor, Slovensko",
+                "label": "Putovní tábor\nSlovensko",
                 "type": ["trip"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1951",
+                    "subtitle": "Cyklistický čtrnáctidenní putovní tábor\nSlovensko, 16.–28. 7.",
+                    "photos": ["p-1951-1.jpg", "p-1951-0.jpg", "p-1951-2.jpg", "p-1951-3.jpg"]
+                } 
             }
         ]
     },
@@ -27,9 +37,14 @@
             {
                 "ID": 11,
                 "preview": "1952-0.jpg",
-                "text": "Putovní tábor, Severní Čechy",
+                "label": "Putovní tábor\nseverní Čechy",
                 "type": ["trip"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1952",
+                    "subtitle": "Cyklistický čtrnáctidenní putovní tábor\nseverní Čechy",
+                    "photos": ["p-1952-0.jpg", "p-1952-1.jpg"]
+                } 
             }
         ]
     },
@@ -40,9 +55,14 @@
             {
                 "ID": 12,
                 "preview": "1953-0.jpg",
-                "text": "Putovní tábor, Jižní Čechy",
+                "label": "Putovní tábor\njižní Čechy",
                 "type": ["trip"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1943",
+                    "subtitle": "Cyklistický čtrnáctidenní putovní tábor\njižní Čechy",
+                    "photos": ["p-1953-0", "p-1953-1"]
+                } 
             }
         ]
     },
@@ -53,9 +73,14 @@
             {
                 "ID": 13,
                 "preview": "1954-0.jpg",
-                "text": "Stanový tábor, Vysoké Tatry",
+                "label": "Stanový tábor\nVysoké Tatry",
                 "type": ["camp"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1954",
+                    "subtitle": "Stanový tábor\nVysoké Tatry nad Pribylinou\n(okres Liptovský Mikuláš)",
+                    "photos": ["t-1954-0.jpg", "t-1954-1.jpg", "t-1954-2.jpg"]
+                } 
             }
         ]
     },
@@ -66,9 +91,14 @@
             {
                 "ID": 14,
                 "preview": "1955-0.jpg",
-                "text": "Putovní tábor, Slovenský ráj",
+                "label": "Putovní tábor\nSlovenský ráj",
                 "type": ["trip"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1955",
+                    "subtitle": "Putovní tábor\nSlovenský ráj",
+                    "photos": ["p-1955-0.jpg", "p-1955-1.jpg"]
+                } 
             }
         ]
     },
@@ -79,9 +109,14 @@
             {
                 "ID": 15,
                 "preview": "1956-0.jpg",
-                "text": "Stanový tábor, Police",
+                "label": "Stanový tábor\nPolice nad Metují",
                 "type": ["camp"],
-                "content": {} 
+                "content": {
+                    "type": ["both"],
+                    "title": "1956",
+                    "subtitle": "Stanový tábor\nPolice nad Metují (okres Náchod)",
+                    "photos": ["t-1956-0.jpg", "t-1956-1.jpg"]
+                } 
             }
         ]
     },
@@ -92,9 +127,14 @@
             {
                 "ID": 16,
                 "preview": "1957-0.jpg",
-                "text": "Stanový tábor, Orava",
+                "label": "Stanový tábor\nOrava",
                 "type": ["camp"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1957",
+                    "subtitle": "Stanový tábor\nOrava (okres Námestovo)",
+                    "photos": ["t-1957-0.jpg","t-1957-1.jpg","t-1957-2.jpg","t-1957-3.jpg"]
+                } 
             }
         ]
     },
@@ -105,23 +145,39 @@
             {
                 "ID": 17,
                 "preview": "1958-0.jpg",
-                "text": "Stavba základny Locanda",
+                "label": "Stavba základny Locanda",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["both"],
+                    "title": "Osada Locanda",
+                    "subtitle": "Stavba 1958–1962",
+                    "text": "Roku 1965 ukončil oddíl činnost v tělovýchově a starší členové pokračovali jako trempská osada „Locanda“ se sídlem na Říčkách za Líšní.\n\nZ tohoto období stojí za zmínku, že br. Mirek Klepáč i br. Vladimír Rosol byli vyšetřování příslušníky stb pro prováděnou zakázanou junáckou činnost v turistickém oddíle.",
+                    "photos": ["h-1958-0.jpg", "h-1958-0.jpg"]
+                } 
             },
             {
                 "ID": 18,
                 "preview": "1958-1.jpg",
-                "text": "Stanový tábor, Peklo",
+                "label": "Stanový tábor\nPeklo u Netína",
                 "type": ["camp"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1958",
+                    "subtitle": "Stanový tábor\nPeklo u Netína (okres Žďár nad Sázavou)",
+                    "photos": ["t-1958-0.jpg","t-1958-1.jpg","t-1958-2.jpg","t-1958-3.jpg"]
+                } 
             },
             {
                 "ID": 19,
                 "preview": "1958-2.jpg",
-                "text": "Putovní tábor, Severní Čechy",
+                "label": "Putovní tábor\nseverní Čechy",
                 "type": ["trip"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1958",
+                    "subtitle": "Cyklistický putovní tábor\nseverní Čechy",
+                    "photos": ["p-1958-0.jpg","p-1958-1.jpg","p-1958-2.jpg","p-1958-3.jpg"]
+                } 
             }
         ]
     },
@@ -132,9 +188,14 @@
             {
                 "ID": 20,
                 "preview": "1959-0.jpg",
-                "text": "Putovní tábor, Jižní Čechy",
+                "label": "Putovní tábor\njižní Čechy",
                 "type": ["trip"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1959",
+                    "subtitle": "Cyklistický putovní tábor\njižní Čechy",
+                    "photos": ["p-1959-0.jpg","p-1959-1.jpg","p-1959-2.jpg","p-1959-3.jpg"]
+                } 
             }
         ]
     },
@@ -145,9 +206,11 @@
             {
                 "ID": 21,
                 "preview": "fotka-4.jpg",
-                "text": "Stanový tábor, přehrada Jevišovice",
+                "label": "Stanový tábor\nPřehrada Jevišovice (okres Znojmo)",
                 "type": ["camp"],
-                "content": {} 
+                "content": {
+                    "type": ["none"]
+                } 
             }
         ]
     },
@@ -158,9 +221,14 @@
             {
                 "ID": 22,
                 "preview": "1961-0.jpg",
-                "text": "Putovní tábor, Slovenský ráj",
+                "label": "Putovní tábor\nSlovenský ráj",
                 "type": ["trip"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1961",
+                    "subtitle": "Putovní tábor\nSlovenský ráj – Tatry",
+                    "photos": ["p-1961-0.jpg", "p-1961-1.jpg"]
+                } 
             }
         ]
     },
@@ -171,16 +239,27 @@
             {
                 "ID": 23,
                 "preview": "1962-0.jpg",
-                "text": "Dostavba základny Locanda",
+                "label": "Dostavba základny Locanda",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["both"],
+                    "title": "Osada Locanda",
+                    "subtitle": "Stavba 1958–1962",
+                    "text": "Roku 1965 ukončil oddíl činnost v tělovýchově a starší členové pokračovali jako trempská osada „Locanda“ se sídlem na Říčkách za Líšní.\n\nZ tohoto období stojí za zmínku, že br. Mirek Klepáč i br. Vladimír Rosol byli vyšetřování příslušníky stb pro prováděnou zakázanou junáckou činnost v turistickém oddíle.",
+                    "photos": ["h-1958-0.jpg", "h-1958-0.jpg"]
+                } 
             },
             {
                 "ID": 24,
                 "preview": "1962-1.jpg",
-                "text": "Putovní tábor, Slovensko",
+                "label": "Putovní tábor\nSlovensko",
                 "type": ["trip"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1962",
+                    "subtitle": "Motocyklový putovní tábor\nSlovensko",
+                    "photos": [ "p-1962-0.jpg",  "p-1962-1.jpg"]
+                } 
             }
         ]
     },
@@ -191,9 +270,14 @@
             {
                 "ID": 25,
                 "preview": "1964-0.jpg",
-                "text": "Putovní tábor, Slovensko",
+                "label": "Putovní tábor\nSlovensko",
                 "type": ["trip"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1946",
+                    "subtitle": "Motocyklový putovní tábor\nSlovensko",
+                    "photos": ["p-1964-0.jpg", "p-1964-1.jpg"]
+                } 
             }
         ]
     },
@@ -204,9 +288,15 @@
             {
                 "ID": 26,
                 "preview": "1958-0.jpg",
-                "text": "Konec tělovýchovné činnosti",
+                "label": "Konec tělovýchovné činnosti",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["both"],
+                    "title": "Osada Locanda",
+                    "subtitle": "Stavba 1958–1962",
+                    "text": "Roku 1965 ukončil oddíl činnost v tělovýchově a starší členové pokračovali jako trempská osada „Locanda“ se sídlem na Říčkách za Líšní.\n\nZ tohoto období stojí za zmínku, že br. Mirek Klepáč i br. Vladimír Rosol byli vyšetřování příslušníky stb pro prováděnou zakázanou junáckou činnost v turistickém oddíle.",
+                    "photos": ["h-1958-0.jpg", "h-1958-0.jpg"]
+                } 
             }
         ]
     }

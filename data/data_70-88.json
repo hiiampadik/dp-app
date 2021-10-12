@@ -6,7 +6,7 @@
             {
                 "ID": 30,
                 "preview": "1971-0.jpg",
-                "text": "Stanový tábor, Nová říše",
+                "label": "Stanový tábor, Nová říše",
                 "type": ["camp"],
                 "content": {} 
             }
@@ -19,7 +19,7 @@
             {
                 "ID": 31,
                 "preview": "1977-0.jpg",
-                "text": "Stanový tábor, Landštejn",
+                "label": "Stanový tábor, Landštejn",
                 "type": ["camp"],
                 "content": {} 
             }
@@ -32,7 +32,7 @@
             {
                 "ID": 32,
                 "preview": "1980-0.jpg",
-                "text": "Putovní tábor, Slovenské rudohoří",
+                "label": "Putovní tábor, Slovenské rudohoří",
                 "type": ["trip"],
                 "content": {} 
             }
@@ -45,7 +45,7 @@
             {
                 "ID": 33,
                 "preview": "fotka-2.jpg",
-                "text": "Stanový tábor, Vojtěchov",
+                "label": "Stanový tábor, Vojtěchov",
                 "type": ["camp"],
                 "content": {} 
             }
@@ -58,7 +58,7 @@
             {
                 "ID": 34,
                 "preview": "1985-0.jpg",
-                "text": "Stanový tábor, Vidonín",
+                "label": "Stanový tábor, Vidonín",
                 "type": ["camp"],
                 "content": {} 
             }
@@ -71,7 +71,7 @@
             {
                 "ID": 35,
                 "preview": "fotka-1.jpg",
-                "text": "Stanový tábor, Horní Kounice",
+                "label": "Stanový tábor, Horní Kounice",
                 "type": ["camp"],
                 "content": {} 
             }

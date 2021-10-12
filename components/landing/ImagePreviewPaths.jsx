@@ -51,9 +51,4 @@ export default {
     "fotka-4.jpg": require("../../public/images/preview/fotka-4.jpg"),
     "fotka-5.jpg": require("../../public/images/preview/fotka-5.jpg"),
 
-    "h-1945-0.jpg": require("../../public/images/timeline/h-1945-0.jpg"),
-    "h-1945-1.jpg": require("../../public/images/timeline/h-1945-1.jpg"),
-    "h-1945-2.jpg": require("../../public/images/timeline/h-1945-2.jpg"),
-
-    "data_45-h.txt": require("../../public/texts/data_45-h.txt"),
 }

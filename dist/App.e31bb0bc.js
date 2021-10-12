@@ -34313,15 +34313,7 @@ module.exports = "/fotka-3.3a720ef2.jpg";
 module.exports = "/fotka-4.5598e2b9.jpg";
 },{}],"public/images/preview/fotka-5.jpg":[function(require,module,exports) {
 module.exports = "/fotka-5.ceba0309.jpg";
-},{}],"public/images/timeline/h-1945-0.jpg":[function(require,module,exports) {
-module.exports = "/h-1945-0.38e318e6.jpg";
-},{}],"public/images/timeline/h-1945-1.jpg":[function(require,module,exports) {
-module.exports = "/h-1945-1.3c3a2298.jpg";
-},{}],"public/images/timeline/h-1945-2.jpg":[function(require,module,exports) {
-module.exports = "/h-1945-2.80decb8d.jpg";
-},{}],"public/texts/data_45-h.txt":[function(require,module,exports) {
-module.exports = "/data_45-h.023c3f3e.txt";
-},{}],"components/landing/ImagePaths.jsx":[function(require,module,exports) {
+},{}],"components/landing/ImagePreviewPaths.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34378,14 +34370,10 @@ var _default = {
   "fotka-2.jpg": require("../../public/images/preview/fotka-2.jpg"),
   "fotka-3.jpg": require("../../public/images/preview/fotka-3.jpg"),
   "fotka-4.jpg": require("../../public/images/preview/fotka-4.jpg"),
-  "fotka-5.jpg": require("../../public/images/preview/fotka-5.jpg"),
-  "h-1945-0.jpg": require("../../public/images/timeline/h-1945-0.jpg"),
-  "h-1945-1.jpg": require("../../public/images/timeline/h-1945-1.jpg"),
-  "h-1945-2.jpg": require("../../public/images/timeline/h-1945-2.jpg"),
-  "data_45-h.txt": require("../../public/texts/data_45-h.txt")
+  "fotka-5.jpg": require("../../public/images/preview/fotka-5.jpg")
 };
 exports.default = _default;
-},{"../../public/images/preview/1945-0.jpg":"public/images/preview/1945-0.jpg","../../public/images/preview/1946-0.jpg":"public/images/preview/1946-0.jpg","../../public/images/preview/1946-1.jpg":"public/images/preview/1946-1.jpg","../../public/images/preview/1947-0.jpg":"public/images/preview/1947-0.jpg","../../public/images/preview/1947-1.jpg":"public/images/preview/1947-1.jpg","../../public/images/preview/1947-2.jpg":"public/images/preview/1947-2.jpg","../../public/images/preview/1949-0.jpg":"public/images/preview/1949-0.jpg","../../public/images/preview/1950-0.jpg":"public/images/preview/1950-0.jpg","../../public/images/preview/1951-0.jpg":"public/images/preview/1951-0.jpg","../../public/images/preview/1952-0.jpg":"public/images/preview/1952-0.jpg","../../public/images/preview/1953-0.jpg":"public/images/preview/1953-0.jpg","../../public/images/preview/1954-0.jpg":"public/images/preview/1954-0.jpg","../../public/images/preview/1955-0.jpg":"public/images/preview/1955-0.jpg","../../public/images/preview/1956-0.jpg":"public/images/preview/1956-0.jpg","../../public/images/preview/1957-0.jpg":"public/images/preview/1957-0.jpg","../../public/images/preview/1958-0.jpg":"public/images/preview/1958-0.jpg","../../public/images/preview/1958-1.jpg":"public/images/preview/1958-1.jpg","../../public/images/preview/1958-2.jpg":"public/images/preview/1958-2.jpg","../../public/images/preview/1959-0.jpg":"public/images/preview/1959-0.jpg","../../public/images/preview/1961-0.jpg":"public/images/preview/1961-0.jpg","../../public/images/preview/1962-0.jpg":"public/images/preview/1962-0.jpg","../../public/images/preview/1962-1.jpg":"public/images/preview/1962-1.jpg","../../public/images/preview/1964-0.jpg":"public/images/preview/1964-0.jpg","../../public/images/preview/1968-0.jpg":"public/images/preview/1968-0.jpg","../../public/images/preview/1968-1.jpg":"public/images/preview/1968-1.jpg","../../public/images/preview/1971-0.jpg":"public/images/preview/1971-0.jpg","../../public/images/preview/1977-0.jpg":"public/images/preview/1977-0.jpg","../../public/images/preview/1980-0.jpg":"public/images/preview/1980-0.jpg","../../public/images/preview/1985-0.jpg":"public/images/preview/1985-0.jpg","../../public/images/preview/1989-0.jpg":"public/images/preview/1989-0.jpg","../../public/images/preview/1990-0.jpg":"public/images/preview/1990-0.jpg","../../public/images/preview/1990-1.jpg":"public/images/preview/1990-1.jpg","../../public/images/preview/1991-0.jpg":"public/images/preview/1991-0.jpg","../../public/images/preview/1992-0.jpg":"public/images/preview/1992-0.jpg","../../public/images/preview/1994-0.jpg":"public/images/preview/1994-0.jpg","../../public/images/preview/1996-0.jpg":"public/images/preview/1996-0.jpg","../../public/images/preview/2001-0.jpg":"public/images/preview/2001-0.jpg","../../public/images/preview/2005-0.jpg":"public/images/preview/2005-0.jpg","../../public/images/preview/2008-0.jpg":"public/images/preview/2008-0.jpg","../../public/images/preview/2011-0.jpg":"public/images/preview/2011-0.jpg","../../public/images/preview/2011-1.jpg":"public/images/preview/2011-1.jpg","../../public/images/preview/2015-0.jpg":"public/images/preview/2015-0.jpg","../../public/images/preview/2019-0.jpg":"public/images/preview/2019-0.jpg","../../public/images/preview/2020-0.jpg":"public/images/preview/2020-0.jpg","../../public/images/preview/fotka-0.jpg":"public/images/preview/fotka-0.jpg","../../public/images/preview/fotka-1.jpg":"public/images/preview/fotka-1.jpg","../../public/images/preview/fotka-2.jpg":"public/images/preview/fotka-2.jpg","../../public/images/preview/fotka-3.jpg":"public/images/preview/fotka-3.jpg","../../public/images/preview/fotka-4.jpg":"public/images/preview/fotka-4.jpg","../../public/images/preview/fotka-5.jpg":"public/images/preview/fotka-5.jpg","../../public/images/timeline/h-1945-0.jpg":"public/images/timeline/h-1945-0.jpg","../../public/images/timeline/h-1945-1.jpg":"public/images/timeline/h-1945-1.jpg","../../public/images/timeline/h-1945-2.jpg":"public/images/timeline/h-1945-2.jpg","../../public/texts/data_45-h.txt":"public/texts/data_45-h.txt"}],"components/timeline/TimelineSection.jsx":[function(require,module,exports) {
+},{"../../public/images/preview/1945-0.jpg":"public/images/preview/1945-0.jpg","../../public/images/preview/1946-0.jpg":"public/images/preview/1946-0.jpg","../../public/images/preview/1946-1.jpg":"public/images/preview/1946-1.jpg","../../public/images/preview/1947-0.jpg":"public/images/preview/1947-0.jpg","../../public/images/preview/1947-1.jpg":"public/images/preview/1947-1.jpg","../../public/images/preview/1947-2.jpg":"public/images/preview/1947-2.jpg","../../public/images/preview/1949-0.jpg":"public/images/preview/1949-0.jpg","../../public/images/preview/1950-0.jpg":"public/images/preview/1950-0.jpg","../../public/images/preview/1951-0.jpg":"public/images/preview/1951-0.jpg","../../public/images/preview/1952-0.jpg":"public/images/preview/1952-0.jpg","../../public/images/preview/1953-0.jpg":"public/images/preview/1953-0.jpg","../../public/images/preview/1954-0.jpg":"public/images/preview/1954-0.jpg","../../public/images/preview/1955-0.jpg":"public/images/preview/1955-0.jpg","../../public/images/preview/1956-0.jpg":"public/images/preview/1956-0.jpg","../../public/images/preview/1957-0.jpg":"public/images/preview/1957-0.jpg","../../public/images/preview/1958-0.jpg":"public/images/preview/1958-0.jpg","../../public/images/preview/1958-1.jpg":"public/images/preview/1958-1.jpg","../../public/images/preview/1958-2.jpg":"public/images/preview/1958-2.jpg","../../public/images/preview/1959-0.jpg":"public/images/preview/1959-0.jpg","../../public/images/preview/1961-0.jpg":"public/images/preview/1961-0.jpg","../../public/images/preview/1962-0.jpg":"public/images/preview/1962-0.jpg","../../public/images/preview/1962-1.jpg":"public/images/preview/1962-1.jpg","../../public/images/preview/1964-0.jpg":"public/images/preview/1964-0.jpg","../../public/images/preview/1968-0.jpg":"public/images/preview/1968-0.jpg","../../public/images/preview/1968-1.jpg":"public/images/preview/1968-1.jpg","../../public/images/preview/1971-0.jpg":"public/images/preview/1971-0.jpg","../../public/images/preview/1977-0.jpg":"public/images/preview/1977-0.jpg","../../public/images/preview/1980-0.jpg":"public/images/preview/1980-0.jpg","../../public/images/preview/1985-0.jpg":"public/images/preview/1985-0.jpg","../../public/images/preview/1989-0.jpg":"public/images/preview/1989-0.jpg","../../public/images/preview/1990-0.jpg":"public/images/preview/1990-0.jpg","../../public/images/preview/1990-1.jpg":"public/images/preview/1990-1.jpg","../../public/images/preview/1991-0.jpg":"public/images/preview/1991-0.jpg","../../public/images/preview/1992-0.jpg":"public/images/preview/1992-0.jpg","../../public/images/preview/1994-0.jpg":"public/images/preview/1994-0.jpg","../../public/images/preview/1996-0.jpg":"public/images/preview/1996-0.jpg","../../public/images/preview/2001-0.jpg":"public/images/preview/2001-0.jpg","../../public/images/preview/2005-0.jpg":"public/images/preview/2005-0.jpg","../../public/images/preview/2008-0.jpg":"public/images/preview/2008-0.jpg","../../public/images/preview/2011-0.jpg":"public/images/preview/2011-0.jpg","../../public/images/preview/2011-1.jpg":"public/images/preview/2011-1.jpg","../../public/images/preview/2015-0.jpg":"public/images/preview/2015-0.jpg","../../public/images/preview/2019-0.jpg":"public/images/preview/2019-0.jpg","../../public/images/preview/2020-0.jpg":"public/images/preview/2020-0.jpg","../../public/images/preview/fotka-0.jpg":"public/images/preview/fotka-0.jpg","../../public/images/preview/fotka-1.jpg":"public/images/preview/fotka-1.jpg","../../public/images/preview/fotka-2.jpg":"public/images/preview/fotka-2.jpg","../../public/images/preview/fotka-3.jpg":"public/images/preview/fotka-3.jpg","../../public/images/preview/fotka-4.jpg":"public/images/preview/fotka-4.jpg","../../public/images/preview/fotka-5.jpg":"public/images/preview/fotka-5.jpg"}],"components/timeline/TimelineSection.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34395,7 +34383,7 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _ImagePaths = _interopRequireDefault(require("../landing/ImagePaths.jsx"));
+var _ImagePreviewPaths = _interopRequireDefault(require("../landing/ImagePreviewPaths.jsx"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -34442,42 +34430,48 @@ function TimelineSection(props) {
         className: "tiles-subcontainer",
         key: event.ID
       }, showContent(event.type) ? /*#__PURE__*/_react.default.createElement("div", {
-        className: "tile-wrap"
+        className: "tile-wrap",
+        onClick: function onClick() {
+          return props.handleClick(event);
+        }
       }, /*#__PURE__*/_react.default.createElement("img", {
-        src: _ImagePaths.default[event.preview],
+        src: _ImagePreviewPaths.default[event.preview],
         className: "tile-image"
       }), /*#__PURE__*/_react.default.createElement("div", {
         className: "tile-label"
-      }, event.text)) : /*#__PURE__*/_react.default.createElement("div", null));
+      }, event.label)) : /*#__PURE__*/_react.default.createElement("div", null));
     }))) : /*#__PURE__*/_react.default.createElement("div", null));
   })));
 }
 
 var _default = TimelineSection;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../landing/ImagePaths.jsx":"components/landing/ImagePaths.jsx"}],"data/data_45-50.json":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../landing/ImagePreviewPaths.jsx":"components/landing/ImagePreviewPaths.jsx"}],"data/data_45-50.json":[function(require,module,exports) {
 module.exports = [{
   "year": 1946,
   "types": ["history", "camp"],
   "events": [{
     "ID": 2,
     "preview": "1946-0.jpg",
-    "text": "Vznik 94. oddílu",
+    "label": "Vznik 94. oddílu",
     "type": ["history"],
     "content": {
       "type": ["both"],
-      "text": "data_45-h.txt",
+      "title": "Vznik 94. oddílu",
+      "subtitle": "Mirek Klepáč\nKronika číslo 1 – první zápis\nBrno, 24. listopadu 1946",
+      "text": "Dříve, nežli se zmíním o 94. oddíle „Junáka“ v Brně, chtěl bych stručně vylíčiti, jak vznikal, co předcházelo, nežli byl zaregistrován, a konečně za jakých okolností se probíjel kupředu v prvních dnech. Bylo by nesprávné, kdybych se tu nezmínil o 10. oddíle, v němž jsme byli začleněni – leč nepředbíhejme.\n\nTradice 10. oddílu sahá hluboko do let předválečných, kdy ještě junáctví nebylo tak mocně rozšířené, kdy se rodilo a utvářelo svůj rázovitý charakter. Není tedy divu, že ihned po porážce Německa se sešli staří členové, aby pokračovali v přerušeném oddíle. Snahou jejich bylo povznésti svůj oddíl do bývalé své slávy. Netušili tehdy, že se přihlásí tak mocná vlna nováčků, a nemohli to tušit ani bratři z ostatních oddílů, neboť žádný by tento mocný rozmach nepředpovídal.\n\nSe stále přibývajícím počtem nováčků přibývalo také množství nesnází. Starých činovníků bylo málo, tak málo, že jen z části mohli zvládnouti celou tu masu. Byly to mnohdy horké chvíle, ale Junáci v této zkoušce obstáli skutečně výborně. Junácky hrdě postavili se i před ty nesčetné překážky, jež byly úmysleně hozeny v cestu od členů jiných organisací, kteří našemu rozvoji nepřáli. Silou vůle byly všechny překážky zdolány a hrdě nyní pochodují v mohutných řadách za vlající junáckou vlajkou, na níž září nejjasnějším světlem junácká lilie.\n\nDesítka vzrůstala a nikomu nevadilo, že musí šlapat až kamsi nad Vinohrady v Židenicích do klubovny. Klubovna byla pěkná a místností v ní bylo dost. Vedoucím byl bratr Dvořák, starý skaut z předválečné desítky. Zaměstnání mu však nedovolovalo, aby se mohl intensivně věnovat oddílu, a tak jej zastupoval bratr Butona. Když počet dosahoval 300 bratrů, utvořila se z části II. roty rota III. pod vedením bratra Brabce a II. rota (pod mým vedením, neboť mi byla svěřena), stala se základem k utvoření 94. oddílu.\n\nProblém II. roty byli vodáci, jinak dobří hoši, neboť po nějaké době si dali po dobrém vysvětlit, že se odchylují od pravé junácké idee a přeškolili se na junáky pozemní. Někdy si sice ještě vzpomněli na sněhobílou námořnickou čepici, ale časem i tato slabůstka vymizela. Byla to družina Racků a později Albatrosů, jimž zůstalo pojmenování podnes. V září a říjnu 1945 vzrostla družina Kondorů do počtu 24 hlav. Po mém vedení převzal v této družině rádcovství bratr Matěja a s láskou a junáckou trpělivostí se pustil do práce. Brzy se objevily výsledky jeho usilovné práce, neboť jeho družina se probojovala na místo, kde obstála po celý rok a dnes má nejlepší tradici v oddíle. Při okrskových podzimních závodech na vojenském cvičišti pod Soběšicemi, byli to zase většinou členové II. roty a mezi nimi hlavně Kondoři, kteří se umístili za 10. oddíl na 3. místě.\n\nRysi, pod vedením bratra Kadleca, byli méně početnou družinou, ale i ti se mnohdy dokázali vyznamenat. Tato družina však později zanikla.\n\nV zimě bylo již patrno, že oddíl, nemá-li dojíti k úpadku, musí býti v zájmu celku rozdělen v menší oddíly, aby se mohli jednotliví vedoucí svým oddílům lépe věnovat. Tato otázka bývala mnohokrát projednávána na oddílových radách a nebudu se tu zmiňovati o nesnázích, které byly postaveny v cestu tomuto rozdělení. První, který pochopil plně a schválil rozdělení oddílu byl bratr Jenda Suchomel zást. okrs. velitele. K rozdělení došlo teprve v květnu, kdy konečně se k tomuto kroku podvolil i bratr Dvořák.\n\nI. rota byla ponechána desátému oddílu pod vedením bratra Wegscheidra. Z II. roty se utvořil samostatný oddíl pod číslem 94. BO a z III. roty vznikl 95. BO pod vedením bratra Brabce.\n\nByl to tedy nejkrásnější měsíc v roce, kdy vznikl náš čtyřiadevadesátý oddíl. Nyní jsme museli ukázat teprve co v nás vězí, museli jsme se uvést co nejlépe a podařilo se nám to. Junáci čtyřiadevadesátky pochopili a snažili a snažili se ukázněností hájit čest svého oddílu.\n\nProdělávali jsme v prvních měsících těžké zkoušky, zvlášť když nám členové Svazu národní bezpečnosti zabavili klubovnu, takže jsme se ocitli na ulici. Přesto, že nás to mrzelo, neboť jsme si již na naši BOudu, jak jsme klubovně říkali, zvykli, nezakolísali jsme a s písničkou na rtech, jak se to naše čtyřiadevadesátka naučila, jsme se rozloučili s klubovnou v níž jsme prožili tolik pěkného. Byla to píseň, která nám pomáhala odstraňovat překážky a byla to píseň, s kterou jsme vždy kráčeli kupředu a rovněž písničkou jsme na sebe upozornili, že si nás ještě tehdy - neznámé - všimli i jiní. Zásoba písní a dobré junácké vystupování bylo naším BOhatstvím. Jednou, když jsme se vraceli z „puťáku“ a čekali v Kralicích na vlak za veselého zpěvu, přidružili se k nám junáčtí činovníci z brněnské oblasti, kteří jeli odkudsi z lesní školy a bavili se s námi. Patrně se jim náš zpěv líbil, neboť se o tom setkání zmínili na oblasti a od té doby jsme již nebyli tak neznámí. Podruhé jsme na sebe upozornili naší závodní hlídkou při oblastních závodech pořádaných na jaře 1946. K závodu bylo celkem přihlášeno asi 16 hlídek brněnských oddílů. Závodní hlídka za vedení bratra Matěje se v těchto závodech probojovala na 4. místo a v signalisaci byla nejlepší. Škoda, že jsme v té době byli bez klubovny. Takže se naše hlídka nemohla dostatečně připravit. Výsledek však byl pěkný, neboť za 2. okrsek vedla hlídka naše.\n\nI když byla čtyřiadevadesátka novorozenětem, pořádali jsme v červenci 1946 tábor v údolí Jihlavky u Mohelna na louce zvané „Havran“ a vydařil se pěkně. S minimálními prostředky jsme se pustili do tohoto odvážného úkolu a sklidili jsme úspěch. Společně s 95. oddílem prožilo 32 členů obou bratrských oddílů 28 dní ve volné přírodě a prožilo mnoho příhod na něž mnozí do smrti nezapomenou.\n\nAbychom splnili též povinosti vůči svému národu, odpracovali naši členové dobrovolně 1984 hodin při zemědělské akci v rámci zemědělské junácké soutěže.\n\nA ještě jedna pozoruhodná událost se stala, když jsme přijali z vlčácké směčky družinu, která obdržela jméno Lišky. Starým lišákem byl ustanoven bratr Hejna, čili Bacílek. Je to naše nejmladší družina a činí se.\n\nVypsal jsem tu zhruba vznik čtyřiadevadesátky a přál bych si, aby junácký duch, který v našem oddíle vládne, navždy potrval, aby všechny úkoly byly vykonány co nejlépe a nikdy nepřišlo k úpadku. Leží před námi mnoho úkolů, které musíme zvládnout a záleží na nás jak ve všech problémech obstojíme. Jdeme za nejvyšším ideálem junáctví a budeme pracovat pro dobro všech lidí dobré vůle. Milujme svoji vlast a nezakolísejme nikdy ve svém přesvědčení, byť by to bylo v dobách nejtěžších.\n\nNuže dobrý vítr do našich plachet na naší dlouhé cestě a až ti, kteří příjdou jednou po nás a budou listovat v těchto prvních stránkách, nechť si uvědomí, že nebyly to lehké začátky. Byly to však krásné chvíle, které jsme prožili a doufáme, že vy - příští - se budete snažit, aby tradice našeho oddílu byla stále zachována.\n\nBuď připraven!",
       "photos": ["h-1945-0.jpg", "h-1945-1.jpg", "h-1945-2.jpg"]
     }
   }, {
     "ID": 3,
     "preview": "1946-1.jpg",
-    "text": "Stanový tábor, louka Havran",
+    "label": "Stanový tábor\núdolí Jihlavy",
     "type": ["camp"],
     "content": {
-      "type": "",
-      "text": "",
-      "photos": ""
+      "type": ["photos"],
+      "title": "1946",
+      "subtitle": "Stanový tábor\nLouka Havran, údolí Jihlavy (okres Třebíč)\nTábor proběhl společně s 95. BO v počtu 32 členů po dobu 28 dní.",
+      "photos": ["t-1946-0.jpg"]
     }
   }]
 }, {
@@ -34486,21 +34480,39 @@ module.exports = [{
   "events": [{
     "ID": 4,
     "preview": "1947-0.jpg",
-    "text": "Nová klubovna",
+    "label": "Nová klubovna",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["both"],
+      "title": "1947",
+      "subtitle": "Nová klubovna",
+      "text": "Po dlouhých a rozvláčných jednáních s likvidační správou Diana byly nám konečně prodány 2 nouzové domky značky ot. Největší chyba však byla v tom, že domky se nalézaly až v Mezihoří za Tišnovem. Nastala další potíž, a to se zaopatřením nákladního auta. Grizly sice nabízel auto, ale jeho majitel žádal za odvoz více, než co stály oba domky. Nakonec to vše zařídil Budka, jehož švagr se uvolil jeti jen za cenu nafty. To se nám hodilo.\n\nV sobotu 26. dubna v 7 večer už stojí parta 6 Junáků s Grizlym a Vencou v čele na nádraží v Řečkovicích a nastupuje svou cestu do Tišnova. Tam už totiž ráno odjel BOlero, aby vše zařídil. Cesta nám ubíhala za veselého halasu na plošině vagónu, když tu začalo mírně poprchávat. Dojeli jsme do Tišnova. Tam už na nás čekal BOlero a sním k naší velké radosti bývalý člen našeho oddílu Pepek Kučera. Radostně se s námi uvítal, sděloval, že mu rodiče právě odjeli a zval nás, abychom se utábořili u něho v domě. S radostí jsme přijali, poněvadž liják nám sliboval nepříjemnou noc. K Pepkovi jsme došli už promoklí. Svlékli jsme si šaty, rozvěsili, zatímco venku se lilo jak z konve. Přesto však Venda a Bolero se vydali k chajdám, kde měl BOlero tornu. Za hodinu se vrátili. Zatím už byla uvařená káva, příjemné teplo a začalo losování o postele. Byly tři, zatímco nás bylo osm. Rozdělilo se to nakonec tak, že Pekla a Mauglí spali na zemi, zatímco na posteli bylo po dvou bratřích. K půlnoci už bylo takové vedro. Pepek totiž topil olejem, že třebaže jsme spali jen v trenýrkách, museli jsme několikrát větrat. Usnuli jsme až po půlnoci po rušné debatě.\n\nNoc uběhla klidně a časně ráno byl budíček. Dlouho jsme se nezdržovali a hned jsme se odebrali k chajdám. BOlero měl od „lágru“ klíč, takže jsme se mohli dát bez odkladu do práce. Nosili jsme k cestě části našich chat, které BOlero minulého dne rozložil. V 11 hodin, těsně po příchodu správce „lágru“ Odehnala, přikodrncalo naše auto obsazené Bacílkem, Budkou a Běličkou. Chvíli jsme si dali pohov, posilnili jsme se a pak jsme se dali do nakládání. Za hodinu jsme byli hotovi. Nasedli jsme sami na ten hromský náklad a auto se dalo do pohybu. Cestou jsme se pokusili zpívat, hlavně vynikal Bacilův tenor. Pak jsme toho ale nechali, poněvadž jsme byli vyřvaní a vůbec se přitom neslyšeli. V každé dědině jsme mávali, zatímco lidé po nás udiveně koukali a nevěděli ani na čem jsou. Při projíždění Brnem to už bylo lepší. Ulice byly plné lidí a my na autě byli středem pozornosti. V půl jedné jsme dojeli do Židenic. Mysleli jsme, kdo ví jak čekající bratry překvapíme, když tu náhle, kde se vzali, viselo jich na autě jak čmeláků i s Clipsem. Zastavili jsme pod staveništěm a nastalo skládání a odnášení na místo. To už byla ale práce radostná a snadná.",
+      "photos": ["h-1947-0.jpg", "h-1947-1.jpg"]
+    }
   }, {
     "ID": 5,
     "preview": "1947-1.jpg",
-    "text": "Stanový tábor, Hrotovice",
+    "label": "Stanový tábor\nHrotovice",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["both"],
+      "title": "1947",
+      "subtitle": "Stanový tábor\nHrotovice (okres Třebíč)",
+      "text": "Valem se přiblížily prázdniny a s nimi vyvrcholení skautského roku – tábor. Po nespočetných schůzích táborníků, rodičů, shánění potravinových lístků, zběsilé korespondenci a hlavně fůře práce, ponejvíce Clipsovy a Matysovy, přiblížil se vytoužený den. V poslední chvíli se vyskytla nepředvídatelná překážka – dostali jsme zprávu, že v místě tábořiště je málo slámy. Ihned jsme se podle toho zařídil, koupili dva balíky dřevité vlny a bylo po starosti. V předvečer odjezdu přišla většina bratří nabalená a zůstali spát v klubovně až do svého odjezdu, což už je jiná kapitola – kapitola táborová, která bude podrobně popsána a dokumentárními snímky doložena jinde. Hoši, většinou starší, z jejich části byla utvořena družina Roverů pod vedením Grizlyho, měla po dobu tábora pracovat pro oddíl zde, zatímco se připravovala na putovní tábor po Slovensku, až se oddíl vrátí. Naše práce spočívala hlavně v uvedení písemností do pořádku, jako kronika, oddílový časopis „Kariboo“, opravili jsme oddílovou pramici, dali do pořádku klubovnu. Na nové klubovně jsme při nejlepší vůli pokračovat nemohli, poněvadž jsme neměli odborné rady. Mezitím Grizly sháněl informace o Slovensku, vyřizoval agendu s hlášením tábora atd. Pokoušeli jsme se též o vyvolávání fotografií v klubovně, ale podnik ztroskotal, též i Grizlyho pokus společenské výchovy, kdy musel s užitím ostřejšího tónu klubovnu vyklidit. Jinak se nestalo nic, co by stálo za zmínku.",
+      "photos": ["t-1947-0.jpg", "t-1947-1.jpg"]
+    }
   }, {
     "ID": 6,
     "preview": "1947-2.jpg",
-    "text": "Putovní tábor, Slovensko",
+    "label": "Putovní tábor\nSlovensko",
     "type": ["trip"],
-    "content": {}
+    "content": {
+      "type": ["both"],
+      "title": "1947",
+      "subtitle": "Putovní tábor\nSlovensko, 3.–15. 8.",
+      "text": ["Vyjeli jsme 3. 8. ráno v 5:50 z hlavního nádraží v sestavě Grizly, BOlero, Budka, Mowgli, Pekla, Jarynek a Šautec jako host. Až do Trenčianské Teplé, kam jsme přijeli v 11:45, jsme jeli za neustálého zpěvu v takzvaném tanečním vagóně, to je téměř bez lavic. Ve Vlárském průsmyku vyhrávala na nádraží kapela, což si nedáme vymluvit, že to nebylo kvůli nám. Na nádraží v Trenčianské Teplé jsme museli podat hlášení bratru z náčelnictva, který nás varoval, abychom se pokud možno vyhnuli Kraľovanům, že jsou tam bezdomovci. Vzali jsme na vědomí, ale vyhnout jsme se nehodlali. Cesta do Žiliny nastoupená ve 12:29 ubíhala už mrtvěji. Měli jsme sami kupé, ale byli jsme už netrpěliví, posedávali jsme a nic nás nebavilo. Jen vzdálený horský masiv, ke kterému jsme se pomalu přibližovali, nám vléval naději, že snad již dnešního večera budeme spát pod jeho úbočími. V 15:15 uvítala nás Žilina, ze které jsme učinili první kroky vstříc dobrodružstvím. Slunéčko nemilosrdně pražilo, ale my statečně vykračovali. Byli jsme velmi mile překvapeni, co zde bylo krajanů, hlavně automobilistů. Též Junáků z Čech i Moravy. Potok se vinul kolem silnice a jeho voda se zdála jako křišťál. O opaku jsme se přesvědčili, když jsme se v 18 hod. utábořili v údolí pod hradem Strečno, blíže stejnojmenné vesnice. Voda byla zaneřáděná splašky z papíren a koželužen. 3 mládenci šli do vesnice zajistit na ráno mléko, rozdělili jsme hlídky a až do 10 hod. jsme vyprávěli. V noci byl v okolí zmatený neklid, takže hlídky vytáhly Grizlyho z pelechu k jeho velké radosti. Noc byla krásná. Silueta hradu, jehož okny prosvěcoval měsíc, působila strašidelně.\n\nRáno dne následujícího donesli Budka a Šautec mléko, uvařila se káva a vydali jsme se na další cestu. Silnice běžící zde stále se železnicí, tvořila zde zákrut 4 km dlouhý, což jsme si my zkrátili tím, že jsme šli jednoduše tunelem. Že nebylo ve tmě tunelu nouze o zakopnutí a žduchance, netřeba povídat. Před Vrútkami se podařilo BOlerovi stopnout auto, které nás zavezlo až do Ružomberku. Cestou jsme se rozhodli, že nenecháme zastavovat v Kraľovanech, ale pojedeme dále, třeba až do Košic.\n\nPři nakupování v Ružomberku jsme objevili vyhlášky, které z důsledku výskytu bezdomovců zakazovaly tábořit a vyhrožovaly okamžitou střelbou. Grizly rozdělil úkoly a spolu s Bolerem oběhl mnv a ovc. Na obou místech s námi velice pěkně jednali, napsali nám povolení k táboření, dokonce nám i místo doporučili a nakreslili plánek.\n\nObtěžkáni nakoupenými potravinami, hlavně ohromným melounem, sužováni vedrem a mouchami, dali jsme se do pochodu proti toku Revúce. Budka nám dělal starosti svým zdravotním stavem. Po tříhodinové cestě jsme spatřili před sebou vodopád, známku brzkého cíle. Však byl nejvyšší čas. Byli jsme utahaní jako drožkářovy kobyly. Nad vodopádem se nám však otevřela krajina – pravý skvost. Krásná náhorní plošina obklopená lesy a stržemi, ledový, jako křišťál čistý potok, pramenící ze skály těsně nad touto plošinkou a tvořící malé vodopády dole v údolí se ztrácející do země, aby se o 100 metrů dále znovu vynořil z nitra země. Na protější stráni se páslo velké stádo krav pod dozorem jediného pasáka. Zvláštním dojmem působily seníky roztroušené po pastvině. Utábořili jsme se zde na 2 a ½ dne. Dělali jsme si k obědu amolety, polévku, přes den jsme si hráli ve vodě, koupali se a spalovali, jinými slovy – pěstovali blahobyt. K večeru jsme šli na procházku a zjistili jsme, že je celé okolí obsazeno vojskem s kulomety. Dali jsme se do hovoru s jedním z nich – Brucíkem. Vyprávěl nám, jaká je tuhá vojna, že už jsou 3 měsíce v poli. Jejich oděvy, špinavé a roztrhané, tomu nasvědčovaly. Tu noc nato jsme slyšeli silnou střelbu, zabezpečili se proti možnému napadení uschováním peněz a cenných věcí a bděli jsme, až ustal klid. Po 2 a ½ dnech jsme brzo ráno vyrazili na další cestu. Lokálkou, která je jistě raritou v celé republice, jsme se vrátili do Ružomberku, kde si Jarynek nechal opravit natržený stan a zároveň jsme se dověděli, že námi v noci slyšená střelba si vyžádala oběti jak z řad bezdomovců, tak i našich.\n\nHned za Ružomberkem nás vzalo auto, aniž jsme o to žádali. Vezlo nás sice jen pár kilometrů, ale i to nám bylo dobré. Mowgli udržoval náladu tím, že stále Peklovi nadával do devětsilů… kotrmelců atd. Trápila nás žízeň a u každé studánky jsme plnili své věčně prázdné čutory. Nedaleko vesnice Lipt. sv. Mara dohnal nás povoz s dřevem, řízený mladou dívenkou. Nabídla nám, že nám sveze torny, což jsme s radostí přijali a hned se nám šlo bez zátěže veseleji. V rozhovoru s ní jsme se dozvěděli, jak se jmenuje, že studuje gymnasium v Mikuláši a když prý jí pomůžeme složit dříví, že nás zaveze dále. Dříví jsme složili a ona opravdu nás vzala pěkný kousek cesty, třebaže začínalo pršet. Fotili jsme se, jak sedíme s ní na voze, ale vlivem toho, že se BOlerovi z neznámých důvodů třásla ruka, fotka se nepovedla. Pěkně jsme jí poděkovali, ještě dlouho za námi mávala. Vykoupali jsme se, nejprve dobrovolně, a pak k tomu sv. Petr přidal vydatnou sprchu, takže jsme šli až do Lipt. sv. Mikuláše s roztaženými celtami. Bylo již k večeru, když jsme se za městem utábořili, nakoupili a udělali večeři. Vtom kohosi napadlo, že bychom se mohli podívat do kina. Pekla se uvolil, že zůstane u stanů, zatím co my ostatní šli na film „Polní květ“. Že jsme ty peníze nedali raději ve prospěch chudých bezdomovců. Co živi jsme větší hloupost neviděli a asi už také neuvidíme. Grizly si však také v přestávce vyběhl z kina a koupil si meloun s úmyslem, že se trochu posilní. Sotva si 2x kousl, už se zhasínalo, nezbylo tedy nic jiného než meloun pěkně do kapsy a v kině ho pěkně zase sníst. Cestou zpět padaly vtipy jak na film tak na okolnost co bychom dělali, kdybychom našli tábor ukradený i s Peklem. Nic takového se nestalo, Pekla spokojeně chrupal a my následovali jeho příkladu. Tuto noc jsme spali poprvé bez hlídek. Ráno jsme uvařili kakao, uschovali rance u dobrých lidí a pěkně volní šlapali do Demänovských jeskyní, po jejichž prohlídce jsme se vrátili zpět do Mikuláše autobusem. V autobuse jsme se tak tak zdrželi smíchu nad jedním „vejtahou“, který se snažil přesvědčit dívku, že dělá denně bez zvláštní námahy 100 km. V Mikuláši jsme hodili rance na záda, poděkovali za úschovu a po krásné betonové silnici, jaké jsou zde konečně téměř všechny, jsme se dali na cestu k Lipt. Hrádku. Šautec už se těšil, jak překvapí své známé v Porúbce, t. j. vesnici kousek za L. Hrádkem, kam jezdíval na prázdniny. Cestou jsme se několikrát marně snažili stopnout auto. Konečně jsme prošli L. Hrádkem a nezbylo nám, než přebrodit Váh, který zde ze své mohutnosti, kterou měl u Strečna velmi mnoho slevěl. Po přebrodění se šlo v teniskách nebo BOsi dále. Šautec s Grizlym šli obhlédnout situaci. Po velmi srdečném přijetí zavolali ostatní a dostali jsme velmi dobrou večeři. Složili jsme své rance na mlatě a rozhodovali se, že půjdeme navštívit tábor skautek z Brna, které podle sdělení místních lidí zde táboří nedaleko na místě zvaném Skaličná. Stmívalo se již, když jsme došli na dohled. Dali jsme tedy hlavy dohromady a křikli oblastní pokřik. V táboře nastal ruch, vše se hnalo k nám i s vedoucími. Po chvilkové domluvě, ze které nebyly ani ony ani my chytřejší, se zjistilo, že to nejsou skautky, ale dorostenky ze Sokola Žabovřesky. Vlídně nás přijaly, pozvaly dále do tábora a hned žádaly Grizlyho, zdržíme-li se, abychom se utábořili v chatě „Skaličná“ těsně nad jejich táborem, že bychom jim pomohli hlídat, poněvadž hlídky jsou v noci neznámými chlapy zneklidňovány. Slíbili jsme jim to a vrátili se za úplné tmy zpět v náruč velkého seníku. Ráno brzo jsme vstali a přichystali se k odchodu, zdvořile poděkovali za pohostinství a přestěhovali své rance do lesní chaty. Celý den se odpočívalo po útrapách celotýdenní cesty. Grizly vařil guláš, který přes vše možné ne a ne změknout. Ale co je to na nás, snědlo se to i tvrdé. Večer jsme byli pozváni na dobrou polévku a Grizly umluvil s vedoucími, že k nim budeme chodit na stravu za normální táborový poplatek. Bylo to pro nás výhodné. Měli jsme celý den pro sebe a ze sumy, která byla rozpočtena na den, jsme ještě 150 Kčs ušetřili. Tuto noc jsme již hlídali, zatím s děvčaty. Vždy 2 dívky a 1 hoch.\n\nDalší den – sobota – byl ve znamení jak táborových příprav, tak shonu místní mládeže, která z jakési „vzácné náklonnosti“ k děvčatům hodlala uspořádat letošní „gulášový dýchánek“ v tomto údolí. Zatím byl na radu Grizlyho postaven kolem táboru plot. Přes den jsme se sblížili navzájem a hráli voley-ball, při čemž jsme nepřestávali pozorovat „gulášníky“, kteří sem snášeli kotly, kupy masa, sudy vína. Hlavně vynikal místní obecní strážník Kuzma, který, jak nám řekla děvčata, je chodíval v noci strašit, pouštěl jim naplno motorku, takže nemohly spát, a jak se zdálo, chtěl i dnes hrát hlavní úlohu. Gulášnické ohně zaplály, údolí se naplnilo výrostky a „zábava“ sledována starostlivými zraky vedoucích započala. Kuzma už byl jak se patří namazaný, střílel z revolveru do vzduchu, ostatní hulákali. Začínalo se stmívat a zábava gulášníků byla čím dál nevázanější. Grizly převzal velení, neboť se začínala rýsovat snaha opilců dostat se do tábora. První rozkaz byl: všechna děvčata do stanů. A teď to bylo na nás. Štěstí, že byl tábor oplocen, jinak bychom ho neuhlídali. Všichni hoši, jeden jak druhý konali hlídky vzorně s plným vědomím odpovědnosti, kterou na sebe vzali, poslušni na slovo Grizlyho i svého osobního instinktu vyváděli pomalu opilce z údolí ven. Nešlo to tak snadno, to si každý domyslí. Pekla musil pít, aby je dostal ven, BOlero s nimi musel kouřit a Kuzmovi vyjet s motorkou, aby ho dostal ven. V bráně stál Grizly s holí napříč, zatím co ostatní byli v rozích a hlídali plůtek. Teprve k půlnoci za ohromného kraválu, který od počátku „zábavy“ neustal, se šinula moc opilá chasa domů se snahou jíti přes tábor, což se jim však nepovedlo. Teprve po půlnoci nastal poměrný klid. Grizly stále hekal, že už druhou noc nespí, ale spát nešel.\n\n", "Po této rušné noci jsme si zasloužili spánku jak se patří. Však jsme také spali až do oběda. Oběd byl opravdu nedělní – řízky, brambory a okurkový salát. Po obědě nám děvčata žehlila kroje, poněvadž nás pozvali na zábavu Sokola Lipt. Hrádek, který zase pozval je. My zatím připravovali táborák a vůdcovské křeslo na zítřek. Kolem třetí hodiny odpoledne jsme vyrazili do Hrádku, kde jsme se na zahradní slavnosti zdrželi do 7 hod. Jako jsme přišli – se zpěvem, tak jsme i odešli. Večer jsme seděli na verandě chaty a chystali čísla na táborák. Po večerce nastal klid a jen hlídka obcházela tábor. Bylo asi ½ 2 v noci, když náhle Pekla budí Grizlyho, že dole ohrožují 2 chlapi tábor s automaty a že jeden z nich je smutně proslulý Kuzma. Oba prý jsou namazaní. Ihned byl vztyk všech. Kuzma zatím řval, že všechny postřílí. Než jsme však došli dolů, druhý výtržník zmizel, zatímco Kuzma se svalil na stan a usnul. Dívky byly velmi vyděšené, proto Grizly rozhodl, aby se co nejrychleji odstěhovaly na naše místo do chaty, zatímco my jsme do rána hlídali tábor. Hlídali jsme sice po dvou, ale ostatní spali oblečení ve stanech. Kuzmovi jsme zatím jeho „prskavku“ sebrali, vybrali mu z ní náboje. Po procitnutí, aniž to zpozoroval, odkymácel se ovšem s nezbytnými nadávkami domů. Vedoucí byly ještě ráno tak zděšené, že žádaly Grizlyho, aby jel s nimi do L. sv. Mikuláše na okres. vel. snb. Jel s nimi sice, ale v životě nejel a už ani nepojede na horším kole. Po absolvování pádu do příkopu i s vedoucí, po ztrátě několika šroubků a nespočetnému pumpování jsme se tam konečně dostali, vyřídili, a pak byla stejně krušná cesta zpět. V Porúbce už na nás čekali četníci i s delikventem, který byl najednou docela jinačí. Zato četníci měli už na nás pifku, že jsme šli hlásit na nadřízené místo a oni dostali „nás“. Však se k nám podle toho chovali. Do večera se debatilo. Večer byl táborák, který byl sice hojně navštíven, ale brzo skončil kvůli četníkům. Nám to však bylo celkem vhod, neboť jsme měli ráno brzo vstávat. Šlo se tedy spát.\n\nVe 3 hodiny nás hlídka vzbudila. Nastalo pakování při svitu svíce, šlapání na nohy. Nakonec jsme se přece vymotali, najedli smažených vajec, které nám udělali (ovšem vejce i špek jsme jim dali) a doprovázeni kus cesty doprovodem opravdu příjemným jsme se rozloučili s táborem, kde Mowgli ke své veliké škodě zapomněl kus svého srdce.\n\nZ Hrádku se jelo bez velkých příhod do Štrby a odtud autobusem na Štrbské pleso. Odtud posíláme pohledy, trochu se rozhlídnem a jedeme dále na Vyšné Hágy, pěšky dále do Štoly. Nikde nemůžeme dostat nic koupit, máme hlad a ke všemu se dá do deště. Jdeme dále do Tatranské Polianky, kolem vojenských srubů do St. Smokovce, kde konečně dostaneme chléb a marmeládu. Je to málo na celodenní hladovění, ale lepší než nic. Zde potkáváme bývalého jazzového fenoména R. A. Dvorského.\n\nPo nejdelším, ale také nejobtížnějším pochodu za celý puťák jsme došli do Veľkého Slavkova na úpatí Tater, kde jsme se konečně po chuti najedli a sehnali nocleh na půdě, neboť zem byla po dešti úplně vlhká.\n\n13. srpna ráno vstáváme v 8 hod. a pokračujeme v cestě přes Velkou, kde se zásobujeme na cestu a čekáme až přestane pršet. K poledni dorazíme do Popradu, kde jsme si zakoupili jízdenky do Bratislavy, načež jsme si dali torny do úschovy a prohlédli si město, včetně musea. V ½ 8 večer vyjíždíme, jsme na vagóně až na cikánskou rodinku téměř sami. Spíme tedy až do Žiliny. Ve 3 hod. nastupujeme jízdu do Bratislavy, kam dojíždíme v 10 hod. ráno. Torny putují znovu do úschovky a naše kroky po utišení hladu prvně do lázní, neboť naše těla už přímo prosila o koupel. Však jsme se ani poznat nemohli, když jsme vylezli z vany. Odpoledne jsme čirou náhodou padli na vedoucí zdejšího oddílu, který nám sám nabídl nocleh u nich v klubovně. S radostí jsme přijali. Ten den, bylo to ve čtvrtek, jsme se rozhodli, že pojedeme domů již zítra místo v sobotu. Na rozloučenou s Bratislavou jsme šli večer do kina. Po kině jsme ještě hodinu hovořili v klubovně s Junáky-Slováky.\n\nRáno pak jeden z nich nás provázel po Bratislavě, načež se s námi zdárně rozloučil a vlak nás pohltil a unášel k domovu, ze kterého jsme před 14 dny vyšli za dobrodružstvími. V Brně na nádraží jsme sedli do devítky a pomalu jeden po druhém odpadávali hoši, kteří spolu prožili 14 krásných dnů, až nakonec zůstal Grizly sám.\n\n"],
+      "photos": ["p-1947-0.jpg", "p-1947-1.jpg", "p-1947-2.jpg", "p-1947-3.jpg", "p-1947-4.jpg"]
+    }
   }]
 }, {
   "year": 1949,
@@ -34508,9 +34520,14 @@ module.exports = [{
   "events": [{
     "ID": 7,
     "preview": "1949-0.jpg",
-    "text": "Stanový tábor, Volary",
+    "label": "Stanový tábor\nVolary",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1949",
+      "subtitle": "Stanový tábor\nVolary (okres Prachatice)\n\n94. BO, 10. BO a husovičtí skauti a skautky tábořily nad Volary u Cudrovic. Odjezd na Šumavu všech brněnských oddílů byl 3. 7. 49 ve 24:00 hodin. 94. BO měl vagon č. 24. Vagony byly propojeny polními telefony. Za pozornost stojí značný výskyt zmijí, které jsme chytali.",
+      "photos": ["t-1949-0.jpg"]
+    }
   }]
 }, {
   "year": 1950,
@@ -34518,9 +34535,15 @@ module.exports = [{
   "events": [{
     "ID": 8,
     "preview": "1950-0.jpg",
-    "text": "Stanový tábor, Bahniska",
+    "label": "Stanový tábor\nNa Bahniskách",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["both"],
+      "title": "1946",
+      "subtitle": "Stanový tábor\nNa Bahniskách, Potštejn/Litice nad Orlicí\n(okres Rychnov nad Kněžnou)",
+      "text": "Jedna skupina táborů byla rozmístěna podél Divoké Orlice mezi Liticemi nad Orlicí a Potštejnem. Byly to tábory těchto oddílů: 5. BO, 11. BO, 57. BO, 94. BO a tábor sokola židenice.\n\nHlavní vedoucí za skautské tábory byl br. Klepáč Mirek, za Sokol br. Fiala Jaroslav. Vedení mělo působiště u dívčího tábora u Litic. Tábory byly vybudovány kolem Divoké Orlice v celkovém úseku 5 km. Všechny tábory byly propojeny polními telefony do stanu hlavního vedoucího a odtud bylo spojení vedeno až do Litic do obchodu pana Pribaniče, který běžně dovážel objednané zboží do tábora, kde byl vedoucí.\n\nMirek Klepáč, 27. 11. 1992",
+      "photos": ["t-1950-0.jpg"]
+    }
   }]
 }];
 },{}],"data/data_51-67.json":[function(require,module,exports) {
@@ -34530,15 +34553,25 @@ module.exports = [{
   "events": [{
     "ID": 9,
     "preview": "fotka-3.jpg",
-    "text": "Zrušení skautingu",
+    "label": "Zrušení skautingu",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["text"],
+      "title": "1951",
+      "subtitle": "Zrušení skautingu",
+      "text": "V lednu už šlo do tuhého. Na akčním výboru jsme odevzdali seznam inventáře horní klubovny. Klíče jsme si ještě ponechali, abychom mohli odvézt skříně z dolní klubovny nahoru. Mluvilo se okolo toho dost dlouho a měl to na starost Ťéša, a nakonec jsme to odvezli 13. 1. společně na vozíku Clipsova strýce (Clips, Ťéša, Bacil, Šerif). Klíče musel zanést Ťéša na stanici sám. Z dolní klubovny jsme dali výpověď. Chtěli jsme se též společně vyfotografovat, ale sešlo z toho. Na každé radě měl Duchaň chvíli chemické teorie a potom jsme dělali obdivuhodné, často ohavně čpící pokusy. Ke konci měsíce jsme přestali rady svolávat (není ani zapotřebí), a tak naše „Bobří hráz“ úplně osiřela.\nV polovině ledna jsme provedli nábor mezi žactvem naší jednotky, který měl dobré výsledky (bohužel máme málo rádců). Už 17. 1. 1951, ve středu, sešla se 1. družina pobytu v přírodě při sokolu mez židenice ve velmi pěkné klubovně na dvoře Sokolovny. Rádcem družiny je M. Paul (Bacil), zástupce L. Krejčí (Šutrin), členové jsou většinou bývalí Albatrosi 94. bo."
+    }
   }, {
     "ID": 10,
     "preview": "1951-0.jpg",
-    "text": "Putovní tábor, Slovensko",
+    "label": "Putovní tábor\nSlovensko",
     "type": ["trip"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1951",
+      "subtitle": "Cyklistický čtrnáctidenní putovní tábor\nSlovensko, 16.–28. 7.",
+      "photos": ["p-1951-1.jpg", "p-1951-0.jpg", "p-1951-2.jpg", "p-1951-3.jpg"]
+    }
   }]
 }, {
   "year": 1952,
@@ -34546,9 +34579,14 @@ module.exports = [{
   "events": [{
     "ID": 11,
     "preview": "1952-0.jpg",
-    "text": "Putovní tábor, Severní Čechy",
+    "label": "Putovní tábor\nseverní Čechy",
     "type": ["trip"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1952",
+      "subtitle": "Cyklistický čtrnáctidenní putovní tábor\nseverní Čechy",
+      "photos": ["p-1952-0.jpg", "p-1952-1.jpg"]
+    }
   }]
 }, {
   "year": 1953,
@@ -34556,9 +34594,14 @@ module.exports = [{
   "events": [{
     "ID": 12,
     "preview": "1953-0.jpg",
-    "text": "Putovní tábor, Jižní Čechy",
+    "label": "Putovní tábor\njižní Čechy",
     "type": ["trip"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1943",
+      "subtitle": "Cyklistický čtrnáctidenní putovní tábor\njižní Čechy",
+      "photos": ["p-1953-0", "p-1953-1"]
+    }
   }]
 }, {
   "year": 1954,
@@ -34566,9 +34609,14 @@ module.exports = [{
   "events": [{
     "ID": 13,
     "preview": "1954-0.jpg",
-    "text": "Stanový tábor, Vysoké Tatry",
+    "label": "Stanový tábor\nVysoké Tatry",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1954",
+      "subtitle": "Stanový tábor\nVysoké Tatry nad Pribylinou\n(okres Liptovský Mikuláš)",
+      "photos": ["t-1954-0.jpg", "t-1954-1.jpg", "t-1954-2.jpg"]
+    }
   }]
 }, {
   "year": 1955,
@@ -34576,9 +34624,14 @@ module.exports = [{
   "events": [{
     "ID": 14,
     "preview": "1955-0.jpg",
-    "text": "Putovní tábor, Slovenský ráj",
+    "label": "Putovní tábor\nSlovenský ráj",
     "type": ["trip"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1955",
+      "subtitle": "Putovní tábor\nSlovenský ráj",
+      "photos": ["p-1955-0.jpg", "p-1955-1.jpg"]
+    }
   }]
 }, {
   "year": 1956,
@@ -34586,9 +34639,14 @@ module.exports = [{
   "events": [{
     "ID": 15,
     "preview": "1956-0.jpg",
-    "text": "Stanový tábor, Police",
+    "label": "Stanový tábor\nPolice nad Metují",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["both"],
+      "title": "1956",
+      "subtitle": "Stanový tábor\nPolice nad Metují (okres Náchod)",
+      "photos": ["t-1956-0.jpg", "t-1956-1.jpg"]
+    }
   }]
 }, {
   "year": 1957,
@@ -34596,9 +34654,14 @@ module.exports = [{
   "events": [{
     "ID": 16,
     "preview": "1957-0.jpg",
-    "text": "Stanový tábor, Orava",
+    "label": "Stanový tábor\nOrava",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1957",
+      "subtitle": "Stanový tábor\nOrava (okres Námestovo)",
+      "photos": ["t-1957-0.jpg", "t-1957-1.jpg", "t-1957-2.jpg", "t-1957-3.jpg"]
+    }
   }]
 }, {
   "year": 1958,
@@ -34606,21 +34669,37 @@ module.exports = [{
   "events": [{
     "ID": 17,
     "preview": "1958-0.jpg",
-    "text": "Stavba základny Locanda",
+    "label": "Stavba základny Locanda",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["both"],
+      "title": "Osada Locanda",
+      "subtitle": "Stavba 1958–1962",
+      "text": "Roku 1965 ukončil oddíl činnost v tělovýchově a starší členové pokračovali jako trempská osada „Locanda“ se sídlem na Říčkách za Líšní.\n\nZ tohoto období stojí za zmínku, že br. Mirek Klepáč i br. Vladimír Rosol byli vyšetřování příslušníky stb pro prováděnou zakázanou junáckou činnost v turistickém oddíle.",
+      "photos": ["h-1958-0.jpg", "h-1958-0.jpg"]
+    }
   }, {
     "ID": 18,
     "preview": "1958-1.jpg",
-    "text": "Stanový tábor, Peklo",
+    "label": "Stanový tábor\nPeklo u Netína",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1958",
+      "subtitle": "Stanový tábor\nPeklo u Netína (okres Žďár nad Sázavou)",
+      "photos": ["t-1958-0.jpg", "t-1958-1.jpg", "t-1958-2.jpg", "t-1958-3.jpg"]
+    }
   }, {
     "ID": 19,
     "preview": "1958-2.jpg",
-    "text": "Putovní tábor, Severní Čechy",
+    "label": "Putovní tábor\nseverní Čechy",
     "type": ["trip"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1958",
+      "subtitle": "Cyklistický putovní tábor\nseverní Čechy",
+      "photos": ["p-1958-0.jpg", "p-1958-1.jpg", "p-1958-2.jpg", "p-1958-3.jpg"]
+    }
   }]
 }, {
   "year": 1959,
@@ -34628,9 +34707,14 @@ module.exports = [{
   "events": [{
     "ID": 20,
     "preview": "1959-0.jpg",
-    "text": "Putovní tábor, Jižní Čechy",
+    "label": "Putovní tábor\njižní Čechy",
     "type": ["trip"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1959",
+      "subtitle": "Cyklistický putovní tábor\njižní Čechy",
+      "photos": ["p-1959-0.jpg", "p-1959-1.jpg", "p-1959-2.jpg", "p-1959-3.jpg"]
+    }
   }]
 }, {
   "year": 1960,
@@ -34638,9 +34722,11 @@ module.exports = [{
   "events": [{
     "ID": 21,
     "preview": "fotka-4.jpg",
-    "text": "Stanový tábor, přehrada Jevišovice",
+    "label": "Stanový tábor\nPřehrada Jevišovice (okres Znojmo)",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["none"]
+    }
   }]
 }, {
   "year": 1961,
@@ -34648,9 +34734,14 @@ module.exports = [{
   "events": [{
     "ID": 22,
     "preview": "1961-0.jpg",
-    "text": "Putovní tábor, Slovenský ráj",
+    "label": "Putovní tábor\nSlovenský ráj",
     "type": ["trip"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1961",
+      "subtitle": "Putovní tábor\nSlovenský ráj – Tatry",
+      "photos": ["p-1961-0.jpg", "p-1961-1.jpg"]
+    }
   }]
 }, {
   "year": 1962,
@@ -34658,15 +34749,26 @@ module.exports = [{
   "events": [{
     "ID": 23,
     "preview": "1962-0.jpg",
-    "text": "Dostavba základny Locanda",
+    "label": "Dostavba základny Locanda",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["both"],
+      "title": "Osada Locanda",
+      "subtitle": "Stavba 1958–1962",
+      "text": "Roku 1965 ukončil oddíl činnost v tělovýchově a starší členové pokračovali jako trempská osada „Locanda“ se sídlem na Říčkách za Líšní.\n\nZ tohoto období stojí za zmínku, že br. Mirek Klepáč i br. Vladimír Rosol byli vyšetřování příslušníky stb pro prováděnou zakázanou junáckou činnost v turistickém oddíle.",
+      "photos": ["h-1958-0.jpg", "h-1958-0.jpg"]
+    }
   }, {
     "ID": 24,
     "preview": "1962-1.jpg",
-    "text": "Putovní tábor, Slovensko",
+    "label": "Putovní tábor\nSlovensko",
     "type": ["trip"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1962",
+      "subtitle": "Motocyklový putovní tábor\nSlovensko",
+      "photos": ["p-1962-0.jpg", "p-1962-1.jpg"]
+    }
   }]
 }, {
   "year": 1964,
@@ -34674,9 +34776,14 @@ module.exports = [{
   "events": [{
     "ID": 25,
     "preview": "1964-0.jpg",
-    "text": "Putovní tábor, Slovensko",
+    "label": "Putovní tábor\nSlovensko",
     "type": ["trip"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1946",
+      "subtitle": "Motocyklový putovní tábor\nSlovensko",
+      "photos": ["p-1964-0.jpg", "p-1964-1.jpg"]
+    }
   }]
 }, {
   "year": 1965,
@@ -34684,9 +34791,15 @@ module.exports = [{
   "events": [{
     "ID": 26,
     "preview": "1958-0.jpg",
-    "text": "Konec tělovýchovné činnosti",
+    "label": "Konec tělovýchovné činnosti",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["both"],
+      "title": "Osada Locanda",
+      "subtitle": "Stavba 1958–1962",
+      "text": "Roku 1965 ukončil oddíl činnost v tělovýchově a starší členové pokračovali jako trempská osada „Locanda“ se sídlem na Říčkách za Líšní.\n\nZ tohoto období stojí za zmínku, že br. Mirek Klepáč i br. Vladimír Rosol byli vyšetřování příslušníky stb pro prováděnou zakázanou junáckou činnost v turistickém oddíle.",
+      "photos": ["h-1958-0.jpg", "h-1958-0.jpg"]
+    }
   }]
 }];
 },{}],"data/data_68-69.json":[function(require,module,exports) {
@@ -34696,15 +34809,26 @@ module.exports = [{
   "events": [{
     "ID": 27,
     "preview": "1968-0.jpg",
-    "text": "Shrnutí čínnosti mezi lety 1946 až 1968",
+    "label": "Shrnutí čínnosti mezi lety 1946 až 1968",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["both"],
+      "title": "Fungování oddílu v letech 1946–1968",
+      "subtitle": "",
+      "text": "Dříve, nežli započnete zaplňovat dnes ještě bílé stránky Vaší nové kroniky záznamy Vaší junácké činnosti a Vašich budoucích zážitků a množství příhod, které v bratrském kolektivu prožijete, dovolte, abych se zmínil alespoň v hlavních rysech o historii Vašeho čtyřiadevadesátého oddílu. První oddílová kronika se nezachovala.\n\nZákladem vzniku devadesátého čtvrtého oddílu skautů byla družina Kondorů z 10. oddílu, které zahájili svoji činnost pod vedením bratra Zdeňka Matěje ihned po ukončení světové války v roce 1945. V této poválečné době nastal v Československu veliký rozmach Skautingu. Členská základna se rychle rozrůstala a oddíly, kam přicházelo stále více a více nových členů, řešily tento příliv tvořením dalších družin. Pro usnadnění práce vedoucích se tvořili z několika družin čety a z několika čet roty.\n\nV červenci 1945, po návratu z ciziny, zapojil se do činnosti předválečný člen 3. brněnského oddílu br. Klepáč, který tak splnil slib daný po rozpuštění Skautingu v roce 1940, že se po válce znovu zapojí do skautské organizace. Svoji činnost zahájil v družině Kondorů jak s výchovou členů, tak i s výchovou vůdců.\n\nKlubovna 10. oddílu byla v pěkném, dosud nedostavěném dřevěném domě v Židenicích nad Vinohrady v Hamburku. Byla sice hodně vzdálená, ale byla naše. Dlouho se však oddíl z klubovny netěšil, neboť byla odejmuta ještě na podzim 1945 pro mateřskou školku. Ještě tentýž rok se však poštěstilo získat vybombardovaný dům v Židenicích - roh ulice Skorkovského a ulice Otakara Ševčíka.\n\nKoncem roku 1945 rozhodla se oddílová rada vzhledem k velkému množství členů rozdělit oddíl ve 3 oddíly 10. bo, 94. bo a 95. bo. Vedením 94. oddílu byl pověřen br. Klepáč.\n\nSvojí činností, svým dobrým kamarádským vystupováním, svojí pílí a houževnatostí se zařadil oddíl brzy mezi nejlepší oddíly brněnské. Počet členů oddílu se pohyboval od 40 do 50. Kromě družiny Kondorů byly v oddíle družiny Racků, Albatrosů, Rysů, Lišek a Bobrů. Dvě z těchto družin byly vodácké, které však časem splynuly s pozemními skauty. Později byla založena smečka vlčat, kterou vedl br. Brabec Miloš - Mauglí. Zástupci vedoucího oddílu byli bratři Buršík Václav, Formánek Miloš, později Matěja Zdeněk a Brabec Zdeněk.\n\nPřesto, že oddíl neměl žádné finanční podpory, dokázal již v červenci 1946 uspořádat letní stanový tábor na řece Jihlavce pod Lhánicemi – tábor na Havranu. Údolí Jihlavky se pak stalo oblíbeným oddílovým místem, kam oddíl pořádal po mnoho let vždy o Velikonočních svátcích výlety s přenocováním. Buď se přenocovalo u pana Štefana ve Lhánicích, nebo později v Mohelnenském mlýně.\n\nV roce 1946 zakoupil oddíl 2 skládací chaty od likvidační složky bývalého podniku Diana v Tišnově, z nichž si postavili členové oddílu v opuštěném lomě pod Bílou horou vlastní klubovnu. Kromě této klubovny, která měla 3 místnosti, měl oddíl 1 klubovní místnost v Židenicích na Pastrnkově ulici a později též 2 klubovní místnosti na Kuklenské ulici v bývalé klubovně 32. oddílu, který zanikl.\n\nV roce 1947 vybudoval oddíl stanový tábor v Hrotovicích, který se velice dobře vydařil. V říjnu 1947 odešel vedoucí na vojenskou presenční službu a vedení za něj převzal až do únoru 1949 br. Matěja. V roce 1948 nebyl letní tábor uspořádán, ale v roce 1949 se již oddíl zúčastnil budovatelských táborů na Šumavě, pořádaných brněnskou oblastí. Tábor 94. oddílu měl krásnou polohu – asi 5 km severně Volar u Cudrovic s překrásným výhledem na Bobík. V roce 1950 vybudoval oddíl poslední skautský tábor v Orlických horách v údolí Divoké Orlice mezi Liticemi a Potštejnem - louka na Chmeliskách. V tomtéž roce se podařilo na hlídkových junáckých průvodech brněnské oblasti získat hlídce 94. oddílu první místo za účasti silné konkurence. Získaný pohár byl největší oddílovou trofejí.\n\nNa podzim 1950 vstoupili téměř všichni členové oddílu do sokola židenice, kde cvičili v základní tělesné výchově. V posledních dnech roku 1950 byla skautským oddílům znemožněna další činnost. Junáci byli rozpuštěni. Začíná nové období - počátek neblahých padesátých let - polkněme hořkou slinu. Ti, kteří prožili krásné chvíle v těch nejlepších kamarádských kolektivech, nechť na ně nikdy nezapomenou, a ti, kteří nyní po letech přebírají pochodeň skautských ideálů, ať se snaží dosáhnout toho, co bylo znemožněno jejím předchůdcům.\n\nPočátkem roku 1951 obnovili členové bývalého 94. oddílu junáka oddíl pobytu v přírodě – sokol židenice. Oddíl obdržel pěknou klubovnu na dvoře Sokolovny. Pod hlavičkou sokola židenice a za jejich značné podpory pokračoval oddíl ve své činnosti až do roku 1963.\n\n3 roky po sobě zvítězily závodní hlídky oddílu v turistickém branném závodě. V dalších letech zaznamenali členové oddílu velké úspěchy v orientačních závodech, kde dokázali býti nejlepšími nejen v Brně, ale i v čssr. Bylo dosaženo mnoha titulů přeborníků v okrese, kraji i čssr. Rovněž byly pořádány každého roku tábory.\n\nOddíl pobytu v přírodě byl změněn na turistický oddíl. sokol židenice změnil název na sokol mez židenice, pak spartak mez židenice a konečně tj zkl brno. Oddíl však stále žil a poskytoval, pokud to bylo v jeho silách, svým členům alespoň částečnou náhradu za skauting.\n\nV roce 1957 byl též založen dívčí oddíl. Po roce 1964 činnost oddílu ochabovala, až zanikla úplně. Koncem roku 1967 a počátkem roku 1968 svitla nová naděje. Jarní vánek probudil opět city a skauting se opět probírá z nuceného útlumu. Hlásí se k životu, chce opět vidět jasné tváře dětí, chce jim dát kus pěkného dětství, na něž se ani v dospělém věku nezapomíná, chce znovu u svých členů vytvářet vlastenecký cit.\n\nI čtyřiadevadesátka se na jaře 1968 obnovuje. Žezlo přebírá bratr Šnajdr Jan (v roce 1950 jeden z nejmladších členů 94. oddílu, říkali mu tenkrát v oddílu Jezule - pro jeho stálý dětský úsměv). Věřím ti, Jendo, a všem ostatním, že Váš a vlastně i můj oddíl nikdy nezanikne. Čeká vás těžké období práce, ale té jsme se nikdy přece nebáli. Věřím všem členům oddílu, že se budou snažit vytvořit v oddíle ten nejkamarádštější skautský kolektiv. Nechť znovu vzplane v srdcích skautský oheň.\n\nPozdější zápisy upřesňují změnu vedení oddílu. V jeho čele stáli zejména Havran a Osin – pozn. red.",
+      "photos": ["h-1968-0.jpg", "h-1968-1.jpg"]
+    }
   }, {
     "ID": 28,
     "preview": "1968-1.jpg",
-    "text": "Stanový tábor, Zahradiště",
+    "label": "Stanový tábor\nZahradiště",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1968–1970",
+      "subtitle": "Stanový tábor\nZahradiště",
+      "photos": ["t-1968-0.jpg", "t-1968-1.jpg"]
+    }
   }]
 }];
 },{}],"data/data_70-88.json":[function(require,module,exports) {
@@ -34714,7 +34838,7 @@ module.exports = [{
   "events": [{
     "ID": 30,
     "preview": "1971-0.jpg",
-    "text": "Stanový tábor, Nová říše",
+    "label": "Stanový tábor, Nová říše",
     "type": ["camp"],
     "content": {}
   }]
@@ -34724,7 +34848,7 @@ module.exports = [{
   "events": [{
     "ID": 31,
     "preview": "1977-0.jpg",
-    "text": "Stanový tábor, Landštejn",
+    "label": "Stanový tábor, Landštejn",
     "type": ["camp"],
     "content": {}
   }]
@@ -34734,7 +34858,7 @@ module.exports = [{
   "events": [{
     "ID": 32,
     "preview": "1980-0.jpg",
-    "text": "Putovní tábor, Slovenské rudohoří",
+    "label": "Putovní tábor, Slovenské rudohoří",
     "type": ["trip"],
     "content": {}
   }]
@@ -34744,7 +34868,7 @@ module.exports = [{
   "events": [{
     "ID": 33,
     "preview": "fotka-2.jpg",
-    "text": "Stanový tábor, Vojtěchov",
+    "label": "Stanový tábor, Vojtěchov",
     "type": ["camp"],
     "content": {}
   }]
@@ -34754,7 +34878,7 @@ module.exports = [{
   "events": [{
     "ID": 34,
     "preview": "1985-0.jpg",
-    "text": "Stanový tábor, Vidonín",
+    "label": "Stanový tábor, Vidonín",
     "type": ["camp"],
     "content": {}
   }]
@@ -34764,7 +34888,7 @@ module.exports = [{
   "events": [{
     "ID": 35,
     "preview": "fotka-1.jpg",
-    "text": "Stanový tábor, Horní Kounice",
+    "label": "Stanový tábor, Horní Kounice",
     "type": ["camp"],
     "content": {}
   }]
@@ -34776,7 +34900,7 @@ module.exports = [{
   "events": [{
     "ID": 36,
     "preview": "1989-0.jpg",
-    "text": "Sametová revoluce",
+    "label": "Sametová revoluce",
     "type": ["history"],
     "content": {}
   }]
@@ -34786,19 +34910,19 @@ module.exports = [{
   "events": [{
     "ID": 37,
     "preview": "1990-0.jpg",
-    "text": "Oddíl přebírá Čert a Mára",
+    "label": "Oddíl přebírá Čert a Mára",
     "type": ["history"],
     "content": {}
   }, {
     "ID": 38,
     "preview": "1990-1.jpg",
-    "text": "Stanový tábor, Pyšel",
+    "label": "Stanový tábor, Pyšel",
     "type": ["camp"],
     "content": {}
   }, {
     "ID": 39,
     "preview": "fotka-2.jpg",
-    "text": "První oddílové Vánoce",
+    "label": "První oddílové Vánoce",
     "type": ["trip"],
     "content": {}
   }]
@@ -34808,7 +34932,7 @@ module.exports = [{
   "events": [{
     "ID": 40,
     "preview": "1991-0.jpg",
-    "text": "Stanový tábor, Březinky",
+    "label": "Stanový tábor, Březinky",
     "type": ["camp"],
     "content": {}
   }]
@@ -34818,7 +34942,7 @@ module.exports = [{
   "events": [{
     "ID": 41,
     "preview": "1992-0.jpg",
-    "text": "Stanový tábor, Nové Syrovice",
+    "label": "Stanový tábor, Nové Syrovice",
     "type": ["camp"],
     "content": {}
   }]
@@ -34828,7 +34952,7 @@ module.exports = [{
   "events": [{
     "ID": 42,
     "preview": "1994-0.jpg",
-    "text": "Stanový tábor, Smilov",
+    "label": "Stanový tábor, Smilov",
     "type": ["camp"],
     "content": {}
   }]
@@ -34838,7 +34962,7 @@ module.exports = [{
   "events": [{
     "ID": 43,
     "preview": "1996-0.jpg",
-    "text": "Oddíl přebírá Permon",
+    "label": "Oddíl přebírá Permon",
     "type": ["history"],
     "content": {}
   }]
@@ -34848,7 +34972,7 @@ module.exports = [{
   "events": [{
     "ID": 44,
     "preview": "2001-0.jpg",
-    "text": "Oddíl přebírá Permoník a Vilém",
+    "label": "Oddíl přebírá Permoník a Vilém",
     "type": ["history"],
     "content": {}
   }]
@@ -34858,7 +34982,7 @@ module.exports = [{
   "events": [{
     "ID": 45,
     "preview": "2005-0.jpg",
-    "text": "Oddíl přebírá Štěpán a Bíďa",
+    "label": "Oddíl přebírá Štěpán a Bíďa",
     "type": ["history"],
     "content": {}
   }]
@@ -34868,7 +34992,7 @@ module.exports = [{
   "events": [{
     "ID": 46,
     "preview": "2008-0.jpg",
-    "text": "Oddíl přebírá Radek",
+    "label": "Oddíl přebírá Radek",
     "type": ["history"],
     "content": {}
   }]
@@ -34878,13 +35002,13 @@ module.exports = [{
   "events": [{
     "ID": 47,
     "preview": "2011-0.jpg",
-    "text": "Oddíl přebírá Sysel, zástupce je Krtek, později Pepek",
+    "label": "Oddíl přebírá Sysel, zástupce je Krtek, později Pepek",
     "type": ["history"],
     "content": {}
   }, {
     "ID": 48,
     "preview": "2011-1.jpg",
-    "text": "Stanový tábor, Kostelní Myslová",
+    "label": "Stanový tábor, Kostelní Myslová",
     "type": ["camp"],
     "content": {}
   }]
@@ -34894,7 +35018,7 @@ module.exports = [{
   "events": [{
     "ID": 49,
     "preview": "2015-0.jpg",
-    "text": "Oddíl přebírá Boro, zástupce je Desert, později Jura",
+    "label": "Oddíl přebírá Boro, zástupce je Desert, později Jura",
     "type": ["history"],
     "content": {}
   }]
@@ -34904,7 +35028,7 @@ module.exports = [{
   "events": [{
     "ID": 50,
     "preview": "2019-0.jpg",
-    "text": "Stanový tábor, Kdousov",
+    "label": "Stanový tábor, Kdousov",
     "type": ["camp"],
     "content": {}
   }]
@@ -34914,7 +35038,7 @@ module.exports = [{
   "events": [{
     "ID": 51,
     "preview": "2020-0.jpg",
-    "text": "Oddíl přebírá Dubínek, zástupce je Mirek a Matěj",
+    "label": "Oddíl přebírá Dubínek, zástupce je Mirek a Matěj",
     "type": ["history"],
     "content": {}
   }]
@@ -35001,8 +35125,8 @@ function Timeline(props) {
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "landing-transition-white"
   })), /*#__PURE__*/_react.default.createElement(_Filter.default, {
-    handleClick: function handleClick(i) {
-      return changeFilter(i);
+    handleClick: function handleClick(index) {
+      return changeFilter(index);
     },
     filter0: filter0,
     filter1: filter1,
@@ -35010,29 +35134,237 @@ function Timeline(props) {
   }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
     data: _data_.default,
     red: false,
-    filter: [filter0, filter1, filter2]
+    filter: [filter0, filter1, filter2],
+    handleClick: function handleClick(eventContent) {
+      return props.handleClick(eventContent);
+    }
   }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
     data: _data_2.default,
     red: true,
-    filter: [filter0, filter1, filter2]
+    filter: [filter0, filter1, filter2],
+    handleClick: function handleClick(eventContent) {
+      return props.handleClick(eventContent);
+    }
   }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
     data: _data_3.default,
     red: false,
-    filter: [filter0, filter1, filter2]
+    filter: [filter0, filter1, filter2],
+    handleClick: function handleClick(eventContent) {
+      return props.handleClick(eventContent);
+    }
   }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
     data: _data_4.default,
     red: true,
-    filter: [filter0, filter1, filter2]
+    filter: [filter0, filter1, filter2],
+    handleClick: function handleClick(eventContent) {
+      return props.handleClick(eventContent);
+    }
   }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
     data: _data_5.default,
     red: false,
-    filter: [filter0, filter1, filter2]
+    filter: [filter0, filter1, filter2],
+    handleClick: function handleClick(eventContent) {
+      return props.handleClick(eventContent);
+    }
   }));
 }
 
 var _default = Timeline;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./filter/Filter":"components/timeline/filter/Filter.jsx","./TimelineSection":"components/timeline/TimelineSection.jsx","../../data/data_45-50.json":"data/data_45-50.json","../../data/data_51-67.json":"data/data_51-67.json","../../data/data_68-69.json":"data/data_68-69.json","../../data/data_70-88.json":"data/data_70-88.json","../../data/data_89-21.json":"data/data_89-21.json","./timeline.scss":"components/timeline/timeline.scss"}],"components/landing/LandingPage.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./filter/Filter":"components/timeline/filter/Filter.jsx","./TimelineSection":"components/timeline/TimelineSection.jsx","../../data/data_45-50.json":"data/data_45-50.json","../../data/data_51-67.json":"data/data_51-67.json","../../data/data_68-69.json":"data/data_68-69.json","../../data/data_70-88.json":"data/data_70-88.json","../../data/data_89-21.json":"data/data_89-21.json","./timeline.scss":"components/timeline/timeline.scss"}],"public/images/timeline/h-1945-0.jpg":[function(require,module,exports) {
+module.exports = "/h-1945-0.38e318e6.jpg";
+},{}],"public/images/timeline/h-1945-1.jpg":[function(require,module,exports) {
+module.exports = "/h-1945-1.3c3a2298.jpg";
+},{}],"public/images/timeline/h-1945-2.jpg":[function(require,module,exports) {
+module.exports = "/h-1945-2.80decb8d.jpg";
+},{}],"public/images/timeline/h-1947-0.jpg":[function(require,module,exports) {
+module.exports = "/h-1947-0.8534371a.jpg";
+},{}],"public/images/timeline/h-1947-1.jpg":[function(require,module,exports) {
+module.exports = "/h-1947-1.8abcc323.jpg";
+},{}],"public/images/timeline/h-1968-0.jpg":[function(require,module,exports) {
+module.exports = "/h-1968-0.b849383d.jpg";
+},{}],"public/images/timeline/h-1968-1.jpg":[function(require,module,exports) {
+module.exports = "/h-1968-1.5eaaf030.jpg";
+},{}],"public/images/timeline/h-1958-0.jpg":[function(require,module,exports) {
+module.exports = "/h-1958-0.9cb73d2c.jpg";
+},{}],"public/images/timeline/h-1958-1.jpg":[function(require,module,exports) {
+module.exports = "/h-1958-1.1f9bb4e0.jpg";
+},{}],"public/images/timeline/t-1946-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1946-0.e470a9d8.jpg";
+},{}],"public/images/timeline/t-1947-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1947-0.eba037ce.jpg";
+},{}],"public/images/timeline/t-1947-1.jpg":[function(require,module,exports) {
+module.exports = "/t-1947-1.99e6deae.jpg";
+},{}],"public/images/timeline/t-1949-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1949-0.44e19c33.jpg";
+},{}],"public/images/timeline/t-1950-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1950-0.a6b95cb8.jpg";
+},{}],"public/images/timeline/t-1954-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1954-0.5c062602.jpg";
+},{}],"public/images/timeline/t-1954-1.jpg":[function(require,module,exports) {
+module.exports = "/t-1954-1.c4f93142.jpg";
+},{}],"public/images/timeline/t-1954-2.jpg":[function(require,module,exports) {
+module.exports = "/t-1954-2.484b49fe.jpg";
+},{}],"public/images/timeline/t-1956-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1956-0.052c8e77.jpg";
+},{}],"public/images/timeline/t-1956-1.jpg":[function(require,module,exports) {
+module.exports = "/t-1956-1.5ae3155b.jpg";
+},{}],"public/images/timeline/t-1957-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1957-0.0327b825.jpg";
+},{}],"public/images/timeline/t-1957-1.jpg":[function(require,module,exports) {
+module.exports = "/t-1957-1.b6e78fd7.jpg";
+},{}],"public/images/timeline/t-1957-2.jpg":[function(require,module,exports) {
+module.exports = "/t-1957-2.4a6bcd21.jpg";
+},{}],"public/images/timeline/t-1957-3.jpg":[function(require,module,exports) {
+module.exports = "/t-1957-3.fdf33344.jpg";
+},{}],"public/images/timeline/t-1958-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1958-0.fcf0e330.jpg";
+},{}],"public/images/timeline/t-1958-1.jpg":[function(require,module,exports) {
+module.exports = "/t-1958-1.ad68988d.jpg";
+},{}],"public/images/timeline/t-1958-2.jpg":[function(require,module,exports) {
+module.exports = "/t-1958-2.e1fea957.jpg";
+},{}],"public/images/timeline/t-1958-3.jpg":[function(require,module,exports) {
+module.exports = "/t-1958-3.597a4b0b.jpg";
+},{}],"public/images/timeline/t-1968-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1968-0.11549c63.jpg";
+},{}],"public/images/timeline/t-1968-1.jpg":[function(require,module,exports) {
+module.exports = "/t-1968-1.3ad96941.jpg";
+},{}],"public/images/timeline/p-1947-0.jpg":[function(require,module,exports) {
+module.exports = "/p-1947-0.7b47b227.jpg";
+},{}],"public/images/timeline/p-1947-1.jpg":[function(require,module,exports) {
+module.exports = "/p-1947-1.fe388c91.jpg";
+},{}],"public/images/timeline/p-1947-2.jpg":[function(require,module,exports) {
+module.exports = "/p-1947-2.96a39ee1.jpg";
+},{}],"public/images/timeline/p-1947-3.jpg":[function(require,module,exports) {
+module.exports = "/p-1947-3.ae4692aa.jpg";
+},{}],"public/images/timeline/p-1947-4.jpg":[function(require,module,exports) {
+module.exports = "/p-1947-4.3cfca159.jpg";
+},{}],"public/images/timeline/p-1951-0.jpg":[function(require,module,exports) {
+module.exports = "/p-1951-0.e26efa37.jpg";
+},{}],"public/images/timeline/p-1951-1.jpg":[function(require,module,exports) {
+module.exports = "/p-1951-1.13fa54a8.jpg";
+},{}],"public/images/timeline/p-1951-2.jpg":[function(require,module,exports) {
+module.exports = "/p-1951-2.75b4fa3e.jpg";
+},{}],"public/images/timeline/p-1951-3.jpg":[function(require,module,exports) {
+module.exports = "/p-1951-3.308bd595.jpg";
+},{}],"public/images/timeline/p-1952-0.jpg":[function(require,module,exports) {
+module.exports = "/p-1952-0.1a7ec4ff.jpg";
+},{}],"public/images/timeline/p-1952-1.jpg":[function(require,module,exports) {
+module.exports = "/p-1952-1.5727b850.jpg";
+},{}],"public/images/timeline/p-1953-0.jpg":[function(require,module,exports) {
+module.exports = "/p-1953-0.307254cc.jpg";
+},{}],"public/images/timeline/p-1953-1.jpg":[function(require,module,exports) {
+module.exports = "/p-1953-1.62111710.jpg";
+},{}],"public/images/timeline/p-1955-0.jpg":[function(require,module,exports) {
+module.exports = "/p-1955-0.e20f793d.jpg";
+},{}],"public/images/timeline/p-1955-1.jpg":[function(require,module,exports) {
+module.exports = "/p-1955-1.a70cda9e.jpg";
+},{}],"public/images/timeline/p-1958-0.jpg":[function(require,module,exports) {
+module.exports = "/p-1958-0.b5f5e07a.jpg";
+},{}],"public/images/timeline/p-1958-1.jpg":[function(require,module,exports) {
+module.exports = "/p-1958-1.a93d8a93.jpg";
+},{}],"public/images/timeline/p-1958-2.jpg":[function(require,module,exports) {
+module.exports = "/p-1958-2.e303d890.jpg";
+},{}],"public/images/timeline/p-1958-3.jpg":[function(require,module,exports) {
+module.exports = "/p-1958-3.bc821fce.jpg";
+},{}],"public/images/timeline/p-1959-0.jpg":[function(require,module,exports) {
+module.exports = "/p-1959-0.8ac89c86.jpg";
+},{}],"public/images/timeline/p-1959-1.jpg":[function(require,module,exports) {
+module.exports = "/p-1959-1.b5c9f7f7.jpg";
+},{}],"public/images/timeline/p-1959-2.jpg":[function(require,module,exports) {
+module.exports = "/p-1959-2.08722719.jpg";
+},{}],"public/images/timeline/p-1959-3.jpg":[function(require,module,exports) {
+module.exports = "/p-1959-3.4ab1cdb1.jpg";
+},{}],"public/images/timeline/p-1961-0.jpg":[function(require,module,exports) {
+module.exports = "/p-1961-0.fafb6c3d.jpg";
+},{}],"public/images/timeline/p-1961-1.jpg":[function(require,module,exports) {
+module.exports = "/p-1961-1.ee251cb2.jpg";
+},{}],"public/images/timeline/p-1962-0.jpg":[function(require,module,exports) {
+module.exports = "/p-1962-0.04f60f1c.jpg";
+},{}],"public/images/timeline/p-1962-1.jpg":[function(require,module,exports) {
+module.exports = "/p-1962-1.13175f2e.jpg";
+},{}],"public/images/timeline/p-1964-0.jpg":[function(require,module,exports) {
+module.exports = "/p-1964-0.1dec406e.jpg";
+},{}],"public/images/timeline/p-1964-1.jpg":[function(require,module,exports) {
+module.exports = "/p-1964-1.34562552.jpg";
+},{}],"components/landing/ImageEventPath.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _h19450Jpg$h;
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var _default = (_h19450Jpg$h = {
+  "h-1945-0.jpg": require("../../public/images/timeline/h-1945-0.jpg"),
+  "h-1945-1.jpg": require("../../public/images/timeline/h-1945-1.jpg"),
+  "h-1945-2.jpg": require("../../public/images/timeline/h-1945-2.jpg"),
+  "h-1947-0.jpg": require("../../public/images/timeline/h-1947-0.jpg"),
+  "h-1947-1.jpg": require("../../public/images/timeline/h-1947-1.jpg"),
+  "h-1968-0.jpg": require("../../public/images/timeline/h-1968-0.jpg"),
+  "h-1968-1.jpg": require("../../public/images/timeline/h-1968-1.jpg"),
+  "h-1958-0.jpg": require("../../public/images/timeline/h-1958-0.jpg"),
+  "h-1958-1.jpg": require("../../public/images/timeline/h-1958-1.jpg"),
+  "t-1946-0.jpg": require("../../public/images/timeline/t-1946-0.jpg"),
+  "t-1947-0.jpg": require("../../public/images/timeline/t-1947-0.jpg"),
+  "t-1947-1.jpg": require("../../public/images/timeline/t-1947-1.jpg"),
+  "t-1949-0.jpg": require("../../public/images/timeline/t-1949-0.jpg"),
+  "t-1950-0.jpg": require("../../public/images/timeline/t-1950-0.jpg"),
+  "t-1954-0.jpg": require("../../public/images/timeline/t-1954-0.jpg"),
+  "t-1954-1.jpg": require("../../public/images/timeline/t-1954-1.jpg"),
+  "t-1954-2.jpg": require("../../public/images/timeline/t-1954-2.jpg"),
+  "t-1956-0.jpg": require("../../public/images/timeline/t-1956-0.jpg"),
+  "t-1956-1.jpg": require("../../public/images/timeline/t-1956-1.jpg"),
+  "t-1957-0.jpg": require("../../public/images/timeline/t-1957-0.jpg"),
+  "t-1957-1.jpg": require("../../public/images/timeline/t-1957-1.jpg"),
+  "t-1957-2.jpg": require("../../public/images/timeline/t-1957-2.jpg"),
+  "t-1957-3.jpg": require("../../public/images/timeline/t-1957-3.jpg"),
+  "t-1958-0.jpg": require("../../public/images/timeline/t-1958-0.jpg"),
+  "t-1958-1.jpg": require("../../public/images/timeline/t-1958-1.jpg"),
+  "t-1958-2.jpg": require("../../public/images/timeline/t-1958-2.jpg"),
+  "t-1958-3.jpg": require("../../public/images/timeline/t-1958-3.jpg"),
+  "t-1968-0.jpg": require("../../public/images/timeline/t-1968-0.jpg"),
+  "t-1968-1.jpg": require("../../public/images/timeline/t-1968-1.jpg"),
+  "p-1947-0.jpg": require("../../public/images/timeline/p-1947-0.jpg"),
+  "p-1947-1.jpg": require("../../public/images/timeline/p-1947-1.jpg"),
+  "p-1947-2.jpg": require("../../public/images/timeline/p-1947-2.jpg"),
+  "p-1947-3.jpg": require("../../public/images/timeline/p-1947-3.jpg"),
+  "p-1947-4.jpg": require("../../public/images/timeline/p-1947-4.jpg"),
+  "p-1951-0.jpg": require("../../public/images/timeline/p-1951-0.jpg"),
+  "p-1951-1.jpg": require("../../public/images/timeline/p-1951-1.jpg"),
+  "p-1951-2.jpg": require("../../public/images/timeline/p-1951-2.jpg"),
+  "p-1951-3.jpg": require("../../public/images/timeline/p-1951-3.jpg"),
+  "p-1952-0.jpg": require("../../public/images/timeline/p-1952-0.jpg"),
+  "p-1952-1.jpg": require("../../public/images/timeline/p-1952-1.jpg"),
+  "p-1953-0.jpg": require("../../public/images/timeline/p-1953-0.jpg"),
+  "p-1953-1.jpg": require("../../public/images/timeline/p-1953-1.jpg"),
+  "p-1955-0.jpg": require("../../public/images/timeline/p-1955-0.jpg"),
+  "p-1955-1.jpg": require("../../public/images/timeline/p-1955-1.jpg"),
+  "p-1958-0.jpg": require("../../public/images/timeline/p-1958-0.jpg"),
+  "p-1958-1.jpg": require("../../public/images/timeline/p-1958-1.jpg"),
+  "p-1958-2.jpg": require("../../public/images/timeline/p-1958-2.jpg"),
+  "p-1958-3.jpg": require("../../public/images/timeline/p-1958-3.jpg"),
+  "p-1959-0.jpg": require("../../public/images/timeline/p-1959-0.jpg"),
+  "p-1959-1.jpg": require("../../public/images/timeline/p-1959-1.jpg"),
+  "p-1959-2.jpg": require("../../public/images/timeline/p-1959-2.jpg"),
+  "p-1959-3.jpg": require("../../public/images/timeline/p-1959-3.jpg"),
+  "p-1961-0.jpg": require("../../public/images/timeline/p-1961-0.jpg"),
+  "p-1961-1.jpg": require("../../public/images/timeline/p-1961-1.jpg"),
+  "p-1962-0.jpg": require("../../public/images/timeline/p-1962-0.jpg"),
+  "p-1962-1.jpg": require("../../public/images/timeline/p-1962-1.jpg")
+}, _defineProperty(_h19450Jpg$h, "p-1962-0.jpg", require("../../public/images/timeline/p-1962-0.jpg")), _defineProperty(_h19450Jpg$h, "p-1962-1.jpg", require("../../public/images/timeline/p-1962-1.jpg")), _defineProperty(_h19450Jpg$h, "p-1964-0.jpg", require("../../public/images/timeline/p-1964-0.jpg")), _defineProperty(_h19450Jpg$h, "p-1964-1.jpg", require("../../public/images/timeline/p-1964-1.jpg")), _h19450Jpg$h);
+
+exports.default = _default;
+},{"../../public/images/timeline/h-1945-0.jpg":"public/images/timeline/h-1945-0.jpg","../../public/images/timeline/h-1945-1.jpg":"public/images/timeline/h-1945-1.jpg","../../public/images/timeline/h-1945-2.jpg":"public/images/timeline/h-1945-2.jpg","../../public/images/timeline/h-1947-0.jpg":"public/images/timeline/h-1947-0.jpg","../../public/images/timeline/h-1947-1.jpg":"public/images/timeline/h-1947-1.jpg","../../public/images/timeline/h-1968-0.jpg":"public/images/timeline/h-1968-0.jpg","../../public/images/timeline/h-1968-1.jpg":"public/images/timeline/h-1968-1.jpg","../../public/images/timeline/h-1958-0.jpg":"public/images/timeline/h-1958-0.jpg","../../public/images/timeline/h-1958-1.jpg":"public/images/timeline/h-1958-1.jpg","../../public/images/timeline/t-1946-0.jpg":"public/images/timeline/t-1946-0.jpg","../../public/images/timeline/t-1947-0.jpg":"public/images/timeline/t-1947-0.jpg","../../public/images/timeline/t-1947-1.jpg":"public/images/timeline/t-1947-1.jpg","../../public/images/timeline/t-1949-0.jpg":"public/images/timeline/t-1949-0.jpg","../../public/images/timeline/t-1950-0.jpg":"public/images/timeline/t-1950-0.jpg","../../public/images/timeline/t-1954-0.jpg":"public/images/timeline/t-1954-0.jpg","../../public/images/timeline/t-1954-1.jpg":"public/images/timeline/t-1954-1.jpg","../../public/images/timeline/t-1954-2.jpg":"public/images/timeline/t-1954-2.jpg","../../public/images/timeline/t-1956-0.jpg":"public/images/timeline/t-1956-0.jpg","../../public/images/timeline/t-1956-1.jpg":"public/images/timeline/t-1956-1.jpg","../../public/images/timeline/t-1957-0.jpg":"public/images/timeline/t-1957-0.jpg","../../public/images/timeline/t-1957-1.jpg":"public/images/timeline/t-1957-1.jpg","../../public/images/timeline/t-1957-2.jpg":"public/images/timeline/t-1957-2.jpg","../../public/images/timeline/t-1957-3.jpg":"public/images/timeline/t-1957-3.jpg","../../public/images/timeline/t-1958-0.jpg":"public/images/timeline/t-1958-0.jpg","../../public/images/timeline/t-1958-1.jpg":"public/images/timeline/t-1958-1.jpg","../../public/images/timeline/t-1958-2.jpg":"public/images/timeline/t-1958-2.jpg","../../public/images/timeline/t-1958-3.jpg":"public/images/timeline/t-1958-3.jpg","../../public/images/timeline/t-1968-0.jpg":"public/images/timeline/t-1968-0.jpg","../../public/images/timeline/t-1968-1.jpg":"public/images/timeline/t-1968-1.jpg","../../public/images/timeline/p-1947-0.jpg":"public/images/timeline/p-1947-0.jpg","../../public/images/timeline/p-1947-1.jpg":"public/images/timeline/p-1947-1.jpg","../../public/images/timeline/p-1947-2.jpg":"public/images/timeline/p-1947-2.jpg","../../public/images/timeline/p-1947-3.jpg":"public/images/timeline/p-1947-3.jpg","../../public/images/timeline/p-1947-4.jpg":"public/images/timeline/p-1947-4.jpg","../../public/images/timeline/p-1951-0.jpg":"public/images/timeline/p-1951-0.jpg","../../public/images/timeline/p-1951-1.jpg":"public/images/timeline/p-1951-1.jpg","../../public/images/timeline/p-1951-2.jpg":"public/images/timeline/p-1951-2.jpg","../../public/images/timeline/p-1951-3.jpg":"public/images/timeline/p-1951-3.jpg","../../public/images/timeline/p-1952-0.jpg":"public/images/timeline/p-1952-0.jpg","../../public/images/timeline/p-1952-1.jpg":"public/images/timeline/p-1952-1.jpg","../../public/images/timeline/p-1953-0.jpg":"public/images/timeline/p-1953-0.jpg","../../public/images/timeline/p-1953-1.jpg":"public/images/timeline/p-1953-1.jpg","../../public/images/timeline/p-1955-0.jpg":"public/images/timeline/p-1955-0.jpg","../../public/images/timeline/p-1955-1.jpg":"public/images/timeline/p-1955-1.jpg","../../public/images/timeline/p-1958-0.jpg":"public/images/timeline/p-1958-0.jpg","../../public/images/timeline/p-1958-1.jpg":"public/images/timeline/p-1958-1.jpg","../../public/images/timeline/p-1958-2.jpg":"public/images/timeline/p-1958-2.jpg","../../public/images/timeline/p-1958-3.jpg":"public/images/timeline/p-1958-3.jpg","../../public/images/timeline/p-1959-0.jpg":"public/images/timeline/p-1959-0.jpg","../../public/images/timeline/p-1959-1.jpg":"public/images/timeline/p-1959-1.jpg","../../public/images/timeline/p-1959-2.jpg":"public/images/timeline/p-1959-2.jpg","../../public/images/timeline/p-1959-3.jpg":"public/images/timeline/p-1959-3.jpg","../../public/images/timeline/p-1961-0.jpg":"public/images/timeline/p-1961-0.jpg","../../public/images/timeline/p-1961-1.jpg":"public/images/timeline/p-1961-1.jpg","../../public/images/timeline/p-1962-0.jpg":"public/images/timeline/p-1962-0.jpg","../../public/images/timeline/p-1962-1.jpg":"public/images/timeline/p-1962-1.jpg","../../public/images/timeline/p-1964-0.jpg":"public/images/timeline/p-1964-0.jpg","../../public/images/timeline/p-1964-1.jpg":"public/images/timeline/p-1964-1.jpg"}],"components/templates/templates.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/templates/TemplateBoth.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35042,23 +35374,177 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
+var _Close = _interopRequireDefault(require("../ui/Close"));
+
+var _ImageEventPath = _interopRequireDefault(require("../landing/ImageEventPath"));
+
+var _templates = _interopRequireDefault(require("./templates.scss"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function TemplateBoth(props) {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-container"
+  }, /*#__PURE__*/_react.default.createElement(_Close.default, {
+    handleClick: function handleClick() {
+      return props.handleClose();
+    }
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-title-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-title"
+  }, props.event.title), /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-subtitle"
+  }, props.event.subtitle)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-body-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-text"
+  }, props.event.text), /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-image-container"
+  }, props.event.photos.map(function (photo) {
+    return /*#__PURE__*/_react.default.createElement("img", {
+      src: _ImageEventPath.default[photo],
+      className: "template-image",
+      key: photo
+    });
+  }))));
+}
+
+var _default = TemplateBoth;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../ui/Close":"components/ui/Close.jsx","../landing/ImageEventPath":"components/landing/ImageEventPath.jsx","./templates.scss":"components/templates/templates.scss"}],"components/templates/TemplatePhotos.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Close = _interopRequireDefault(require("../ui/Close"));
+
+var _ImageEventPath = _interopRequireDefault(require("../landing/ImageEventPath"));
+
+var _templates = _interopRequireDefault(require("./templates.scss"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function TemplatePhotos(props) {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-container"
+  }, /*#__PURE__*/_react.default.createElement(_Close.default, {
+    handleClick: function handleClick() {
+      return props.handleClose();
+    }
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-title-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-title"
+  }, props.event.title), /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-subtitle"
+  }, props.event.subtitle)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "template2-image-container"
+  }, props.event.photos.map(function (photo) {
+    return /*#__PURE__*/_react.default.createElement("img", {
+      src: _ImageEventPath.default[photo],
+      className: "template2-image",
+      key: photo
+    });
+  })));
+}
+
+var _default = TemplatePhotos;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../ui/Close":"components/ui/Close.jsx","../landing/ImageEventPath":"components/landing/ImageEventPath.jsx","./templates.scss":"components/templates/templates.scss"}],"components/landing/LandingPage.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
 var _Intro = _interopRequireDefault(require("../intro/Intro"));
 
 var _Books = _interopRequireDefault(require("../books/Books"));
 
 var _Timeline = _interopRequireDefault(require("../timeline/Timeline"));
 
+var _TemplateBoth = _interopRequireDefault(require("../templates/TemplateBoth"));
+
+var _TemplatePhotos = _interopRequireDefault(require("../templates/TemplatePhotos"));
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 function LandingPage(props) {
+  var _useState = (0, _react.useState)(),
+      _useState2 = _slicedToArray(_useState, 2),
+      currentEvent = _useState2[0],
+      setCurretEvent = _useState2[1];
+
+  var _useState3 = (0, _react.useState)(false),
+      _useState4 = _slicedToArray(_useState3, 2),
+      showEvent = _useState4[0],
+      setShowEvent = _useState4[1];
+
+  var handleEvent = function handleEvent(event) {
+    setCurretEvent(event.content);
+    setShowEvent(true);
+  };
+
+  var getTemplate = function getTemplate() {
+    if (currentEvent.type == 'both') {
+      return /*#__PURE__*/_react.default.createElement(_TemplateBoth.default, {
+        event: currentEvent,
+        handleClose: function handleClose() {
+          return setShowEvent(false);
+        }
+      });
+    } else if (currentEvent.type == 'photos') {
+      return /*#__PURE__*/_react.default.createElement(_TemplatePhotos.default, {
+        event: currentEvent,
+        handleClose: function handleClose() {
+          return setShowEvent(false);
+        }
+      });
+    } else if (currentEvent.type == 'text') {
+      return /*#__PURE__*/_react.default.createElement("div", null);
+    }
+  };
+
   return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Intro.default, {
     handleHistoryPush: props.handleHistoryPush
-  }), /*#__PURE__*/_react.default.createElement(_Books.default, null), /*#__PURE__*/_react.default.createElement(_Timeline.default, null));
+  }), /*#__PURE__*/_react.default.createElement(_Books.default, null), /*#__PURE__*/_react.default.createElement(_Timeline.default, {
+    handleClick: function handleClick(eventContent) {
+      return handleEvent(eventContent);
+    },
+    handleClose: function handleClose() {
+      return setShowEvent(false);
+    }
+  }), showEvent ? /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, getTemplate()) : '');
 }
 
 var _default = LandingPage;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../intro/Intro":"components/intro/Intro.jsx","../books/Books":"components/books/Books.jsx","../timeline/Timeline":"components/timeline/Timeline.jsx"}],"components/App.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../intro/Intro":"components/intro/Intro.jsx","../books/Books":"components/books/Books.jsx","../timeline/Timeline":"components/timeline/Timeline.jsx","../templates/TemplateBoth":"components/templates/TemplateBoth.jsx","../templates/TemplatePhotos":"components/templates/TemplatePhotos.jsx"}],"components/App.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35198,7 +35684,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60304" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51176" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
