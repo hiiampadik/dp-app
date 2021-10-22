@@ -1,16 +1,15 @@
 @import "../../style/variables.scss";
 
 .books-container{
-    width: 100%;
-    background: $bg-gray;
-    padding: 5rem 3rem 7rem 3rem;
+    background: $gray1;
+    padding: 8vw 5vw 8vw 5vw;
     display:flex;
 }
 
 .book-wrap{
     position: relative;
     margin-right: -3em;
-    width: calc((100vw - 6em)/15 + 3em/15*14);
+    width: calc((100vw - 10vw)/15 + 3em/15*14);
 }
 
 .book-image{

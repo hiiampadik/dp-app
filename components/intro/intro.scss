@@ -2,102 +2,94 @@
 
 // intro
 
-.intro-container{
-    background: $bg-gray;
+.intro-container {
+    background: $gray1;
     position: relative;
     display: flex;
     align-items: flex-start;
 }
 
-// intro - left
+// –––––––––––––– HEADER
 
-.intro-button{
-    margin-right: 1em;
-    background: white;
-    padding: 0.5em 1.5em 0.5em 1.5em;
-
-    font-size: 0.8em;
-    border-radius: 2em;
-
-    cursor: pointer;
-
-    transition: 0.3s;
-    text-decoration: none;
-}
-
-.intro-button:hover{
-    background: $bg-gray;
-    // color: white;
-}
-
-.intro-container-left{
-    width: 100vw;
-    // background-color:$bg-gray;
-    background-color: $bg-gray;
-    padding: 4rem 3rem 1rem 3rem;
-
-    box-sizing:border-box;
-}
-
-.intro-title{
-    font-family: 'font','Helvetica Neue', arial, sans-serif;
-    font-size: 3rem;
-    margin-bottom: 1em;
-    line-height: 1;
-    width: 100%;
-    @media only screen and (max-width: 1400px) {
-        width: 700px;
-    }
-    @media only screen and (max-width: 945px) {
-        width: 100%;
-    }
-}
-
-.intro-text{
-    max-width: 1000px;
-    @media only screen and (max-width: $secondbreak) {
-        max-width: 100vw;
-    }
-}
-
-.intro-buttons{
-    width: 100%;
-    margin-bottom: 3rem;
-    display:flex;
-}
-// –––––––––––––– intro - right
-
-.intro-container-right{
-    width: 270px;
-    height: auto;
+.intro-header-container {
     position: absolute;
-    top: 0;
-    right: 0;
-
-    padding: 4rem 2rem 0rem 1rem;
+    width: 100vw;
+    padding: 3rem 5vw 1rem 5vw;
     box-sizing: border-box;
 
-    @media only screen and (max-width: $firstbreak) {
-        width: 230px;
-        padding: 2rem 2rem 0rem 1rem;    
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    @media screen and (max-width: 1500px) {
+        align-items: center;
     }
-    @media only screen and (max-width: 950px) {
-        width: 350px;
-        padding: 3rem 3rem 0rem 1rem;    
-        display: flex;
+    @media screen and (max-width: $phone-break) {
+        padding: 1rem 5vw 1rem 5vw;
     }
 }
 
-.intro-logo{
-    max-width: 100%;
+// Buttons
+
+.intro-buttons-container {
+    display: flex;
+}
+
+.intro-button {
+    margin-right: 1rem;
+    background: white;
+    transition: 0.3s;
+    text-decoration: none;
+    @media screen and (max-width: $medium-tablet-break) {
+        margin-right: 0.5rem;
+    }
+}
+
+.intro-button:hover {
+    background: $gray1;
+}
+
+// Logos
+
+.intro-logo-container {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 1500px) {
+        flex-direction: row;
+    }
+}
+
+.intro-logo {
+    width: 7rem;
     margin-bottom: 1.5rem;
-    @media only screen and (max-width: $firstbreak) {
-        margin-bottom: 1rem;  
+    margin-left: 0.5rem;
+
+    @media screen and (max-width: 1500px) {
+        width: 5rem;
+        margin-bottom: 0rem;
     }
-    @media only screen and (max-width: 950px) {
-        max-width: 50%;
-        box-sizing:border-box;
-        padding-left: 0.5rem;
+    @media screen and (max-width: $medium-tablet-break) {
+        height: 3rem;
+        margin-left: 0.2rem;
+        width: auto;
+    }
+    @media screen and (max-width: $phone-break) {
+        height: 2rem;
     }
 }
 
+// –––––––––––––– TEXT
+
+.intro-text-container {
+    background-color: $gray1;
+    padding: 8rem 5vw 1rem 5vw;
+    box-sizing: border-box;
+    @media screen and (max-width: $phone-break) {
+        padding: 5rem 5vw 1rem 5vw;
+    }
+}
+
+.intro-text {
+    margin-top: 1em;
+    max-width: 1000px;
+}

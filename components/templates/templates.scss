@@ -15,28 +15,29 @@
     left: 0;
     overflow-y: scroll;
 
-    padding: 3rem;
     box-sizing: border-box;
 }
 
 // ----- title
 
 .template-title-container {
+    
+    padding-left: 5vw;
+    padding-right: 5vw;
+
     font-family: "font", "Helvetica Neue", arial, sans-serif;
-    width: 100%;
     // to allow \n from json
     white-space: pre-line;
 }
 
-.template-title{
-    font-size: 3rem;
-    line-height: 100%;
-}
 .template-subtitle{
     font-size: 1rem;
     line-height: 120%;
     margin-top: 1rem;
     padding-right: 50%;
+    @media screen and (max-width: $medium-tablet-break) {
+        padding-right: 0;
+    }
 }
 
 // ----- body
@@ -50,36 +51,46 @@
     pointer-events: none;
     margin-bottom: 3rem;
     margin-top: 3rem;
-    padding-right: 2rem;
+    padding-left: 5vw;
+    padding-right: 2vw;
     width: 50%;
     
     box-sizing: border-box;
     // to allow \n from json
     white-space: pre-line;
-
-    @media only screen and (max-width: $secondbreak) {
+    @media screen and (max-width: $large-tablet-break) {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-bottom: 1rem;
         width: 100%;
-        padding: 0;
     }
 }
 
 .template-image-container {
-    margin-bottom: 3em;
-    margin-top: 3em;
-    padding-left: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    padding-left: 2vw;
+    padding-right: 5vw;
     box-sizing: border-box;
     width: 50%;
-    
-    @media only screen and (max-width: $secondbreak) {
+    @media screen and (max-width: $large-tablet-break) {
+        padding-left: 5vw;
+        padding-right: 5vw;
+        margin-top: 0rem;
         width: 100%;
-        padding: 0;
     }
 }
 
 .template-image{
     max-width: 100%;
     max-height: 65vh;
-    border-radius: $radius1;
+    border-radius: 1rem;
+    @media screen and (max-width: $large-tablet-break) {
+        max-height: none;
+    }
+    @media screen and (max-width: $medium-tablet-break) {
+        border-radius: 2vw;
+    }
 }
 
 
@@ -87,25 +98,28 @@
 .template2-image-container {
     display: flex;
     align-items: flex-start;
+    // justify-content: space-between;
     flex-wrap: wrap;
 
     margin-bottom: 3em;
     margin-top: 3em;
     box-sizing: border-box;
     width: 100%;
-    
-    @media only screen and (max-width: $secondbreak) {
-        width: 100%;
-        padding: 0;
-    }
+    padding: 0 5vw;
 }
 
 .template2-image{
-    max-width: calc(50% - 0.5rem);
-    height: auto;
+    max-width: calc(50% - 5px);
+    max-height: 65vh;
 
     box-sizing: border-box;
-    margin: 0rem 0.5rem 0.5rem 0rem;
-    border-radius: $radius1;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 1rem;
+    @media screen and (max-width: $medium-tablet-break) {
+        border-radius: 2vw;
+        max-width: 100%;
+        margin-bottom: 5px;
+    }
 }
 

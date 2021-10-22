@@ -34,115 +34,115 @@ function LandingBooks(props) {
             <div className="book-wrap">
                 <img src={book3} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
-                Fotoalbum 1 <br />
-                1947–1958, A4
-</p>
+                    <p className="book-label">
+                        Fotoalbum 1 <br />
+                        1947–1958, A4
+                    </p>
                 </div>
             </div>
             <div className="book-wrap">
                 <img src={book2} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
-                Fotoalbum 2 <br />
-                1958–1981, A4</p>                
-                        </div>
+                    <p className="book-label">
+                        Fotoalbum 2 <br />
+                        1958–1981, A4</p>
+                </div>
             </div>
             <div className="book-wrap">
                 <img src={book4} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
+                    <p className="book-label">
                         Oddílová kronika <br />
                         1969, A4</p>
-                                        </div>
+                </div>
             </div>
             <div className="book-wrap">
                 <img src={book5} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
+                    <p className="book-label">
                         Oddílová kronika <br />
                         1977–1986, A4</p>
-                                        </div>
+                </div>
             </div>
             <div className="book-wrap">
                 <img src={book6} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
-                Putovní tábor <br />
+                    <p className="book-label">
+                        Putovní tábor <br />
                         1980, A4</p>
-                                        </div>
+                </div>
             </div>
             <div className="book-wrap">
                 <img src={book7} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
+                    <p className="book-label">
                         Oddílová kronika <br />
                         1990–1993, A4</p>
-                                        </div>
+                </div>
             </div>
             <div className="book-wrap">
                 <img src={book8} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
-                Fotoalbum osobností <br />
-                1990–2013, A3</p>
-                                        </div>
+                    <p className="book-label">
+                        Fotoalbum osobností <br />
+                        1990–2013, A3</p>
+                </div>
             </div>
             <div className="book-wrap">
                 <img src={book9} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
-                Fotoalbum výprav <br />
-                1990–2014, A3</p>
-                                        </div>
+                    <p className="book-label">
+                        Fotoalbum výprav <br />
+                        1990–2014, A3</p>
+                </div>
             </div>
             <div className="book-wrap">
                 <img src={book10} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
-                Fotoalbum táborů <br />
-                1990–2012, A3</p>
-                                        </div>
+                    <p className="book-label">
+                        Fotoalbum táborů <br />
+                        1990–2012, A3</p>
+                </div>
             </div>
             <div className="book-wrap">
                 <img src={book11} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
+                    <p className="book-label">
                         Oddílová kronika <br />
                         1995–2000, A4</p>
-                                        </div>
+                </div>
             </div>
             <div className="book-wrap">
                 <img src={book12} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
+                    <p className="book-label">
                         Oddílová kronika <br />
                         2000–2005, A4</p>
-                                        </div>
+                </div>
             </div>
             <div className="book-wrap">
                 <img src={book13} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
+                    <p className="book-label">
                         Oddílová kronika <br />
                         2009, A4</p>
-                                        </div>
+                </div>
             </div>
             <div className="book-wrap">
                 <img src={book14} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
+                    <p className="book-label">
                         Oddílová kronika <br />
                         2011, A5</p>
-                                        </div>
+                </div>
             </div>
             <div className="book-wrap">
                 <img src={book15} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">
-                <p className="book-label">
+                    <p className="book-label">
                         Oddílová kronika <br />
                         2012–dále, A4</p>
-                                        </div>
+                </div>
             </div>
         </div >
     )

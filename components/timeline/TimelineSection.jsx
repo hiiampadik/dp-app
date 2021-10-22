@@ -26,23 +26,28 @@ function TimelineSection(props) {
     }
 
     return (
-        <div className={props.red ? "landing-timeline-container red" : "landing-timeline-container gray"}>
-
-            <div className="landing-tiles-container">
+        <div className="timeline-section-container">
+            <div className="timeline-section-title-container">
+                <div className="timeline-section-title">{props.title}</div>
+                <div className="timeline-section-subtitle">{props.subtitle}</div>
+            </div>
+            <div className='timeline-section-years-container'>
                 {props.data.map(element => {
                     return (
                         <div key={element.year}>
                             {showContent(element.types) ?
                                 <div>
-                                    <div className="year-title">
+                                    <h3 className="year-title">
                                         {element.year}
-                                    </div>
+                                    </h3>
                                     <div className="tiles-container">
                                         {element.events.map(event => {
                                             return (
                                                 <div className="tiles-subcontainer" key={event.ID}>
                                                     {showContent(event.type) ?
-                                                        <div className="tile-wrap" onClick={() => props.handleClick(event)}>
+                                                        <div className={"tile-wrap" + (event.content.type.includes("none") ? " tile-wrap-none" : "")}  onClick={() => props.handleClick(event)}>
+                                                            {/* {console.log(event.content.type + event.content.title)} */}
+                                                            {/* {(event.content.type.includes("none") ? " tile-wrap-none" : "")} */}
                                                             <img src={images[event.preview]} className="tile-image" />
                                                             <div className="tile-label">{event.label}</div>
                                                         </div>
@@ -50,17 +55,14 @@ function TimelineSection(props) {
                                                         <div></div>
                                                     }
                                                 </div>
-
-
                                             )
                                         })}
                                     </div>
                                 </div>
                                 :
-                                <div></div>
+                                <></>
                             }
                         </div>
-
                     )
                 })}
             </div>

@@ -6,6 +6,7 @@ import Timeline from '../timeline/Timeline'
 
 import TemplateBoth from '../templates/TemplateBoth'
 import TemplatePhotos from '../templates/TemplatePhotos'
+import TemplateText from '../templates/TemplateText'
 
 function LandingPage(props) {
 
@@ -23,7 +24,7 @@ function LandingPage(props) {
         } else if (currentEvent.type == 'photos') {
             return <TemplatePhotos event={currentEvent} handleClose={() => setShowEvent(false)} />
         } else if (currentEvent.type == 'text') {
-            return <div></div>
+            return <TemplateText event={currentEvent} handleClose={() => setShowEvent(false)} />
         }
     }
 

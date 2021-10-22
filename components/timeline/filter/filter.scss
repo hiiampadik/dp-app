@@ -1,56 +1,45 @@
 @import "../../../style/variables.scss";
 
 .filter-container{
-    background-color: $bg-gray;
+    padding: 3rem 0rem;
+    @media screen and (max-width: $medium-tablet-break) {
+        padding: 3rem 0rem 2rem 0rem;
+    }
 }
 
 .filter-button-container{
-    margin-left: $left-timeline-margin;
-    padding-left: 5rem;
-    background-color: white;
     display: flex;
-
-
-    // background-color: brown;
+    justify-content: center;
 }
 
-
-
-.filter-button{
-    // background: $bg-gray-light;
-    border: 1px solid $gray5;
-    padding: 0.5em 1.5em 0.5em 1.5em;
+.filter-button-unselected{
     margin-right: 0.5rem;
-
-    font-size: 0.9em;
-    border-radius: 2rem;
-
-    cursor: pointer;
-    user-select: none;
-    transition: 0.3s;
+    transition: 0.1s;
+    background: $gray2;
 }
 
-.filter-button:hover{
-    background: $gray1;
+.filter-button-unselected:hover{
+    background: $gray3;
 }
 
-.filter-button:active{
-    background: $gray4;
-    border: 1px solid $gray4;
+.filter-button-unselected:active{
+    background: $gray6;
+    // border: 1px solid $gray4;
 }
 
 
 .filter-button-selected{
-    background: $gray5;
-    border: 1px solid $gray5;
+    margin-right: 0.5rem;
     transition: 0.2s;
+    background: $gray7;
+    // border: 1px solid $gray5;
 }
 
 .filter-button-selected:hover{
-    background: $gray4;
-    border: 1px solid $gray4;
+    background: $gray7;
+    // border: 1px solid $gray4;
 }
 
 .filter-button-selected:active{
-    background: $gray1;
+    background: $gray3;
 }

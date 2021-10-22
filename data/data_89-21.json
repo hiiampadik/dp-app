@@ -9,7 +9,12 @@
                 "preview": "1989-0.jpg",
                 "label": "Sametová revoluce",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1989",
+                    "subtitle": "Sametová revoluce",
+                    "photos": ["h-1989-0.jpg", "h-1989-1.jpg", "h-1989-2.jpg"]
+                } 
             }
         ]
     },
@@ -22,21 +27,35 @@
                 "preview": "1990-0.jpg",
                 "label": "Oddíl přebírá Čert a Mára",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["none"]
+                } 
             },
             {
                 "ID": 38,
                 "preview": "1990-1.jpg",
-                "label": "Stanový tábor, Pyšel",
+                "label": "Stanový tábor\nPyšel",
                 "type": ["camp"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1990",
+                    "subtitle": "Stanový tábor\nPyšel u Náměště nad Oslavou (okres Třebíč)\nTéma Tábor ztracených",
+                    "photos": ["t-1990-0.jpg", "t-1990-1.jpg", "t-1990-1.jpg"]
+                } 
             },
             {
                 "ID": 39,
                 "preview": "fotka-2.jpg",
                 "label": "První oddílové Vánoce",
                 "type": ["trip"],
-                "content": {} 
+                "content": {
+                    "type": [
+                        "text"
+                    ],
+                    "title": "1990",
+                    "subtitle": "1. oddílové Vánoce – Rychta\nHelvíkov (okres Ústí nad Orlicí)",
+                    "text": "1. den\n\nSraz byl ve čtvrtek odpoledne, z vedoucích přišla jen Kamila. S trochou zmatků se nám podařilo nastoupit do vlaku. Vystupovali jsme v Opatově, ale nestačili jsme vystoupit všichni, takže asi 5 lidí pokračovalo proti své vůli dál vlakem. Naštěstí hned jel vlak zpátky, takže jsme se moc nezdrželi. Mohli jsme vyrazit, po dlouhé cestě přes Opatov následovala cesta do kopce přímo k našemu cíli, k Helvíkovu. Tam už nebyl problém najít Rychtu. Rychta je velké stavení uprostřed vesnice kousek od kostelíčka. Přímo v ní jsme se ubytovali. Zatímco se vařilo jídlo, seznámili jsme se s vnitřkem Rychty. Do toho všeho přišel Pepíček. Vzhledem k časové situaci se rozhodlo, že se půjde na kutě.\n\n2. den\n\nBrzy ráno jsme vstali (bylo asi 11 hodin) a to jen proto, abychom zatopili a napapali se. Rada starších posléze rozhodla, že v rámci poznávání okolí uděláme stopovačku. Já (Vodník), Pepa a Zdenál jsme šli napřed. Po asi čtvrt hodině se stopaři vydali za námi po našich stopách. Různými fintami a flignami se nám podařilo setřást některé nepřátele. Nakonec jsme se schovali v posedu, kde nás poté našel Marek a spol. A poté jsme všichni svorně šli usušit se na Rychtu. Večer se Kamila pokusila organizovat hru, ale vše se zvrhlo ve velkou bitvu: část separatistů a zvrhlíků se ukryla v chatě, zbytek vytvořil spojenecká vojska a snažil se toto opevnění dobít. Separatisté v domě začali z nedostatku jiného materiálu používat strategické zbraně (polínka, kýble s vodou a stříkání vody pomocí hadice). My útočníci jsme se rozhodli provést poslední zdrcující útok – katastrofa. Když řečníkům obou stran došly argumenty a začala být zima, šli jsme se opět usušit. Jen co jsme uklidili bitevní pole, přišel Martin, Helena a Haryček (pes). Povečeřeli jsme a nato přišel Čert. A zatímco tvrdáci popíjeli šílené nápoje v Pinďově baru, zbytek hrál a zpíval. Nakonec se hrálo až do rána na Blanické rytíře (všem je jistě známo, co Blaničtí rytíři dodnes dělají).\n\n3. den\n\nTuto zajímavou a velmi zábavnou hru však zkazil Čert, protože chtěl, abychom hluboko v noci (kolem 7 hodiny) vstávali. Také byla vyhlášena dobrovolná rozcvička, na kterou šli jenom „tvrďáci“. Celé dopoledne jsme poté věnovali zimním radovánkám a oslavě Markových narozenin, na které bude dotyčný jistě dlouho vzpomínat (to víte, plný kalhoty sněhu – nic přijemnýho, zvlášť když je má člověk na sobě). Pak jsme šli zpět na Rychtu, někteří zvrhlíci šli na blízkou zříceninu. Po obědě jsme věnovali zbytek dne přípravě na slavnostní vánoční večer. Dokončili jsme přípravy a zasedli ke společné večeři, byly špagety, rozdaly se dárky a hrály se vypečené hry. Nakonec proběhlo velké vylosování loterie. Nastala volná zábava, hra na kytaru a zpěv a hlavně pojídání cukroví a jiných pochutin. Čert povyprávěl horor a šlo se dělat buci, buci nebo taky hají.\n\n4. den\n\nRozcvička, velké balení a uklízení, nakonec ještě koulovačka na dvoře Rychty, pochod do Opatova a odjezd vlakem do Brna. Myslím, že lepší oddílové Vánoce jsme si nemohli přát."
+                } 
             }
         ]
     },
@@ -47,9 +66,14 @@
             {
                 "ID": 40,
                 "preview": "1991-0.jpg",
-                "label": "Stanový tábor, Březinky",
+                "label": "Stanový tábor\nBřezinky",
                 "type": ["camp"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1991",
+                    "subtitle": "Stanový tábor\nBřezinky (okres Svitavy)",
+                    "photos": ["t-1991-0.jpg", "t-1991-1.jpg","t-1991-2.jpg","t-1991-3.jpg","t-1991-4.jpg"]
+                } 
             }
         ]
     },
@@ -60,9 +84,14 @@
             {
                 "ID": 41,
                 "preview": "1992-0.jpg",
-                "label": "Stanový tábor, Nové Syrovice",
+                "label": "Stanový tábor\nNové Syrovice",
                 "type": ["camp"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1992—1993",
+                    "subtitle": "Stanové tábory\nNové Syrovice (okres Třebíč)",
+                    "photos": ["t-1992-0.jpg", "t-1992-1.jpg","t-1992-2.jpg"]
+                } 
             }
         ]
     },
@@ -73,9 +102,14 @@
             {
                 "ID": 42,
                 "preview": "1994-0.jpg",
-                "label": "Stanový tábor, Smilov",
+                "label": "Stanový tábor\nSmilov",
                 "type": ["camp"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "1994—2010",
+                    "subtitle": "Stanové tábory\nSmilov (okres Olomouc)",
+                    "photos": ["t-1995-0.jpg","t-1995-1.jpg","t-1995-2.jpg","t-1995-3.jpg","t-1995-4.jpg","t-1995-5.jpg","t-1995-6.jpg","t-1995-7.jpg","t-1995-8.jpg","t-1995-9.jpg"]
+                } 
             }
         ]
     },
@@ -88,7 +122,9 @@
                 "preview": "1996-0.jpg",
                 "label": "Oddíl přebírá Permon",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["none"]
+                } 
             }
         ]
     },
@@ -101,7 +137,9 @@
                 "preview": "2001-0.jpg",
                 "label": "Oddíl přebírá Permoník a Vilém",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["none"]
+                } 
             }
         ]
     },
@@ -114,7 +152,9 @@
                 "preview": "2005-0.jpg",
                 "label": "Oddíl přebírá Štěpán a Bíďa",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["none"]
+                } 
             }
         ]
     },
@@ -127,7 +167,9 @@
                 "preview": "2008-0.jpg",
                 "label": "Oddíl přebírá Radek",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["none"]
+                } 
             }
         ]
     },
@@ -138,16 +180,23 @@
             {
                 "ID": 47,
                 "preview": "2011-0.jpg",
-                "label": "Oddíl přebírá Sysel, zástupce je Krtek, později Pepek",
+                "label": "Oddíl přebírá Sysel\nzástupce je Krtek, později Pepek",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["none"]
+                } 
             },
             {
                 "ID": 48,
                 "preview": "2011-1.jpg",
-                "label": "Stanový tábor, Kostelní Myslová",
+                "label": "Stanový tábor\nKostelní Myslová",
                 "type": ["camp"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "2011–2018",
+                    "subtitle": "Stanové tábory\nKdousov (okres Třebíč)",
+                    "photos": ["t-2011-0.jpg","t-2011-1.jpg","t-2011-2.jpg","t-2011-3.jpg"]
+                } 
             }
         ]
     },
@@ -158,9 +207,11 @@
             {
                 "ID": 49,
                 "preview": "2015-0.jpg",
-                "label": "Oddíl přebírá Boro, zástupce je Desert, později Jura",
+                "label": "Oddíl přebírá Boro\nzástupce je Desert, později Jura",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["none"]
+                } 
             }
         ]
     },
@@ -171,9 +222,14 @@
             {
                 "ID": 50,
                 "preview": "2019-0.jpg",
-                "label": "Stanový tábor, Kdousov",
+                "label": "Stanový tábor\nKdousov",
                 "type": ["camp"],
-                "content": {} 
+                "content": {
+                    "type": ["photos"],
+                    "title": "2019–202*",
+                    "subtitle": "Stanové tábory\nKdousov (okres Třebíč)",
+                    "photos": ["t-2019-0.jpg","t-2019-1.jpg","t-2019-2.jpg","t-2019-3.jpg"]
+                } 
             }
         ]
     },
@@ -184,9 +240,11 @@
             {
                 "ID": 51,
                 "preview": "2020-0.jpg",
-                "label": "Oddíl přebírá Dubínek, zástupce je Mirek a Matěj",
+                "label": "Oddíl přebírá Dubínek\nzástupce je Mirek a Matěj",
                 "type": ["history"],
-                "content": {} 
+                "content": {
+                    "type": ["none"]
+                } 
             }
         ]
     }

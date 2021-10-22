@@ -59,9 +59,9 @@
                 "type": ["trip"],
                 "content": {
                     "type": ["photos"],
-                    "title": "1943",
+                    "title": "1953",
                     "subtitle": "Cyklistický čtrnáctidenní putovní tábor\njižní Čechy",
-                    "photos": ["p-1953-0", "p-1953-1"]
+                    "photos": ["p-1953-0.jpg", "p-1953-1.jpg"]
                 } 
             }
         ]

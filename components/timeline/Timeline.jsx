@@ -31,17 +31,14 @@ function Timeline(props) {
 
     return (
         <div>
-            <div className='landing-transition-bg'>
-                <div className='landing-transition-white'></div>
-            </div>
 
             <Filter handleClick={(index) => changeFilter(index)} filter0={filter0} filter1={filter1} filter2={filter2} />
 
-            <TimelineSection data={Data1} red={false} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)}/>
-            <TimelineSection data={Data2} red={true} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)}/>
-            <TimelineSection data={Data3} red={false} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)}/>
-            <TimelineSection data={Data4} red={true} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)}/>
-            <TimelineSection data={Data5} red={false} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)}/>
+            <TimelineSection data={Data1} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)} title="1945–1950" subtitle="Obnovení skautingu"/>
+            <TimelineSection data={Data2} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)} title="1951–1967" subtitle="Zrušení skautingu"/>
+            <TimelineSection data={Data3} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)} title="1968–1969" subtitle="Obnovení skautingu"/>
+            <TimelineSection data={Data4} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)} title="1970–1989" subtitle="Zrušení skautingu"/>
+            <TimelineSection data={Data5} filter={[filter0, filter1, filter2]} handleClick={(eventContent) => props.handleClick(eventContent)} title="1989" subtitle="Obnovení skautingu"/>
         </div>
     )
 }

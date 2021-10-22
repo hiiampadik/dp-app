@@ -1,27 +1,18 @@
 $lh: 1em;
-$bg1: rgb(182, 222, 179);
-$bg2: rgb(182, 182, 182);
-$bg3: rgb(146, 139, 244);
 
-$bg-gray: rgb(240, 240, 240);
-$bg-gray-light: rgb(230, 230, 230);
-$bg-gray-medium: rgb(210, 210, 210); 
-$bg-gray-dark: rgb(150, 150, 150);
-$bg-green: #505f47;
-$bg-red: #f6d8d8;
+// BREAKS
+$large-tablet-break: 991px;
+$medium-tablet-break: 767px;
+$phone-break: 479px;
 
-$links: rgb(126, 159, 123);
-
-
-$firstbreak: 1500px;
-$secondbreak: 1300px;
 
 
 $left-timeline-margin: 0.8rem;
 
-$radius1: 1rem;
+$radius1: 26px;
+$radius2: 0.5rem;
 
-
+//COLORS
 $gray1: rgb(240, 240, 240);
 $gray2: rgb(230, 230, 230);
 $gray3: rgb(220, 220, 220);
@@ -34,3 +25,11 @@ $gray8: rgb(170, 170, 170);
 $gray9: rgb(160, 160, 160);
 $gray10: rgb(150, 150, 150);
 
+$bg1: rgb(182, 222, 179);
+$bg2: rgb(182, 182, 182);
+$bg3: rgb(146, 139, 244);
+
+$bg-green: #505f47;
+$bg-red: #f6d8d8;
+
+$links: rgb(126, 159, 123);

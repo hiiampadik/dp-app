@@ -1,5 +1,26 @@
 [
     {
+        "year": 1945,
+        "types": [
+            "history"
+        ],
+        "events": [
+            {
+                "ID": 1,
+                "preview": "1945-0.jpg",
+                "label": "Obnovení skautingu\npříliv nováčků",
+                "type": [
+                    "history"
+                ],
+                "content": {
+                    "type": [
+                        "none"
+                    ]
+                }
+            }
+        ]
+    },
+    {
         "year": 1946,
         "types": [
             "history",

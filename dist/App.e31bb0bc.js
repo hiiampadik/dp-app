@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style/style.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"style/style.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../public/fonts/NeueMontreal-Regular.otf":[["NeueMontreal-Regular.18ad8133.otf","public/fonts/NeueMontreal-Regular.otf"],"public/fonts/NeueMontreal-Regular.otf"],"./../public/fonts/NeueMontreal-Light.otf":[["NeueMontreal-Light.af33e117.otf","public/fonts/NeueMontreal-Light.otf"],"public/fonts/NeueMontreal-Light.otf"],"./../public/fonts/NeueMontreal-Medium.otf":[["NeueMontreal-Medium.bf95257e.otf","public/fonts/NeueMontreal-Medium.otf"],"public/fonts/NeueMontreal-Medium.otf"],"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/object-assign/index.js":[function(require,module,exports) {
+},{"./../public/ui/close.svg":[["close.e3269fae.svg","public/ui/close.svg"],"public/ui/close.svg"],"./../public/fonts/NeueMontreal-Regular.otf":[["NeueMontreal-Regular.18ad8133.otf","public/fonts/NeueMontreal-Regular.otf"],"public/fonts/NeueMontreal-Regular.otf"],"./../public/fonts/NeueMontreal-Light.otf":[["NeueMontreal-Light.af33e117.otf","public/fonts/NeueMontreal-Light.otf"],"public/fonts/NeueMontreal-Light.otf"],"./../public/fonts/NeueMontreal-Medium.otf":[["NeueMontreal-Medium.bf95257e.otf","public/fonts/NeueMontreal-Medium.otf"],"public/fonts/NeueMontreal-Medium.otf"],"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/object-assign/index.js":[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -33739,12 +33739,7 @@ if ("development" !== "production") {
     style: _propTypes.default.object
   });
 }
-},{"react-router":"node_modules/react-router/esm/react-router.js","@babel/runtime/helpers/esm/inheritsLoose":"node_modules/@babel/runtime/helpers/esm/inheritsLoose.js","react":"node_modules/react/index.js","history":"node_modules/history/esm/history.js","prop-types":"node_modules/prop-types/index.js","tiny-warning":"node_modules/tiny-warning/dist/tiny-warning.esm.js","@babel/runtime/helpers/esm/extends":"node_modules/@babel/runtime/helpers/esm/extends.js","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","tiny-invariant":"node_modules/tiny-invariant/dist/tiny-invariant.esm.js"}],"components/ui/ui.scss":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"./../../public/ui/close.svg":[["close.e3269fae.svg","public/ui/close.svg"],"public/ui/close.svg"],"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/ui/Close.jsx":[function(require,module,exports) {
+},{"react-router":"node_modules/react-router/esm/react-router.js","@babel/runtime/helpers/esm/inheritsLoose":"node_modules/@babel/runtime/helpers/esm/inheritsLoose.js","react":"node_modules/react/index.js","history":"node_modules/history/esm/history.js","prop-types":"node_modules/prop-types/index.js","tiny-warning":"node_modules/tiny-warning/dist/tiny-warning.esm.js","@babel/runtime/helpers/esm/extends":"node_modules/@babel/runtime/helpers/esm/extends.js","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","tiny-invariant":"node_modules/tiny-invariant/dist/tiny-invariant.esm.js"}],"components/ui/Close.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33754,25 +33749,23 @@ exports.default = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
-var _ui = _interopRequireDefault(require("./ui.scss"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function Close(props) {
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "ui-close-button",
+    className: "close-button",
     onClick: props.handleClick
   });
 }
 
 var _default = Close;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","./ui.scss":"components/ui/ui.scss"}],"components/about/about.scss":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js"}],"components/about/about.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"public/images/mockup/1.jpg":[function(require,module,exports) {
+},{"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"public/images/mockup/1.jpg":[function(require,module,exports) {
 module.exports = "/1.a7df4d86.jpg";
 },{}],"public/images/mockup/2.jpg":[function(require,module,exports) {
 module.exports = "/2.fdea8ace.jpg";
@@ -33801,16 +33794,16 @@ var _3 = _interopRequireDefault(require("../../public/images/mockup/3.jpg"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function About(props) {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "about-container"
-  }, /*#__PURE__*/_react.default.createElement(_Close.default, {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Close.default, {
     handleClick: function handleClick() {
       return props.handleHistoryPush('/');
     }
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "about-text"
+    className: "about-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "about-text-title"
+    className: "about-text"
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    className: "about-title"
   }, "O projektu"), /*#__PURE__*/_react.default.createElement("div", {
     className: "about-text-paragraph"
   }, "Webov\xE1 str\xE1nka vznikla jako sou\u010D\xE1st m\xE9 diplomov\xE9 pr\xE1ce v ateli\xE9ru ", /*#__PURE__*/_react.default.createElement("a", {
@@ -33829,7 +33822,7 @@ function About(props) {
   }), /*#__PURE__*/_react.default.createElement("img", {
     src: _3.default,
     className: "about-mockup"
-  })));
+  }))));
 }
 
 var _default = About;
@@ -33845,7 +33838,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/intro/Intro.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/intro/Intro.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33869,31 +33862,31 @@ function Intro(props) {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "intro-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "intro-container-left"
+    className: "intro-header-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "intro-buttons"
+    className: "intro-buttons-container"
   }, /*#__PURE__*/_react.default.createElement("a", {
     href: "https://94bo.skauting.cz/",
-    className: "intro-button",
+    className: "button intro-button",
     target: "_blank"
   }, "Dom\u016F"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "intro-button",
+    className: "button intro-button",
     onClick: function onClick() {
       return props.handleHistoryPush('/about');
     }
-  }, "O projektu")), /*#__PURE__*/_react.default.createElement("div", {
-    className: "intro-title"
-  }, "Historie 94. odd\xEDlu Mirka Klep\xE1\u010De"), /*#__PURE__*/_react.default.createElement("div", {
-    className: "intro-text"
-  }, /*#__PURE__*/_react.default.createElement("p", null, "Z\xE1kladem vzniku devades\xE1t\xE9ho \u010Dtvrt\xE9ho odd\xEDlu skaut\u016F byla dru\u017Eina Kondor\u016F z", "\xA0", "10.", "\xA0", "odd\xEDlu, kter\xE9 zah\xE1jili svoji \u010Dinnost pod veden\xEDm bratra Zde\u0148ka Mat\u011Bje ihned po ukon\u010Den\xED sv\u011Btov\xE9 v\xE1lky v", "\xA0", "roce 1945. V", "\xA0", "t\xE9to pov\xE1le\u010Dn\xE9 dob\u011B nastal v", "\xA0", "\u010Ceskoslovensku velik\xFD rozmach skautingu. \u010Clensk\xE1 z\xE1kladna se rychle rozr\u016Fstala a", "\xA0", "odd\xEDly, kam p\u0159ich\xE1zelo st\xE1le v\xEDce a", "\xA0", "v\xEDce nov\xFDch \u010Dlen\u016F, \u0159e\u0161ily tento p\u0159\xEDliv tvo\u0159en\xEDm dal\u0161\xEDch dru\u017Ein. Pro usnadn\u011Bn\xED pr\xE1ce vedouc\xEDch, tvo\u0159ili se z", "\xA0", "n\u011Bkolika dru\u017Ein \u010Dety a", "\xA0", "z", "\xA0", "n\u011Bkolika \u010Det roty. ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "V", "\xA0", "\u010Dervenci 1945, po n\xE1vratu z", "\xA0", "ciziny, zapojil se do \u010Dinnosti p\u0159edv\xE1le\u010Dn\xFD \u010Dlen 3.", "\xA0", "brn\u011Bnsk\xE9ho odd\xEDlu br.", "\xA0", "Klep\xE1\u010D, kter\xFD tak splnil slib dan\xFD po rozpu\u0161t\u011Bn\xED Skautingu v", "\xA0", "roce 1940, \u017Ee se po v\xE1lce znovu zapoj\xED do skautsk\xE9 organizace. Svoji \u010Dinnost zah\xE1jil v", "\xA0", "dru\u017Ein\u011B Kondor\u016F.", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Koncem roku 1945 rozhodla se odd\xEDlov\xE1 rada vzhledem k", "\xA0", "velk\xE9mu mno\u017Estv\xED \u010Dlen\u016F, rozd\u011Blit odd\xEDl ve 3", "\xA0", "odd\xEDly 10.", "\xA0", "BO, 94.", "\xA0", "BO a 95.", "\xA0", "BO. Veden\xEDm 94.", "\xA0", "odd\xEDlu byl pov\u011B\u0159en br.", "\xA0", "Klep\xE1\u010D."))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "intro-container-right"
+  }, "O", "\xA0", "projektu")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "intro-logo-container"
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _logo2.default,
     className: "intro-logo"
   }), /*#__PURE__*/_react.default.createElement("img", {
     src: _logo3.default,
     className: "intro-logo"
-  })));
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "intro-text-container"
+  }, /*#__PURE__*/_react.default.createElement("h1", null, "Historie 94.", "\xA0", "odd\xEDlu Mirka", "\xA0", "Klep\xE1\u010De"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "intro-text"
+  }, "Z\xE1kladem vzniku devades\xE1t\xE9ho \u010Dtvrt\xE9ho odd\xEDlu skaut\u016F byla dru\u017Eina Kondor\u016F z", "\xA0", "10.", "\xA0", "odd\xEDlu, kter\xE9 zah\xE1jili svoji \u010Dinnost pod veden\xEDm bratra Zde\u0148ka Mat\u011Bje ihned po ukon\u010Den\xED sv\u011Btov\xE9 v\xE1lky v", "\xA0", "roce 1945. V", "\xA0", "t\xE9to pov\xE1le\u010Dn\xE9 dob\u011B nastal v", "\xA0", "\u010Ceskoslovensku velik\xFD rozmach skautingu. \u010Clensk\xE1 z\xE1kladna se rychle rozr\u016Fstala a", "\xA0", "odd\xEDly, kam p\u0159ich\xE1zelo st\xE1le v\xEDce a", "\xA0", "v\xEDce nov\xFDch \u010Dlen\u016F, \u0159e\u0161ily tento p\u0159\xEDliv tvo\u0159en\xEDm dal\u0161\xEDch dru\u017Ein. Pro usnadn\u011Bn\xED pr\xE1ce vedouc\xEDch, tvo\u0159ili se z", "\xA0", "n\u011Bkolika dru\u017Ein \u010Dety a", "\xA0", "z", "\xA0", "n\u011Bkolika \u010Det roty. ", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "V", "\xA0", "\u010Dervenci 1945, po n\xE1vratu z", "\xA0", "ciziny, zapojil se do \u010Dinnosti p\u0159edv\xE1le\u010Dn\xFD \u010Dlen 3.", "\xA0", "brn\u011Bnsk\xE9ho odd\xEDlu br.", "\xA0", "Klep\xE1\u010D, kter\xFD tak splnil slib dan\xFD po rozpu\u0161t\u011Bn\xED Skautingu v", "\xA0", "roce 1940, \u017Ee se po v\xE1lce znovu zapoj\xED do skautsk\xE9 organizace. Svoji \u010Dinnost zah\xE1jil v", "\xA0", "dru\u017Ein\u011B Kondor\u016F.", /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), "Koncem roku 1945 rozhodla se odd\xEDlov\xE1 rada vzhledem k", "\xA0", "velk\xE9mu mno\u017Estv\xED \u010Dlen\u016F, rozd\u011Blit odd\xEDl ve 3", "\xA0", "odd\xEDly 10.", "\xA0", "BO, 94.", "\xA0", "BO a 95.", "\xA0", "BO. Veden\xEDm 94.", "\xA0", "odd\xEDlu byl pov\u011B\u0159en br.", "\xA0", "Klep\xE1\u010D.")));
 }
 
 var _default = Intro;
@@ -33933,7 +33926,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/books/Books.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/books/Books.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34150,9 +34143,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function FilterButton(props) {
   var getClasses = function getClasses(selected) {
     if (selected == true) {
-      return "filter-button filter-button-selected";
+      return "button filter-button-selected";
     } else {
-      return "filter-button";
+      return "button filter-button-unselected";
     }
   };
 
@@ -34169,7 +34162,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/timeline/filter/Filter.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/timeline/filter/Filter.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34415,13 +34408,19 @@ function TimelineSection(props) {
   };
 
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: props.red ? "landing-timeline-container red" : "landing-timeline-container gray"
+    className: "timeline-section-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-tiles-container"
+    className: "timeline-section-title-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-section-title"
+  }, props.title), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-section-subtitle"
+  }, props.subtitle)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "timeline-section-years-container"
   }, props.data.map(function (element) {
     return /*#__PURE__*/_react.default.createElement("div", {
       key: element.year
-    }, showContent(element.types) ? /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", {
+    }, showContent(element.types) ? /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("h3", {
       className: "year-title"
     }, element.year), /*#__PURE__*/_react.default.createElement("div", {
       className: "tiles-container"
@@ -34430,7 +34429,7 @@ function TimelineSection(props) {
         className: "tiles-subcontainer",
         key: event.ID
       }, showContent(event.type) ? /*#__PURE__*/_react.default.createElement("div", {
-        className: "tile-wrap",
+        className: "tile-wrap" + (event.content.type.includes("none") ? " tile-wrap-none" : ""),
         onClick: function onClick() {
           return props.handleClick(event);
         }
@@ -34440,7 +34439,7 @@ function TimelineSection(props) {
       }), /*#__PURE__*/_react.default.createElement("div", {
         className: "tile-label"
       }, event.label)) : /*#__PURE__*/_react.default.createElement("div", null));
-    }))) : /*#__PURE__*/_react.default.createElement("div", null));
+    }))) : /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null));
   })));
 }
 
@@ -34448,6 +34447,18 @@ var _default = TimelineSection;
 exports.default = _default;
 },{"react":"node_modules/react/index.js","../landing/ImagePreviewPaths.jsx":"components/landing/ImagePreviewPaths.jsx"}],"data/data_45-50.json":[function(require,module,exports) {
 module.exports = [{
+  "year": 1945,
+  "types": ["history"],
+  "events": [{
+    "ID": 1,
+    "preview": "1945-0.jpg",
+    "label": "Obnovení skautingu\npříliv nováčků",
+    "type": ["history"],
+    "content": {
+      "type": ["none"]
+    }
+  }]
+}, {
   "year": 1946,
   "types": ["history", "camp"],
   "events": [{
@@ -34598,9 +34609,9 @@ module.exports = [{
     "type": ["trip"],
     "content": {
       "type": ["photos"],
-      "title": "1943",
+      "title": "1953",
       "subtitle": "Cyklistický čtrnáctidenní putovní tábor\njižní Čechy",
-      "photos": ["p-1953-0", "p-1953-1"]
+      "photos": ["p-1953-0.jpg", "p-1953-1.jpg"]
     }
   }]
 }, {
@@ -34838,9 +34849,14 @@ module.exports = [{
   "events": [{
     "ID": 30,
     "preview": "1971-0.jpg",
-    "label": "Stanový tábor, Nová říše",
+    "label": "Stanový tábor\nNová říše",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1971–197*",
+      "subtitle": "Stanový tábor\nNová Říše (okres Jihlava) s TOM TJ Spartak 1. oddíl",
+      "photos": ["t-1971-0.jpg"]
+    }
   }]
 }, {
   "year": 1977,
@@ -34848,9 +34864,14 @@ module.exports = [{
   "events": [{
     "ID": 31,
     "preview": "1977-0.jpg",
-    "label": "Stanový tábor, Landštejn",
+    "label": "Stanový tábor\nLandštejn",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1977—1983",
+      "subtitle": "Stanový tábor\nLandštejn (okres Jindřichův Hradec)",
+      "photos": ["t-1977-0.jpg", "t-1977-1.jpg"]
+    }
   }]
 }, {
   "year": 1980,
@@ -34858,9 +34879,14 @@ module.exports = [{
   "events": [{
     "ID": 32,
     "preview": "1980-0.jpg",
-    "label": "Putovní tábor, Slovenské rudohoří",
+    "label": "Putovní tábor\nSlovenské rudohoří",
     "type": ["trip"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "",
+      "subtitle": "Putovní tábor\nSlovenské rudohoří (19.–27. 7.)",
+      "photos": ["p-1980-0.jpg", "p-1980-1.jpg", "p-1980-2.jpg", "p-1980-3.jpg"]
+    }
   }]
 }, {
   "year": 1984,
@@ -34868,9 +34894,11 @@ module.exports = [{
   "events": [{
     "ID": 33,
     "preview": "fotka-2.jpg",
-    "label": "Stanový tábor, Vojtěchov",
+    "label": "Stanový tábor\nVojtěchov",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["none"]
+    }
   }]
 }, {
   "year": 1985,
@@ -34878,9 +34906,14 @@ module.exports = [{
   "events": [{
     "ID": 34,
     "preview": "1985-0.jpg",
-    "label": "Stanový tábor, Vidonín",
+    "label": "Stanový tábor\nVidonín",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1985–1986",
+      "subtitle": "Stanový tábor\nVidonín (okres Žďár nad Sázavou)",
+      "photos": ["t-1985-0.jpg", "t-1985-1.jpg", "t-1985-2.jpg", "t-1985-3.jpg"]
+    }
   }]
 }, {
   "year": 1987,
@@ -34888,9 +34921,11 @@ module.exports = [{
   "events": [{
     "ID": 35,
     "preview": "fotka-1.jpg",
-    "label": "Stanový tábor, Horní Kounice",
+    "label": "Stanový tábor\nHorní Kounice",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["none"]
+    }
   }]
 }];
 },{}],"data/data_89-21.json":[function(require,module,exports) {
@@ -34902,7 +34937,12 @@ module.exports = [{
     "preview": "1989-0.jpg",
     "label": "Sametová revoluce",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1989",
+      "subtitle": "Sametová revoluce",
+      "photos": ["h-1989-0.jpg", "h-1989-1.jpg", "h-1989-2.jpg"]
+    }
   }]
 }, {
   "year": 1990,
@@ -34912,19 +34952,31 @@ module.exports = [{
     "preview": "1990-0.jpg",
     "label": "Oddíl přebírá Čert a Mára",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["none"]
+    }
   }, {
     "ID": 38,
     "preview": "1990-1.jpg",
-    "label": "Stanový tábor, Pyšel",
+    "label": "Stanový tábor\nPyšel",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1990",
+      "subtitle": "Stanový tábor\nPyšel u Náměště nad Oslavou (okres Třebíč)\nTéma Tábor ztracených",
+      "photos": ["t-1990-0.jpg", "t-1990-1.jpg", "t-1990-1.jpg"]
+    }
   }, {
     "ID": 39,
     "preview": "fotka-2.jpg",
     "label": "První oddílové Vánoce",
     "type": ["trip"],
-    "content": {}
+    "content": {
+      "type": ["text"],
+      "title": "1990",
+      "subtitle": "1. oddílové Vánoce – Rychta\nHelvíkov (okres Ústí nad Orlicí)",
+      "text": "1. den\n\nSraz byl ve čtvrtek odpoledne, z vedoucích přišla jen Kamila. S trochou zmatků se nám podařilo nastoupit do vlaku. Vystupovali jsme v Opatově, ale nestačili jsme vystoupit všichni, takže asi 5 lidí pokračovalo proti své vůli dál vlakem. Naštěstí hned jel vlak zpátky, takže jsme se moc nezdrželi. Mohli jsme vyrazit, po dlouhé cestě přes Opatov následovala cesta do kopce přímo k našemu cíli, k Helvíkovu. Tam už nebyl problém najít Rychtu. Rychta je velké stavení uprostřed vesnice kousek od kostelíčka. Přímo v ní jsme se ubytovali. Zatímco se vařilo jídlo, seznámili jsme se s vnitřkem Rychty. Do toho všeho přišel Pepíček. Vzhledem k časové situaci se rozhodlo, že se půjde na kutě.\n\n2. den\n\nBrzy ráno jsme vstali (bylo asi 11 hodin) a to jen proto, abychom zatopili a napapali se. Rada starších posléze rozhodla, že v rámci poznávání okolí uděláme stopovačku. Já (Vodník), Pepa a Zdenál jsme šli napřed. Po asi čtvrt hodině se stopaři vydali za námi po našich stopách. Různými fintami a flignami se nám podařilo setřást některé nepřátele. Nakonec jsme se schovali v posedu, kde nás poté našel Marek a spol. A poté jsme všichni svorně šli usušit se na Rychtu. Večer se Kamila pokusila organizovat hru, ale vše se zvrhlo ve velkou bitvu: část separatistů a zvrhlíků se ukryla v chatě, zbytek vytvořil spojenecká vojska a snažil se toto opevnění dobít. Separatisté v domě začali z nedostatku jiného materiálu používat strategické zbraně (polínka, kýble s vodou a stříkání vody pomocí hadice). My útočníci jsme se rozhodli provést poslední zdrcující útok – katastrofa. Když řečníkům obou stran došly argumenty a začala být zima, šli jsme se opět usušit. Jen co jsme uklidili bitevní pole, přišel Martin, Helena a Haryček (pes). Povečeřeli jsme a nato přišel Čert. A zatímco tvrdáci popíjeli šílené nápoje v Pinďově baru, zbytek hrál a zpíval. Nakonec se hrálo až do rána na Blanické rytíře (všem je jistě známo, co Blaničtí rytíři dodnes dělají).\n\n3. den\n\nTuto zajímavou a velmi zábavnou hru však zkazil Čert, protože chtěl, abychom hluboko v noci (kolem 7 hodiny) vstávali. Také byla vyhlášena dobrovolná rozcvička, na kterou šli jenom „tvrďáci“. Celé dopoledne jsme poté věnovali zimním radovánkám a oslavě Markových narozenin, na které bude dotyčný jistě dlouho vzpomínat (to víte, plný kalhoty sněhu – nic přijemnýho, zvlášť když je má člověk na sobě). Pak jsme šli zpět na Rychtu, někteří zvrhlíci šli na blízkou zříceninu. Po obědě jsme věnovali zbytek dne přípravě na slavnostní vánoční večer. Dokončili jsme přípravy a zasedli ke společné večeři, byly špagety, rozdaly se dárky a hrály se vypečené hry. Nakonec proběhlo velké vylosování loterie. Nastala volná zábava, hra na kytaru a zpěv a hlavně pojídání cukroví a jiných pochutin. Čert povyprávěl horor a šlo se dělat buci, buci nebo taky hají.\n\n4. den\n\nRozcvička, velké balení a uklízení, nakonec ještě koulovačka na dvoře Rychty, pochod do Opatova a odjezd vlakem do Brna. Myslím, že lepší oddílové Vánoce jsme si nemohli přát."
+    }
   }]
 }, {
   "year": 1991,
@@ -34932,9 +34984,14 @@ module.exports = [{
   "events": [{
     "ID": 40,
     "preview": "1991-0.jpg",
-    "label": "Stanový tábor, Březinky",
+    "label": "Stanový tábor\nBřezinky",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1991",
+      "subtitle": "Stanový tábor\nBřezinky (okres Svitavy)",
+      "photos": ["t-1991-0.jpg", "t-1991-1.jpg", "t-1991-2.jpg", "t-1991-3.jpg", "t-1991-4.jpg"]
+    }
   }]
 }, {
   "year": 1992,
@@ -34942,9 +34999,14 @@ module.exports = [{
   "events": [{
     "ID": 41,
     "preview": "1992-0.jpg",
-    "label": "Stanový tábor, Nové Syrovice",
+    "label": "Stanový tábor\nNové Syrovice",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1992—1993",
+      "subtitle": "Stanové tábory\nNové Syrovice (okres Třebíč)",
+      "photos": ["t-1992-0.jpg", "t-1992-1.jpg", "t-1992-2.jpg"]
+    }
   }]
 }, {
   "year": 1994,
@@ -34952,9 +35014,14 @@ module.exports = [{
   "events": [{
     "ID": 42,
     "preview": "1994-0.jpg",
-    "label": "Stanový tábor, Smilov",
+    "label": "Stanový tábor\nSmilov",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "1994—2010",
+      "subtitle": "Stanové tábory\nSmilov (okres Olomouc)",
+      "photos": ["t-1995-0.jpg", "t-1995-1.jpg", "t-1995-2.jpg", "t-1995-3.jpg", "t-1995-4.jpg", "t-1995-5.jpg", "t-1995-6.jpg", "t-1995-7.jpg", "t-1995-8.jpg", "t-1995-9.jpg"]
+    }
   }]
 }, {
   "year": 1996,
@@ -34964,7 +35031,9 @@ module.exports = [{
     "preview": "1996-0.jpg",
     "label": "Oddíl přebírá Permon",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["none"]
+    }
   }]
 }, {
   "year": 2001,
@@ -34974,7 +35043,9 @@ module.exports = [{
     "preview": "2001-0.jpg",
     "label": "Oddíl přebírá Permoník a Vilém",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["none"]
+    }
   }]
 }, {
   "year": 2005,
@@ -34984,7 +35055,9 @@ module.exports = [{
     "preview": "2005-0.jpg",
     "label": "Oddíl přebírá Štěpán a Bíďa",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["none"]
+    }
   }]
 }, {
   "year": 2008,
@@ -34994,7 +35067,9 @@ module.exports = [{
     "preview": "2008-0.jpg",
     "label": "Oddíl přebírá Radek",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["none"]
+    }
   }]
 }, {
   "year": 2011,
@@ -35002,15 +35077,22 @@ module.exports = [{
   "events": [{
     "ID": 47,
     "preview": "2011-0.jpg",
-    "label": "Oddíl přebírá Sysel, zástupce je Krtek, později Pepek",
+    "label": "Oddíl přebírá Sysel\nzástupce je Krtek, později Pepek",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["none"]
+    }
   }, {
     "ID": 48,
     "preview": "2011-1.jpg",
-    "label": "Stanový tábor, Kostelní Myslová",
+    "label": "Stanový tábor\nKostelní Myslová",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "2011–2018",
+      "subtitle": "Stanové tábory\nKdousov (okres Třebíč)",
+      "photos": ["t-2011-0.jpg", "t-2011-1.jpg", "t-2011-2.jpg", "t-2011-3.jpg"]
+    }
   }]
 }, {
   "year": 2015,
@@ -35018,9 +35100,11 @@ module.exports = [{
   "events": [{
     "ID": 49,
     "preview": "2015-0.jpg",
-    "label": "Oddíl přebírá Boro, zástupce je Desert, později Jura",
+    "label": "Oddíl přebírá Boro\nzástupce je Desert, později Jura",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["none"]
+    }
   }]
 }, {
   "year": 2019,
@@ -35028,9 +35112,14 @@ module.exports = [{
   "events": [{
     "ID": 50,
     "preview": "2019-0.jpg",
-    "label": "Stanový tábor, Kdousov",
+    "label": "Stanový tábor\nKdousov",
     "type": ["camp"],
-    "content": {}
+    "content": {
+      "type": ["photos"],
+      "title": "2019–202*",
+      "subtitle": "Stanové tábory\nKdousov (okres Třebíč)",
+      "photos": ["t-2019-0.jpg", "t-2019-1.jpg", "t-2019-2.jpg", "t-2019-3.jpg"]
+    }
   }]
 }, {
   "year": 2020,
@@ -35038,9 +35127,11 @@ module.exports = [{
   "events": [{
     "ID": 51,
     "preview": "2020-0.jpg",
-    "label": "Oddíl přebírá Dubínek, zástupce je Mirek a Matěj",
+    "label": "Oddíl přebírá Dubínek\nzástupce je Mirek a Matěj",
     "type": ["history"],
-    "content": {}
+    "content": {
+      "type": ["none"]
+    }
   }]
 }];
 },{}],"components/timeline/timeline.scss":[function(require,module,exports) {
@@ -35048,7 +35139,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/timeline/Timeline.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/timeline/Timeline.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35120,11 +35211,7 @@ function Timeline(props) {
     }
   };
 
-  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-transition-bg"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "landing-transition-white"
-  })), /*#__PURE__*/_react.default.createElement(_Filter.default, {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Filter.default, {
     handleClick: function handleClick(index) {
       return changeFilter(index);
     },
@@ -35133,39 +35220,44 @@ function Timeline(props) {
     filter2: filter2
   }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
     data: _data_.default,
-    red: false,
     filter: [filter0, filter1, filter2],
     handleClick: function handleClick(eventContent) {
       return props.handleClick(eventContent);
-    }
+    },
+    title: "1945\u20131950",
+    subtitle: "Obnoven\xED skautingu"
   }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
     data: _data_2.default,
-    red: true,
     filter: [filter0, filter1, filter2],
     handleClick: function handleClick(eventContent) {
       return props.handleClick(eventContent);
-    }
+    },
+    title: "1951\u20131967",
+    subtitle: "Zru\u0161en\xED skautingu"
   }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
     data: _data_3.default,
-    red: false,
     filter: [filter0, filter1, filter2],
     handleClick: function handleClick(eventContent) {
       return props.handleClick(eventContent);
-    }
+    },
+    title: "1968\u20131969",
+    subtitle: "Obnoven\xED skautingu"
   }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
     data: _data_4.default,
-    red: true,
     filter: [filter0, filter1, filter2],
     handleClick: function handleClick(eventContent) {
       return props.handleClick(eventContent);
-    }
+    },
+    title: "1970\u20131989",
+    subtitle: "Zru\u0161en\xED skautingu"
   }), /*#__PURE__*/_react.default.createElement(_TimelineSection.default, {
     data: _data_5.default,
-    red: false,
     filter: [filter0, filter1, filter2],
     handleClick: function handleClick(eventContent) {
       return props.handleClick(eventContent);
-    }
+    },
+    title: "1989",
+    subtitle: "Obnoven\xED skautingu"
   }));
 }
 
@@ -35189,6 +35281,12 @@ module.exports = "/h-1968-1.5eaaf030.jpg";
 module.exports = "/h-1958-0.9cb73d2c.jpg";
 },{}],"public/images/timeline/h-1958-1.jpg":[function(require,module,exports) {
 module.exports = "/h-1958-1.1f9bb4e0.jpg";
+},{}],"public/images/timeline/h-1989-0.jpg":[function(require,module,exports) {
+module.exports = "/h-1989-0.fa544c16.jpg";
+},{}],"public/images/timeline/h-1989-1.jpg":[function(require,module,exports) {
+module.exports = "/h-1989-1.beafd9eb.jpg";
+},{}],"public/images/timeline/h-1989-2.jpg":[function(require,module,exports) {
+module.exports = "/h-1989-2.98b2ea2c.jpg";
 },{}],"public/images/timeline/t-1946-0.jpg":[function(require,module,exports) {
 module.exports = "/t-1946-0.e470a9d8.jpg";
 },{}],"public/images/timeline/t-1947-0.jpg":[function(require,module,exports) {
@@ -35229,6 +35327,78 @@ module.exports = "/t-1958-3.597a4b0b.jpg";
 module.exports = "/t-1968-0.11549c63.jpg";
 },{}],"public/images/timeline/t-1968-1.jpg":[function(require,module,exports) {
 module.exports = "/t-1968-1.3ad96941.jpg";
+},{}],"public/images/timeline/t-1971-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1971-0.e0281e6a.jpg";
+},{}],"public/images/timeline/t-1977-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1977-0.359dae5a.jpg";
+},{}],"public/images/timeline/t-1977-1.jpg":[function(require,module,exports) {
+module.exports = "/t-1977-1.6cce2adf.jpg";
+},{}],"public/images/timeline/t-1985-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1985-0.22183b4f.jpg";
+},{}],"public/images/timeline/t-1985-1.jpg":[function(require,module,exports) {
+module.exports = "/t-1985-1.839c1c3d.jpg";
+},{}],"public/images/timeline/t-1985-2.jpg":[function(require,module,exports) {
+module.exports = "/t-1985-2.d654b39c.jpg";
+},{}],"public/images/timeline/t-1985-3.jpg":[function(require,module,exports) {
+module.exports = "/t-1985-3.5e2d57a4.jpg";
+},{}],"public/images/timeline/t-1990-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1990-0.7ad5eba2.jpg";
+},{}],"public/images/timeline/t-1990-1.jpg":[function(require,module,exports) {
+module.exports = "/t-1990-1.a2918f45.jpg";
+},{}],"public/images/timeline/t-1990-2.jpg":[function(require,module,exports) {
+module.exports = "/t-1990-2.c3e3c338.jpg";
+},{}],"public/images/timeline/t-1991-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1991-0.e2c70229.jpg";
+},{}],"public/images/timeline/t-1991-1.jpg":[function(require,module,exports) {
+module.exports = "/t-1991-1.a7f7c13f.jpg";
+},{}],"public/images/timeline/t-1991-2.jpg":[function(require,module,exports) {
+module.exports = "/t-1991-2.f42fa305.jpg";
+},{}],"public/images/timeline/t-1991-3.jpg":[function(require,module,exports) {
+module.exports = "/t-1991-3.768e5c4c.jpg";
+},{}],"public/images/timeline/t-1991-4.jpg":[function(require,module,exports) {
+module.exports = "/t-1991-4.24ab4845.jpg";
+},{}],"public/images/timeline/t-1992-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1992-0.4fb70b5f.jpg";
+},{}],"public/images/timeline/t-1992-1.jpg":[function(require,module,exports) {
+module.exports = "/t-1992-1.c2ef00b4.jpg";
+},{}],"public/images/timeline/t-1992-2.jpg":[function(require,module,exports) {
+module.exports = "/t-1992-2.81fb14e7.jpg";
+},{}],"public/images/timeline/t-1995-0.jpg":[function(require,module,exports) {
+module.exports = "/t-1995-0.477f28cf.jpg";
+},{}],"public/images/timeline/t-1995-1.jpg":[function(require,module,exports) {
+module.exports = "/t-1995-1.ca478bb4.jpg";
+},{}],"public/images/timeline/t-1995-2.jpg":[function(require,module,exports) {
+module.exports = "/t-1995-2.d793c1e3.jpg";
+},{}],"public/images/timeline/t-1995-3.jpg":[function(require,module,exports) {
+module.exports = "/t-1995-3.73814d8c.jpg";
+},{}],"public/images/timeline/t-1995-4.jpg":[function(require,module,exports) {
+module.exports = "/t-1995-4.a65cb8ba.jpg";
+},{}],"public/images/timeline/t-1995-5.jpg":[function(require,module,exports) {
+module.exports = "/t-1995-5.b96e1869.jpg";
+},{}],"public/images/timeline/t-1995-6.jpg":[function(require,module,exports) {
+module.exports = "/t-1995-6.6b086780.jpg";
+},{}],"public/images/timeline/t-1995-7.jpg":[function(require,module,exports) {
+module.exports = "/t-1995-7.e8bb026b.jpg";
+},{}],"public/images/timeline/t-1995-8.jpg":[function(require,module,exports) {
+module.exports = "/t-1995-8.e1c054e1.jpg";
+},{}],"public/images/timeline/t-1995-9.jpg":[function(require,module,exports) {
+module.exports = "/t-1995-9.03642da8.jpg";
+},{}],"public/images/timeline/t-2011-0.jpg":[function(require,module,exports) {
+module.exports = "/t-2011-0.c980990b.jpg";
+},{}],"public/images/timeline/t-2011-1.jpg":[function(require,module,exports) {
+module.exports = "/t-2011-1.70d66998.jpg";
+},{}],"public/images/timeline/t-2011-2.jpg":[function(require,module,exports) {
+module.exports = "/t-2011-2.e148d833.jpg";
+},{}],"public/images/timeline/t-2011-3.jpg":[function(require,module,exports) {
+module.exports = "/t-2011-3.16e74a6b.jpg";
+},{}],"public/images/timeline/t-2019-0.jpg":[function(require,module,exports) {
+module.exports = "/t-2019-0.93d8a241.jpg";
+},{}],"public/images/timeline/t-2019-1.jpg":[function(require,module,exports) {
+module.exports = "/t-2019-1.11f63ab2.jpg";
+},{}],"public/images/timeline/t-2019-2.jpg":[function(require,module,exports) {
+module.exports = "/t-2019-2.a684c5a2.jpg";
+},{}],"public/images/timeline/t-2019-3.jpg":[function(require,module,exports) {
+module.exports = "/t-2019-3.b9639d69.jpg";
 },{}],"public/images/timeline/p-1947-0.jpg":[function(require,module,exports) {
 module.exports = "/p-1947-0.7b47b227.jpg";
 },{}],"public/images/timeline/p-1947-1.jpg":[function(require,module,exports) {
@@ -35287,6 +35457,14 @@ module.exports = "/p-1962-1.13175f2e.jpg";
 module.exports = "/p-1964-0.1dec406e.jpg";
 },{}],"public/images/timeline/p-1964-1.jpg":[function(require,module,exports) {
 module.exports = "/p-1964-1.34562552.jpg";
+},{}],"public/images/timeline/p-1980-0.jpg":[function(require,module,exports) {
+module.exports = "/p-1980-0.2d9e7055.jpg";
+},{}],"public/images/timeline/p-1980-1.jpg":[function(require,module,exports) {
+module.exports = "/p-1980-1.ea9309a9.jpg";
+},{}],"public/images/timeline/p-1980-2.jpg":[function(require,module,exports) {
+module.exports = "/p-1980-2.3d7336b2.jpg";
+},{}],"public/images/timeline/p-1980-3.jpg":[function(require,module,exports) {
+module.exports = "/p-1980-3.ad220d53.jpg";
 },{}],"components/landing/ImageEventPath.jsx":[function(require,module,exports) {
 "use strict";
 
@@ -35309,6 +35487,9 @@ var _default = (_h19450Jpg$h = {
   "h-1968-1.jpg": require("../../public/images/timeline/h-1968-1.jpg"),
   "h-1958-0.jpg": require("../../public/images/timeline/h-1958-0.jpg"),
   "h-1958-1.jpg": require("../../public/images/timeline/h-1958-1.jpg"),
+  "h-1989-0.jpg": require("../../public/images/timeline/h-1989-0.jpg"),
+  "h-1989-1.jpg": require("../../public/images/timeline/h-1989-1.jpg"),
+  "h-1989-2.jpg": require("../../public/images/timeline/h-1989-2.jpg"),
   "t-1946-0.jpg": require("../../public/images/timeline/t-1946-0.jpg"),
   "t-1947-0.jpg": require("../../public/images/timeline/t-1947-0.jpg"),
   "t-1947-1.jpg": require("../../public/images/timeline/t-1947-1.jpg"),
@@ -35329,6 +35510,42 @@ var _default = (_h19450Jpg$h = {
   "t-1958-3.jpg": require("../../public/images/timeline/t-1958-3.jpg"),
   "t-1968-0.jpg": require("../../public/images/timeline/t-1968-0.jpg"),
   "t-1968-1.jpg": require("../../public/images/timeline/t-1968-1.jpg"),
+  "t-1971-0.jpg": require("../../public/images/timeline/t-1971-0.jpg"),
+  "t-1977-0.jpg": require("../../public/images/timeline/t-1977-0.jpg"),
+  "t-1977-1.jpg": require("../../public/images/timeline/t-1977-1.jpg"),
+  "t-1985-0.jpg": require("../../public/images/timeline/t-1985-0.jpg"),
+  "t-1985-1.jpg": require("../../public/images/timeline/t-1985-1.jpg"),
+  "t-1985-2.jpg": require("../../public/images/timeline/t-1985-2.jpg"),
+  "t-1985-3.jpg": require("../../public/images/timeline/t-1985-3.jpg"),
+  "t-1990-0.jpg": require("../../public/images/timeline/t-1990-0.jpg"),
+  "t-1990-1.jpg": require("../../public/images/timeline/t-1990-1.jpg"),
+  "t-1990-2.jpg": require("../../public/images/timeline/t-1990-2.jpg"),
+  "t-1991-0.jpg": require("../../public/images/timeline/t-1991-0.jpg"),
+  "t-1991-1.jpg": require("../../public/images/timeline/t-1991-1.jpg"),
+  "t-1991-2.jpg": require("../../public/images/timeline/t-1991-2.jpg"),
+  "t-1991-3.jpg": require("../../public/images/timeline/t-1991-3.jpg"),
+  "t-1991-4.jpg": require("../../public/images/timeline/t-1991-4.jpg"),
+  "t-1992-0.jpg": require("../../public/images/timeline/t-1992-0.jpg"),
+  "t-1992-1.jpg": require("../../public/images/timeline/t-1992-1.jpg"),
+  "t-1992-2.jpg": require("../../public/images/timeline/t-1992-2.jpg"),
+  "t-1995-0.jpg": require("../../public/images/timeline/t-1995-0.jpg"),
+  "t-1995-1.jpg": require("../../public/images/timeline/t-1995-1.jpg"),
+  "t-1995-2.jpg": require("../../public/images/timeline/t-1995-2.jpg"),
+  "t-1995-3.jpg": require("../../public/images/timeline/t-1995-3.jpg"),
+  "t-1995-4.jpg": require("../../public/images/timeline/t-1995-4.jpg"),
+  "t-1995-5.jpg": require("../../public/images/timeline/t-1995-5.jpg"),
+  "t-1995-6.jpg": require("../../public/images/timeline/t-1995-6.jpg"),
+  "t-1995-7.jpg": require("../../public/images/timeline/t-1995-7.jpg"),
+  "t-1995-8.jpg": require("../../public/images/timeline/t-1995-8.jpg"),
+  "t-1995-9.jpg": require("../../public/images/timeline/t-1995-9.jpg"),
+  "t-2011-0.jpg": require("../../public/images/timeline/t-2011-0.jpg"),
+  "t-2011-1.jpg": require("../../public/images/timeline/t-2011-1.jpg"),
+  "t-2011-2.jpg": require("../../public/images/timeline/t-2011-2.jpg"),
+  "t-2011-3.jpg": require("../../public/images/timeline/t-2011-3.jpg"),
+  "t-2019-0.jpg": require("../../public/images/timeline/t-2019-0.jpg"),
+  "t-2019-1.jpg": require("../../public/images/timeline/t-2019-1.jpg"),
+  "t-2019-2.jpg": require("../../public/images/timeline/t-2019-2.jpg"),
+  "t-2019-3.jpg": require("../../public/images/timeline/t-2019-3.jpg"),
   "p-1947-0.jpg": require("../../public/images/timeline/p-1947-0.jpg"),
   "p-1947-1.jpg": require("../../public/images/timeline/p-1947-1.jpg"),
   "p-1947-2.jpg": require("../../public/images/timeline/p-1947-2.jpg"),
@@ -35356,15 +35573,15 @@ var _default = (_h19450Jpg$h = {
   "p-1961-1.jpg": require("../../public/images/timeline/p-1961-1.jpg"),
   "p-1962-0.jpg": require("../../public/images/timeline/p-1962-0.jpg"),
   "p-1962-1.jpg": require("../../public/images/timeline/p-1962-1.jpg")
-}, _defineProperty(_h19450Jpg$h, "p-1962-0.jpg", require("../../public/images/timeline/p-1962-0.jpg")), _defineProperty(_h19450Jpg$h, "p-1962-1.jpg", require("../../public/images/timeline/p-1962-1.jpg")), _defineProperty(_h19450Jpg$h, "p-1964-0.jpg", require("../../public/images/timeline/p-1964-0.jpg")), _defineProperty(_h19450Jpg$h, "p-1964-1.jpg", require("../../public/images/timeline/p-1964-1.jpg")), _h19450Jpg$h);
+}, _defineProperty(_h19450Jpg$h, "p-1962-0.jpg", require("../../public/images/timeline/p-1962-0.jpg")), _defineProperty(_h19450Jpg$h, "p-1962-1.jpg", require("../../public/images/timeline/p-1962-1.jpg")), _defineProperty(_h19450Jpg$h, "p-1964-0.jpg", require("../../public/images/timeline/p-1964-0.jpg")), _defineProperty(_h19450Jpg$h, "p-1964-1.jpg", require("../../public/images/timeline/p-1964-1.jpg")), _defineProperty(_h19450Jpg$h, "p-1980-0.jpg", require("../../public/images/timeline/p-1980-0.jpg")), _defineProperty(_h19450Jpg$h, "p-1980-1.jpg", require("../../public/images/timeline/p-1980-1.jpg")), _defineProperty(_h19450Jpg$h, "p-1980-2.jpg", require("../../public/images/timeline/p-1980-2.jpg")), _defineProperty(_h19450Jpg$h, "p-1980-3.jpg", require("../../public/images/timeline/p-1980-3.jpg")), _h19450Jpg$h);
 
 exports.default = _default;
-},{"../../public/images/timeline/h-1945-0.jpg":"public/images/timeline/h-1945-0.jpg","../../public/images/timeline/h-1945-1.jpg":"public/images/timeline/h-1945-1.jpg","../../public/images/timeline/h-1945-2.jpg":"public/images/timeline/h-1945-2.jpg","../../public/images/timeline/h-1947-0.jpg":"public/images/timeline/h-1947-0.jpg","../../public/images/timeline/h-1947-1.jpg":"public/images/timeline/h-1947-1.jpg","../../public/images/timeline/h-1968-0.jpg":"public/images/timeline/h-1968-0.jpg","../../public/images/timeline/h-1968-1.jpg":"public/images/timeline/h-1968-1.jpg","../../public/images/timeline/h-1958-0.jpg":"public/images/timeline/h-1958-0.jpg","../../public/images/timeline/h-1958-1.jpg":"public/images/timeline/h-1958-1.jpg","../../public/images/timeline/t-1946-0.jpg":"public/images/timeline/t-1946-0.jpg","../../public/images/timeline/t-1947-0.jpg":"public/images/timeline/t-1947-0.jpg","../../public/images/timeline/t-1947-1.jpg":"public/images/timeline/t-1947-1.jpg","../../public/images/timeline/t-1949-0.jpg":"public/images/timeline/t-1949-0.jpg","../../public/images/timeline/t-1950-0.jpg":"public/images/timeline/t-1950-0.jpg","../../public/images/timeline/t-1954-0.jpg":"public/images/timeline/t-1954-0.jpg","../../public/images/timeline/t-1954-1.jpg":"public/images/timeline/t-1954-1.jpg","../../public/images/timeline/t-1954-2.jpg":"public/images/timeline/t-1954-2.jpg","../../public/images/timeline/t-1956-0.jpg":"public/images/timeline/t-1956-0.jpg","../../public/images/timeline/t-1956-1.jpg":"public/images/timeline/t-1956-1.jpg","../../public/images/timeline/t-1957-0.jpg":"public/images/timeline/t-1957-0.jpg","../../public/images/timeline/t-1957-1.jpg":"public/images/timeline/t-1957-1.jpg","../../public/images/timeline/t-1957-2.jpg":"public/images/timeline/t-1957-2.jpg","../../public/images/timeline/t-1957-3.jpg":"public/images/timeline/t-1957-3.jpg","../../public/images/timeline/t-1958-0.jpg":"public/images/timeline/t-1958-0.jpg","../../public/images/timeline/t-1958-1.jpg":"public/images/timeline/t-1958-1.jpg","../../public/images/timeline/t-1958-2.jpg":"public/images/timeline/t-1958-2.jpg","../../public/images/timeline/t-1958-3.jpg":"public/images/timeline/t-1958-3.jpg","../../public/images/timeline/t-1968-0.jpg":"public/images/timeline/t-1968-0.jpg","../../public/images/timeline/t-1968-1.jpg":"public/images/timeline/t-1968-1.jpg","../../public/images/timeline/p-1947-0.jpg":"public/images/timeline/p-1947-0.jpg","../../public/images/timeline/p-1947-1.jpg":"public/images/timeline/p-1947-1.jpg","../../public/images/timeline/p-1947-2.jpg":"public/images/timeline/p-1947-2.jpg","../../public/images/timeline/p-1947-3.jpg":"public/images/timeline/p-1947-3.jpg","../../public/images/timeline/p-1947-4.jpg":"public/images/timeline/p-1947-4.jpg","../../public/images/timeline/p-1951-0.jpg":"public/images/timeline/p-1951-0.jpg","../../public/images/timeline/p-1951-1.jpg":"public/images/timeline/p-1951-1.jpg","../../public/images/timeline/p-1951-2.jpg":"public/images/timeline/p-1951-2.jpg","../../public/images/timeline/p-1951-3.jpg":"public/images/timeline/p-1951-3.jpg","../../public/images/timeline/p-1952-0.jpg":"public/images/timeline/p-1952-0.jpg","../../public/images/timeline/p-1952-1.jpg":"public/images/timeline/p-1952-1.jpg","../../public/images/timeline/p-1953-0.jpg":"public/images/timeline/p-1953-0.jpg","../../public/images/timeline/p-1953-1.jpg":"public/images/timeline/p-1953-1.jpg","../../public/images/timeline/p-1955-0.jpg":"public/images/timeline/p-1955-0.jpg","../../public/images/timeline/p-1955-1.jpg":"public/images/timeline/p-1955-1.jpg","../../public/images/timeline/p-1958-0.jpg":"public/images/timeline/p-1958-0.jpg","../../public/images/timeline/p-1958-1.jpg":"public/images/timeline/p-1958-1.jpg","../../public/images/timeline/p-1958-2.jpg":"public/images/timeline/p-1958-2.jpg","../../public/images/timeline/p-1958-3.jpg":"public/images/timeline/p-1958-3.jpg","../../public/images/timeline/p-1959-0.jpg":"public/images/timeline/p-1959-0.jpg","../../public/images/timeline/p-1959-1.jpg":"public/images/timeline/p-1959-1.jpg","../../public/images/timeline/p-1959-2.jpg":"public/images/timeline/p-1959-2.jpg","../../public/images/timeline/p-1959-3.jpg":"public/images/timeline/p-1959-3.jpg","../../public/images/timeline/p-1961-0.jpg":"public/images/timeline/p-1961-0.jpg","../../public/images/timeline/p-1961-1.jpg":"public/images/timeline/p-1961-1.jpg","../../public/images/timeline/p-1962-0.jpg":"public/images/timeline/p-1962-0.jpg","../../public/images/timeline/p-1962-1.jpg":"public/images/timeline/p-1962-1.jpg","../../public/images/timeline/p-1964-0.jpg":"public/images/timeline/p-1964-0.jpg","../../public/images/timeline/p-1964-1.jpg":"public/images/timeline/p-1964-1.jpg"}],"components/templates/templates.scss":[function(require,module,exports) {
+},{"../../public/images/timeline/h-1945-0.jpg":"public/images/timeline/h-1945-0.jpg","../../public/images/timeline/h-1945-1.jpg":"public/images/timeline/h-1945-1.jpg","../../public/images/timeline/h-1945-2.jpg":"public/images/timeline/h-1945-2.jpg","../../public/images/timeline/h-1947-0.jpg":"public/images/timeline/h-1947-0.jpg","../../public/images/timeline/h-1947-1.jpg":"public/images/timeline/h-1947-1.jpg","../../public/images/timeline/h-1968-0.jpg":"public/images/timeline/h-1968-0.jpg","../../public/images/timeline/h-1968-1.jpg":"public/images/timeline/h-1968-1.jpg","../../public/images/timeline/h-1958-0.jpg":"public/images/timeline/h-1958-0.jpg","../../public/images/timeline/h-1958-1.jpg":"public/images/timeline/h-1958-1.jpg","../../public/images/timeline/h-1989-0.jpg":"public/images/timeline/h-1989-0.jpg","../../public/images/timeline/h-1989-1.jpg":"public/images/timeline/h-1989-1.jpg","../../public/images/timeline/h-1989-2.jpg":"public/images/timeline/h-1989-2.jpg","../../public/images/timeline/t-1946-0.jpg":"public/images/timeline/t-1946-0.jpg","../../public/images/timeline/t-1947-0.jpg":"public/images/timeline/t-1947-0.jpg","../../public/images/timeline/t-1947-1.jpg":"public/images/timeline/t-1947-1.jpg","../../public/images/timeline/t-1949-0.jpg":"public/images/timeline/t-1949-0.jpg","../../public/images/timeline/t-1950-0.jpg":"public/images/timeline/t-1950-0.jpg","../../public/images/timeline/t-1954-0.jpg":"public/images/timeline/t-1954-0.jpg","../../public/images/timeline/t-1954-1.jpg":"public/images/timeline/t-1954-1.jpg","../../public/images/timeline/t-1954-2.jpg":"public/images/timeline/t-1954-2.jpg","../../public/images/timeline/t-1956-0.jpg":"public/images/timeline/t-1956-0.jpg","../../public/images/timeline/t-1956-1.jpg":"public/images/timeline/t-1956-1.jpg","../../public/images/timeline/t-1957-0.jpg":"public/images/timeline/t-1957-0.jpg","../../public/images/timeline/t-1957-1.jpg":"public/images/timeline/t-1957-1.jpg","../../public/images/timeline/t-1957-2.jpg":"public/images/timeline/t-1957-2.jpg","../../public/images/timeline/t-1957-3.jpg":"public/images/timeline/t-1957-3.jpg","../../public/images/timeline/t-1958-0.jpg":"public/images/timeline/t-1958-0.jpg","../../public/images/timeline/t-1958-1.jpg":"public/images/timeline/t-1958-1.jpg","../../public/images/timeline/t-1958-2.jpg":"public/images/timeline/t-1958-2.jpg","../../public/images/timeline/t-1958-3.jpg":"public/images/timeline/t-1958-3.jpg","../../public/images/timeline/t-1968-0.jpg":"public/images/timeline/t-1968-0.jpg","../../public/images/timeline/t-1968-1.jpg":"public/images/timeline/t-1968-1.jpg","../../public/images/timeline/t-1971-0.jpg":"public/images/timeline/t-1971-0.jpg","../../public/images/timeline/t-1977-0.jpg":"public/images/timeline/t-1977-0.jpg","../../public/images/timeline/t-1977-1.jpg":"public/images/timeline/t-1977-1.jpg","../../public/images/timeline/t-1985-0.jpg":"public/images/timeline/t-1985-0.jpg","../../public/images/timeline/t-1985-1.jpg":"public/images/timeline/t-1985-1.jpg","../../public/images/timeline/t-1985-2.jpg":"public/images/timeline/t-1985-2.jpg","../../public/images/timeline/t-1985-3.jpg":"public/images/timeline/t-1985-3.jpg","../../public/images/timeline/t-1990-0.jpg":"public/images/timeline/t-1990-0.jpg","../../public/images/timeline/t-1990-1.jpg":"public/images/timeline/t-1990-1.jpg","../../public/images/timeline/t-1990-2.jpg":"public/images/timeline/t-1990-2.jpg","../../public/images/timeline/t-1991-0.jpg":"public/images/timeline/t-1991-0.jpg","../../public/images/timeline/t-1991-1.jpg":"public/images/timeline/t-1991-1.jpg","../../public/images/timeline/t-1991-2.jpg":"public/images/timeline/t-1991-2.jpg","../../public/images/timeline/t-1991-3.jpg":"public/images/timeline/t-1991-3.jpg","../../public/images/timeline/t-1991-4.jpg":"public/images/timeline/t-1991-4.jpg","../../public/images/timeline/t-1992-0.jpg":"public/images/timeline/t-1992-0.jpg","../../public/images/timeline/t-1992-1.jpg":"public/images/timeline/t-1992-1.jpg","../../public/images/timeline/t-1992-2.jpg":"public/images/timeline/t-1992-2.jpg","../../public/images/timeline/t-1995-0.jpg":"public/images/timeline/t-1995-0.jpg","../../public/images/timeline/t-1995-1.jpg":"public/images/timeline/t-1995-1.jpg","../../public/images/timeline/t-1995-2.jpg":"public/images/timeline/t-1995-2.jpg","../../public/images/timeline/t-1995-3.jpg":"public/images/timeline/t-1995-3.jpg","../../public/images/timeline/t-1995-4.jpg":"public/images/timeline/t-1995-4.jpg","../../public/images/timeline/t-1995-5.jpg":"public/images/timeline/t-1995-5.jpg","../../public/images/timeline/t-1995-6.jpg":"public/images/timeline/t-1995-6.jpg","../../public/images/timeline/t-1995-7.jpg":"public/images/timeline/t-1995-7.jpg","../../public/images/timeline/t-1995-8.jpg":"public/images/timeline/t-1995-8.jpg","../../public/images/timeline/t-1995-9.jpg":"public/images/timeline/t-1995-9.jpg","../../public/images/timeline/t-2011-0.jpg":"public/images/timeline/t-2011-0.jpg","../../public/images/timeline/t-2011-1.jpg":"public/images/timeline/t-2011-1.jpg","../../public/images/timeline/t-2011-2.jpg":"public/images/timeline/t-2011-2.jpg","../../public/images/timeline/t-2011-3.jpg":"public/images/timeline/t-2011-3.jpg","../../public/images/timeline/t-2019-0.jpg":"public/images/timeline/t-2019-0.jpg","../../public/images/timeline/t-2019-1.jpg":"public/images/timeline/t-2019-1.jpg","../../public/images/timeline/t-2019-2.jpg":"public/images/timeline/t-2019-2.jpg","../../public/images/timeline/t-2019-3.jpg":"public/images/timeline/t-2019-3.jpg","../../public/images/timeline/p-1947-0.jpg":"public/images/timeline/p-1947-0.jpg","../../public/images/timeline/p-1947-1.jpg":"public/images/timeline/p-1947-1.jpg","../../public/images/timeline/p-1947-2.jpg":"public/images/timeline/p-1947-2.jpg","../../public/images/timeline/p-1947-3.jpg":"public/images/timeline/p-1947-3.jpg","../../public/images/timeline/p-1947-4.jpg":"public/images/timeline/p-1947-4.jpg","../../public/images/timeline/p-1951-0.jpg":"public/images/timeline/p-1951-0.jpg","../../public/images/timeline/p-1951-1.jpg":"public/images/timeline/p-1951-1.jpg","../../public/images/timeline/p-1951-2.jpg":"public/images/timeline/p-1951-2.jpg","../../public/images/timeline/p-1951-3.jpg":"public/images/timeline/p-1951-3.jpg","../../public/images/timeline/p-1952-0.jpg":"public/images/timeline/p-1952-0.jpg","../../public/images/timeline/p-1952-1.jpg":"public/images/timeline/p-1952-1.jpg","../../public/images/timeline/p-1953-0.jpg":"public/images/timeline/p-1953-0.jpg","../../public/images/timeline/p-1953-1.jpg":"public/images/timeline/p-1953-1.jpg","../../public/images/timeline/p-1955-0.jpg":"public/images/timeline/p-1955-0.jpg","../../public/images/timeline/p-1955-1.jpg":"public/images/timeline/p-1955-1.jpg","../../public/images/timeline/p-1958-0.jpg":"public/images/timeline/p-1958-0.jpg","../../public/images/timeline/p-1958-1.jpg":"public/images/timeline/p-1958-1.jpg","../../public/images/timeline/p-1958-2.jpg":"public/images/timeline/p-1958-2.jpg","../../public/images/timeline/p-1958-3.jpg":"public/images/timeline/p-1958-3.jpg","../../public/images/timeline/p-1959-0.jpg":"public/images/timeline/p-1959-0.jpg","../../public/images/timeline/p-1959-1.jpg":"public/images/timeline/p-1959-1.jpg","../../public/images/timeline/p-1959-2.jpg":"public/images/timeline/p-1959-2.jpg","../../public/images/timeline/p-1959-3.jpg":"public/images/timeline/p-1959-3.jpg","../../public/images/timeline/p-1961-0.jpg":"public/images/timeline/p-1961-0.jpg","../../public/images/timeline/p-1961-1.jpg":"public/images/timeline/p-1961-1.jpg","../../public/images/timeline/p-1962-0.jpg":"public/images/timeline/p-1962-0.jpg","../../public/images/timeline/p-1962-1.jpg":"public/images/timeline/p-1962-1.jpg","../../public/images/timeline/p-1964-0.jpg":"public/images/timeline/p-1964-0.jpg","../../public/images/timeline/p-1964-1.jpg":"public/images/timeline/p-1964-1.jpg","../../public/images/timeline/p-1980-0.jpg":"public/images/timeline/p-1980-0.jpg","../../public/images/timeline/p-1980-1.jpg":"public/images/timeline/p-1980-1.jpg","../../public/images/timeline/p-1980-2.jpg":"public/images/timeline/p-1980-2.jpg","../../public/images/timeline/p-1980-3.jpg":"public/images/timeline/p-1980-3.jpg"}],"components/templates/templates.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/templates/TemplateBoth.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/templates/TemplateBoth.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35383,17 +35600,15 @@ var _templates = _interopRequireDefault(require("./templates.scss"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function TemplateBoth(props) {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "template-container"
-  }, /*#__PURE__*/_react.default.createElement(_Close.default, {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Close.default, {
     handleClick: function handleClick() {
       return props.handleClose();
     }
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "template-title-container"
+    className: "template-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "template-title"
-  }, props.event.title), /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-title-container"
+  }, /*#__PURE__*/_react.default.createElement("h1", null, props.event.title), /*#__PURE__*/_react.default.createElement("div", {
     className: "template-subtitle"
   }, props.event.subtitle)), /*#__PURE__*/_react.default.createElement("div", {
     className: "template-body-container"
@@ -35407,7 +35622,7 @@ function TemplateBoth(props) {
       className: "template-image",
       key: photo
     });
-  }))));
+  })))));
 }
 
 var _default = TemplateBoth;
@@ -35431,17 +35646,15 @@ var _templates = _interopRequireDefault(require("./templates.scss"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function TemplatePhotos(props) {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "template-container"
-  }, /*#__PURE__*/_react.default.createElement(_Close.default, {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Close.default, {
     handleClick: function handleClick() {
       return props.handleClose();
     }
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "template-title-container"
+    className: "template-container"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "template-title"
-  }, props.event.title), /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-title-container"
+  }, /*#__PURE__*/_react.default.createElement("h1", null, props.event.title), /*#__PURE__*/_react.default.createElement("div", {
     className: "template-subtitle"
   }, props.event.subtitle)), /*#__PURE__*/_react.default.createElement("div", {
     className: "template2-image-container"
@@ -35451,10 +35664,48 @@ function TemplatePhotos(props) {
       className: "template2-image",
       key: photo
     });
-  })));
+  }))));
 }
 
 var _default = TemplatePhotos;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../ui/Close":"components/ui/Close.jsx","../landing/ImageEventPath":"components/landing/ImageEventPath.jsx","./templates.scss":"components/templates/templates.scss"}],"components/templates/TemplateText.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Close = _interopRequireDefault(require("../ui/Close"));
+
+var _ImageEventPath = _interopRequireDefault(require("../landing/ImageEventPath"));
+
+var _templates = _interopRequireDefault(require("./templates.scss"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function TemplateText(props) {
+  return /*#__PURE__*/_react.default.createElement("div", null, /*#__PURE__*/_react.default.createElement(_Close.default, {
+    handleClick: function handleClick() {
+      return props.handleClose();
+    }
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-title-container"
+  }, /*#__PURE__*/_react.default.createElement("h1", null, props.event.title), /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-subtitle"
+  }, props.event.subtitle)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-body-container"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "template-text"
+  }, props.event.text))));
+}
+
+var _default = TemplateText;
 exports.default = _default;
 },{"react":"node_modules/react/index.js","../ui/Close":"components/ui/Close.jsx","../landing/ImageEventPath":"components/landing/ImageEventPath.jsx","./templates.scss":"components/templates/templates.scss"}],"components/landing/LandingPage.jsx":[function(require,module,exports) {
 "use strict";
@@ -35475,6 +35726,8 @@ var _Timeline = _interopRequireDefault(require("../timeline/Timeline"));
 var _TemplateBoth = _interopRequireDefault(require("../templates/TemplateBoth"));
 
 var _TemplatePhotos = _interopRequireDefault(require("../templates/TemplatePhotos"));
+
+var _TemplateText = _interopRequireDefault(require("../templates/TemplateText"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -35526,7 +35779,12 @@ function LandingPage(props) {
         }
       });
     } else if (currentEvent.type == 'text') {
-      return /*#__PURE__*/_react.default.createElement("div", null);
+      return /*#__PURE__*/_react.default.createElement(_TemplateText.default, {
+        event: currentEvent,
+        handleClose: function handleClose() {
+          return setShowEvent(false);
+        }
+      });
     }
   };
 
@@ -35544,7 +35802,7 @@ function LandingPage(props) {
 
 var _default = LandingPage;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../intro/Intro":"components/intro/Intro.jsx","../books/Books":"components/books/Books.jsx","../timeline/Timeline":"components/timeline/Timeline.jsx","../templates/TemplateBoth":"components/templates/TemplateBoth.jsx","../templates/TemplatePhotos":"components/templates/TemplatePhotos.jsx"}],"components/App.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../intro/Intro":"components/intro/Intro.jsx","../books/Books":"components/books/Books.jsx","../timeline/Timeline":"components/timeline/Timeline.jsx","../templates/TemplateBoth":"components/templates/TemplateBoth.jsx","../templates/TemplatePhotos":"components/templates/TemplatePhotos.jsx","../templates/TemplateText":"components/templates/TemplateText.jsx"}],"components/App.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35656,7 +35914,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // Attach React app
 // 
 _reactDom.default.render( /*#__PURE__*/React.createElement(_App.default, null), document.getElementById('root'));
-},{"./style/style.scss":"style/style.scss","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./components/App":"components/App.jsx"}],"../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./style/style.scss":"style/style.scss","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./components/App":"components/App.jsx"}],"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -35684,7 +35942,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51176" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55298" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -35860,5 +36118,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/App.e31bb0bc.js.map

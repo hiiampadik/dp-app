@@ -4,9 +4,9 @@ function FilterButton(props) {
 
     const getClasses = (selected) => {
         if (selected==true) {
-            return ("filter-button filter-button-selected");
+            return ("button filter-button-selected");
         } else {
-            return ("filter-button");
+            return ("button filter-button-unselected");
         }
     }
 

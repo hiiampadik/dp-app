@@ -1,12 +1,72 @@
+h1 {
+    line-height: 1;
+    font-size: 3rem;
+    font-weight: normal;
+    @media screen and (max-width: $phone-break) {
+        font-size: 2.4rem;
+    }
+}
+h3 {
+    line-height: 1;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+    @media screen and (max-width: $phone-break) {
+        font-size: 1.2rem;
+    }
+}
 
-
-a{
+a {
     pointer-events: auto !important;
     color: black;
     cursor: pointer;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
+.button {
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    user-select: none;
+    cursor: pointer;
+    @media screen and (max-width: $medium-tablet-break) {
+        padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+    @media screen and (max-width: $phone-break) {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+    }
+}
+
+.close-button {
+    position: fixed;
+    top: 1vw;
+    right: 1vw;
+    width: 3vw;
+    height: 3vw;
+    background-image: url("../public/ui/close.svg");
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    z-index: 300;
+    @media screen and (max-width: $large-tablet-break) {
+        right: 0.5vw;
+        width: 4vw;
+        height: 4vw;
+    }
+    @media screen and (max-width: $medium-tablet-break) {
+        top: 5vw;
+        right: 5vw;
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+.close-button:hover {
+    opacity: 0.5;
+}

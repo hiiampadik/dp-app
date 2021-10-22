@@ -1,76 +1,56 @@
 @import "../../style/variables.scss";
 
-// –––––––––––––– transition
-
-.landing-transition-bg {
-    background-color: $bg-gray;
-    height: 5em;
-    width: 100vw;
-}
-
-.landing-transition-white {
-    background-color: white;
-    top: 0;
-    right: 0;
-    width: 100vw;
-    margin-left: $left-timeline-margin;
-    height: 100%;
-    border-radius: 3em 0 0 0;
-}
-
-.landing-transition-red {
-    position: relative;
-    top: -1.8rem;
-
-    background-color: $bg-red;
-    height: 1.8rem;
-}
-
-.landing-transition-text {
-    background-color: white;
-
-    margin-left: 1rem;
-    padding-left: 5.5rem;
-    padding-top: 0.5rem;
-    font-size: 0.8rem;
-    height: 100%;
-}
-
-// –––––––––––––– timeline
-
-.landing-timeline-container {
-    display: flex;
-    align-items: stretch;
-}
-
-.red {
-    background-color: $bg-red;
-}
-
-.gray {
-    background-color: $bg-gray;
-}
-
-.landing-tiles-container {
-    margin-left: $left-timeline-margin;
-
-    padding-left: 5rem;
-    padding-right: 5rem;
-    padding-bottom: 2rem;
+.timeline-section-container {
+    margin: 0.5rem 1rem;
+    padding: 2.5rem 2.5rem;
     background-color: white;
 
     box-sizing: border-box;
+
+    width: auto;
+
+    border-radius: 2rem;
+    @media screen and (max-width: $medium-tablet-break) {
+        margin: 1vw 1vw;
+        padding: 2.5rem 3vw;
+        border-radius: 4vw;
+    }
+    
+}
+
+// ------------ TITLE
+
+.timeline-section-title-container {
+    width: 100%;
+    text-align: center;
+}
+
+.timeline-section-title {
+    font-size: 1.5rem;
+}
+.timeline-section-subtitle {
+    font-size: 0.8rem;
+}
+
+// ------------ tiles [] [] []
+
+.timeline-section-years-container {
+    margin-left: auto;
+    margin-right: auto;
+
     display: flex;
     flex-wrap: wrap;
-    width: calc(100vw);
+    max-width: 1200px;
 }
 
 .year-title {
-    font-size: 2rem;
     padding-left: 0.5rem;
     padding-top: 2rem;
-    box-sizing: border-box;
-    height: 5rem;
+    padding-bottom: 1rem;
+    @media screen and (max-width: $medium-tablet-break) {
+        padding-top: 1rem;
+        padding-bottom: 0.5rem;
+    }
 }
 
 .tiles-container {
@@ -88,49 +68,62 @@
 }
 
 .tile-wrap {
-    width: calc((100vw - 11rem) / 3 - 0.3rem);
-    max-width: 500px;
+    width: calc((100vw - 7rem) / 3);
+    max-width: 400px;
     height: 100%;
-    margin-right: 0.3rem;
-    box-sizing: border-box;
     position: relative;
+    @media screen and (max-width: $medium-tablet-break) {
+        width: calc((100vw - 2vw - 6vw) / 3);
+    }
 }
 
 .tile-image {
-    width: 100%;
-    height: auto;
-    border-radius: $radius1;
-    float: left;
+    width: calc(100% - 5px);
+    max-width: 400px;
+    box-sizing: border-box;
 
-    // filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.7));
+    height: auto;
+    border-radius: 1rem;
+    float: left;
+    @media screen and (max-width: $medium-tablet-break) {
+        border-radius: 2vw;
+        width: calc(100% - 2px);
+    }
 }
 
 .tile-label {
     display: flex;
     text-align: center;
-
+    align-items: center;
+    justify-content: center;
     color: white;
+    font-size: 1rem;
+
+    background-color: rgba(0, 0, 0, 0.5);
 
     position: absolute;
 
     visibility: hidden;
     opacity: 0;
-    align-items: center;
-    justify-content: center;
 
     user-select: none;
 
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    padding: 1rem;
+    width: calc(100% - 5px);
+    max-width: 400px;
+    padding-right: 5px;
     box-sizing: border-box;
-    border-radius: $radius1;
+    height: 100%;
 
-    // to allow \n from json
+    border-radius: 1rem;
+
     white-space: pre-line;
 
     transition: 0.2s;
+    @media screen and (max-width: $medium-tablet-break) {
+        width: calc(100% - 2px);
+        border-radius: 2vw;
+        font-size: 0.8rem;
+    }
 }
 
 .tile-wrap:hover .tile-label {
@@ -140,4 +133,8 @@
 
 .tile-wrap:hover {
     cursor: pointer;
+}
+
+.tile-wrap-none:hover {
+    cursor: default !important;
 }
