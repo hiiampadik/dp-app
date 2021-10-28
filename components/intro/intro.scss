@@ -82,7 +82,7 @@
 
 .intro-text-container {
     background-color: $gray1;
-    padding: 8rem 5vw 1rem 5vw;
+    padding: 7rem 5vw 1rem 5vw;
     box-sizing: border-box;
     @media screen and (max-width: $phone-break) {
         padding: 5rem 5vw 1rem 5vw;
@@ -90,6 +90,5 @@
 }
 
 .intro-text {
-    margin-top: 1em;
     max-width: 1000px;
 }

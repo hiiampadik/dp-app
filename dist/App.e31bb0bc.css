@@ -284,7 +284,7 @@ html, body {
 
 .intro-text-container {
   background-color: #f0f0f0;
-  padding: 8rem 5vw 1rem 5vw;
+  padding: 7rem 5vw 1rem 5vw;
   box-sizing: border-box;
 }
 @media screen and (max-width: 479px) {
@@ -294,12 +294,11 @@ html, body {
 }
 
 .intro-text {
-  margin-top: 1em;
   max-width: 1000px;
 }
 .books-container {
   background: #f0f0f0;
-  padding: 8vw 5vw 8vw 5vw;
+  padding: 5vw 5vw 8vw 5vw;
   display: flex;
 }
 
@@ -319,7 +318,7 @@ html, body {
 .book-label {
   font-size: 0.7rem;
   position: absolute;
-  top: -5rem;
+  top: -4.5rem;
   left: 0;
   right: 0;
   visibility: hidden;
