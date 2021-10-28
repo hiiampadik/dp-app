@@ -21,9 +21,11 @@
 // ----- title
 
 .template-title-container {
-    
-    padding-left: 5vw;
-    padding-right: 5vw;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-right: 2rem;
+    box-sizing: border-box;
 
     font-family: "font", "Helvetica Neue", arial, sans-serif;
     // to allow \n from json

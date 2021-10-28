@@ -11,7 +11,7 @@
 
     border-radius: 2rem;
     @media screen and (max-width: $medium-tablet-break) {
-        margin: 1vw 1vw;
+        margin: 1vw 2vw;
         padding: 2.5rem 3vw;
         border-radius: 4vw;
     }
@@ -73,7 +73,7 @@
     height: 100%;
     position: relative;
     @media screen and (max-width: $medium-tablet-break) {
-        width: calc((100vw - 2vw - 6vw) / 3);
+        width: calc((100vw - 4vw - 6vw) / 3);
     }
 }
 
@@ -123,6 +123,7 @@
         width: calc(100% - 2px);
         border-radius: 2vw;
         font-size: 0.8rem;
+        line-height: 1.1;
     }
 }
 

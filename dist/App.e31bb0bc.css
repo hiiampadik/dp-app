@@ -391,7 +391,7 @@ html, body {
 }
 @media screen and (max-width: 767px) {
   .timeline-section-container {
-    margin: 1vw 1vw;
+    margin: 1vw 2vw;
     padding: 2.5rem 3vw;
     border-radius: 4vw;
   }
@@ -451,7 +451,7 @@ html, body {
 }
 @media screen and (max-width: 767px) {
   .tile-wrap {
-    width: calc((100vw - 2vw - 6vw) / 3);
+    width: calc((100vw - 4vw - 6vw) / 3);
   }
 }
 
@@ -496,6 +496,7 @@ html, body {
     width: calc(100% - 2px);
     border-radius: 2vw;
     font-size: 0.8rem;
+    line-height: 1.1;
   }
 }
 
@@ -527,8 +528,10 @@ html, body {
 }
 
 .template-title-container {
-  padding-left: 5vw;
-  padding-right: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-right: 2rem;
+  box-sizing: border-box;
   font-family: "font", "Helvetica Neue", arial, sans-serif;
   white-space: pre-line;
 }
