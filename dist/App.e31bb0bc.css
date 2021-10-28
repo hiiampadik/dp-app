@@ -306,7 +306,7 @@ html, body {
 .book-wrap {
   position: relative;
   margin-right: -3em;
-  width: calc((100vw - 10vw)/15 + 3em/15*14);
+  width: calc(6vw + 2.8em);
 }
 
 .book-image {
@@ -451,7 +451,7 @@ html, body {
 }
 @media screen and (max-width: 767px) {
   .tile-wrap {
-    width: calc((100vw - 4vw - 6vw) / 3);
+    width: 30vw;
   }
 }
 
