@@ -32583,9 +32583,17 @@ var createNamedContext = function createNamedContext(name) {
   return context;
 };
 
-var historyContext = /*#__PURE__*/createNamedContext("Router-History");
+var historyContext = /*#__PURE__*/createNamedContext("Router-History"); // TODO: Replace with React.createContext once we can assume React 16+
+
 exports.__HistoryContext = historyContext;
-var context = /*#__PURE__*/createNamedContext("Router");
+
+var createNamedContext$1 = function createNamedContext(name) {
+  var context = (0, _miniCreateReactContext.default)();
+  context.displayName = name;
+  return context;
+};
+
+var context = /*#__PURE__*/createNamedContext$1("Router");
 /**
  * The public API for putting history on context.
  */
@@ -32647,22 +32655,18 @@ var Router = /*#__PURE__*/function (_React$Component) {
   };
 
   _proto.componentWillUnmount = function componentWillUnmount() {
-    if (this.unlisten) {
-      this.unlisten();
-      this._isMounted = false;
-      this._pendingLocation = null;
-    }
+    if (this.unlisten) this.unlisten();
   };
 
   _proto.render = function render() {
-    return /*#__PURE__*/_react.default.createElement(context.Provider, {
+    return _react.default.createElement(context.Provider, {
       value: {
         history: this.props.history,
         location: this.state.location,
         match: Router.computeRootMatch(this.state.location.pathname),
         staticContext: this.props.staticContext
       }
-    }, /*#__PURE__*/_react.default.createElement(historyContext.Provider, {
+    }, _react.default.createElement(historyContext.Provider, {
       children: this.props.children || null,
       value: this.props.history
     }));
@@ -32707,7 +32711,7 @@ var MemoryRouter = /*#__PURE__*/function (_React$Component) {
   var _proto = MemoryRouter.prototype;
 
   _proto.render = function render() {
-    return /*#__PURE__*/_react.default.createElement(Router, {
+    return _react.default.createElement(Router, {
       history: this.history,
       children: this.props.children
     });
@@ -32768,11 +32772,11 @@ function Prompt(_ref) {
   var message = _ref.message,
       _ref$when = _ref.when,
       when = _ref$when === void 0 ? true : _ref$when;
-  return /*#__PURE__*/_react.default.createElement(context.Consumer, null, function (context) {
+  return _react.default.createElement(context.Consumer, null, function (context) {
     !context ? "development" !== "production" ? (0, _tinyInvariant.default)(false, "You should not use <Prompt> outside a <Router>") : (0, _tinyInvariant.default)(false) : void 0;
     if (!when || context.staticContext) return null;
     var method = context.history.block;
-    return /*#__PURE__*/_react.default.createElement(Lifecycle, {
+    return _react.default.createElement(Lifecycle, {
       onMount: function onMount(self) {
         self.release = method(message);
       },
@@ -32843,7 +32847,7 @@ function Redirect(_ref) {
       to = _ref.to,
       _ref$push = _ref.push,
       push = _ref$push === void 0 ? false : _ref$push;
-  return /*#__PURE__*/_react.default.createElement(context.Consumer, null, function (context) {
+  return _react.default.createElement(context.Consumer, null, function (context) {
     !context ? "development" !== "production" ? (0, _tinyInvariant.default)(false, "You should not use <Redirect> outside a <Router>") : (0, _tinyInvariant.default)(false) : void 0;
     var history = context.history,
         staticContext = context.staticContext;
@@ -32858,7 +32862,7 @@ function Redirect(_ref) {
       return null;
     }
 
-    return /*#__PURE__*/_react.default.createElement(Lifecycle, {
+    return _react.default.createElement(Lifecycle, {
       onMount: function onMount() {
         method(location);
       },
@@ -32990,7 +32994,7 @@ var Route = /*#__PURE__*/function (_React$Component) {
   _proto.render = function render() {
     var _this = this;
 
-    return /*#__PURE__*/_react.default.createElement(context.Consumer, null, function (context$1) {
+    return _react.default.createElement(context.Consumer, null, function (context$1) {
       !context$1 ? "development" !== "production" ? (0, _tinyInvariant.default)(false, "You should not use <Route> outside a <Router>") : (0, _tinyInvariant.default)(false) : void 0;
       var location = _this.props.location || context$1.location;
       var match = _this.props.computedMatch ? _this.props.computedMatch // <Switch> already computed the match for us
@@ -33005,13 +33009,13 @@ var Route = /*#__PURE__*/function (_React$Component) {
           render = _this$props.render; // Preact uses an empty array as children by
       // default, so use null if that's the case.
 
-      if (Array.isArray(children) && isEmptyChildren(children)) {
+      if (Array.isArray(children) && children.length === 0) {
         children = null;
       }
 
-      return /*#__PURE__*/_react.default.createElement(context.Provider, {
+      return _react.default.createElement(context.Provider, {
         value: props
-      }, props.match ? children ? typeof children === "function" ? "development" !== "production" ? evalChildrenDev(children, props, _this.props.path) : children(props) : children : component ? /*#__PURE__*/_react.default.createElement(component, props) : render ? render(props) : null : typeof children === "function" ? "development" !== "production" ? evalChildrenDev(children, props, _this.props.path) : children(props) : null);
+      }, props.match ? children ? typeof children === "function" ? "development" !== "production" ? evalChildrenDev(children, props, _this.props.path) : children(props) : children : component ? _react.default.createElement(component, props) : render ? render(props) : null : typeof children === "function" ? "development" !== "production" ? evalChildrenDev(children, props, _this.props.path) : children(props) : null);
     });
   };
 
@@ -33154,7 +33158,7 @@ var StaticRouter = /*#__PURE__*/function (_React$Component) {
       listen: this.handleListen,
       block: this.handleBlock
     };
-    return /*#__PURE__*/_react.default.createElement(Router, (0, _extends2.default)({}, rest, {
+    return _react.default.createElement(Router, (0, _extends2.default)({}, rest, {
       history: history,
       staticContext: context
     }));
@@ -33193,7 +33197,7 @@ var Switch = /*#__PURE__*/function (_React$Component) {
   _proto.render = function render() {
     var _this = this;
 
-    return /*#__PURE__*/_react.default.createElement(context.Consumer, null, function (context) {
+    return _react.default.createElement(context.Consumer, null, function (context) {
       !context ? "development" !== "production" ? (0, _tinyInvariant.default)(false, "You should not use <Switch> outside a <Router>") : (0, _tinyInvariant.default)(false) : void 0;
       var location = _this.props.location || context.location;
       var element, match; // We use React.Children.forEach instead of React.Children.toArray().find()
@@ -33202,7 +33206,7 @@ var Switch = /*#__PURE__*/function (_React$Component) {
       // component at different URLs.
 
       _react.default.Children.forEach(_this.props.children, function (child) {
-        if (match == null && /*#__PURE__*/_react.default.isValidElement(child)) {
+        if (match == null && _react.default.isValidElement(child)) {
           element = child;
           var path = child.props.path || child.props.from;
           match = path ? matchPath(location.pathname, (0, _extends2.default)({}, child.props, {
@@ -33211,7 +33215,7 @@ var Switch = /*#__PURE__*/function (_React$Component) {
         }
       });
 
-      return match ? /*#__PURE__*/_react.default.cloneElement(element, {
+      return match ? _react.default.cloneElement(element, {
         location: location,
         computedMatch: match
       }) : null;
@@ -33245,9 +33249,9 @@ function withRouter(Component) {
   var C = function C(props) {
     var wrappedComponentRef = props.wrappedComponentRef,
         remainingProps = (0, _objectWithoutPropertiesLoose2.default)(props, ["wrappedComponentRef"]);
-    return /*#__PURE__*/_react.default.createElement(context.Consumer, null, function (context) {
+    return _react.default.createElement(context.Consumer, null, function (context) {
       !context ? "development" !== "production" ? (0, _tinyInvariant.default)(false, "You should not use <" + displayName + " /> outside a <Router>") : (0, _tinyInvariant.default)(false) : void 0;
-      return /*#__PURE__*/_react.default.createElement(Component, (0, _extends2.default)({}, remainingProps, context, {
+      return _react.default.createElement(Component, (0, _extends2.default)({}, remainingProps, context, {
         ref: wrappedComponentRef
       }));
     });
@@ -33456,7 +33460,7 @@ var BrowserRouter = /*#__PURE__*/function (_React$Component) {
   var _proto = BrowserRouter.prototype;
 
   _proto.render = function render() {
-    return /*#__PURE__*/_react.default.createElement(_reactRouter.Router, {
+    return _react.default.createElement(_reactRouter.Router, {
       history: this.history,
       children: this.props.children
     });
@@ -33503,7 +33507,7 @@ var HashRouter = /*#__PURE__*/function (_React$Component) {
   var _proto = HashRouter.prototype;
 
   _proto.render = function render() {
-    return /*#__PURE__*/_react.default.createElement(_reactRouter.Router, {
+    return _react.default.createElement(_reactRouter.Router, {
       history: this.history,
       children: this.props.children
     });
@@ -33583,7 +33587,7 @@ var LinkAnchor = forwardRef(function (_ref, forwardedRef) {
   /* eslint-disable-next-line jsx-a11y/anchor-has-content */
 
 
-  return /*#__PURE__*/_react.default.createElement("a", props);
+  return _react.default.createElement("a", props);
 });
 
 if ("development" !== "production") {
@@ -33601,7 +33605,7 @@ var Link = forwardRef(function (_ref2, forwardedRef) {
       to = _ref2.to,
       innerRef = _ref2.innerRef,
       rest = (0, _objectWithoutPropertiesLoose2.default)(_ref2, ["component", "replace", "to", "innerRef"]);
-  return /*#__PURE__*/_react.default.createElement(_reactRouter.__RouterContext.Consumer, null, function (context) {
+  return _react.default.createElement(_reactRouter.__RouterContext.Consumer, null, function (context) {
     !context ? "development" !== "production" ? (0, _tinyInvariant.default)(false, "You should not use <Link> outside a <Router>") : (0, _tinyInvariant.default)(false) : void 0;
     var history = context.history;
     var location = normalizeToLocation(resolveToLocation(to, context.location), context.location);
@@ -33610,8 +33614,7 @@ var Link = forwardRef(function (_ref2, forwardedRef) {
       href: href,
       navigate: function navigate() {
         var location = resolveToLocation(to, context.location);
-        var isDuplicateNavigation = (0, _history.createPath)(context.location) === (0, _history.createPath)(normalizeToLocation(location));
-        var method = replace || isDuplicateNavigation ? history.replace : history.push;
+        var method = replace ? history.replace : history.push;
         method(location);
       }
     }); // React 15 compat
@@ -33622,7 +33625,7 @@ var Link = forwardRef(function (_ref2, forwardedRef) {
       props.innerRef = innerRef;
     }
 
-    return /*#__PURE__*/_react.default.createElement(component, props);
+    return _react.default.createElement(component, props);
   });
 });
 exports.Link = Link;
@@ -33684,7 +33687,7 @@ var NavLink = forwardRef$1(function (_ref, forwardedRef) {
       to = _ref.to,
       innerRef = _ref.innerRef,
       rest = (0, _objectWithoutPropertiesLoose2.default)(_ref, ["aria-current", "activeClassName", "activeStyle", "className", "exact", "isActive", "location", "sensitive", "strict", "style", "to", "innerRef"]);
-  return /*#__PURE__*/_react.default.createElement(_reactRouter.__RouterContext.Consumer, null, function (context) {
+  return _react.default.createElement(_reactRouter.__RouterContext.Consumer, null, function (context) {
     !context ? "development" !== "production" ? (0, _tinyInvariant.default)(false, "You should not use <NavLink> outside a <Router>") : (0, _tinyInvariant.default)(false) : void 0;
     var currentLocation = locationProp || context.location;
     var toLocation = normalizeToLocation(resolveToLocation(to, currentLocation), currentLocation);
@@ -33698,14 +33701,8 @@ var NavLink = forwardRef$1(function (_ref, forwardedRef) {
       strict: strict
     }) : null;
     var isActive = !!(isActiveProp ? isActiveProp(match, currentLocation) : match);
-    var className = typeof classNameProp === "function" ? classNameProp(isActive) : classNameProp;
-    var style = typeof styleProp === "function" ? styleProp(isActive) : styleProp;
-
-    if (isActive) {
-      className = joinClassnames(className, activeClassName);
-      style = (0, _extends2.default)({}, style, activeStyle);
-    }
-
+    var className = isActive ? joinClassnames(classNameProp, activeClassName) : classNameProp;
+    var style = isActive ? (0, _extends2.default)({}, styleProp, {}, activeStyle) : styleProp;
     var props = (0, _extends2.default)({
       "aria-current": isActive && ariaCurrent || null,
       className: className,
@@ -33719,7 +33716,7 @@ var NavLink = forwardRef$1(function (_ref, forwardedRef) {
       props.innerRef = innerRef;
     }
 
-    return /*#__PURE__*/_react.default.createElement(Link, props);
+    return _react.default.createElement(Link, props);
   });
 });
 exports.NavLink = NavLink;
@@ -33727,19 +33724,19 @@ exports.NavLink = NavLink;
 if ("development" !== "production") {
   NavLink.displayName = "NavLink";
 
-  var ariaCurrentType = _propTypes.default.oneOf(["page", "step", "location", "date", "time", "true", "false"]);
+  var ariaCurrentType = _propTypes.default.oneOf(["page", "step", "location", "date", "time", "true"]);
 
   NavLink.propTypes = (0, _extends2.default)({}, Link.propTypes, {
     "aria-current": ariaCurrentType,
     activeClassName: _propTypes.default.string,
     activeStyle: _propTypes.default.object,
-    className: _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.func]),
+    className: _propTypes.default.string,
     exact: _propTypes.default.bool,
     isActive: _propTypes.default.func,
     location: _propTypes.default.object,
     sensitive: _propTypes.default.bool,
     strict: _propTypes.default.bool,
-    style: _propTypes.default.oneOfType([_propTypes.default.object, _propTypes.default.func])
+    style: _propTypes.default.object
   });
 }
 },{"react-router":"node_modules/react-router/esm/react-router.js","@babel/runtime/helpers/esm/inheritsLoose":"node_modules/@babel/runtime/helpers/esm/inheritsLoose.js","react":"node_modules/react/index.js","history":"node_modules/history/esm/history.js","prop-types":"node_modules/prop-types/index.js","tiny-warning":"node_modules/tiny-warning/dist/tiny-warning.esm.js","@babel/runtime/helpers/esm/extends":"node_modules/@babel/runtime/helpers/esm/extends.js","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","tiny-invariant":"node_modules/tiny-invariant/dist/tiny-invariant.esm.js"}],"components/ui/Close.jsx":[function(require,module,exports) {
@@ -34436,7 +34433,9 @@ function TimelineSection(props) {
         onClick: function onClick() {
           return props.handleClick(event);
         }
-      }, /*#__PURE__*/_react.default.createElement("img", {
+      }, event.content.type.includes("none") ? "" : /*#__PURE__*/_react.default.createElement("div", {
+        className: "plus"
+      }), /*#__PURE__*/_react.default.createElement("img", {
         src: _ImagePreviewPaths.default[event.preview],
         className: "tile-image"
       }), /*#__PURE__*/_react.default.createElement("div", {
@@ -34886,7 +34885,7 @@ module.exports = [{
     "type": ["trip"],
     "content": {
       "type": ["photos"],
-      "title": "",
+      "title": "1980",
       "subtitle": "Putovní tábor\nSlovenské rudohoří (19.–27. 7.)",
       "photos": ["p-1980-0.jpg", "p-1980-1.jpg", "p-1980-2.jpg", "p-1980-3.jpg"]
     }
@@ -35142,7 +35141,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/timeline/Timeline.jsx":[function(require,module,exports) {
+},{"./../../public/ui/plus.svg":[["plus.2a32bb08.svg","public/ui/plus.svg"],"public/ui/plus.svg"],"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/timeline/Timeline.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35945,7 +35944,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59568" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65062" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

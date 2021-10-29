@@ -46,8 +46,8 @@ function TimelineSection(props) {
                                                 <div className="tiles-subcontainer" key={event.ID}>
                                                     {showContent(event.type) ?
                                                         <div className={"tile-wrap" + (event.content.type.includes("none") ? " tile-wrap-none" : "")}  onClick={() => props.handleClick(event)}>
-                                                            {/* {console.log(event.content.type + event.content.title)} */}
-                                                            {/* {(event.content.type.includes("none") ? " tile-wrap-none" : "")} */}
+                                                            {event.content.type.includes("none") ? "" : 
+                                                            <div className="plus"></div>}
                                                             <img src={images[event.preview]} className="tile-image" />
                                                             <div className="tile-label">{event.label}</div>
                                                         </div>
