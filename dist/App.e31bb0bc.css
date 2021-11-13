@@ -431,6 +431,8 @@ html, body {
 
 .tiles-container {
   display: flex;
+  flex-direction: column;
+  flex-flow: wrap;
   align-items: flex-start;
   height: auto;
   background-color: white;
@@ -440,6 +442,7 @@ html, body {
   display: flex;
   align-items: flex-start;
   height: auto;
+  margin-bottom: 2px;
 }
 
 .tile-wrap {
@@ -451,6 +454,11 @@ html, body {
 @media screen and (max-width: 767px) {
   .tile-wrap {
     width: calc((100vw - 4vw - 6vw) / 3);
+  }
+}
+@media screen and (max-width: 479px) {
+  .tile-wrap {
+    width: calc((100vw - 4vw - 6vw) / 2);
   }
 }
 
