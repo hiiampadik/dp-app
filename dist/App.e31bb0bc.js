@@ -33934,7 +33934,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+var _react = _interopRequireWildcard(require("react"));
 
 var _ = _interopRequireDefault(require("../../public/images/books/1.png"));
 
@@ -33969,6 +33969,10 @@ var _15 = _interopRequireDefault(require("../../public/images/books/15.png"));
 var _books = _interopRequireDefault(require("./books.scss"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function LandingBooks(props) {
   return /*#__PURE__*/_react.default.createElement("div", {
@@ -34366,7 +34370,16 @@ var _default = {
   "fotka-5.jpg": require("../../public/images/preview/fotka-5.jpg")
 };
 exports.default = _default;
-},{"../../public/images/preview/1945-0.jpg":"public/images/preview/1945-0.jpg","../../public/images/preview/1946-0.jpg":"public/images/preview/1946-0.jpg","../../public/images/preview/1946-1.jpg":"public/images/preview/1946-1.jpg","../../public/images/preview/1947-0.jpg":"public/images/preview/1947-0.jpg","../../public/images/preview/1947-1.jpg":"public/images/preview/1947-1.jpg","../../public/images/preview/1947-2.jpg":"public/images/preview/1947-2.jpg","../../public/images/preview/1949-0.jpg":"public/images/preview/1949-0.jpg","../../public/images/preview/1950-0.jpg":"public/images/preview/1950-0.jpg","../../public/images/preview/1951-0.jpg":"public/images/preview/1951-0.jpg","../../public/images/preview/1952-0.jpg":"public/images/preview/1952-0.jpg","../../public/images/preview/1953-0.jpg":"public/images/preview/1953-0.jpg","../../public/images/preview/1954-0.jpg":"public/images/preview/1954-0.jpg","../../public/images/preview/1955-0.jpg":"public/images/preview/1955-0.jpg","../../public/images/preview/1956-0.jpg":"public/images/preview/1956-0.jpg","../../public/images/preview/1957-0.jpg":"public/images/preview/1957-0.jpg","../../public/images/preview/1958-0.jpg":"public/images/preview/1958-0.jpg","../../public/images/preview/1958-1.jpg":"public/images/preview/1958-1.jpg","../../public/images/preview/1958-2.jpg":"public/images/preview/1958-2.jpg","../../public/images/preview/1959-0.jpg":"public/images/preview/1959-0.jpg","../../public/images/preview/1961-0.jpg":"public/images/preview/1961-0.jpg","../../public/images/preview/1962-0.jpg":"public/images/preview/1962-0.jpg","../../public/images/preview/1962-1.jpg":"public/images/preview/1962-1.jpg","../../public/images/preview/1964-0.jpg":"public/images/preview/1964-0.jpg","../../public/images/preview/1968-0.jpg":"public/images/preview/1968-0.jpg","../../public/images/preview/1968-1.jpg":"public/images/preview/1968-1.jpg","../../public/images/preview/1971-0.jpg":"public/images/preview/1971-0.jpg","../../public/images/preview/1977-0.jpg":"public/images/preview/1977-0.jpg","../../public/images/preview/1980-0.jpg":"public/images/preview/1980-0.jpg","../../public/images/preview/1985-0.jpg":"public/images/preview/1985-0.jpg","../../public/images/preview/1989-0.jpg":"public/images/preview/1989-0.jpg","../../public/images/preview/1990-0.jpg":"public/images/preview/1990-0.jpg","../../public/images/preview/1990-1.jpg":"public/images/preview/1990-1.jpg","../../public/images/preview/1991-0.jpg":"public/images/preview/1991-0.jpg","../../public/images/preview/1992-0.jpg":"public/images/preview/1992-0.jpg","../../public/images/preview/1994-0.jpg":"public/images/preview/1994-0.jpg","../../public/images/preview/1996-0.jpg":"public/images/preview/1996-0.jpg","../../public/images/preview/2001-0.jpg":"public/images/preview/2001-0.jpg","../../public/images/preview/2005-0.jpg":"public/images/preview/2005-0.jpg","../../public/images/preview/2008-0.jpg":"public/images/preview/2008-0.jpg","../../public/images/preview/2011-0.jpg":"public/images/preview/2011-0.jpg","../../public/images/preview/2011-1.jpg":"public/images/preview/2011-1.jpg","../../public/images/preview/2015-0.jpg":"public/images/preview/2015-0.jpg","../../public/images/preview/2019-0.jpg":"public/images/preview/2019-0.jpg","../../public/images/preview/2020-0.jpg":"public/images/preview/2020-0.jpg","../../public/images/preview/fotka-0.jpg":"public/images/preview/fotka-0.jpg","../../public/images/preview/fotka-1.jpg":"public/images/preview/fotka-1.jpg","../../public/images/preview/fotka-2.jpg":"public/images/preview/fotka-2.jpg","../../public/images/preview/fotka-3.jpg":"public/images/preview/fotka-3.jpg","../../public/images/preview/fotka-4.jpg":"public/images/preview/fotka-4.jpg","../../public/images/preview/fotka-5.jpg":"public/images/preview/fotka-5.jpg"}],"components/timeline/TimelineSection.jsx":[function(require,module,exports) {
+},{"../../public/images/preview/1945-0.jpg":"public/images/preview/1945-0.jpg","../../public/images/preview/1946-0.jpg":"public/images/preview/1946-0.jpg","../../public/images/preview/1946-1.jpg":"public/images/preview/1946-1.jpg","../../public/images/preview/1947-0.jpg":"public/images/preview/1947-0.jpg","../../public/images/preview/1947-1.jpg":"public/images/preview/1947-1.jpg","../../public/images/preview/1947-2.jpg":"public/images/preview/1947-2.jpg","../../public/images/preview/1949-0.jpg":"public/images/preview/1949-0.jpg","../../public/images/preview/1950-0.jpg":"public/images/preview/1950-0.jpg","../../public/images/preview/1951-0.jpg":"public/images/preview/1951-0.jpg","../../public/images/preview/1952-0.jpg":"public/images/preview/1952-0.jpg","../../public/images/preview/1953-0.jpg":"public/images/preview/1953-0.jpg","../../public/images/preview/1954-0.jpg":"public/images/preview/1954-0.jpg","../../public/images/preview/1955-0.jpg":"public/images/preview/1955-0.jpg","../../public/images/preview/1956-0.jpg":"public/images/preview/1956-0.jpg","../../public/images/preview/1957-0.jpg":"public/images/preview/1957-0.jpg","../../public/images/preview/1958-0.jpg":"public/images/preview/1958-0.jpg","../../public/images/preview/1958-1.jpg":"public/images/preview/1958-1.jpg","../../public/images/preview/1958-2.jpg":"public/images/preview/1958-2.jpg","../../public/images/preview/1959-0.jpg":"public/images/preview/1959-0.jpg","../../public/images/preview/1961-0.jpg":"public/images/preview/1961-0.jpg","../../public/images/preview/1962-0.jpg":"public/images/preview/1962-0.jpg","../../public/images/preview/1962-1.jpg":"public/images/preview/1962-1.jpg","../../public/images/preview/1964-0.jpg":"public/images/preview/1964-0.jpg","../../public/images/preview/1968-0.jpg":"public/images/preview/1968-0.jpg","../../public/images/preview/1968-1.jpg":"public/images/preview/1968-1.jpg","../../public/images/preview/1971-0.jpg":"public/images/preview/1971-0.jpg","../../public/images/preview/1977-0.jpg":"public/images/preview/1977-0.jpg","../../public/images/preview/1980-0.jpg":"public/images/preview/1980-0.jpg","../../public/images/preview/1985-0.jpg":"public/images/preview/1985-0.jpg","../../public/images/preview/1989-0.jpg":"public/images/preview/1989-0.jpg","../../public/images/preview/1990-0.jpg":"public/images/preview/1990-0.jpg","../../public/images/preview/1990-1.jpg":"public/images/preview/1990-1.jpg","../../public/images/preview/1991-0.jpg":"public/images/preview/1991-0.jpg","../../public/images/preview/1992-0.jpg":"public/images/preview/1992-0.jpg","../../public/images/preview/1994-0.jpg":"public/images/preview/1994-0.jpg","../../public/images/preview/1996-0.jpg":"public/images/preview/1996-0.jpg","../../public/images/preview/2001-0.jpg":"public/images/preview/2001-0.jpg","../../public/images/preview/2005-0.jpg":"public/images/preview/2005-0.jpg","../../public/images/preview/2008-0.jpg":"public/images/preview/2008-0.jpg","../../public/images/preview/2011-0.jpg":"public/images/preview/2011-0.jpg","../../public/images/preview/2011-1.jpg":"public/images/preview/2011-1.jpg","../../public/images/preview/2015-0.jpg":"public/images/preview/2015-0.jpg","../../public/images/preview/2019-0.jpg":"public/images/preview/2019-0.jpg","../../public/images/preview/2020-0.jpg":"public/images/preview/2020-0.jpg","../../public/images/preview/fotka-0.jpg":"public/images/preview/fotka-0.jpg","../../public/images/preview/fotka-1.jpg":"public/images/preview/fotka-1.jpg","../../public/images/preview/fotka-2.jpg":"public/images/preview/fotka-2.jpg","../../public/images/preview/fotka-3.jpg":"public/images/preview/fotka-3.jpg","../../public/images/preview/fotka-4.jpg":"public/images/preview/fotka-4.jpg","../../public/images/preview/fotka-5.jpg":"public/images/preview/fotka-5.jpg"}],"node_modules/is-touch-device/build/index.js":[function(require,module,exports) {
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports['default'] = isTouchDevice;
+function isTouchDevice() {
+  return !!(typeof window !== 'undefined' && ('ontouchstart' in window || window.DocumentTouch && typeof document !== 'undefined' && document instanceof window.DocumentTouch)) || !!(typeof navigator !== 'undefined' && (navigator.maxTouchPoints || navigator.msMaxTouchPoints));
+}
+module.exports = exports['default'];
+},{}],"components/timeline/TimelineSection.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34374,16 +34387,32 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+var _react = _interopRequireWildcard(require("react"));
 
 var _ImagePreviewPaths = _interopRequireDefault(require("../landing/ImagePreviewPaths.jsx"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 function TimelineSection(props) {
-  var openEvent = function openEvent(id) {
-    console.log(id);
-  };
+  var _useState = (0, _react.useState)(require('is-touch-device')),
+      _useState2 = _slicedToArray(_useState, 1),
+      isTouchDevice = _useState2[0];
 
   var showContent = function showContent(types) {
     var showIt = false;
@@ -34428,26 +34457,28 @@ function TimelineSection(props) {
       return /*#__PURE__*/_react.default.createElement("div", {
         className: "tiles-subcontainer",
         key: event.ID
-      }, showContent(event.type) ? /*#__PURE__*/_react.default.createElement("div", {
-        className: "tile-wrap" + (event.content.type.includes("none") ? " tile-wrap-none" : ""),
+      }, showContent(event.type) ? /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, event.content.type.includes("none") ? /*#__PURE__*/_react.default.createElement("div", {
+        className: "tile-wrap tile-wrap-noimage"
+      }, /*#__PURE__*/_react.default.createElement("div", {
+        className: "tile-label tile-label-shown"
+      }, event.label)) : /*#__PURE__*/_react.default.createElement("div", {
+        className: "tile-wrap tile-wrap-image",
         onClick: function onClick() {
           return props.handleClick(event);
         }
-      }, event.content.type.includes("none") ? "" : /*#__PURE__*/_react.default.createElement("div", {
-        className: "plus"
-      }), /*#__PURE__*/_react.default.createElement("img", {
+      }, /*#__PURE__*/_react.default.createElement("img", {
         src: _ImagePreviewPaths.default[event.preview],
         className: "tile-image"
-      }), /*#__PURE__*/_react.default.createElement("div", {
-        className: "tile-label"
-      }, event.label)) : /*#__PURE__*/_react.default.createElement("div", null));
+      }), isTouchDevice ? "" : /*#__PURE__*/_react.default.createElement("div", {
+        className: "tile-label tile-label-hover"
+      }, event.label))) : /*#__PURE__*/_react.default.createElement("div", null));
     }))) : /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null));
   })));
 }
 
 var _default = TimelineSection;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../landing/ImagePreviewPaths.jsx":"components/landing/ImagePreviewPaths.jsx"}],"data/data_45-50.json":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../landing/ImagePreviewPaths.jsx":"components/landing/ImagePreviewPaths.jsx","is-touch-device":"node_modules/is-touch-device/build/index.js"}],"data/data_45-50.json":[function(require,module,exports) {
 module.exports = [{
   "year": 1945,
   "types": ["history"],
@@ -34735,7 +34766,7 @@ module.exports = [{
   "events": [{
     "ID": 21,
     "preview": "fotka-4.jpg",
-    "label": "Stanový tábor\nPřehrada Jevišovice (okres Znojmo)",
+    "label": "Stanový tábor\nPřehrada Jevišovice",
     "type": ["camp"],
     "content": {
       "type": ["none"]
@@ -35141,7 +35172,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../../public/ui/plus.svg":[["plus.2a32bb08.svg","public/ui/plus.svg"],"public/ui/plus.svg"],"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/timeline/Timeline.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/timeline/Timeline.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -35944,7 +35975,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65062" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61887" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

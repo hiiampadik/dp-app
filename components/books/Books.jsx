@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 import book1 from "../../public/images/books/1.png";
 import book2 from "../../public/images/books/2.png";
@@ -22,7 +22,7 @@ function LandingBooks(props) {
 
     return (
         <div className="books-container">
-
+            
             <div className="book-wrap">
                 <img src={book1} alt="Chronicle image" className="book-image" />
                 <div className="book-label-container">

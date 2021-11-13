@@ -454,6 +454,15 @@ html, body {
   }
 }
 
+.tile-wrap-noimage {
+  height: calc((100vw - 7rem) / 6);
+}
+@media screen and (max-width: 767px) {
+  .tile-wrap-noimage {
+    min-height: calc((100vw - 7rem) / 2.5);
+  }
+}
+
 .tile-image {
   width: calc(100% - 5px);
   max-width: 400px;
@@ -474,16 +483,15 @@ html, body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  color: white;
   font-size: 1rem;
-  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  visibility: hidden;
-  opacity: 0;
   user-select: none;
   width: calc(100% - 5px);
   max-width: 400px;
-  padding-right: 5px;
+  padding-right: 10px;
+  padding-left: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   box-sizing: border-box;
   height: 100%;
   border-radius: 1rem;
@@ -499,46 +507,25 @@ html, body {
   }
 }
 
-.tile-wrap:hover .tile-label {
-  visibility: visible;
-  opacity: 1;
-}
-
-.tile-wrap:hover .plus {
-  visibility: visible;
-  opacity: 1;
-}
-
-.tile-wrap:hover {
-  cursor: pointer;
-}
-
-.tile-wrap-none:hover {
-  cursor: default !important;
-}
-
-.plus {
+.tile-label-hover {
   visibility: hidden;
   opacity: 0;
-  position: absolute;
-  top: 1.5vw;
-  right: 1.5vw;
-  width: 1.5vw;
-  height: 1.5vw;
-  background-image: url("/plus.2a32bb08.svg");
-  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
-@media screen and (max-width: 991px) {
-  .plus {
-    width: 2.5vw;
-    height: 2.5vw;
-  }
+
+.tile-label-shown {
+  border: 1px solid #dddddd;
+  color: black;
 }
-@media screen and (max-width: 767px) {
-  .plus {
-    width: 1rem;
-    height: 1rem;
-  }
+
+.tile-wrap-image:hover .tile-label-hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tile-wrap-image:hover {
+  cursor: pointer;
 }
 .template-container {
   width: 100vw;

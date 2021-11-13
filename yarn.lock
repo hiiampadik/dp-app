@@ -3166,6 +3166,11 @@
   dependencies:
     "has-symbols" "^1.0.2"
 
+"is-touch-device@^1.0.1":
+  "integrity" "sha512-LAYzo9kMT1b2p19L/1ATGt2XcSilnzNlyvq6c0pbPRVisLbAPpLqr53tIJS00kvrTkj0HtR8U7+u8X0yR8lPSw=="
+  "resolved" "https://registry.npmjs.org/is-touch-device/-/is-touch-device-1.0.1.tgz"
+  "version" "1.0.1"
+
 "is-typedarray@~1.0.0":
   "integrity" "sha1-5HnICFjfDBsR3dppQPlgEfzaSpo="
   "resolved" "https://registry.npmjs.org/is-typedarray/-/is-typedarray-1.0.0.tgz"

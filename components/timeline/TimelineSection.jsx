@@ -1,12 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import images from "../landing/ImagePreviewPaths.jsx";
 
 function TimelineSection(props) {
 
-    const openEvent = (id) => {
-        console.log(id)
-    }
+    const [isTouchDevice] = useState(require('is-touch-device'))
+
 
     const showContent = (types) => {
         let showIt = false;
@@ -45,12 +44,23 @@ function TimelineSection(props) {
                                             return (
                                                 <div className="tiles-subcontainer" key={event.ID}>
                                                     {showContent(event.type) ?
-                                                        <div className={"tile-wrap" + (event.content.type.includes("none") ? " tile-wrap-none" : "")}  onClick={() => props.handleClick(event)}>
-                                                            {event.content.type.includes("none") ? "" : 
-                                                            <div className="plus"></div>}
-                                                            <img src={images[event.preview]} className="tile-image" />
-                                                            <div className="tile-label">{event.label}</div>
-                                                        </div>
+                                                        <>
+                                                            {event.content.type.includes("none") ?
+                                                                <div className={"tile-wrap tile-wrap-noimage"}>
+                                                                    <div className="tile-label tile-label-shown">{event.label}</div>
+                                                                </div>
+                                                                :
+                                                                <div className={"tile-wrap tile-wrap-image"} onClick={() => props.handleClick(event)}>
+                                                                    <img src={images[event.preview]} className="tile-image" />
+                                                                    {isTouchDevice ?
+                                                                        ""
+                                                                        :
+                                                                        <div className="tile-label tile-label-hover">{event.label}</div>
+                                                                    }
+                                                                    
+                                                                </div>
+                                                            }
+                                                        </>
                                                         :
                                                         <div></div>
                                                     }
