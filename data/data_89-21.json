@@ -25,7 +25,7 @@
             {
                 "ID": 37,
                 "preview": "1990-0.jpg",
-                "label": "Oddíl přebírá Čert a Mára",
+                "label": "Oddíl přebírá Čert a\u00A0Mára",
                 "type": ["history"],
                 "content": {
                     "type": ["none"]
@@ -135,7 +135,7 @@
             {
                 "ID": 44,
                 "preview": "2001-0.jpg",
-                "label": "Oddíl přebírá Permoník a Vilém",
+                "label": "Oddíl přebírá Permoník a\u00A0Vilém",
                 "type": ["history"],
                 "content": {
                     "type": ["none"]
@@ -150,7 +150,7 @@
             {
                 "ID": 45,
                 "preview": "2005-0.jpg",
-                "label": "Oddíl přebírá Štěpán a Bíďa",
+                "label": "Oddíl přebírá Štěpán a\u00A0Bíďa",
                 "type": ["history"],
                 "content": {
                     "type": ["none"]
@@ -240,7 +240,7 @@
             {
                 "ID": 51,
                 "preview": "2020-0.jpg",
-                "label": "Oddíl přebírá Dubínek\nzástupce je Mirek a Matěj",
+                "label": "Oddíl přebírá Dubínek\nzástupce je Mirek a\u00A0Matěj",
                 "type": ["history"],
                 "content": {
                     "type": ["none"]

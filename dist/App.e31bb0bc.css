@@ -326,16 +326,17 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  white-space: pre-line;
   pointer-events: none;
   /* transition effect. not necessary */
   transition-timing-function: ease;
 }
 
-.book-image:hover {
+.book-image-hover:hover {
   transform: translateY(-1.5em);
 }
 
-.book-wrap:hover .book-label {
+.book-wrap-hover:hover .book-label {
   visibility: visible;
   opacity: 1;
 }

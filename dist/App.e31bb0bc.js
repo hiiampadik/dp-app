@@ -33891,7 +33891,69 @@ function Intro(props) {
 
 var _default = Intro;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../../public/images/logos/logo-1.svg":"public/images/logos/logo-1.svg","../../public/images/logos/logo-2.svg":"public/images/logos/logo-2.svg","../../public/images/logos/logo-3.svg":"public/images/logos/logo-3.svg","./intro.scss":"components/intro/intro.scss"}],"public/images/books/1.png":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../../public/images/logos/logo-1.svg":"public/images/logos/logo-1.svg","../../public/images/logos/logo-2.svg":"public/images/logos/logo-2.svg","../../public/images/logos/logo-3.svg":"public/images/logos/logo-3.svg","./intro.scss":"components/intro/intro.scss"}],"data/data_books.json":[function(require,module,exports) {
+module.exports = [{
+  "ID": 1,
+  "image": "1.png",
+  "text": "Oddílová kronika\n1946–1952, A4"
+}, {
+  "ID": 2,
+  "image": "2.png",
+  "text": "Fotoalbum 1\n1947–1958, A4"
+}, {
+  "ID": 3,
+  "image": "3.png",
+  "text": "Fotoalbum 2\n1958–1981, A4"
+}, {
+  "ID": 4,
+  "image": "4.png",
+  "text": "Oddílová kronika\n1969, A4"
+}, {
+  "ID": 5,
+  "image": "5.png",
+  "text": "Oddílová kronika\n1977–1986, A4"
+}, {
+  "ID": 6,
+  "image": "6.png",
+  "text": "Putovní tábor\n1980, A4"
+}, {
+  "ID": 7,
+  "image": "7.png",
+  "text": "Oddílová kronika\n1990–1993, A4"
+}, {
+  "ID": 8,
+  "image": "8.png",
+  "text": "Fotoalbum osobností\n1990–2013, A3"
+}, {
+  "ID": 9,
+  "image": "9.png",
+  "text": "Fotoalbum výprav\n1990–2014, A3"
+}, {
+  "ID": 10,
+  "image": "10.png",
+  "text": "Fotoalbum táborů\n1990–2012, A3"
+}, {
+  "ID": 11,
+  "image": "11.png",
+  "text": "Oddílová kronika\n1995–2000, A4"
+}, {
+  "ID": 12,
+  "image": "12.png",
+  "text": "Oddílová kronika\n2000–2005, A4"
+}, {
+  "ID": 13,
+  "image": "13.png",
+  "text": "Oddílová kronika\n2009, A4"
+}, {
+  "ID": 14,
+  "image": "14.png",
+  "text": "Oddílová kronika\n2011, A5"
+}, {
+  "ID": 15,
+  "image": "15.png",
+  "text": "Oddílová kronika\n2012-dále, A4"
+}];
+},{}],"public/images/books/1.png":[function(require,module,exports) {
 module.exports = "/1.4c28a902.png";
 },{}],"public/images/books/2.png":[function(require,module,exports) {
 module.exports = "/2.b799f2c4.png";
@@ -33921,12 +33983,46 @@ module.exports = "/13.0fddeb0e.png";
 module.exports = "/14.b2b5264d.png";
 },{}],"public/images/books/15.png":[function(require,module,exports) {
 module.exports = "/15.4aeac451.png";
-},{}],"components/books/books.scss":[function(require,module,exports) {
+},{}],"components/books/BooksPreviewPath.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  "1.png": require("../../public/images/books/1.png"),
+  "2.png": require("../../public/images/books/2.png"),
+  "3.png": require("../../public/images/books/3.png"),
+  "4.png": require("../../public/images/books/4.png"),
+  "5.png": require("../../public/images/books/5.png"),
+  "6.png": require("../../public/images/books/6.png"),
+  "7.png": require("../../public/images/books/7.png"),
+  "8.png": require("../../public/images/books/8.png"),
+  "9.png": require("../../public/images/books/9.png"),
+  "10.png": require("../../public/images/books/10.png"),
+  "11.png": require("../../public/images/books/11.png"),
+  "12.png": require("../../public/images/books/12.png"),
+  "13.png": require("../../public/images/books/13.png"),
+  "14.png": require("../../public/images/books/14.png"),
+  "15.png": require("../../public/images/books/15.png")
+};
+exports.default = _default;
+},{"../../public/images/books/1.png":"public/images/books/1.png","../../public/images/books/2.png":"public/images/books/2.png","../../public/images/books/3.png":"public/images/books/3.png","../../public/images/books/4.png":"public/images/books/4.png","../../public/images/books/5.png":"public/images/books/5.png","../../public/images/books/6.png":"public/images/books/6.png","../../public/images/books/7.png":"public/images/books/7.png","../../public/images/books/8.png":"public/images/books/8.png","../../public/images/books/9.png":"public/images/books/9.png","../../public/images/books/10.png":"public/images/books/10.png","../../public/images/books/11.png":"public/images/books/11.png","../../public/images/books/12.png":"public/images/books/12.png","../../public/images/books/13.png":"public/images/books/13.png","../../public/images/books/14.png":"public/images/books/14.png","../../public/images/books/15.png":"public/images/books/15.png"}],"components/books/books.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/books/Books.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"node_modules/is-touch-device/build/index.js":[function(require,module,exports) {
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports['default'] = isTouchDevice;
+function isTouchDevice() {
+  return !!(typeof window !== 'undefined' && ('ontouchstart' in window || window.DocumentTouch && typeof document !== 'undefined' && document instanceof window.DocumentTouch)) || !!(typeof navigator !== 'undefined' && (navigator.maxTouchPoints || navigator.msMaxTouchPoints));
+}
+module.exports = exports['default'];
+},{}],"components/books/Books.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33936,35 +34032,9 @@ exports.default = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
-var _ = _interopRequireDefault(require("../../public/images/books/1.png"));
+var _data_books = _interopRequireDefault(require("../../data/data_books.json"));
 
-var _2 = _interopRequireDefault(require("../../public/images/books/2.png"));
-
-var _3 = _interopRequireDefault(require("../../public/images/books/3.png"));
-
-var _4 = _interopRequireDefault(require("../../public/images/books/4.png"));
-
-var _5 = _interopRequireDefault(require("../../public/images/books/5.png"));
-
-var _6 = _interopRequireDefault(require("../../public/images/books/6.png"));
-
-var _7 = _interopRequireDefault(require("../../public/images/books/7.png"));
-
-var _8 = _interopRequireDefault(require("../../public/images/books/8.png"));
-
-var _9 = _interopRequireDefault(require("../../public/images/books/9.png"));
-
-var _10 = _interopRequireDefault(require("../../public/images/books/10.png"));
-
-var _11 = _interopRequireDefault(require("../../public/images/books/11.png"));
-
-var _12 = _interopRequireDefault(require("../../public/images/books/12.png"));
-
-var _13 = _interopRequireDefault(require("../../public/images/books/13.png"));
-
-var _14 = _interopRequireDefault(require("../../public/images/books/14.png"));
-
-var _15 = _interopRequireDefault(require("../../public/images/books/15.png"));
+var _BooksPreviewPath = _interopRequireDefault(require("./BooksPreviewPath"));
 
 var _books = _interopRequireDefault(require("./books.scss"));
 
@@ -33974,165 +34044,44 @@ function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "functio
 
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 function LandingBooks(props) {
+  var _useState = (0, _react.useState)(require('is-touch-device')),
+      _useState2 = _slicedToArray(_useState, 1),
+      isTouchDevice = _useState2[0];
+
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "books-container"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Odd\xEDlov\xE1 kronika ", /*#__PURE__*/_react.default.createElement("br", null), "1946\u20131952, A4"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _3.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Fotoalbum 1 ", /*#__PURE__*/_react.default.createElement("br", null), "1947\u20131958, A4"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _2.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Fotoalbum 2 ", /*#__PURE__*/_react.default.createElement("br", null), "1958\u20131981, A4"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _4.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Odd\xEDlov\xE1 kronika ", /*#__PURE__*/_react.default.createElement("br", null), "1969, A4"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _5.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Odd\xEDlov\xE1 kronika ", /*#__PURE__*/_react.default.createElement("br", null), "1977\u20131986, A4"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _6.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Putovn\xED t\xE1bor ", /*#__PURE__*/_react.default.createElement("br", null), "1980, A4"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _7.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Odd\xEDlov\xE1 kronika ", /*#__PURE__*/_react.default.createElement("br", null), "1990\u20131993, A4"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _8.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Fotoalbum osobnost\xED ", /*#__PURE__*/_react.default.createElement("br", null), "1990\u20132013, A3"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _9.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Fotoalbum v\xFDprav ", /*#__PURE__*/_react.default.createElement("br", null), "1990\u20132014, A3"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _10.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Fotoalbum t\xE1bor\u016F ", /*#__PURE__*/_react.default.createElement("br", null), "1990\u20132012, A3"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _11.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Odd\xEDlov\xE1 kronika ", /*#__PURE__*/_react.default.createElement("br", null), "1995\u20132000, A4"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _12.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Odd\xEDlov\xE1 kronika ", /*#__PURE__*/_react.default.createElement("br", null), "2000\u20132005, A4"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _13.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Odd\xEDlov\xE1 kronika ", /*#__PURE__*/_react.default.createElement("br", null), "2009, A4"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _14.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Odd\xEDlov\xE1 kronika ", /*#__PURE__*/_react.default.createElement("br", null), "2011, A5"))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-wrap"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    src: _15.default,
-    alt: "Chronicle image",
-    className: "book-image"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "book-label-container"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "book-label"
-  }, "Odd\xEDlov\xE1 kronika ", /*#__PURE__*/_react.default.createElement("br", null), "2012\u2013d\xE1le, A4"))));
+  }, _data_books.default.map(function (book) {
+    return /*#__PURE__*/_react.default.createElement("div", {
+      className: isTouchDevice ? "book-wrap " : "book-wrap book-wrap-hover",
+      key: book.ID
+    }, /*#__PURE__*/_react.default.createElement("img", {
+      src: _BooksPreviewPath.default[book.image],
+      alt: "Chronicle image",
+      className: isTouchDevice ? "book-image " : "book-image book-image-hover"
+    }), /*#__PURE__*/_react.default.createElement("div", {
+      className: "book-label-container"
+    }, /*#__PURE__*/_react.default.createElement("p", {
+      className: "book-label"
+    }, book.text)));
+  }));
 }
 
 var _default = LandingBooks;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../../public/images/books/1.png":"public/images/books/1.png","../../public/images/books/2.png":"public/images/books/2.png","../../public/images/books/3.png":"public/images/books/3.png","../../public/images/books/4.png":"public/images/books/4.png","../../public/images/books/5.png":"public/images/books/5.png","../../public/images/books/6.png":"public/images/books/6.png","../../public/images/books/7.png":"public/images/books/7.png","../../public/images/books/8.png":"public/images/books/8.png","../../public/images/books/9.png":"public/images/books/9.png","../../public/images/books/10.png":"public/images/books/10.png","../../public/images/books/11.png":"public/images/books/11.png","../../public/images/books/12.png":"public/images/books/12.png","../../public/images/books/13.png":"public/images/books/13.png","../../public/images/books/14.png":"public/images/books/14.png","../../public/images/books/15.png":"public/images/books/15.png","./books.scss":"components/books/books.scss"}],"components/timeline/filter/FilterButton.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../../data/data_books.json":"data/data_books.json","./BooksPreviewPath":"components/books/BooksPreviewPath.jsx","./books.scss":"components/books/books.scss","is-touch-device":"node_modules/is-touch-device/build/index.js"}],"components/timeline/filter/FilterButton.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34370,16 +34319,7 @@ var _default = {
   "fotka-5.jpg": require("../../public/images/preview/fotka-5.jpg")
 };
 exports.default = _default;
-},{"../../public/images/preview/1945-0.jpg":"public/images/preview/1945-0.jpg","../../public/images/preview/1946-0.jpg":"public/images/preview/1946-0.jpg","../../public/images/preview/1946-1.jpg":"public/images/preview/1946-1.jpg","../../public/images/preview/1947-0.jpg":"public/images/preview/1947-0.jpg","../../public/images/preview/1947-1.jpg":"public/images/preview/1947-1.jpg","../../public/images/preview/1947-2.jpg":"public/images/preview/1947-2.jpg","../../public/images/preview/1949-0.jpg":"public/images/preview/1949-0.jpg","../../public/images/preview/1950-0.jpg":"public/images/preview/1950-0.jpg","../../public/images/preview/1951-0.jpg":"public/images/preview/1951-0.jpg","../../public/images/preview/1952-0.jpg":"public/images/preview/1952-0.jpg","../../public/images/preview/1953-0.jpg":"public/images/preview/1953-0.jpg","../../public/images/preview/1954-0.jpg":"public/images/preview/1954-0.jpg","../../public/images/preview/1955-0.jpg":"public/images/preview/1955-0.jpg","../../public/images/preview/1956-0.jpg":"public/images/preview/1956-0.jpg","../../public/images/preview/1957-0.jpg":"public/images/preview/1957-0.jpg","../../public/images/preview/1958-0.jpg":"public/images/preview/1958-0.jpg","../../public/images/preview/1958-1.jpg":"public/images/preview/1958-1.jpg","../../public/images/preview/1958-2.jpg":"public/images/preview/1958-2.jpg","../../public/images/preview/1959-0.jpg":"public/images/preview/1959-0.jpg","../../public/images/preview/1961-0.jpg":"public/images/preview/1961-0.jpg","../../public/images/preview/1962-0.jpg":"public/images/preview/1962-0.jpg","../../public/images/preview/1962-1.jpg":"public/images/preview/1962-1.jpg","../../public/images/preview/1964-0.jpg":"public/images/preview/1964-0.jpg","../../public/images/preview/1968-0.jpg":"public/images/preview/1968-0.jpg","../../public/images/preview/1968-1.jpg":"public/images/preview/1968-1.jpg","../../public/images/preview/1971-0.jpg":"public/images/preview/1971-0.jpg","../../public/images/preview/1977-0.jpg":"public/images/preview/1977-0.jpg","../../public/images/preview/1980-0.jpg":"public/images/preview/1980-0.jpg","../../public/images/preview/1985-0.jpg":"public/images/preview/1985-0.jpg","../../public/images/preview/1989-0.jpg":"public/images/preview/1989-0.jpg","../../public/images/preview/1990-0.jpg":"public/images/preview/1990-0.jpg","../../public/images/preview/1990-1.jpg":"public/images/preview/1990-1.jpg","../../public/images/preview/1991-0.jpg":"public/images/preview/1991-0.jpg","../../public/images/preview/1992-0.jpg":"public/images/preview/1992-0.jpg","../../public/images/preview/1994-0.jpg":"public/images/preview/1994-0.jpg","../../public/images/preview/1996-0.jpg":"public/images/preview/1996-0.jpg","../../public/images/preview/2001-0.jpg":"public/images/preview/2001-0.jpg","../../public/images/preview/2005-0.jpg":"public/images/preview/2005-0.jpg","../../public/images/preview/2008-0.jpg":"public/images/preview/2008-0.jpg","../../public/images/preview/2011-0.jpg":"public/images/preview/2011-0.jpg","../../public/images/preview/2011-1.jpg":"public/images/preview/2011-1.jpg","../../public/images/preview/2015-0.jpg":"public/images/preview/2015-0.jpg","../../public/images/preview/2019-0.jpg":"public/images/preview/2019-0.jpg","../../public/images/preview/2020-0.jpg":"public/images/preview/2020-0.jpg","../../public/images/preview/fotka-0.jpg":"public/images/preview/fotka-0.jpg","../../public/images/preview/fotka-1.jpg":"public/images/preview/fotka-1.jpg","../../public/images/preview/fotka-2.jpg":"public/images/preview/fotka-2.jpg","../../public/images/preview/fotka-3.jpg":"public/images/preview/fotka-3.jpg","../../public/images/preview/fotka-4.jpg":"public/images/preview/fotka-4.jpg","../../public/images/preview/fotka-5.jpg":"public/images/preview/fotka-5.jpg"}],"node_modules/is-touch-device/build/index.js":[function(require,module,exports) {
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports['default'] = isTouchDevice;
-function isTouchDevice() {
-  return !!(typeof window !== 'undefined' && ('ontouchstart' in window || window.DocumentTouch && typeof document !== 'undefined' && document instanceof window.DocumentTouch)) || !!(typeof navigator !== 'undefined' && (navigator.maxTouchPoints || navigator.msMaxTouchPoints));
-}
-module.exports = exports['default'];
-},{}],"components/timeline/TimelineSection.jsx":[function(require,module,exports) {
+},{"../../public/images/preview/1945-0.jpg":"public/images/preview/1945-0.jpg","../../public/images/preview/1946-0.jpg":"public/images/preview/1946-0.jpg","../../public/images/preview/1946-1.jpg":"public/images/preview/1946-1.jpg","../../public/images/preview/1947-0.jpg":"public/images/preview/1947-0.jpg","../../public/images/preview/1947-1.jpg":"public/images/preview/1947-1.jpg","../../public/images/preview/1947-2.jpg":"public/images/preview/1947-2.jpg","../../public/images/preview/1949-0.jpg":"public/images/preview/1949-0.jpg","../../public/images/preview/1950-0.jpg":"public/images/preview/1950-0.jpg","../../public/images/preview/1951-0.jpg":"public/images/preview/1951-0.jpg","../../public/images/preview/1952-0.jpg":"public/images/preview/1952-0.jpg","../../public/images/preview/1953-0.jpg":"public/images/preview/1953-0.jpg","../../public/images/preview/1954-0.jpg":"public/images/preview/1954-0.jpg","../../public/images/preview/1955-0.jpg":"public/images/preview/1955-0.jpg","../../public/images/preview/1956-0.jpg":"public/images/preview/1956-0.jpg","../../public/images/preview/1957-0.jpg":"public/images/preview/1957-0.jpg","../../public/images/preview/1958-0.jpg":"public/images/preview/1958-0.jpg","../../public/images/preview/1958-1.jpg":"public/images/preview/1958-1.jpg","../../public/images/preview/1958-2.jpg":"public/images/preview/1958-2.jpg","../../public/images/preview/1959-0.jpg":"public/images/preview/1959-0.jpg","../../public/images/preview/1961-0.jpg":"public/images/preview/1961-0.jpg","../../public/images/preview/1962-0.jpg":"public/images/preview/1962-0.jpg","../../public/images/preview/1962-1.jpg":"public/images/preview/1962-1.jpg","../../public/images/preview/1964-0.jpg":"public/images/preview/1964-0.jpg","../../public/images/preview/1968-0.jpg":"public/images/preview/1968-0.jpg","../../public/images/preview/1968-1.jpg":"public/images/preview/1968-1.jpg","../../public/images/preview/1971-0.jpg":"public/images/preview/1971-0.jpg","../../public/images/preview/1977-0.jpg":"public/images/preview/1977-0.jpg","../../public/images/preview/1980-0.jpg":"public/images/preview/1980-0.jpg","../../public/images/preview/1985-0.jpg":"public/images/preview/1985-0.jpg","../../public/images/preview/1989-0.jpg":"public/images/preview/1989-0.jpg","../../public/images/preview/1990-0.jpg":"public/images/preview/1990-0.jpg","../../public/images/preview/1990-1.jpg":"public/images/preview/1990-1.jpg","../../public/images/preview/1991-0.jpg":"public/images/preview/1991-0.jpg","../../public/images/preview/1992-0.jpg":"public/images/preview/1992-0.jpg","../../public/images/preview/1994-0.jpg":"public/images/preview/1994-0.jpg","../../public/images/preview/1996-0.jpg":"public/images/preview/1996-0.jpg","../../public/images/preview/2001-0.jpg":"public/images/preview/2001-0.jpg","../../public/images/preview/2005-0.jpg":"public/images/preview/2005-0.jpg","../../public/images/preview/2008-0.jpg":"public/images/preview/2008-0.jpg","../../public/images/preview/2011-0.jpg":"public/images/preview/2011-0.jpg","../../public/images/preview/2011-1.jpg":"public/images/preview/2011-1.jpg","../../public/images/preview/2015-0.jpg":"public/images/preview/2015-0.jpg","../../public/images/preview/2019-0.jpg":"public/images/preview/2019-0.jpg","../../public/images/preview/2020-0.jpg":"public/images/preview/2020-0.jpg","../../public/images/preview/fotka-0.jpg":"public/images/preview/fotka-0.jpg","../../public/images/preview/fotka-1.jpg":"public/images/preview/fotka-1.jpg","../../public/images/preview/fotka-2.jpg":"public/images/preview/fotka-2.jpg","../../public/images/preview/fotka-3.jpg":"public/images/preview/fotka-3.jpg","../../public/images/preview/fotka-4.jpg":"public/images/preview/fotka-4.jpg","../../public/images/preview/fotka-5.jpg":"public/images/preview/fotka-5.jpg"}],"components/timeline/TimelineSection.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34983,7 +34923,7 @@ module.exports = [{
   "events": [{
     "ID": 37,
     "preview": "1990-0.jpg",
-    "label": "Oddíl přebírá Čert a Mára",
+    "label": "Odd\xEDl p\u0159eb\xEDr\xE1 \u010Cert a\xA0M\xE1ra",
     "type": ["history"],
     "content": {
       "type": ["none"]
@@ -35074,7 +35014,7 @@ module.exports = [{
   "events": [{
     "ID": 44,
     "preview": "2001-0.jpg",
-    "label": "Oddíl přebírá Permoník a Vilém",
+    "label": "Odd\xEDl p\u0159eb\xEDr\xE1 Permon\xEDk a\xA0Vil\xE9m",
     "type": ["history"],
     "content": {
       "type": ["none"]
@@ -35086,7 +35026,7 @@ module.exports = [{
   "events": [{
     "ID": 45,
     "preview": "2005-0.jpg",
-    "label": "Oddíl přebírá Štěpán a Bíďa",
+    "label": "Odd\xEDl p\u0159eb\xEDr\xE1 \u0160t\u011Bp\xE1n a\xA0B\xED\u010Fa",
     "type": ["history"],
     "content": {
       "type": ["none"]
@@ -35160,7 +35100,7 @@ module.exports = [{
   "events": [{
     "ID": 51,
     "preview": "2020-0.jpg",
-    "label": "Oddíl přebírá Dubínek\nzástupce je Mirek a Matěj",
+    "label": "Odd\xEDl p\u0159eb\xEDr\xE1 Dub\xEDnek\nz\xE1stupce je Mirek a\xA0Mat\u011Bj",
     "type": ["history"],
     "content": {
       "type": ["none"]
@@ -35975,7 +35915,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53345" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64430" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
